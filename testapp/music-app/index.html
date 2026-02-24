@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎵 音乐APP - 原型展示</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Noto Sans SC', -apple-system, sans-serif; }
+    body { background: #111; min-height: 100vh; padding: 40px 20px; }
+    .phone-frame {
+      width: 393px;
+      height: 852px;
+      border-radius: 50px;
+      overflow: hidden;
+      position: relative;
+      background: #000;
+      box-shadow:
+        0 0 0 2px #333,
+        0 0 0 4px #1a1a1a,
+        0 0 40px rgba(0,0,0,0.5),
+        0 0 80px rgba(238,90,36,0.1);
+    }
+    .phone-frame::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 126px;
+      height: 34px;
+      background: #000;
+      border-radius: 0 0 20px 20px;
+      z-index: 100;
+    }
+    .phone-frame::after {
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 10px;
+      height: 10px;
+      background: #1a1a2e;
+      border-radius: 50%;
+      z-index: 101;
+      box-shadow: 0 0 3px rgba(0,100,255,0.3);
+    }
+    .phone-frame iframe {
+      width: 393px;
+      height: 852px;
+      border: none;
+      border-radius: 50px;
+    }
+    .page-label {
+      text-align: center;
+      margin-top: 16px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #aaa;
+      letter-spacing: 1px;
+    }
+    .page-desc {
+      text-align: center;
+      font-size: 11px;
+      color: #555;
+      margin-top: 4px;
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, #ff6b6b, #ee5a24, #f0932b);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body>
+  <!-- 标题区域 -->
+  <div class="text-center mb-12">
+    <div class="inline-flex items-center gap-3 mb-3">
+      <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center shadow-lg">
+        <i class="fas fa-music text-white text-xl"></i>
+      </div>
+      <h1 class="text-4xl font-bold gradient-text">SoundWave</h1>
+    </div>
+    <p class="text-gray-500 text-sm">音乐APP · 高保真原型设计 · iPhone 16 Pro</p>
+    <div class="flex justify-center gap-4 mt-4">
+      <span class="text-xs text-gray-600 bg-white/5 px-3 py-1 rounded-full border border-white/10">
+        <i class="fas fa-mobile-screen-button mr-1"></i> 5 个界面
+      </span>
+      <span class="text-xs text-gray-600 bg-white/5 px-3 py-1 rounded-full border border-white/10">
+        <i class="fab fa-css3-alt mr-1"></i> Tailwind CSS
+      </span>
+      <span class="text-xs text-gray-600 bg-white/5 px-3 py-1 rounded-full border border-white/10">
+        <i class="fas fa-icons mr-1"></i> FontAwesome
+      </span>
+    </div>
+  </div>
+
+  <!-- 手机原型展示区 -->
+  <div class="flex flex-wrap justify-center gap-12">
+
+    <!-- 首页 -->
+    <div>
+      <div class="phone-frame">
+        <iframe src="home.html"></iframe>
+      </div>
+      <p class="page-label"><i class="fas fa-house text-orange-500 mr-1"></i> 首页 · 发现音乐</p>
+      <p class="page-desc">推荐歌单 / 分类浏览 / 新歌速递</p>
+    </div>
+
+    <!-- 搜索 -->
+    <div>
+      <div class="phone-frame">
+        <iframe src="search.html"></iframe>
+      </div>
+      <p class="page-label"><i class="fas fa-magnifying-glass text-orange-500 mr-1"></i> 搜索</p>
+      <p class="page-desc">热搜榜 / 分类浏览 / 历史搜索</p>
+    </div>
+
+    <!-- 播放器 -->
+    <div>
+      <div class="phone-frame">
+        <iframe src="player.html"></iframe>
+      </div>
+      <p class="page-label"><i class="fas fa-record-vinyl text-orange-500 mr-1"></i> 播放器</p>
+      <p class="page-desc">唱片动画 / 歌词显示 / 播放控制</p>
+    </div>
+
+    <!-- 音乐库 -->
+    <div>
+      <div class="phone-frame">
+        <iframe src="library.html"></iframe>
+      </div>
+      <p class="page-label"><i class="fas fa-book-open text-orange-500 mr-1"></i> 音乐库</p>
+      <p class="page-desc">我的歌单 / 收藏 / 下载管理</p>
+    </div>
+
+    <!-- 个人中心 -->
+    <div>
+      <div class="phone-frame">
+        <iframe src="profile.html"></iframe>
+      </div>
+      <p class="page-label"><i class="fas fa-user text-orange-500 mr-1"></i> 个人中心</p>
+      <p class="page-desc">用户信息 / VIP / 听歌报告</p>
+    </div>
+
+  </div>
+
+  <!-- 底部信息 -->
+  <div class="text-center mt-16 pb-8">
+    <p class="text-gray-600 text-xs">SoundWave Music App Prototype · Designed in 2026</p>
+  </div>
+</body>
+</html>

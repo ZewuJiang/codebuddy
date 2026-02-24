@@ -1,0 +1,27 @@
+# 投资Agent v3.1 依赖列表
+# 安装: pip install -r requirements.txt
+
+# ═══ 核心依赖（必需）═══
+yfinance>=0.2.31        # 全球行情数据（美股/港股/指数/加密/ETF）
+numpy>=1.24.0           # 数值计算（RSI/MA/技术指标）
+reportlab>=4.0          # PDF报告生成
+pypdf>=3.0              # PDF合并处理
+
+# ═══ 情绪数据（必需）═══
+fear-and-greed>=0.0.9   # CNN恐惧贪婪指数
+
+# ═══ 宏观经济数据（推荐 — 需要免费API Key）═══
+# 申请地址: https://api.stlouisfed.org/api_key.html
+# 设置: export FRED_API_KEY="your_key_here"
+fredapi>=0.5.1          # 圣路易斯联储FRED数据（利率/CPI/GDP/就业/净流动性）
+
+# ═══ 中国市场数据（推荐 — 免费无需Key）═══
+akshare>=1.12.0         # 国内最全金融数据库（A股/港股/北向资金/AH溢价/融资融券/SHIBOR）
+
+# ═══ 备用数据源（可选 — 需要免费API Key）═══
+# 申请地址: https://www.alphavantage.co/support/#api-key
+# 设置: export ALPHA_VANTAGE_KEY="your_key_here"
+requests>=2.28.0        # Alpha Vantage API调用
+
+# ═══ 数据处理（akshare依赖）═══
+pandas>=1.5.0           # 数据框处理

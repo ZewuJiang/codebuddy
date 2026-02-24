@@ -1,0 +1,134 @@
+{
+    "_description": "历史模式参照库 - 用于综合分析引擎的模式匹配",
+    "_usage": "当Agent检测到类似信号组合时，参照历史模式推断可能走势",
+    "_version": "1.0",
+
+    "patterns": [
+        {
+            "id": "carry_trade_unwind_2024",
+            "name": "日元套利交易平仓（2024年8月）",
+            "date": "2024-08-05",
+            "trigger_signals": [
+                "日元快速升值（USD/JPY从160跌至142）",
+                "日债收益率跳涨",
+                "VIX暴涨至65（单日涨幅史上第二）",
+                "美日利差快速收窄",
+                "全球股市同步暴跌"
+            ],
+            "development": "日本央行意外加息25bp → 套利交易大规模平仓 → 全球风险资产抛售 → 纳指单日跌3.4%、日经跌12.4%",
+            "resolution": "两周内反弹收复大部分跌幅，美联储释放鸽派信号稳定市场",
+            "lesson": "套利交易平仓是流动性冲击而非基本面恶化，暴跌后往往是买入机会",
+            "key_indicators": ["USD/JPY", "VIX", "日经225", "TLT"],
+            "match_conditions": {
+                "yen_appreciation_weekly": "> 3%",
+                "vix_spike": "> 30",
+                "us_jp_spread_narrowing": "> 50bp/week"
+            }
+        },
+        {
+            "id": "covid_crash_2020",
+            "name": "新冠疫情流动性危机（2020年3月）",
+            "date": "2020-03-23",
+            "trigger_signals": [
+                "全球疫情扩散恐慌",
+                "企业债市场冻结",
+                "VIX升至82.69（历史最高）",
+                "美元流动性枯竭（美元指数暴涨）",
+                "信用利差急剧扩大"
+            ],
+            "development": "标普从2月高点暴跌34% → 美联储紧急降息至零+无限QE → 财政部推出CARES法案",
+            "resolution": "3月23日触底后V型反弹，5个月收复全部跌幅",
+            "lesson": "当美联储'all in'时，流动性危机会快速缓解，恐慌性抛售是长期买点",
+            "key_indicators": ["VIX", "HYG", "DXY", "SPY"],
+            "match_conditions": {
+                "vix_level": "> 50",
+                "hyg_weekly_drop": "> 5%",
+                "dxy_spike": "> 3%/week"
+            }
+        },
+        {
+            "id": "fed_pivot_2022",
+            "name": "美联储激进加息周期顶部（2022年10月）",
+            "date": "2022-10-12",
+            "trigger_signals": [
+                "CPI连续超预期（9.1%峰值）",
+                "美联储连续75bp加息",
+                "10年期美债收益率突破4.3%",
+                "标普市盈率从21x压缩至15x",
+                "英国养老金危机（LDI危机）"
+            ],
+            "development": "标普从高点跌25% → CPI开始回落 → 美联储暗示放慢加息步伐 → 10月触底反弹",
+            "resolution": "通胀数据改善+美联储转向预期 → 2023年全年反弹24%",
+            "lesson": "利率周期顶部买入，即使当时基本面看起来很差",
+            "key_indicators": ["US10Y", "CPI", "SPY PE", "MOVE"],
+            "match_conditions": {
+                "us10y_level": "> 4.5%",
+                "spy_pe_compression": "> 25%",
+                "cpi_trend": "连续3个月下降"
+            }
+        },
+        {
+            "id": "btc_capitulation_2022",
+            "name": "比特币投降式抛售（2022年11月FTX暴雷）",
+            "date": "2022-11-21",
+            "trigger_signals": [
+                "FTX交易所崩溃",
+                "BTC跌破前低（$17,600→$15,500）",
+                "恐慌指数达到极度恐慌",
+                "成交量先放大后萎缩",
+                "长期持有者开始增持"
+            ],
+            "development": "BTC从$21K→$15.5K（-26%） → 行业连环暴雷（Genesis/BlockFi） → 底部盘整2个月",
+            "resolution": "2023年1月开始反弹，全年涨155%至$42K",
+            "lesson": "行业极端事件导致的抛售往往是周期底部信号",
+            "key_indicators": ["BTC-USD", "恐惧贪婪指数", "成交量", "稳定币市值"],
+            "match_conditions": {
+                "btc_rsi_weekly": "< 30",
+                "fear_greed": "< 15",
+                "volume_spike_then_shrink": true
+            }
+        },
+        {
+            "id": "liquidity_tightening_2026feb",
+            "name": "2026年2月流动性收紧暴跌（文章案例）",
+            "date": "2026-02-01",
+            "trigger_signals": [
+                "日债收益率跳涨，美日利差大幅收窄",
+                "TGA账户余额高企，财政部持续抽水",
+                "CME连续6次提高金银期货保证金",
+                "黄金白银崩盘",
+                "全球股市接连跳水"
+            ],
+            "development": "流动性收紧+估值高企 → 全资产类别同步下跌 → 黄金/白银/加密/股市联动",
+            "resolution": "Agent提前48小时预警，建议减仓，帮助避免至少30%回撤",
+            "lesson": "当流动性收紧信号密集出现时，不要试图抄底，等待流动性恢复信号",
+            "key_indicators": ["TLT", "FXY", "GLD", "VIX"],
+            "match_conditions": {
+                "tlt_weekly_drop": "> 3%",
+                "yen_appreciation": "> 2%",
+                "gold_sharp_reversal": "> 3% drop after new high",
+                "vix_spike": "> 25"
+            }
+        },
+        {
+            "id": "ai_bubble_rotation",
+            "name": "AI泡沫→价值轮动模式",
+            "date": "2025-07-01",
+            "trigger_signals": [
+                "AI龙头股PE>50x且增速放缓",
+                "半导体库存周期见顶",
+                "资金从科技→公用事业/医疗轮动",
+                "纳斯达克相对标普超额收益见顶"
+            ],
+            "development": "科技股估值过高 → 业绩不及预期 → 资金轮动到防御性板块",
+            "resolution": "科技股回调15-20%后企稳，下一波AI应用落地驱动新行情",
+            "lesson": "科技股泡沫化时要注意轮动风险，但AI长期趋势不变",
+            "key_indicators": ["QQQ/SPY ratio", "XLK/XLU ratio", "NVDA PE"],
+            "match_conditions": {
+                "qqq_spy_ratio_declining": "连续4周",
+                "nvda_pe": "> 50",
+                "xlk_xlu_ratio_declining": "连续3周"
+            }
+        }
+    ]
+}

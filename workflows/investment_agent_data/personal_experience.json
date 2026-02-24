@@ -1,0 +1,145 @@
+{
+    "_description": "个人经验库 — 投资决策记录和复盘框架（模板）",
+    "_version": "2.0",
+    "_updated": "2026-02-22",
+    "_usage": "每次投资决策后填写记录，每周/月进行复盘，Agent会自动学习历史决策模式",
+
+    "portfolio_snapshot": {
+        "_note": "当前持仓快照（请根据实际持仓填写）",
+        "last_updated": "2026-02-22",
+        "total_value_usd": 0,
+        "cash_ratio": 0.10,
+        "positions": [
+            {"ticker": "AAPL", "shares": 0, "avg_cost": 0, "current_value": 0, "weight": 0, "entry_date": "", "thesis": ""},
+            {"ticker": "MSFT", "shares": 0, "avg_cost": 0, "current_value": 0, "weight": 0, "entry_date": "", "thesis": ""},
+            {"ticker": "NVDA", "shares": 0, "avg_cost": 0, "current_value": 0, "weight": 0, "entry_date": "", "thesis": ""},
+            {"ticker": "BTC-USD", "amount": 0, "avg_cost": 0, "current_value": 0, "weight": 0, "entry_date": "", "thesis": ""}
+        ]
+    },
+
+    "decision_log": {
+        "_description": "投资决策记录 — 每次买入/卖出/加仓/减仓都要记录",
+        "_template": {
+            "date": "YYYY-MM-DD",
+            "action": "买入/卖出/加仓/减仓/观望",
+            "ticker": "标的代码",
+            "price": 0,
+            "quantity": 0,
+            "reason": "决策理由（越详细越好）",
+            "skill_signals": {
+                "skill1_rating": "当时的价值投资评级",
+                "skill2_signal": "当时的BTC信号",
+                "skill3_sentiment": "当时的情绪评级",
+                "skill4_liquidity": "当时的流动性评级"
+            },
+            "conviction_level": "高/中/低",
+            "time_horizon": "短期(1周)/中期(1-3月)/长期(1年+)",
+            "stop_loss": "止损价位",
+            "target_price": "目标价位"
+        },
+        "records": [
+            {
+                "date": "2026-02-22",
+                "action": "系统初始化",
+                "ticker": "N/A",
+                "price": 0,
+                "quantity": 0,
+                "reason": "投资Agent系统启动，开始记录决策历史",
+                "skill_signals": {},
+                "conviction_level": "N/A",
+                "time_horizon": "N/A",
+                "stop_loss": "N/A",
+                "target_price": "N/A"
+            }
+        ]
+    },
+
+    "review_log": {
+        "_description": "复盘记录 — 对每次决策进行事后评估",
+        "_template": {
+            "review_date": "YYYY-MM-DD",
+            "original_decision_date": "对应决策日期",
+            "ticker": "标的代码",
+            "original_action": "当时的操作",
+            "original_price": 0,
+            "current_price": 0,
+            "pnl_pct": 0,
+            "was_correct": true,
+            "what_went_right": "做对了什么",
+            "what_went_wrong": "做错了什么",
+            "lesson_learned": "学到的教训",
+            "pattern_identified": "识别到的规律/模式",
+            "would_do_differently": "如果重来会怎么做"
+        },
+        "reviews": []
+    },
+
+    "personal_rules": {
+        "_description": "从复盘中提炼的个人投资规则（随经验积累持续更新）",
+        "risk_management": [
+            "单只个股仓位不超过总资产的20%",
+            "单个行业仓位不超过40%",
+            "永远保留至少10%现金",
+            "当Agent综合评分 < -0.5 时，立即减仓至50%以下",
+            "当VIX > 40 + 流动性评级为'危机'时，停止一切买入操作"
+        ],
+        "entry_rules": [
+            "只在Agent评级A/B的标的上建仓",
+            "分批建仓（1/3 + 1/3 + 1/3），不要一次all-in",
+            "有明确的止损价位才能入场",
+            "BTC只在满足4+个抄底信号时建仓"
+        ],
+        "exit_rules": [
+            "达到目标价后至少减半仓位",
+            "止损被触发时无条件执行",
+            "基本面恶化（评级降至D）时逐步清仓",
+            "流动性危机预警时先减仓后研究"
+        ],
+        "behavioral_rules": [
+            "不在FOMC决议前24小时建仓",
+            "不追涨已经暴涨>10%的标的",
+            "恐慌时买入需要分3天执行",
+            "每次操作后必须写决策记录",
+            "每周末进行一次决策复盘"
+        ]
+    },
+
+    "performance_tracking": {
+        "_description": "投资绩效追踪",
+        "monthly_returns": [],
+        "benchmark_comparison": {
+            "benchmark": "SPY",
+            "note": "个人收益率 vs 标普500，跑赢才有意义"
+        },
+        "win_rate": {
+            "total_trades": 0,
+            "winning_trades": 0,
+            "losing_trades": 0,
+            "win_rate": 0,
+            "avg_win": 0,
+            "avg_loss": 0,
+            "profit_factor": 0
+        },
+        "skill_accuracy": {
+            "_note": "追踪每个Skill的预测准确率，用于调整权重",
+            "skill1_accuracy": {"total": 0, "correct": 0, "rate": 0},
+            "skill2_accuracy": {"total": 0, "correct": 0, "rate": 0},
+            "skill3_accuracy": {"total": 0, "correct": 0, "rate": 0},
+            "skill4_accuracy": {"total": 0, "correct": 0, "rate": 0}
+        }
+    },
+
+    "cognitive_biases_checklist": {
+        "_description": "每次做重大决策前的认知偏差自查清单",
+        "checklist": [
+            {"bias": "确认偏误(Confirmation Bias)", "question": "我是否只在寻找支持我观点的证据？反面证据是什么？"},
+            {"bias": "锚定效应(Anchoring)", "question": "我的判断是否被某个特定价位/数据锚定了？"},
+            {"bias": "损失厌恶(Loss Aversion)", "question": "我是否因为不想实现亏损而在持有一个该卖出的仓位？"},
+            {"bias": "过度自信(Overconfidence)", "question": "我对这个判断的置信度是否过高？最坏情况是什么？"},
+            {"bias": "近因偏差(Recency Bias)", "question": "我是否过度受最近事件影响而忽略了长期趋势？"},
+            {"bias": "从众心理(Herding)", "question": "这个决定是我独立思考的结果，还是因为大家都在这么做？"},
+            {"bias": "禀赋效应(Endowment Effect)", "question": "如果我没有持有这个仓位，现在会买入吗？"},
+            {"bias": "沉没成本(Sunk Cost)", "question": "我是否因为已经投入太多而不愿止损？"}
+        ]
+    }
+}

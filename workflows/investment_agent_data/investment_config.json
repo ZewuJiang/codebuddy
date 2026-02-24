@@ -1,0 +1,446 @@
+{
+    "_description": "投资Agent核心配置 v3.0 — 全球资本市场10-Skill分析框架",
+    "_usage": "wf6_investment_agent.py 启动时读取此配置，驱动10个分析Skill",
+    "_version": "3.0",
+    "_updated": "2026-02-22",
+    "_architecture": "10-Skill体系: 估值(1)+加密(2)+情绪(3)+宏观流动性(4)+全球市场(5)+信贷(6)+贵金属/商品(7)+收益率曲线(8)+波动率(9)+港股A股(10)",
+
+    "watchlist": {
+        "_description": "全球多市场关注标的：美股核心+港股+A股ETF+全球指数+加密+宏观代理+商品",
+        "us_stocks": [
+            {"ticker": "AAPL", "name": "苹果", "sector": "科技", "weight": 0.08, "note": "全球市值第一"},
+            {"ticker": "MSFT", "name": "微软", "sector": "科技", "weight": 0.08, "note": "Azure+AI Copilot"},
+            {"ticker": "GOOGL", "name": "谷歌", "sector": "科技", "weight": 0.06, "note": "搜索+Gemini AI+云"},
+            {"ticker": "NVDA", "name": "英伟达", "sector": "半导体", "weight": 0.10, "note": "AI芯片垄断者"},
+            {"ticker": "META", "name": "Meta", "sector": "科技", "weight": 0.05, "note": "社交广告+AI+VR"},
+            {"ticker": "AMZN", "name": "亚马逊", "sector": "科技", "weight": 0.05, "note": "电商+AWS云+AI"},
+            {"ticker": "TSLA", "name": "特斯拉", "sector": "汽车", "weight": 0.03, "note": "电动车+FSD+机器人"},
+            {"ticker": "AVGO", "name": "博通", "sector": "半导体", "weight": 0.04, "note": "网络芯片+定制ASIC"},
+            {"ticker": "TSM", "name": "台积电", "sector": "半导体", "weight": 0.05, "note": "全球晶圆代工龙头"},
+            {"ticker": "AMD", "name": "AMD", "sector": "半导体", "weight": 0.02, "note": "CPU/GPU/MI300"},
+            {"ticker": "LLY", "name": "礼来", "sector": "医疗", "weight": 0.03, "note": "GLP-1减肥药龙头"},
+            {"ticker": "JPM", "name": "摩根大通", "sector": "金融", "weight": 0.03, "note": "美国最大银行"},
+            {"ticker": "BRK-B", "name": "伯克希尔", "sector": "金融", "weight": 0.02, "note": "巴菲特控股公司"},
+            {"ticker": "V", "name": "Visa", "sector": "金融", "weight": 0.02, "note": "全球支付网络"},
+            {"ticker": "UNH", "name": "联合健康", "sector": "医疗", "weight": 0.02, "note": "最大医疗保险"},
+            {"ticker": "NFLX", "name": "奈飞", "sector": "科技", "weight": 0.01, "note": "流媒体龙头"},
+            {"ticker": "CRM", "name": "Salesforce", "sector": "科技", "weight": 0.01, "note": "CRM SaaS+AI Agent"},
+            {"ticker": "COST", "name": "Costco", "sector": "消费", "weight": 0.01, "note": "会员制零售"},
+            {"ticker": "XOM", "name": "埃克森美孚", "sector": "能源", "weight": 0.01, "note": "能源板块龙头"},
+            {"ticker": "NVO", "name": "诺和诺德", "sector": "医疗", "weight": 0.02, "note": "GLP-1双龙头之一"},
+            {"ticker": "TCEHY", "name": "腾讯ADR", "sector": "中概", "weight": 0.04, "note": "中国互联网龙头"},
+            {"ticker": "BABA", "name": "阿里巴巴", "sector": "中概", "weight": 0.02, "note": "电商+云+AI"},
+            {"ticker": "PDD", "name": "拼多多", "sector": "中概", "weight": 0.01, "note": "Temu全球扩张"}
+        ],
+        "hk_stocks_etf": [
+            {"ticker": "2800.HK", "name": "盈富基金(恒指ETF)", "note": "追踪恒生指数"},
+            {"ticker": "3067.HK", "name": "安硕恒生科技ETF", "note": "追踪恒生科技指数"},
+            {"ticker": "9988.HK", "name": "阿里巴巴-SW", "note": "港股阿里"},
+            {"ticker": "0700.HK", "name": "腾讯控股", "note": "港股腾讯"},
+            {"ticker": "9618.HK", "name": "京东集团-SW", "note": "港股京东"},
+            {"ticker": "1810.HK", "name": "小米集团-W", "note": "智能硬件+电动车"},
+            {"ticker": "9888.HK", "name": "百度集团-SW", "note": "AI+自动驾驶"}
+        ],
+        "a_shares_etf": [
+            {"ticker": "510300.SS", "name": "沪深300ETF", "note": "A股核心蓝筹"},
+            {"ticker": "159915.SZ", "name": "创业板ETF", "note": "A股成长板块"},
+            {"ticker": "512100.SS", "name": "中证1000ETF", "note": "A股小盘股"},
+            {"ticker": "512480.SS", "name": "半导体ETF", "note": "中国半导体"},
+            {"ticker": "159605.SZ", "name": "中概互联ETF", "note": "中概回港上市"},
+            {"ticker": "518880.SS", "name": "黄金ETF", "note": "人民币黄金"},
+            {"ticker": "511010.SS", "name": "国债ETF", "note": "中国国债"}
+        ],
+        "global_indices": [
+            {"ticker": "^GSPC", "name": "标普500"},
+            {"ticker": "^IXIC", "name": "纳斯达克"},
+            {"ticker": "^DJI", "name": "道琼斯"},
+            {"ticker": "^RUT", "name": "罗素2000(小盘)"},
+            {"ticker": "^VIX", "name": "VIX恐慌指数"},
+            {"ticker": "^VIX9D", "name": "VIX 9日"},
+            {"ticker": "^HSI", "name": "恒生指数"},
+            {"ticker": "^HSTECH", "name": "恒生科技指数"},
+            {"ticker": "000001.SS", "name": "上证综指"},
+            {"ticker": "^N225", "name": "日经225"},
+            {"ticker": "^FTSE", "name": "富时100"},
+            {"ticker": "^GDAXI", "name": "德国DAX"},
+            {"ticker": "^STOXX50E", "name": "欧洲斯托克50"}
+        ],
+        "crypto": [
+            {"ticker": "BTC-USD", "name": "比特币"},
+            {"ticker": "ETH-USD", "name": "以太坊"},
+            {"ticker": "SOL-USD", "name": "Solana"}
+        ],
+        "macro_proxies": [
+            {"ticker": "TLT", "name": "20+年美债ETF", "role": "长端利率代理"},
+            {"ticker": "SHY", "name": "1-3年美债ETF", "role": "短端利率代理"},
+            {"ticker": "IEF", "name": "7-10年美债ETF", "role": "中端利率代理"},
+            {"ticker": "UUP", "name": "美元指数ETF", "role": "美元强弱代理"},
+            {"ticker": "FXY", "name": "日元ETF", "role": "套利交易代理"},
+            {"ticker": "FXE", "name": "欧元ETF", "role": "欧洲经济代理"},
+            {"ticker": "HYG", "name": "高收益债ETF", "role": "信用风险代理"},
+            {"ticker": "LQD", "name": "投资级债ETF", "role": "企业信用代理"},
+            {"ticker": "BKLN", "name": "浮动利率贷款ETF", "role": "银行贷款市场代理"},
+            {"ticker": "USHY", "name": "超短久期高收益", "role": "短端信用代理"}
+        ],
+        "commodities": [
+            {"ticker": "GLD", "name": "黄金ETF", "role": "避险+通胀对冲"},
+            {"ticker": "SLV", "name": "白银ETF", "role": "工业+贵金属"},
+            {"ticker": "GDX", "name": "金矿股ETF", "role": "金矿股(杠杆黄金)"},
+            {"ticker": "USO", "name": "原油ETF", "role": "能源/通胀"},
+            {"ticker": "UNG", "name": "天然气ETF", "role": "能源"},
+            {"ticker": "CPER", "name": "铜ETF", "role": "Dr.Copper经济晴雨表"},
+            {"ticker": "DBA", "name": "农产品ETF", "role": "食品通胀"},
+            {"ticker": "PDBC", "name": "多元商品ETF", "role": "一揽子大宗商品"}
+        ]
+    },
+
+    "skill1_value_investing": {
+        "_description": "Skill 1: 公司估值与质量评级 — DCF/相对估值/质量因子综合模型",
+        "_methodology": "融合Buffett质量投资+Damodaran估值框架+DuPont分析",
+        "roe_threshold": 0.15,
+        "roe_premium": 0.25,
+        "roe_years_required": 3,
+        "debt_ratio_max": 0.50,
+        "debt_ratio_conservative": 0.30,
+        "fcf_to_income_min": 0.80,
+        "fcf_to_income_excellent": 1.20,
+        "moat_factors": ["品牌", "网络效应", "成本优势", "转换成本", "规模经济", "专利/IP", "监管壁垒"],
+        "valuation_metrics": {
+            "forward_pe_expensive": 35,
+            "forward_pe_cheap": 15,
+            "ps_ratio_expensive": 15,
+            "peg_expensive": 2.0,
+            "peg_cheap": 1.0,
+            "ev_ebitda_expensive": 25,
+            "ev_ebitda_cheap": 10
+        },
+        "dupont_analysis": {
+            "_note": "ROE = 净利润率 × 资产周转率 × 权益乘数",
+            "prefer_high_margin": true,
+            "leverage_warning": 3.0
+        },
+        "rating_rules": {
+            "A": "ROE>25% + 负债率<30% + FCF/NI>120% + 护城河>=3项 + PE<行业中位数",
+            "B": "ROE>15% + 负债率<50% + FCF/NI>80% + 护城河>=2项",
+            "C": "满足B级中2-3项，或估值偏高但基本面扎实",
+            "D": "ROE<10% 或 负债率>70% 或 FCF为负 或 无明显护城河"
+        }
+    },
+
+    "skill2_crypto_signal": {
+        "_description": "Skill 2: 加密货币周期与抄底模型 — BTC/ETH/SOL多资产",
+        "_methodology": "链上数据(MVRV/NUPL/LTH)+技术面(RSI/MA200)+情绪(F&G/社交媒体)+矿工经济学",
+        "btc": {
+            "rsi_oversold": 30,
+            "rsi_period": 14,
+            "weekly_rsi_oversold": 35,
+            "ma200_deviation_threshold": -0.20,
+            "volume_shrink_threshold": 0.5,
+            "fear_greed_extreme_fear": 25,
+            "price_vs_yearly_low_threshold": 0.15,
+            "mvrv_bottom_signal": 1.0,
+            "nupl_capitulation": 0,
+            "lth_supply_increase": true,
+            "miner_shutdown_proximity": 0.10,
+            "_note_mvrv": "MVRV<1.0 = 市值低于实现市值，持有者整体亏损（需Glassnode API）",
+            "_note_miner": "现价接近S21 Pro关机价（约$45k）= 矿工投降信号"
+        },
+        "eth": {
+            "rsi_oversold": 30,
+            "ma200_deviation_threshold": -0.25,
+            "eth_btc_ratio_floor": 0.03
+        },
+        "signal_rules": {
+            "heavy_buy": "满足6个及以上指标（含MVRV<1或矿工投降）→ 重仓抄底(30%仓位)",
+            "gradual_buy": "满足4-5个指标 → 分批建仓(15%仓位)",
+            "watch": "满足2-3个指标 → 密切关注,准备资金",
+            "neutral": "满足0-1个指标 → 无信号",
+            "overbought": "RSI>80 + F&G>80 + 价格偏离MA200>100% → 分批减仓"
+        }
+    },
+
+    "skill3_sentiment": {
+        "_description": "Skill 3: 全球市场情绪监控 — 机构+散户+期权+估值综合",
+        "_methodology": "NAAIM+AAII+F&G+VIX结构+Put/Call+远期PE+对冲基金杠杆+融资余额",
+        "fear_greed_extreme_greed": 80,
+        "fear_greed_greed": 60,
+        "fear_greed_fear": 40,
+        "fear_greed_extreme_fear": 20,
+        "vix_panic_threshold": 30,
+        "vix_elevated": 25,
+        "vix_complacency_threshold": 12,
+        "vix_crisis_threshold": 50,
+        "vix_term_structure_inversion_warning": true,
+        "put_call_ratio_extreme_bearish": 1.3,
+        "put_call_ratio_bearish": 1.0,
+        "put_call_ratio_bullish": 0.7,
+        "put_call_ratio_extreme_bullish": 0.5,
+        "spy_rsi_overbought": 70,
+        "spy_rsi_oversold": 30,
+        "qqq_rsi_overbought": 75,
+        "qqq_rsi_oversold": 25,
+        "sp500_forward_pe_warning": 22,
+        "sp500_forward_pe_bubble": 25,
+        "naaim_overexposed": 90,
+        "naaim_underexposed": 40,
+        "aaii_extreme_bearish": 50,
+        "aaii_extreme_bullish": 55,
+        "margin_debt_decline_warning": -0.10,
+        "sentiment_rating": {
+            "extreme_greed": "极度贪婪 → 3+指标预警: 大幅减仓至50%或建立对冲",
+            "greed": "贪婪 → 2指标预警: 减仓至65%",
+            "neutral": "中性 → 维持当前仓位",
+            "fear": "恐慌 → 加仓至80%",
+            "extreme_fear": "极度恐慌 → 满仓抄底(90%+)"
+        }
+    },
+
+    "skill4_macro_liquidity": {
+        "_description": "Skill 4: 宏观流动性与央行监控 — 净流动性模型+全球央行",
+        "_methodology": "Michael Howell净流动性+Joseph Wang美联储操作+全球央行资产负债表",
+        "net_liquidity_formula": "美联储总资产(WALCL) - TGA(WTREGEN) - ON RRP(RRPONTSYD)",
+        "net_liquidity_weekly_decline_warning": -0.05,
+        "sofr_stress_threshold": 5.50,
+        "tlt_weekly_drop_warning": -0.03,
+        "shy_yield_spike_warning": -0.01,
+        "dxy_strength_warning": 107,
+        "dxy_extreme_warning": 110,
+        "yen_carry_unwind_threshold": 0.03,
+        "hyg_spread_widening_warning": -0.02,
+        "lqd_weekly_drop_warning": -0.015,
+        "gold_safe_haven_signal": 0.02,
+        "move_index_warning": 120,
+        "move_index_crisis": 150,
+        "global_central_banks": {
+            "_note": "关注全球主要央行政策方向",
+            "fed": "美联储: WALCL资产负债表+利率决议",
+            "ecb": "欧洲央行: 量化紧缩进度+利率决议",
+            "boj": "日本央行: YCC政策+日元干预",
+            "pboc": "中国央行: MLF/LPR/降准降息/社融",
+            "boe": "英国央行: 利率+QT进度"
+        },
+        "liquidity_rules": {
+            "abundant": "净流动性上升+TLT上涨+美元走弱+HYG稳定 → 流动性充裕,加仓",
+            "neutral": "指标混合信号 → 流动性中性,维持仓位",
+            "tightening": "净流动性下降+TLT下跌+美元走强+MOVE>120 → 收紧预警,减仓",
+            "crisis": "净流动性暴跌5%+SOFR>5.5%+MOVE>150+HYG暴跌 → 危机警报,清仓至50%以下"
+        }
+    },
+
+    "skill5_global_markets": {
+        "_description": "Skill 5: 全球市场联动与资金流向 — 跨市场共振分析",
+        "_methodology": "全球指数联动+DXY/CNY/JPY货币三角+资金流向+板块轮动",
+        "cross_market_tickers": "^GSPC ^IXIC ^RUT ^HSI ^N225 ^FTSE ^GDAXI ^STOXX50E",
+        "currency_tickers": "UUP FXY FXE CNY=X",
+        "correlation_period_days": 60,
+        "divergence_threshold": 0.05,
+        "rotation_indicators": {
+            "risk_on_signal": "纳斯达克>标普>道琼>小盘=风险偏好上升",
+            "risk_off_signal": "小盘<纳斯达克<标普=风险偏好下降",
+            "us_vs_exus_divergence": "美股vs非美市场分歧>5%=资金流向信号",
+            "em_vs_dm": "新兴市场vs发达市场相对强弱",
+            "growth_vs_value": "成长股vs价值股轮动"
+        },
+        "regional_risk_flags": {
+            "china_risk": "CNY贬值>2%/月 + 港股持续走弱 → 中国风险预警",
+            "japan_risk": "日元急升>3%/周 → 套利交易平仓风险",
+            "europe_risk": "欧元区PMI<48 + 欧债利差扩大 → 欧洲衰退风险"
+        }
+    },
+
+    "skill6_credit_private": {
+        "_description": "Skill 6: 信贷市场与私募信用监控 — 信用周期跟踪",
+        "_methodology": "Howard Marks信用周期+高收益/投资级利差+银行贷款标准+杠杆贷款",
+        "hy_spread_tickers": "HYG LQD",
+        "hy_spread_warning_bp": 500,
+        "hy_spread_crisis_bp": 800,
+        "ig_spread_warning_bp": 200,
+        "bkln_weekly_drop_warning": -0.02,
+        "regional_bank_ticker": "KRE",
+        "kre_weekly_drop_warning": -0.05,
+        "kre_monthly_drop_crisis": -0.15,
+        "credit_indicators": {
+            "hyg_lqd_ratio": "HYG/LQD比值下降 = 信用分层恶化",
+            "bkln_outflow": "浮动利率贷款ETF资金流出 = 杠杆贷款压力",
+            "kre_collapse": "区域银行ETF暴跌 = 银行系统风险(SVB式)",
+            "cds_spread": "CDS利差扩大 = 违约预期上升"
+        },
+        "private_credit_flags": {
+            "_note": "私募信贷市场通常是危机的先行指标",
+            "leveraged_loan_default_rate_warning": 3.0,
+            "clo_stress": "CLO次级档收益率飙升 = 杠杆贷款压力传导"
+        },
+        "credit_cycle_phases": {
+            "expansion": "利差收窄+违约率低+银行放贷宽松 → 信用扩张期",
+            "peak": "利差极窄+杠杆率极高+covenant-lite贷款泛滥 → 信用顶部",
+            "contraction": "利差扩大+违约上升+银行收紧贷款 → 信用收缩期",
+            "distress": "利差>800bp+违约潮+流动性冻结 → 信用危机"
+        }
+    },
+
+    "skill7_precious_metals_commodities": {
+        "_description": "Skill 7: 贵金属与大宗商品周期 — 实物资产+通胀对冲",
+        "_methodology": "黄金/白银实际利率模型+铜金比经济预测+能源供需+农产品通胀",
+        "gold_tickers": "GLD GDX SLV",
+        "commodity_tickers": "USO UNG CPER DBA PDBC",
+        "gold_real_rate_inverse": true,
+        "gold_weekly_surge_signal": 0.03,
+        "gold_miner_leverage": 2.5,
+        "gdx_gld_ratio_trend": "GDX/GLD上升=矿股跑赢金价=黄金牛市确认",
+        "silver_gold_ratio": {
+            "normal": "60-80",
+            "silver_cheap": ">80(白银相对黄金低估)",
+            "silver_expensive": "<50(白银相对黄金高估)"
+        },
+        "copper_gold_ratio": {
+            "_note": "铜金比是最佳经济先行指标之一",
+            "rising": "经济扩张信号(铜=工业需求,金=避险需求)",
+            "falling": "经济衰退预警"
+        },
+        "oil_thresholds": {
+            "wti_high": 100,
+            "wti_low": 50,
+            "wti_recession_signal": 40,
+            "oil_weekly_spike": 0.10,
+            "oil_weekly_crash": -0.10
+        },
+        "commodity_supercycle": {
+            "_note": "Tavi Costa/Zoltan Pozsar商品超级周期理论",
+            "signal": "CRB指数持续上行+铜/金/油同涨 = 新一轮商品超级周期"
+        }
+    },
+
+    "skill8_yield_curve": {
+        "_description": "Skill 8: 收益率曲线与利率分析 — 衰退概率+利率路径",
+        "_methodology": "2s10s/3m10s利差+SOFR+Fed Funds期货+全球利率比较",
+        "curve_tickers": "^TNX ^FVX ^IRX TLT IEF SHY",
+        "yield_proxies": {
+            "10y_proxy": "^TNX",
+            "5y_proxy": "^FVX",
+            "2y_proxy": "SHY",
+            "3m_proxy": "^IRX"
+        },
+        "curve_thresholds": {
+            "2s10s_inversion": 0,
+            "2s10s_deep_inversion": -0.50,
+            "3m10s_inversion": 0,
+            "steepening_after_inversion": "曲线从倒挂恢复变陡 = 衰退即将开始(历史上6-12个月内)"
+        },
+        "rate_change_thresholds": {
+            "10y_weekly_spike": 0.20,
+            "10y_weekly_crash": -0.20,
+            "2y_weekly_spike": 0.15,
+            "rate_shock": "10年期单周变化>25bp = 利率冲击"
+        },
+        "term_premium": {
+            "_note": "期限溢价 = 投资者持有长期债券要求的额外补偿",
+            "negative_warning": "期限溢价为负 = 市场对长期风险定价不足",
+            "spike_warning": "期限溢价急升 = 财政担忧+供给压力"
+        }
+    },
+
+    "skill9_volatility_structure": {
+        "_description": "Skill 9: 波动率微观结构 — 期权流+Gamma暴露+尾部风险",
+        "_methodology": "Cem Karsan期权Greeks+VIX期限结构+VVIX+Skew+0DTE影响",
+        "vix_tickers": "^VIX ^VIX9D",
+        "vix_levels": {
+            "complacency": {"max": 12, "signal": "过度自满 → 反向做多波动率"},
+            "normal": {"min": 12, "max": 20, "signal": "正常区间"},
+            "elevated": {"min": 20, "max": 30, "signal": "波动率升高 → 减少杠杆"},
+            "panic": {"min": 30, "max": 50, "signal": "恐慌 → 可能是反转买点"},
+            "crisis": {"min": 50, "signal": "系统性危机 → 等待政策干预信号"}
+        },
+        "term_structure": {
+            "contango_normal": "远月>近月 = 正常（市场平静）",
+            "backwardation_warning": "近月>远月 = 倒挂 = 短期恐慌高于长期",
+            "inversion_ratio_threshold": 1.10,
+            "deep_inversion": 1.25
+        },
+        "vvix_threshold": {
+            "_note": "VVIX = VIX的波动率，衡量波动率本身的不确定性",
+            "elevated": 120,
+            "extreme": 150
+        },
+        "skew_index": {
+            "_note": "SKEW = 尾部风险定价。SKEW高=市场在买大量下行保护",
+            "warning": 140,
+            "extreme": 155
+        },
+        "gamma_exposure": {
+            "_note": "做市商Gamma暴露影响市场波动",
+            "positive_gamma": "做市商做多Gamma → 市场波动被压制,均值回归",
+            "negative_gamma": "做市商做空Gamma → 市场波动被放大,单向运动",
+            "zero_gamma_level": "Gamma翻转点 = 关键价格水平"
+        },
+        "dte_impact": {
+            "_note": "0DTE期权已占SPX期权交易量>40%",
+            "amplification": "0DTE到期日集中 → 日内波动可能被放大"
+        }
+    },
+
+    "skill10_hk_a_shares": {
+        "_description": "Skill 10: 港股与A股专项分析 — 中国资产定价+南北向资金",
+        "_methodology": "恒指估值+AH溢价+南向资金+北向资金+汇率+政策周期",
+        "hk_indices": ["^HSI", "^HSTECH"],
+        "a_share_proxies": ["000001.SS", "KWEB", "FXI", "MCHI"],
+        "ah_premium_index": {
+            "_note": "AH股溢价指数衡量A股对港股的溢价",
+            "median_historical": 130,
+            "extreme_cheap_hk": 150,
+            "extreme_cheap_a": 110
+        },
+        "hsi_valuation": {
+            "pe_cheap": 8,
+            "pe_fair": 11,
+            "pe_expensive": 15,
+            "_note": "恒指长期中位数PE约11倍"
+        },
+        "cny_thresholds": {
+            "ticker": "CNY=X",
+            "depreciation_warning": 7.30,
+            "depreciation_crisis": 7.50,
+            "appreciation_signal": 7.00,
+            "weekly_move_warning": 0.02
+        },
+        "policy_cycle": {
+            "_note": "中国政策周期对港股/A股影响巨大",
+            "easing_signals": "降准+降息+LPR下调+房地产放松 → 做多中国资产",
+            "tightening_signals": "监管收紧+房地产调控+资本管制 → 谨慎",
+            "stimulus_package": "大规模财政刺激 → 强烈做多信号"
+        },
+        "fund_flow": {
+            "southbound_surge": "南向资金日净买入>100亿港元 → 强烈买入信号",
+            "northbound_outflow": "北向资金连续5日净流出 → A股风险预警",
+            "_note": "互联互通资金流向是最直接的机构行为指标"
+        }
+    },
+
+    "position_rules": {
+        "_description": "仓位管理总则 v3.0 — 全球多资产配置框架",
+        "max_single_stock": 0.15,
+        "max_sector": 0.35,
+        "max_single_country": 0.60,
+        "max_crypto": 0.15,
+        "max_commodities": 0.15,
+        "cash_reserve_min": 0.05,
+        "cash_reserve_crisis": 0.30,
+        "rebalance_threshold": 0.05,
+        "stop_loss_single": -0.15,
+        "stop_loss_portfolio": -0.08,
+        "correlation_limit": "避免持有相关性>0.85的标的超过30%仓位"
+    },
+
+    "skill_weights": {
+        "_description": "综合评分时各Skill的权重分配",
+        "skill1_value_investing": 0.12,
+        "skill2_crypto_signal": 0.08,
+        "skill3_sentiment": 0.15,
+        "skill4_macro_liquidity": 0.18,
+        "skill5_global_markets": 0.10,
+        "skill6_credit_private": 0.12,
+        "skill7_precious_metals": 0.05,
+        "skill8_yield_curve": 0.10,
+        "skill9_volatility": 0.05,
+        "skill10_hk_a_shares": 0.05
+    }
+}

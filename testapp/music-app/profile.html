@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>音乐APP - 个人中心</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Noto Sans SC', -apple-system, sans-serif; }
+    body { background: #0a0a0a; color: #fff; width: 393px; height: 852px; overflow-y: auto; overflow-x: hidden; }
+    body::-webkit-scrollbar { display: none; }
+    .glass { background: rgba(255,255,255,0.05); backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.08); }
+    .vip-gradient { background: linear-gradient(135deg, #f0932b, #ee5a24, #e55039); }
+    .stat-glow { background: linear-gradient(135deg, rgba(238,90,36,0.1), rgba(255,107,107,0.1)); border: 1px solid rgba(238,90,36,0.2); }
+  </style>
+</head>
+<body>
+  <!-- iOS 状态栏 -->
+  <div class="flex justify-between items-center px-6 pt-3 pb-1">
+    <span class="text-sm font-semibold">9:41</span>
+    <div class="flex items-center gap-1.5">
+      <i class="fas fa-signal text-xs"></i>
+      <i class="fas fa-wifi text-xs"></i>
+      <i class="fas fa-battery-full text-xs"></i>
+    </div>
+  </div>
+
+  <!-- 顶部 -->
+  <div class="flex justify-between items-center px-5 py-2">
+    <h1 class="text-2xl font-bold">我的</h1>
+    <div class="flex gap-3">
+      <div class="w-9 h-9 rounded-full glass flex items-center justify-center">
+        <i class="fas fa-gear text-sm"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- 用户信息卡片 -->
+  <div class="px-5 mb-4">
+    <div class="glass rounded-2xl p-4">
+      <div class="flex items-center gap-3.5 mb-4">
+        <div class="relative">
+          <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=120&h=120&fit=crop&crop=face" class="w-16 h-16 rounded-full object-cover ring-2 ring-orange-500/50" alt="avatar">
+          <div class="absolute -bottom-0.5 -right-0.5 w-5 h-5 bg-green-500 rounded-full border-2 border-[#0a0a0a]"></div>
+        </div>
+        <div class="flex-1">
+          <div class="flex items-center gap-2">
+            <h2 class="text-lg font-bold">音乐爱好者</h2>
+            <span class="text-[9px] vip-gradient px-2 py-0.5 rounded-full font-bold">VIP</span>
+          </div>
+          <p class="text-xs text-gray-400 mt-0.5">ID: 2026888 · Lv.8</p>
+        </div>
+        <i class="fas fa-qrcode text-gray-400"></i>
+      </div>
+
+      <!-- 数据统计 -->
+      <div class="grid grid-cols-4 gap-2">
+        <div class="text-center">
+          <p class="text-lg font-bold">128</p>
+          <p class="text-[10px] text-gray-500">收藏</p>
+        </div>
+        <div class="text-center">
+          <p class="text-lg font-bold">56</p>
+          <p class="text-[10px] text-gray-500">关注</p>
+        </div>
+        <div class="text-center">
+          <p class="text-lg font-bold">2.1k</p>
+          <p class="text-[10px] text-gray-500">粉丝</p>
+        </div>
+        <div class="text-center">
+          <p class="text-lg font-bold">8</p>
+          <p class="text-[10px] text-gray-500">歌单</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VIP 卡片 -->
+  <div class="px-5 mb-4">
+    <div class="vip-gradient rounded-2xl p-4 relative overflow-hidden">
+      <div class="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+      <div class="relative z-10">
+        <div class="flex justify-between items-center">
+          <div>
+            <div class="flex items-center gap-2 mb-1">
+              <i class="fas fa-crown text-yellow-300"></i>
+              <span class="font-bold text-sm">音乐VIP会员</span>
+            </div>
+            <p class="text-[11px] text-white/70">有效期至 2027.02.21 · 尊享无损音质</p>
+          </div>
+          <div class="bg-white/20 rounded-xl px-3 py-1.5 text-xs font-medium">
+            续费
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 听歌报告 -->
+  <div class="px-5 mb-4">
+    <div class="stat-glow rounded-2xl p-4">
+      <div class="flex justify-between items-center mb-3">
+        <h3 class="text-sm font-bold flex items-center gap-1.5">
+          <i class="fas fa-chart-line text-orange-400 text-xs"></i> 本周听歌报告
+        </h3>
+        <span class="text-orange-400 text-[10px]">查看详情 <i class="fas fa-chevron-right text-[8px]"></i></span>
+      </div>
+      <div class="grid grid-cols-3 gap-3">
+        <div class="text-center">
+          <p class="text-xl font-bold text-orange-400">168</p>
+          <p class="text-[10px] text-gray-500">听歌首数</p>
+        </div>
+        <div class="text-center">
+          <p class="text-xl font-bold text-orange-400">24h</p>
+          <p class="text-[10px] text-gray-500">总时长</p>
+        </div>
+        <div class="text-center">
+          <p class="text-xl font-bold text-orange-400">流行</p>
+          <p class="text-[10px] text-gray-500">最爱类型</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 功能列表 -->
+  <div class="px-5 mb-28">
+    <div class="glass rounded-2xl overflow-hidden">
+      <div class="flex items-center gap-3.5 px-4 py-3.5 border-b border-white/5">
+        <div class="w-8 h-8 rounded-lg bg-blue-500/20 flex items-center justify-center">
+          <i class="fas fa-ticket text-blue-400 text-xs"></i>
+        </div>
+        <span class="text-sm flex-1">优惠券</span>
+        <span class="text-[11px] text-gray-500 mr-1">3张可用</span>
+        <i class="fas fa-chevron-right text-gray-600 text-[10px]"></i>
+      </div>
+      <div class="flex items-center gap-3.5 px-4 py-3.5 border-b border-white/5">
+        <div class="w-8 h-8 rounded-lg bg-purple-500/20 flex items-center justify-center">
+          <i class="fas fa-store text-purple-400 text-xs"></i>
+        </div>
+        <span class="text-sm flex-1">商城</span>
+        <i class="fas fa-chevron-right text-gray-600 text-[10px]"></i>
+      </div>
+      <div class="flex items-center gap-3.5 px-4 py-3.5 border-b border-white/5">
+        <div class="w-8 h-8 rounded-lg bg-green-500/20 flex items-center justify-center">
+          <i class="fas fa-clock text-green-400 text-xs"></i>
+        </div>
+        <span class="text-sm flex-1">定时关闭</span>
+        <i class="fas fa-chevron-right text-gray-600 text-[10px]"></i>
+      </div>
+      <div class="flex items-center gap-3.5 px-4 py-3.5 border-b border-white/5">
+        <div class="w-8 h-8 rounded-lg bg-orange-500/20 flex items-center justify-center">
+          <i class="fas fa-palette text-orange-400 text-xs"></i>
+        </div>
+        <span class="text-sm flex-1">主题换肤</span>
+        <i class="fas fa-chevron-right text-gray-600 text-[10px]"></i>
+      </div>
+      <div class="flex items-center gap-3.5 px-4 py-3.5 border-b border-white/5">
+        <div class="w-8 h-8 rounded-lg bg-red-500/20 flex items-center justify-center">
+          <i class="fas fa-headphones text-red-400 text-xs"></i>
+        </div>
+        <span class="text-sm flex-1">音质设置</span>
+        <span class="text-[11px] text-orange-400 mr-1">无损</span>
+        <i class="fas fa-chevron-right text-gray-600 text-[10px]"></i>
+      </div>
+      <div class="flex items-center gap-3.5 px-4 py-3.5">
+        <div class="w-8 h-8 rounded-lg bg-gray-500/20 flex items-center justify-center">
+          <i class="fas fa-circle-question text-gray-400 text-xs"></i>
+        </div>
+        <span class="text-sm flex-1">帮助与反馈</span>
+        <i class="fas fa-chevron-right text-gray-600 text-[10px]"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- 底部 Tab Bar -->
+  <div class="fixed bottom-0 left-0 right-0 glass border-t border-white/5">
+    <div class="flex justify-around items-center py-2 pb-5">
+      <div class="flex flex-col items-center gap-0.5">
+        <i class="fas fa-house text-gray-500 text-base"></i>
+        <span class="text-[10px] text-gray-500">首页</span>
+      </div>
+      <div class="flex flex-col items-center gap-0.5">
+        <i class="fas fa-magnifying-glass text-gray-500 text-base"></i>
+        <span class="text-[10px] text-gray-500">搜索</span>
+      </div>
+      <div class="flex flex-col items-center gap-0.5">
+        <i class="fas fa-record-vinyl text-gray-500 text-base"></i>
+        <span class="text-[10px] text-gray-500">播放</span>
+      </div>
+      <div class="flex flex-col items-center gap-0.5">
+        <i class="fas fa-book-open text-gray-500 text-base"></i>
+        <span class="text-[10px] text-gray-500">音乐库</span>
+      </div>
+      <div class="flex flex-col items-center gap-0.5">
+        <i class="fas fa-user text-orange-500 text-base"></i>
+        <span class="text-[10px] text-orange-500 font-medium">我的</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

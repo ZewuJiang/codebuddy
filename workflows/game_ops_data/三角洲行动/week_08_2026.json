@@ -1,0 +1,215 @@
+{
+    "meta": {
+        "game_name": "三角洲行动",
+        "wechat_account": "三角洲行动",
+        "developer": "腾讯天美工作室群·琳琅天上",
+        "publisher": "深圳市腾讯计算机系统有限公司",
+        "game_type": "多平台特战干员战术射击游戏",
+        "week_number": 8,
+        "year": 2026,
+        "date_range": ["2026-02-16", "2026-02-22"],
+        "analyst": "AI Assistant",
+        "report_date": "2026-02-22",
+        "data_sources": [
+            "微信公众号「三角洲行动」",
+            "TapTap官方论坛 https://www.taptap.cn/app/330259/topic?type=official",
+            "官网 https://df.qq.com/"
+        ],
+        "note": "本周为农历春节假期核心阶段（除夕2/16至初六2/22），「蝶变时刻」赛季+新春活动持续运营中"
+    },
+    "summary": {
+        "total_articles": 10,
+        "key_highlights": [
+            "【除夕登录福利】2月16日除夕当天登录可自选领取三大传说武器外观捆绑包（锦绣/万金泪冠/缄花）之一，是本周最重磅的免费福利",
+            "【新春累登奖励】累计7天登录保底领取2600限时三角券+4个六套福袋，持续拉动春节期间登录活跃",
+            "【海底捞联动】游戏内水域新增「海底捞蚌」物资点，开启贝壳有几率刷新新春限定大红，创新跨界玩法",
+            "【新春接红包】购买拼手气红包可塞入哈夫币与队友互动，首次发红包额外膨胀60万哈夫币，社交互动玩法",
+            "【万金泪冠系列】全新典藏挂饰「财神到-乌鲁鲁」击杀变色+铜钱雨特效，切枪触发抽签特效"
+        ],
+        "overall_assessment": "本周为春节假期核心阶段，三角洲行动以「蝶变时刻」赛季为主框架，叠加密集新春福利活动运营。核心策略为：(1) 除夕当天推出三选一传说外观捆绑包免费领取，以高品质免费福利拉动除夕登录峰值；(2) 7天累登送三角券+六套福袋，通过连续签到锁定春节期间的每日活跃；(3) 阿萨拉年货节+海底捞联动+新春红包等多线活动并行，覆盖PVE探索、社交互动、收集兑换等不同游玩偏好。(4) 「万金泪冠」等典藏级外观持续拉动付费。整体运营呈现'免费福利拉活跃+限定外观拉付费+社交玩法拉传播'的三层策略。"
+    },
+    "dimensions": {
+        "gameplay_content": {
+            "priority_level": "high",
+            "display_name": "玩法内容",
+            "description": "重大版本更新（新玩法、角色、地图、武器等T0）、不定期玩法活动（T1）",
+            "entries": [
+                {
+                    "title": "海底捞联动：水域新增「海底捞蚌」物资点",
+                    "date": "2026-02-16",
+                    "tier": "T1",
+                    "detail": "新春活动期间，游戏内零号大坝、长弓溪谷、航天基地、潮汐监狱等地图水域附近新增「海底捞蚌」物资点。玩家开启贝壳有几率刷新新春限定大红（含马上转运、马上起飞等限定外观），物资点附近还有几率刷新露天大红。该联动将PVE探索与春节主题结合，增加了危险行动模式的探索趣味性。",
+                    "source_url": "https://www.taptap.cn/app/330259/topic?type=official",
+                    "source_title": "TapTap官方帖：新春来洲接着红！",
+                    "player_feedback": "玩家对水域探索新玩法反响积极，部分玩家分享了刷出限定大红的攻略",
+                    "images": [{"file": "dfm_spring_overview.jpg", "desc": "新春活动整体场景：三角券+红包+物资堆叠"}]
+                },
+                {
+                    "title": "新春接红包社交互动玩法",
+                    "date": "2026-02-16",
+                    "tier": "T1",
+                    "detail": "活动期间玩家可在游戏大厅购买「拼手气红包」，在其中塞入哈夫币，带入对局中与队友互动发红包，2名队友共同瓜分红包内的哈夫币。首次发红包额外膨胀60万哈夫币。该玩法将春节红包文化融入游戏社交，鼓励组队互动。",
+                    "source_url": "https://www.taptap.cn/app/330259/topic?type=official",
+                    "source_title": "新春接红包活动公告",
+                    "player_feedback": null,
+                    "images": []
+                }
+            ]
+        },
+        "active_events": {
+            "priority_level": "high",
+            "display_name": "活跃活动",
+            "description": "提高玩家活跃或留存的活动（节庆活动、限时任务、邀请好友等）",
+            "entries": [
+                {
+                    "title": "除夕登录送三大传说武器外观捆绑包自选",
+                    "date": "2026-02-16",
+                    "tier": "T0",
+                    "detail": "2月13日至2月26日活动期间，登录游戏即可在「锦绣」（冰蓝玉石鎏金蝶舞）、「万金泪冠」（华贵黄金白瓷宝石）、「缄花」（大理石实木荆棘玫瑰）三套传说武器外观捆绑包中任选一套免费领取。TapTap官方帖标题：「各位干员，新年快乐！2月16日除夕登录自选捆绑包免费送！」，同步赠送新年语音、限时安全箱及载具外观。",
+                    "source_url": "https://www.taptap.cn/app/330259/topic?type=official",
+                    "source_title": "各位干员，新年快乐！2月16日除夕登录自选捆绑包免费送！",
+                    "player_feedback": "玩家反响热烈，三套外观风格各异引发选择讨论，万金泪冠系列最受欢迎",
+                    "images": [{"file": "dfm_skin_showcase.png", "desc": "三套传说外观捆绑包6宫格展示：锦绣/万金泪冠/缄花"}]
+                },
+                {
+                    "title": "7天累计登录保底领2600三角券+六套福袋",
+                    "date": "2026-02-16",
+                    "tier": "T0",
+                    "detail": "2月10日起累计登录7天，即可领取保底2600限时三角券（含1个礼盒和1600券），最快2月16日除夕当天可全部领完。三角券可用于商城消费或干员研究。同期累计登录还可领取4个「六套福袋」，开启必得一件随机六级头盔/护甲/背包以及18张战备物流凭证。该活动持续锁定春节期间每日登录。",
+                    "source_url": "https://www.taptap.cn/app/330259/topic?type=official",
+                    "source_title": "TapTap官方帖：有奖活动｜参与新春接着红，还有机会获得洲宝好礼！",
+                    "player_feedback": "玩家积极参与每日签到，部分玩家晒出六套福袋开箱结果",
+                    "images": [{"file": "dfm_title_2600券.png", "desc": "2600三角券累登奖励标题图"}]
+                },
+                {
+                    "title": "阿萨拉年货节：六套捆绑包任选其二",
+                    "date": "2026-02-16",
+                    "tier": "T1",
+                    "detail": "2月13日至2月26日，参与「阿萨拉年货节」完成每日任务获得阿萨拉糖果，兑换拜年币用于抽奖。奖池包含缄默情歌、夜莺、荼蘼、万金泪冠、锦绣、缄花共6套捆绑包外观，以及「乙巳玄武」等红色品质物品。任务+抽奖机制同时拉动活跃和付费意愿。",
+                    "source_url": "https://www.taptap.cn/app/330259/topic?type=official",
+                    "source_title": "阿萨拉年货节活动公告",
+                    "player_feedback": null,
+                    "images": [{"file": "dfm_event_5.jpg", "desc": "阿萨拉年货节转盘活动页面"}]
+                },
+                {
+                    "title": "刘涛代言新春接着红有奖活动",
+                    "date": "2026-02-16",
+                    "tier": "T1",
+                    "detail": "TapTap官方帖发布「有奖活动｜参与新春接着红，还有机会获得洲宝好礼！」，由代言人刘涛送出春节福利。活动包含2600限时三角券、传说枪械外观、福袋及哈夫币红包等。活动时间2月6日至2月19日，本周为活动尾声冲刺期。",
+                    "source_url": "https://www.taptap.cn/app/330259/topic?type=official",
+                    "source_title": "有奖活动｜参与新春接着红，还有机会获得洲宝好礼！",
+                    "player_feedback": "TapTap帖子热度较高，玩家积极参与互动",
+                    "images": [{"file": "dfm_event_4.jpg", "desc": "刘涛代言新春活动海报"}]
+                },
+                {
+                    "title": "三角洲行动新春快乐祝福帖",
+                    "date": "2026-02-16",
+                    "tier": "T2",
+                    "detail": "TapTap官方于2月14日发布「三角洲行动祝干员朋友们新春快乐！」祝福帖，汇总春节活动信息并送上新年祝愿。",
+                    "source_url": "https://www.taptap.cn/app/330259/topic?type=official",
+                    "source_title": "《三角洲行动》祝干员朋友们新春快乐！",
+                    "player_feedback": null,
+                    "images": []
+                }
+            ]
+        },
+        "monetization": {
+            "priority_level": "high",
+            "display_name": "商业化",
+            "description": "促进玩家消费的活动（IP联动、新皮肤上架、充值活动、售价变化等）",
+            "entries": [
+                {
+                    "title": "「万金泪冠」系列典藏外观实录",
+                    "date": "2026-02-16",
+                    "tier": "T0",
+                    "detail": "TapTap官方发布「万金泪冠」系列外观局内效果实录视频。其中核心典藏挂饰「财神到-乌鲁鲁」具备击杀变色+铜钱雨掉落特效，切枪后触发抽签特效并用红色春联展示结果。2月16日起登录可自选领取该系列传说武器外观捆绑包。万金泪冠系列以华贵黄金与无瑕白瓷结合、镶嵌宝石的极致奢华风格为卖点，定位高端付费用户。",
+                    "source_url": "https://www.taptap.cn/app/330259/topic?type=official",
+                    "source_title": "【万金泪冠】系列外观实录 | 2月16日起登录可自选领取！",
+                    "player_feedback": "玩家对财神到挂饰的击杀特效评价极高，抽签创意广受好评",
+                    "images": [{"file": "dfm_skin_promo.jpg", "desc": "万金泪冠系列展柜展示"}]
+                },
+                {
+                    "title": "「锦绣」「缄花」传说外观捆绑包",
+                    "date": "2026-02-16",
+                    "tier": "T1",
+                    "detail": "除万金泪冠外，同步推出两套传说武器外观捆绑包：「锦绣」（冰蓝玉石与璀璨鎏金交织，蝶舞生花光影炫彩风格）和「缄花」（白色大理石搭配深色实木，鎏金荆棘缠绕娇艳玫瑰风格）。三套外观分别对应不同审美取向，覆盖高端、优雅、暗黑三种风格偏好。",
+                    "source_url": "https://www.taptap.cn/app/330259/topic?type=official",
+                    "source_title": "除夕登录三选一免费领传说捆绑包",
+                    "player_feedback": "缄花系列暗黑玫瑰风格获得女性玩家较多好评",
+                    "images": [{"file": "dfm_title_传说外观.png", "desc": "传说外观标题展示图"}]
+                },
+                {
+                    "title": "微信游戏圈春节签到送传说刀外观",
+                    "date": "2026-02-17",
+                    "tier": "T1",
+                    "detail": "三角洲行动微信游戏圈推出春节特别福利：累计签到领限时安全箱、军功倍增卡与海量战备，完成任务可抽传说刀外观「赤枭」，以及稀有武器外观与三角洲红包封面等。通过微信游戏圈社交场景分发福利，拉动微信生态内的用户回流。",
+                    "source_url": "https://mp.weixin.qq.com/",
+                    "source_title": "三角洲游戏圈春节豪礼已送达",
+                    "player_feedback": null,
+                    "images": [{"file": "dfm_event_3.jpg", "desc": "处刑者近战武器外观展示"}]
+                }
+            ]
+        },
+        "content_marketing": {
+            "priority_level": "medium",
+            "display_name": "内容营销",
+            "description": "创作者计划、热门内容、KOL直播等",
+            "entries": [
+                {
+                    "title": "绝密珠江三角洲线下活动（深圳）",
+                    "date": "2026-02-16",
+                    "tier": "T1",
+                    "detail": "官方发布「绝密珠江三角洲，小麦回家过大年」活动预告，2月6日至2月12日在深圳举办线下过大年活动，邀请玩家线下见面解锁新年好彩头。虽活动主体在上周，但本周仍有后续传播和内容产出。知名主播小麦参与联动，提升品牌线下影响力。",
+                    "source_url": "https://new.qq.com/rain/a/20260204A03BL100",
+                    "source_title": "绝密珠江三角洲，小麦回家过大年",
+                    "player_feedback": "参与玩家分享线下活动体验，社交媒体传播效果良好",
+                    "images": []
+                },
+                {
+                    "title": "TapTap + 微信双平台内容运营矩阵",
+                    "date": "2026-02-16",
+                    "tier": "T2",
+                    "detail": "本周TapTap官方论坛持续更新活动公告和外观实录视频，微信公众号/游戏圈同步推送春节福利内容。TapTap论坛关注者约2636万、帖子约12万，官方账号17万粉丝，双平台联动形成内容矩阵覆盖。此外每日更新收集品必吃榜、特勤处制造推荐等实用攻略内容。",
+                    "source_url": "https://www.taptap.cn/app/330259/topic?type=official",
+                    "source_title": "三角洲行动TapTap官方论坛",
+                    "player_feedback": null,
+                    "images": []
+                }
+            ]
+        },
+        "esports": {
+            "priority_level": "medium",
+            "display_name": "电竞赛事",
+            "description": "重大赛事节点、高关注度赛事",
+            "entries": [
+                {
+                    "title": "2026烽火职业联赛春季选拔赛报名中",
+                    "date": "2026-02-16",
+                    "tier": "T1",
+                    "detail": "2026烽火职业联赛春季选拔赛已于1月29日开启报名，本周春节期间持续接受战队报名。这是三角洲行动2026年首个官方职业赛事节点，标志着新赛季电竞体系正式启动。赛事将选拔出进入烽火职业联赛的参赛队伍。",
+                    "source_url": "https://www.taptap.cn/app/330259/topic?type=official",
+                    "source_title": "2026烽火职业联赛春季选拔赛报名",
+                    "player_feedback": null,
+                    "images": []
+                }
+            ]
+        },
+        "other_major": {
+            "priority_level": "low",
+            "display_name": "其他重大事件",
+            "description": "线下活动、品牌联动等",
+            "entries": [
+                {
+                    "title": "三角洲行动移动端海外上线",
+                    "date": "2026-02-22",
+                    "tier": "T0",
+                    "detail": "腾讯天美旗下《三角洲行动》移动端于本周在海外正式上线，登顶超160国下载榜。国服最早于2024年9月上线，移动端曾登顶免费榜，全网注册用户突破2500万。此次海外移动端上线是三角洲行动全球化战略的重要里程碑，进一步扩大了游戏的全球影响力。",
+                    "source_url": "https://df.qq.com/",
+                    "source_title": "腾讯《三角洲行动》移动端上线海外，登顶超160国下载榜",
+                    "player_feedback": "海外玩家反响积极，下载量表现强劲",
+                    "images": []
+                }
+            ]
+        }
+    }
+}

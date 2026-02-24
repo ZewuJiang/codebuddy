@@ -1,0 +1,58 @@
+{
+    "_description": "游戏竞品监控注册表 - 所有已监控游戏的基础信息和信息源链接",
+    "_usage": "新增游戏时在 games 中添加一条即可。CodeBuddy 收到指令后自动读取配置采集信息",
+    "games": {
+        "超自然行动组": {
+            "wechat_account": "超自然行动组官方",
+            "developer": "NIGHT STUDIOS",
+            "publisher": "上海巨人网络科技有限公司",
+            "game_type": "多人组队欢乐恐怖手游",
+            "sources": {
+                "taptap": "https://www.taptap.cn/app/714123/topic?type=official",
+                "official_site": "https://www.chaoziran.com/news",
+                "bilibili_uid": ""
+            },
+            "keywords": ["超自然行动组", "超自然", "工友"],
+            "status": "active"
+        },
+        "三角洲行动": {
+            "wechat_account": "三角洲行动",
+            "developer": "腾讯天美工作室群·琳琅天上",
+            "publisher": "深圳市腾讯计算机系统有限公司",
+            "game_type": "多平台特战干员战术射击游戏",
+            "sources": {
+                "taptap": "https://www.taptap.cn/app/330259/topic?type=official",
+                "official_site": "https://df.qq.com/",
+                "bilibili_uid": ""
+            },
+            "keywords": ["三角洲行动", "三角洲", "Delta Force", "干员"],
+            "status": "active"
+        },
+        "无畏契约": {
+            "wechat_account": "无畏契约",
+            "developer": "Riot Games（拳头游戏）",
+            "publisher": "深圳市腾讯计算机系统有限公司",
+            "game_type": "5V5战术射击端游",
+            "sources": {
+                "taptap": "",
+                "official_site": "https://val.qq.com/main.html",
+                "bilibili_uid": "147546636"
+            },
+            "keywords": ["无畏契约", "VALORANT", "瓦罗兰特", "打瓦"],
+            "status": "active"
+        },
+        "无畏契约手游": {
+            "wechat_account": "无畏契约手游",
+            "developer": "Riot Games（拳头游戏）/ 腾讯",
+            "publisher": "深圳市腾讯计算机系统有限公司",
+            "game_type": "5V5战术射击手游",
+            "sources": {
+                "taptap": "https://www.taptap.cn/app/722210/topic?type=official",
+                "official_site": "https://valm.qq.com/",
+                "bilibili_uid": ""
+            },
+            "keywords": ["无畏契约手游", "源能行动", "瓦手"],
+            "status": "active"
+        }
+    }
+}

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>年会抽奖 - WorkBuddy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 30px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 900px;
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #667eea;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 30px 0;
+            font-size: 1.2em;
+        }
+
+        .stat-item {
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        .prize-display {
+            margin: 50px 0;
+            min-height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .prize-image {
+            max-width: 300px;
+            max-height: 300px;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+            filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+        }
+
+        .prize-image.spinning {
+            animation: spin 0.1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: scale(1) rotate(0deg); }
+            50% { transform: scale(1.1) rotate(180deg); }
+            100% { transform: scale(1) rotate(360deg); }
+        }
+
+        .prize-name {
+            font-size: 2.5em;
+            color: #764ba2;
+            font-weight: bold;
+            margin-top: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .control-button {
+            padding: 20px 60px;
+            font-size: 1.5em;
+            font-weight: bold;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .start-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .start-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4);
+        }
+
+        .stop-button {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+        }
+
+        .stop-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(245, 87, 108, 0.4);
+        }
+
+        .control-button:active {
+            transform: translateY(0);
+        }
+
+        .result-message {
+            margin-top: 30px;
+            font-size: 2em;
+            color: #f5576c;
+            font-weight: bold;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .confetti {
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            background: #f5576c;
+            position: absolute;
+            animation: confetti-fall 3s linear;
+        }
+
+        @keyframes confetti-fall {
+            to {
+                transform: translateY(100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        .winner-animation {
+            animation: winner-pulse 0.5s ease-in-out 3;
+        }
+
+        @keyframes winner-pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+
+        .placeholder-text {
+            font-size: 3em;
+            color: #ccc;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 年会抽奖 🎉</h1>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-label">工卡剩余</div>
+                <div class="stat-value" id="gongka-count">100</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">长鸭剩余</div>
+                <div class="stat-value" id="change-count">3</div>
+            </div>
+        </div>
+
+        <div class="prize-display">
+            <div id="prize-container">
+                <div class="placeholder-text">准备开始抽奖！</div>
+            </div>
+        </div>
+
+        <div class="result-message" id="result-message"></div>
+
+        <button class="control-button start-button" id="control-button" onclick="toggleLottery()">
+            开始抽奖
+        </button>
+    </div>
+
+    <script>
+        let isRunning = false;
+        let intervalId = null;
+        let gongkaCount = 100;
+        let changeCount = 3;
+        const prizes = [];
+
+        // 初始化奖品池：100个工卡 + 3个长鸭
+        for (let i = 0; i < 100; i++) {
+            prizes.push({ name: '工卡', image: 'gongka.png', type: 'gongka' });
+        }
+        for (let i = 0; i < 3; i++) {
+            prizes.push({ name: '长鸭', image: 'change.png', type: 'change' });
+        }
+
+        // 打乱奖品顺序
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        shuffle(prizes);
+        let currentPrizeIndex = 0;
+
+        function toggleLottery() {
+            const button = document.getElementById('control-button');
+            const resultMessage = document.getElementById('result-message');
+
+            if (!isRunning) {
+                // 检查是否还有奖品
+                if (prizes.length === 0) {
+                    resultMessage.textContent = '所有奖品已抽完！';
+                    return;
+                }
+
+                // 开始抽奖
+                isRunning = true;
+                button.textContent = '停止抽奖';
+                button.className = 'control-button stop-button';
+                resultMessage.textContent = '';
+
+                intervalId = setInterval(() => {
+                    showRandomPrize();
+                }, 100);
+
+            } else {
+                // 停止抽奖并显示结果
+                isRunning = false;
+                clearInterval(intervalId);
+                button.textContent = '开始抽奖';
+                button.className = 'control-button start-button';
+
+                showWinner();
+            }
+        }
+
+        function showRandomPrize() {
+            if (prizes.length === 0) return;
+
+            const randomIndex = Math.floor(Math.random() * prizes.length);
+            const prize = prizes[randomIndex];
+            
+            const container = document.getElementById('prize-container');
+            container.innerHTML = `
+                <img src="${prize.image}" alt="${prize.name}" class="prize-image spinning" 
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <div class="prize-name" style="display:none;">${prize.name}</div>
+            `;
+        }
+
+        function showWinner() {
+            if (prizes.length === 0) {
+                document.getElementById('result-message').textContent = '所有奖品已抽完！';
+                return;
+            }
+
+            // 从奖品池中随机抽取一个奖品
+            const randomIndex = Math.floor(Math.random() * prizes.length);
+            const winnerPrize = prizes[randomIndex];
+            
+            // 从奖品池中移除已抽中的奖品
+            prizes.splice(randomIndex, 1);
+
+            // 更新计数
+            if (winnerPrize.type === 'gongka') {
+                gongkaCount--;
+                document.getElementById('gongka-count').textContent = gongkaCount;
+            } else {
+                changeCount--;
+                document.getElementById('change-count').textContent = changeCount;
+            }
+
+            // 显示中奖结果
+            const container = document.getElementById('prize-container');
+            container.innerHTML = `
+                <img src="${winnerPrize.image}" alt="${winnerPrize.name}" class="prize-image winner-animation" 
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <div class="prize-name winner-animation">${winnerPrize.name}</div>
+            `;
+
+            document.getElementById('result-message').textContent = `🎊 恭喜抽中：${winnerPrize.name}！🎊`;
+
+            // 播放庆祝动画
+            createConfetti();
+        }
+
+        function createConfetti() {
+            const colors = ['#f5576c', '#f093fb', '#667eea', '#764ba2', '#ffd700', '#ff6b6b'];
+            
+            for (let i = 0; i < 50; i++) {
+                setTimeout(() => {
+                    const confetti = document.createElement('div');
+                    confetti.className = 'confetti';
+                    confetti.style.left = Math.random() * window.innerWidth + 'px';
+                    confetti.style.background = colors[Math.floor(Math.random() * colors.length)];
+                    confetti.style.animationDelay = Math.random() * 0.5 + 's';
+                    document.body.appendChild(confetti);
+
+                    setTimeout(() => {
+                        confetti.remove();
+                    }, 3000);
+                }, i * 30);
+            }
+        }
+
+        // 图片加载失败时的处理
+        window.addEventListener('error', function(e) {
+            if (e.target.tagName === 'IMG') {
+                console.log('图片加载失败，使用文字显示');
+            }
+        }, true);
+    </script>
+</body>
+</html>

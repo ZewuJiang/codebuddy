@@ -1,0 +1,404 @@
+{
+    "_description": "历史数据库 — 10年宏观经济数据、美股Top50财报追踪、重大市场事件复盘",
+    "_version": "2.0",
+    "_updated": "2026-02-22",
+
+    "macro_data_sources": {
+        "_description": "宏观经济数据源及FRED API Series ID（可通过fredapi Python库获取历史数据）",
+        "fred_api_note": "需要申请免费API Key: https://api.stlouisfed.org/api_key.html",
+        "python_package": "pip install fredapi",
+        "key_series": {
+            "inflation": {
+                "CPIAUCSL": {"name": "CPI 城市消费者物价指数（季调）", "frequency": "monthly", "impact": "高", "note": "美联储重点关注的通胀指标之一"},
+                "CPILFESL": {"name": "核心CPI（剔除食品能源）", "frequency": "monthly", "impact": "高", "note": "更真实反映通胀趋势"},
+                "PCEPI": {"name": "PCE物价指数", "frequency": "monthly", "impact": "最高", "note": "美联储首选通胀指标"},
+                "PCEPILFE": {"name": "核心PCE（剔除食品能源）", "frequency": "monthly", "impact": "最高", "note": "美联储2%目标的锚定指标"},
+                "T5YIE": {"name": "5年期盈亏平衡通胀率", "frequency": "daily", "impact": "中", "note": "市场隐含通胀预期"},
+                "T10YIE": {"name": "10年期盈亏平衡通胀率", "frequency": "daily", "impact": "中", "note": "长期通胀预期"}
+            },
+            "employment": {
+                "PAYEMS": {"name": "非农就业总人数", "frequency": "monthly", "impact": "高", "note": "每月第一个周五发布"},
+                "UNRATE": {"name": "失业率", "frequency": "monthly", "impact": "高", "note": "美联储双重使命指标"},
+                "U6RATE": {"name": "U6广义失业率", "frequency": "monthly", "impact": "中", "note": "包含兼职和放弃求职者"},
+                "ICSA": {"name": "首次申请失业救济人数", "frequency": "weekly", "impact": "中", "note": "高频就业先行指标"},
+                "CCSA": {"name": "持续申请失业救济人数", "frequency": "weekly", "impact": "中", "note": "就业市场持续性指标"},
+                "AHETPI": {"name": "平均时薪（生产岗）", "frequency": "monthly", "impact": "中", "note": "工资通胀压力指标"},
+                "JTSJOL": {"name": "JOLTS职位空缺数", "frequency": "monthly", "impact": "中", "note": "劳动力市场供需缺口"}
+            },
+            "gdp_growth": {
+                "GDP": {"name": "名义GDP", "frequency": "quarterly", "impact": "高", "note": "经济总量"},
+                "GDPC1": {"name": "实际GDP", "frequency": "quarterly", "impact": "高", "note": "剔除通胀后的真实增长"},
+                "A191RL1Q225SBEA": {"name": "实际GDP环比年化增速", "frequency": "quarterly", "impact": "最高", "note": "经济增长的核心衡量"},
+                "GDPPOT": {"name": "潜在GDP", "frequency": "quarterly", "impact": "中", "note": "产出缺口参考"}
+            },
+            "fed_policy": {
+                "FEDFUNDS": {"name": "联邦基金有效利率", "frequency": "monthly", "impact": "最高", "note": "美联储政策利率"},
+                "DFEDTARU": {"name": "联邦基金目标利率上限", "frequency": "irregular", "impact": "最高", "note": "FOMC决议目标"},
+                "DFEDTARL": {"name": "联邦基金目标利率下限", "frequency": "irregular", "impact": "最高", "note": "FOMC决议目标"},
+                "WALCL": {"name": "美联储总资产（资产负债表）", "frequency": "weekly", "impact": "高", "note": "QE/QT核心指标"},
+                "RRPONTSYD": {"name": "隔夜逆回购(ON RRP)余额", "frequency": "daily", "impact": "高", "note": "流动性蓄水池指标"},
+                "WTREGEN": {"name": "TGA国库总账户余额", "frequency": "weekly", "impact": "高", "note": "财政部抽水/放水指标"},
+                "SOFR": {"name": "SOFR担保隔夜融资利率", "frequency": "daily", "impact": "高", "note": "银行间流动性关键指标"}
+            },
+            "rates_bonds": {
+                "DGS2": {"name": "2年期美债收益率", "frequency": "daily", "impact": "高", "note": "对美联储政策最敏感"},
+                "DGS10": {"name": "10年期美债收益率", "frequency": "daily", "impact": "高", "note": "全球资产定价锚"},
+                "DGS30": {"name": "30年期美债收益率", "frequency": "daily", "impact": "中", "note": "长期利率预期"},
+                "T10Y2Y": {"name": "10年-2年利差（收益率曲线）", "frequency": "daily", "impact": "高", "note": "倒挂是衰退预警信号"},
+                "T10Y3M": {"name": "10年-3月利差", "frequency": "daily", "impact": "高", "note": "更准确的衰退预警指标"},
+                "BAMLH0A0HYM2": {"name": "高收益债利差(ICE BofA)", "frequency": "daily", "impact": "高", "note": "信用风险温度计"}
+            },
+            "money_supply": {
+                "M2SL": {"name": "M2货币供应量", "frequency": "monthly", "impact": "中", "note": "广义货币总量"},
+                "M2V": {"name": "M2货币流通速度", "frequency": "quarterly", "impact": "中", "note": "货币效率指标"}
+            },
+            "housing": {
+                "CSUSHPISA": {"name": "Case-Shiller全国房价指数", "frequency": "monthly", "impact": "中", "note": "房地产市场健康度"},
+                "HOUST": {"name": "新屋开工数", "frequency": "monthly", "impact": "中", "note": "建筑业先行指标"},
+                "PERMIT": {"name": "建筑许可数", "frequency": "monthly", "impact": "中", "note": "建筑业前瞻指标"},
+                "MORTGAGE30US": {"name": "30年固定抵押贷款利率", "frequency": "weekly", "impact": "高", "note": "直接影响购房需求"}
+            },
+            "business_activity": {
+                "MANEMP": {"name": "ISM制造业就业指数", "frequency": "monthly", "impact": "中", "note": "制造业扩张/收缩"},
+                "INDPRO": {"name": "工业生产指数", "frequency": "monthly", "impact": "中", "note": "实体经济活动"},
+                "RSAFS": {"name": "零售销售额", "frequency": "monthly", "impact": "高", "note": "消费者支出强度"},
+                "UMCSENT": {"name": "密歇根消费者信心指数", "frequency": "monthly", "impact": "中", "note": "消费者情绪前瞻"},
+                "VIXCLS": {"name": "VIX恐慌指数", "frequency": "daily", "impact": "高", "note": "市场恐惧/贪婪温度计"}
+            },
+            "global": {
+                "DEXJPUS": {"name": "USD/JPY汇率", "frequency": "daily", "impact": "高", "note": "套利交易核心指标"},
+                "DEXUSEU": {"name": "USD/EUR汇率", "frequency": "daily", "impact": "中", "note": "美元强弱参考"},
+                "DTWEXBGS": {"name": "美元贸易加权指数", "frequency": "daily", "impact": "中", "note": "广义美元强度"}
+            },
+            "net_liquidity_formula": {
+                "_description": "净流动性 = 美联储总资产(WALCL) - TGA余额(WTREGEN) - ON RRP余额(RRPONTSYD)",
+                "note": "净流动性是驱动风险资产的核心变量，单周下降>5%需预警",
+                "series_ids": ["WALCL", "WTREGEN", "RRPONTSYD"]
+            }
+        }
+    },
+
+    "us_stock_top50": {
+        "_description": "美股市值Top50公司列表（截至2026年2月），用于价值投资分析和财报追踪",
+        "_source": "MarketCap.com, 实时市值排序",
+        "companies": [
+            {"rank": 1, "ticker": "AAPL", "name": "苹果", "name_en": "Apple", "sector": "科技", "sub_sector": "消费电子/服务"},
+            {"rank": 2, "ticker": "MSFT", "name": "微软", "name_en": "Microsoft", "sector": "科技", "sub_sector": "云计算/软件"},
+            {"rank": 3, "ticker": "GOOGL", "name": "谷歌", "name_en": "Alphabet", "sector": "科技", "sub_sector": "搜索/云/AI"},
+            {"rank": 4, "ticker": "AMZN", "name": "亚马逊", "name_en": "Amazon", "sector": "科技", "sub_sector": "电商/云计算"},
+            {"rank": 5, "ticker": "NVDA", "name": "英伟达", "name_en": "NVIDIA", "sector": "半导体", "sub_sector": "GPU/AI芯片"},
+            {"rank": 6, "ticker": "META", "name": "Meta", "name_en": "Meta Platforms", "sector": "科技", "sub_sector": "社交/广告/VR"},
+            {"rank": 7, "ticker": "BRK-B", "name": "伯克希尔", "name_en": "Berkshire Hathaway", "sector": "金融", "sub_sector": "综合控股"},
+            {"rank": 8, "ticker": "TSLA", "name": "特斯拉", "name_en": "Tesla", "sector": "汽车", "sub_sector": "电动车/能源"},
+            {"rank": 9, "ticker": "LLY", "name": "礼来", "name_en": "Eli Lilly", "sector": "医疗", "sub_sector": "制药/GLP-1"},
+            {"rank": 10, "ticker": "AVGO", "name": "博通", "name_en": "Broadcom", "sector": "半导体", "sub_sector": "网络芯片/定制ASIC"},
+            {"rank": 11, "ticker": "JPM", "name": "摩根大通", "name_en": "JPMorgan Chase", "sector": "金融", "sub_sector": "投行/商业银行"},
+            {"rank": 12, "ticker": "V", "name": "Visa", "name_en": "Visa", "sector": "金融", "sub_sector": "支付网络"},
+            {"rank": 13, "ticker": "WMT", "name": "沃尔玛", "name_en": "Walmart", "sector": "消费", "sub_sector": "零售"},
+            {"rank": 14, "ticker": "UNH", "name": "联合健康", "name_en": "UnitedHealth", "sector": "医疗", "sub_sector": "医疗保险"},
+            {"rank": 15, "ticker": "XOM", "name": "埃克森美孚", "name_en": "Exxon Mobil", "sector": "能源", "sub_sector": "石油/天然气"},
+            {"rank": 16, "ticker": "MA", "name": "万事达", "name_en": "Mastercard", "sector": "金融", "sub_sector": "支付网络"},
+            {"rank": 17, "ticker": "JNJ", "name": "强生", "name_en": "Johnson & Johnson", "sector": "医疗", "sub_sector": "制药/医疗器械"},
+            {"rank": 18, "ticker": "PG", "name": "宝洁", "name_en": "Procter & Gamble", "sector": "消费", "sub_sector": "日化必需品"},
+            {"rank": 19, "ticker": "TSM", "name": "台积电", "name_en": "TSMC", "sector": "半导体", "sub_sector": "晶圆代工"},
+            {"rank": 20, "ticker": "COST", "name": "Costco", "name_en": "Costco", "sector": "消费", "sub_sector": "仓储会员零售"},
+            {"rank": 21, "ticker": "HD", "name": "家得宝", "name_en": "Home Depot", "sector": "消费", "sub_sector": "家居建材"},
+            {"rank": 22, "ticker": "NFLX", "name": "奈飞", "name_en": "Netflix", "sector": "科技", "sub_sector": "流媒体"},
+            {"rank": 23, "ticker": "BAC", "name": "美国银行", "name_en": "Bank of America", "sector": "金融", "sub_sector": "商业银行"},
+            {"rank": 24, "ticker": "ABBV", "name": "艾伯维", "name_en": "AbbVie", "sector": "医疗", "sub_sector": "生物制药"},
+            {"rank": 25, "ticker": "ORCL", "name": "甲骨文", "name_en": "Oracle", "sector": "科技", "sub_sector": "数据库/云"},
+            {"rank": 26, "ticker": "CRM", "name": "Salesforce", "name_en": "Salesforce", "sector": "科技", "sub_sector": "CRM/SaaS"},
+            {"rank": 27, "ticker": "KO", "name": "可口可乐", "name_en": "Coca-Cola", "sector": "消费", "sub_sector": "饮料"},
+            {"rank": 28, "ticker": "PEP", "name": "百事", "name_en": "PepsiCo", "sector": "消费", "sub_sector": "饮料/零食"},
+            {"rank": 29, "ticker": "CVX", "name": "雪佛龙", "name_en": "Chevron", "sector": "能源", "sub_sector": "石油/天然气"},
+            {"rank": 30, "ticker": "MRK", "name": "默克", "name_en": "Merck", "sector": "医疗", "sub_sector": "制药"},
+            {"rank": 31, "ticker": "AMD", "name": "AMD", "name_en": "AMD", "sector": "半导体", "sub_sector": "CPU/GPU"},
+            {"rank": 32, "ticker": "ADBE", "name": "Adobe", "name_en": "Adobe", "sector": "科技", "sub_sector": "创意软件/AI"},
+            {"rank": 33, "ticker": "TMO", "name": "赛默飞", "name_en": "Thermo Fisher", "sector": "医疗", "sub_sector": "科学仪器"},
+            {"rank": 34, "ticker": "ACN", "name": "埃森哲", "name_en": "Accenture", "sector": "科技", "sub_sector": "IT咨询"},
+            {"rank": 35, "ticker": "CSCO", "name": "思科", "name_en": "Cisco", "sector": "科技", "sub_sector": "网络设备"},
+            {"rank": 36, "ticker": "MCD", "name": "麦当劳", "name_en": "McDonald's", "sector": "消费", "sub_sector": "快餐"},
+            {"rank": 37, "ticker": "ABT", "name": "雅培", "name_en": "Abbott", "sector": "医疗", "sub_sector": "医疗器械/诊断"},
+            {"rank": 38, "ticker": "NVO", "name": "诺和诺德", "name_en": "Novo Nordisk", "sector": "医疗", "sub_sector": "制药/GLP-1"},
+            {"rank": 39, "ticker": "DHR", "name": "丹纳赫", "name_en": "Danaher", "sector": "医疗", "sub_sector": "生命科学"},
+            {"rank": 40, "ticker": "LOW", "name": "劳氏", "name_en": "Lowe's", "sector": "消费", "sub_sector": "家居建材"},
+            {"rank": 41, "ticker": "AXP", "name": "美国运通", "name_en": "American Express", "sector": "金融", "sub_sector": "信用卡"},
+            {"rank": 42, "ticker": "BKNG", "name": "Booking", "name_en": "Booking Holdings", "sector": "消费", "sub_sector": "在线旅游"},
+            {"rank": 43, "ticker": "INTU", "name": "Intuit", "name_en": "Intuit", "sector": "科技", "sub_sector": "财税软件"},
+            {"rank": 44, "ticker": "ISRG", "name": "直觉外科", "name_en": "Intuitive Surgical", "sector": "医疗", "sub_sector": "手术机器人"},
+            {"rank": 45, "ticker": "GE", "name": "通用电气", "name_en": "GE Aerospace", "sector": "工业", "sub_sector": "航空发动机"},
+            {"rank": 46, "ticker": "CAT", "name": "卡特彼勒", "name_en": "Caterpillar", "sector": "工业", "sub_sector": "重型机械"},
+            {"rank": 47, "ticker": "SPGI", "name": "标普全球", "name_en": "S&P Global", "sector": "金融", "sub_sector": "评级/数据"},
+            {"rank": 48, "ticker": "BLK", "name": "贝莱德", "name_en": "BlackRock", "sector": "金融", "sub_sector": "资产管理"},
+            {"rank": 49, "ticker": "MS", "name": "摩根士丹利", "name_en": "Morgan Stanley", "sector": "金融", "sub_sector": "投行"},
+            {"rank": 50, "ticker": "TCEHY", "name": "腾讯ADR", "name_en": "Tencent", "sector": "中概", "sub_sector": "游戏/社交/金融科技"}
+        ],
+        "sector_allocation": {
+            "科技": ["AAPL", "MSFT", "GOOGL", "AMZN", "META", "NFLX", "ORCL", "CRM", "ADBE", "ACN", "CSCO", "INTU"],
+            "半导体": ["NVDA", "AVGO", "TSM", "AMD"],
+            "金融": ["BRK-B", "JPM", "V", "MA", "BAC", "AXP", "SPGI", "BLK", "MS"],
+            "医疗": ["LLY", "UNH", "JNJ", "ABBV", "MRK", "TMO", "ABT", "NVO", "DHR", "ISRG"],
+            "消费": ["WMT", "COST", "HD", "KO", "PEP", "MCD", "LOW", "BKNG", "PG"],
+            "能源": ["XOM", "CVX"],
+            "工业": ["GE", "CAT"],
+            "汽车": ["TSLA"],
+            "中概": ["TCEHY"]
+        }
+    },
+
+    "major_market_events": {
+        "_description": "过去16年重大市场事件详细复盘（2008-2026），用于历史模式匹配和决策参考",
+        "events": [
+            {
+                "id": "gfc_2008",
+                "name": "2008全球金融危机",
+                "period": "2007-10 至 2009-03",
+                "trigger": "美国次级贷款崩溃 → 雷曼兄弟破产 → 全球信贷冻结",
+                "key_timeline": [
+                    {"date": "2007-10-09", "event": "标普500触及1565高点"},
+                    {"date": "2008-03-16", "event": "贝尔斯登被摩根大通收购"},
+                    {"date": "2008-09-15", "event": "雷曼兄弟破产"},
+                    {"date": "2008-10-03", "event": "TARP 7000亿美元救助计划通过"},
+                    {"date": "2008-12-16", "event": "美联储降息至0-0.25%"},
+                    {"date": "2009-03-09", "event": "标普500触底666点（跌57%）"},
+                    {"date": "2009-03-18", "event": "美联储启动QE1（购买MBS）"}
+                ],
+                "key_data": {
+                    "sp500_peak": 1565, "sp500_trough": 666, "max_drawdown": "-57%",
+                    "vix_peak": 89.53, "unemployment_peak": "10.0%",
+                    "fed_rate_before": "5.25%", "fed_rate_after": "0-0.25%",
+                    "duration_months": 17
+                },
+                "lessons": [
+                    "信用危机比股市危机更可怕——信用利差是领先指标",
+                    "当金融系统性风险出现时，先保全资本",
+                    "美联储终将出手——但等待其明确行动后再加仓",
+                    "恐慌底部是十年一遇的买入机会",
+                    "V型反弹很少见，U型底部更常见（需要数月底部盘整）"
+                ]
+            },
+            {
+                "id": "euro_debt_2011",
+                "name": "2011欧债危机/美债评级下调",
+                "period": "2011-05 至 2011-10",
+                "trigger": "希腊债务危机蔓延 + 标普下调美国主权评级至AA+",
+                "key_timeline": [
+                    {"date": "2011-05-02", "event": "标普500触及1370高点"},
+                    {"date": "2011-08-05", "event": "标普下调美国信用评级至AA+"},
+                    {"date": "2011-08-08", "event": "标普500单日暴跌6.7%"},
+                    {"date": "2011-10-04", "event": "标普500触底1075（跌21.6%）"},
+                    {"date": "2011-11-30", "event": "全球央行联合干预美元互换"}
+                ],
+                "key_data": {
+                    "sp500_peak": 1370, "sp500_trough": 1075, "max_drawdown": "-21.6%",
+                    "vix_peak": 48, "gold_peak": 1920
+                },
+                "lessons": [
+                    "主权债务危机传导路径：债券→银行→股市",
+                    "央行联合行动是市场底部信号",
+                    "跌幅接近20%时（技术性熊市定义）开始关注买入机会"
+                ]
+            },
+            {
+                "id": "china_deval_2015",
+                "name": "2015中国汇改/全球恐慌",
+                "period": "2015-08 至 2016-02",
+                "trigger": "中国央行意外人民币贬值 → A股暴跌 → 全球风险偏好崩塌",
+                "key_timeline": [
+                    {"date": "2015-08-11", "event": "中国央行意外贬值人民币1.9%"},
+                    {"date": "2015-08-24", "event": "全球黑色星期一，道指盘中跌1000点"},
+                    {"date": "2016-02-11", "event": "原油跌至$26.21/桶（13年低点）"},
+                    {"date": "2016-02-11", "event": "标普500触底1810，随后V型反弹"}
+                ],
+                "key_data": {
+                    "sp500_drawdown": "-14.2%", "vix_peak": 53,
+                    "oil_low": 26.21, "china_devaluation": "7%累计"
+                },
+                "lessons": [
+                    "中国政策变动可以引发全球连锁反应",
+                    "新兴市场风险传导：汇率→商品→发达市场",
+                    "恐慌性暴跌往往是快速抛售+快速恢复"
+                ]
+            },
+            {
+                "id": "volmageddon_2018",
+                "name": "2018波动率末日(Volmageddon)/贸易战/美联储加息",
+                "period": "2018-01 至 2018-12",
+                "trigger": "XIV ETN爆仓(2月) → 中美贸易战(3月起) → 美联储持续加息(全年4次)",
+                "key_timeline": [
+                    {"date": "2018-01-26", "event": "标普500触及2873高点"},
+                    {"date": "2018-02-05", "event": "Volmageddon: XIV归零，VIX暴涨115%"},
+                    {"date": "2018-03-22", "event": "特朗普签署对华关税备忘录"},
+                    {"date": "2018-10-03", "event": "鲍威尔'距中性利率还很远'鹰派发言"},
+                    {"date": "2018-12-24", "event": "圣诞节前夕标普500触底2351（跌19.8%）"},
+                    {"date": "2019-01-04", "event": "鲍威尔转鸽，美联储暂停加息"}
+                ],
+                "key_data": {
+                    "sp500_drawdown": "-19.8%", "vix_peak_feb": 50,
+                    "fed_rate_peak": "2.50%", "rate_hikes_2018": 4
+                },
+                "lessons": [
+                    "美联储过度紧缩是最大风险——关注美联储rhetoric变化",
+                    "波动率产品可以放大市场波动（结构性风险）",
+                    "贸易战影响是渐进式而非一次性冲击",
+                    "美联储转鸽=市场底部信号"
+                ]
+            },
+            {
+                "id": "covid_2020",
+                "name": "2020新冠疫情流动性危机",
+                "period": "2020-02 至 2020-03",
+                "trigger": "全球疫情恐慌 → 企业债市场冻结 → 所有资产同步抛售（包括国债和黄金）",
+                "key_timeline": [
+                    {"date": "2020-02-19", "event": "标普500触及3386高点"},
+                    {"date": "2020-03-03", "event": "美联储紧急降息50bp"},
+                    {"date": "2020-03-09", "event": "原油暴跌25%（沙特价格战），熔断#1"},
+                    {"date": "2020-03-12", "event": "熔断#2，特朗普宣布欧洲旅行禁令"},
+                    {"date": "2020-03-15", "event": "美联储紧急降息至0%+QE无限量"},
+                    {"date": "2020-03-16", "event": "熔断#3，标普跌12%"},
+                    {"date": "2020-03-23", "event": "标普500触底2237（跌34%），美联储无限QE"},
+                    {"date": "2020-03-27", "event": "CARES法案2.2万亿美元刺激通过"},
+                    {"date": "2020-08-18", "event": "标普500收复全部跌幅（5个月V型反弹）"}
+                ],
+                "key_data": {
+                    "sp500_peak": 3386, "sp500_trough": 2237, "max_drawdown": "-34%",
+                    "vix_peak": 82.69, "crash_speed": "23个交易日跌34%（史上最快熊市）",
+                    "recovery_speed": "5个月V型反弹",
+                    "fed_balance_sheet_expansion": "+$3万亿"
+                },
+                "lessons": [
+                    "当美联储all-in时（无限QE），流动性危机会快速解决",
+                    "恐慌性抛售=长期买点（前提是经济非结构性崩溃）",
+                    "观察信用市场（HYG利差）比股市更早发出信号",
+                    "V型反弹的前提是巨额财政+货币刺激同步到位",
+                    "所有资产同时下跌是流动性危机的典型特征"
+                ]
+            },
+            {
+                "id": "meme_stocks_2021",
+                "name": "2021 Meme股狂潮 / 史上最大散户运动",
+                "period": "2021-01 至 2021-02",
+                "trigger": "Reddit WallStreetBets散户vs.对冲基金做空 → GME/AMC逼空",
+                "key_timeline": [
+                    {"date": "2021-01-13", "event": "GME从$20开始暴涨"},
+                    {"date": "2021-01-28", "event": "GME触及$483高点，Robinhood限制买入"},
+                    {"date": "2021-01-29", "event": "Melvin Capital巨亏53%，获Citadel注资"},
+                    {"date": "2021-02-18", "event": "DFV国会听证"}
+                ],
+                "key_data": {
+                    "gme_low": 20, "gme_peak": 483, "melvin_loss": "-53%"
+                },
+                "lessons": [
+                    "社交媒体可以协调散户行为形成巨大市场力量",
+                    "做空高拥挤度股票的风险极大",
+                    "监管干预（限制交易）是新的系统性风险"
+                ]
+            },
+            {
+                "id": "fed_hiking_2022",
+                "name": "2022美联储激进加息周期",
+                "period": "2022-01 至 2022-10",
+                "trigger": "通胀飙升至9.1%（40年最高） → 美联储暴力加息（连续4次75bp）",
+                "key_timeline": [
+                    {"date": "2022-01-03", "event": "标普500触及4797高点"},
+                    {"date": "2022-03-16", "event": "美联储首次加息25bp"},
+                    {"date": "2022-05-04", "event": "加息50bp"},
+                    {"date": "2022-06-13", "event": "CPI触及9.1%（40年高点）"},
+                    {"date": "2022-06-15", "event": "首次75bp加息"},
+                    {"date": "2022-07-27", "event": "第二次75bp"},
+                    {"date": "2022-09-21", "event": "第三次75bp"},
+                    {"date": "2022-09-26", "event": "英国养老金LDI危机"},
+                    {"date": "2022-10-12", "event": "标普500触底3491（跌27.3%）"},
+                    {"date": "2022-11-02", "event": "第四次75bp（连续加息至3.75-4%）"},
+                    {"date": "2022-11-10", "event": "10月CPI低于预期（7.7%），市场暴涨5.5%"},
+                    {"date": "2022-12-14", "event": "放慢至50bp，市场开始消化转向预期"}
+                ],
+                "key_data": {
+                    "sp500_peak": 4797, "sp500_trough": 3491, "max_drawdown": "-27.3%",
+                    "cpi_peak": "9.1%", "fed_rate_start": "0-0.25%", "fed_rate_end_2022": "4.25-4.50%",
+                    "us10y_peak": "4.34%", "btc_drawdown": "-77% (from $69K to $15.5K)",
+                    "move_index_peak": 199
+                },
+                "lessons": [
+                    "通胀是美联储的核心变量——CPI趋势比绝对值更重要",
+                    "利率周期顶部附近买入（即使当时看起来很可怕）",
+                    "英国LDI事件提醒：隐藏的杠杆可以引发连锁反应",
+                    "CPI拐点=美联储转向预期=市场底部的必要条件",
+                    "加密货币在流动性收紧环境中是最脆弱的资产类别"
+                ]
+            },
+            {
+                "id": "svb_crisis_2023",
+                "name": "2023硅谷银行危机/区域银行挤兑",
+                "period": "2023-03",
+                "trigger": "硅谷银行(SVB)因利率敏感性资产巨亏→存款挤兑→FDIC接管→区域银行恐慌蔓延",
+                "key_timeline": [
+                    {"date": "2023-03-08", "event": "SVB宣布18亿美元亏损+增发股票"},
+                    {"date": "2023-03-10", "event": "SVB被FDIC接管，股价归零"},
+                    {"date": "2023-03-12", "event": "美联储/FDIC/财政部联合声明，推出BTFP贷款工具"},
+                    {"date": "2023-03-13", "event": "Signature Bank倒闭"},
+                    {"date": "2023-03-15", "event": "瑞士信贷暴跌引发欧洲银行恐慌"},
+                    {"date": "2023-03-19", "event": "瑞银以$32亿收购瑞信"},
+                    {"date": "2023-05-01", "event": "第一共和银行被FDIC接管（摩根大通收购）"}
+                ],
+                "key_data": {
+                    "sp500_drawdown": "-7.8%", "kre_drawdown": "-37% (区域银行ETF)",
+                    "btfp_peak_usage": "$1640亿"
+                },
+                "lessons": [
+                    "利率快速上升会暴露银行资产负债表的期限错配",
+                    "存款挤兑在社交媒体时代可以在48小时内发生",
+                    "美联储有工具阻止系统性银行危机扩散",
+                    "区域银行危机反而助推了降息预期→科技股反弹"
+                ]
+            },
+            {
+                "id": "carry_unwind_2024",
+                "name": "2024日元套利交易平仓冲击",
+                "period": "2024-07 至 2024-08",
+                "trigger": "日本央行意外加息 → 日元暴涨 → 全球杠杆套利头寸大规模平仓",
+                "key_timeline": [
+                    {"date": "2024-07-31", "event": "日本央行加息15bp至0.25%"},
+                    {"date": "2024-08-01", "event": "美联储维持利率不变，暗示9月降息"},
+                    {"date": "2024-08-02", "event": "非农就业数据大幅低于预期"},
+                    {"date": "2024-08-05", "event": "全球黑色星期一：日经跌12.4%（1987年来最大），纳指跌3.4%，VIX升至65"},
+                    {"date": "2024-08-07", "event": "日本央行副行长安抚市场，暗示不会继续加息"},
+                    {"date": "2024-08-16", "event": "市场基本收复全部跌幅"}
+                ],
+                "key_data": {
+                    "usdjpy_move": "160→142（-11%）", "vix_peak": 65,
+                    "nikkei_one_day_drop": "-12.4%", "nasdaq_drawdown": "-13%",
+                    "recovery_time": "约2周"
+                },
+                "lessons": [
+                    "套利交易平仓是流动性冲击而非基本面恶化",
+                    "USD/JPY是全球最重要的风险指标之一",
+                    "VIX暴涨+快速恢复=交易性底部而非趋势性底部",
+                    "日元快速升值>3%/周是核心预警信号"
+                ]
+            },
+            {
+                "id": "liquidity_crunch_2026feb",
+                "name": "2026年2月全球流动性收紧",
+                "period": "2026-01 至 2026-02",
+                "trigger": "日债收益率跳涨 + TGA高企 + CME连续提高保证金 → 全资产抛售",
+                "key_timeline": [
+                    {"date": "2026-01-20", "event": "日本10年期国债收益率突破1.5%"},
+                    {"date": "2026-01-25", "event": "CME第4次提高黄金期货保证金"},
+                    {"date": "2026-02-01", "event": "黄金白银暴跌，全球股市同步下跌"},
+                    {"date": "2026-02-05", "event": "CME第6次提高保证金，市场加速下跌"},
+                    {"date": "2026-02-10", "event": "Agent提前48小时发出流动性危机预警"}
+                ],
+                "key_data": {
+                    "trigger_signals": ["日债收益率跳涨", "TGA余额高企", "CME连续6次提保证金", "黄金白银崩盘"],
+                    "matched_pattern": "2024年8月日元套利+2022年英国LDI组合型危机"
+                },
+                "lessons": [
+                    "多项流动性收紧信号密集出现时不要抄底",
+                    "CME连续提高保证金=杠杆头寸被强制清算的前奏",
+                    "等待流动性恢复信号（TGA下降/ON RRP上升/美联储干预）再入场"
+                ]
+            }
+        ]
+    }
+}

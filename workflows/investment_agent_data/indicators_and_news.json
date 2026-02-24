@@ -1,0 +1,385 @@
+{
+    "_description": "重要指标与新闻 — 财经媒体/信息渠道、美联储政策日历、财报日期、Twitter关键人物、宏观指标体系、行业数据追踪",
+    "_version": "2.0",
+    "_updated": "2026-02-22",
+    "_philosophy": "从全球顶尖投资分析师视角，追踪信息源头，重质不重量",
+
+    "media_channels": {
+        "_description": "顶级财经媒体和信息渠道，按重要性和时效性分级",
+        "tier1_must_read": {
+            "_note": "每日必读，全球宏观最重要的信息源",
+            "channels": [
+                {"name": "Bloomberg Terminal / Bloomberg.com", "url": "https://www.bloomberg.com", "focus": "全球宏观、市场数据、独家新闻", "frequency": "实时", "note": "华尔街标配，最快最全"},
+                {"name": "Reuters", "url": "https://www.reuters.com", "focus": "全球宏观、央行政策、突发新闻", "frequency": "实时", "note": "最权威的通讯社之一"},
+                {"name": "Wall Street Journal", "url": "https://www.wsj.com", "focus": "深度财经报道、Fed政策解读", "frequency": "每日", "note": "Nick Timiraos是Fed非官方传声筒"},
+                {"name": "Financial Times", "url": "https://www.ft.com", "focus": "全球视角、欧洲/亚洲宏观", "frequency": "每日", "note": "全球投资者视角最佳"},
+                {"name": "Federal Reserve", "url": "https://www.federalreserve.gov", "focus": "FOMC声明、会议纪要、讲话稿", "frequency": "不定期", "note": "美联储官方一手信息"}
+            ]
+        },
+        "tier2_important": {
+            "_note": "每日扫描，重要分析和数据源",
+            "channels": [
+                {"name": "CNBC", "url": "https://www.cnbc.com", "focus": "美股实时报道、CEO访谈", "frequency": "实时"},
+                {"name": "MarketWatch", "url": "https://www.marketwatch.com", "focus": "市场数据、技术分析", "frequency": "实时"},
+                {"name": "Barron's", "url": "https://www.barrons.com", "focus": "深度股票分析、周末刊", "frequency": "每周"},
+                {"name": "The Economist", "url": "https://www.economist.com", "focus": "全球宏观战略分析", "frequency": "每周"},
+                {"name": "Zero Hedge", "url": "https://www.zerohedge.com", "focus": "另类观点、流动性分析", "frequency": "每日", "note": "偏空但流动性分析深入"},
+                {"name": "MacroVoices", "url": "https://www.macrovoices.com", "focus": "宏观播客（周更）", "frequency": "每周", "note": "Erik Townsend主持，顶级嘉宾"},
+                {"name": "Real Vision", "url": "https://www.realvision.com", "focus": "深度投资访谈", "frequency": "每日", "note": "Raoul Pal创办"}
+            ]
+        },
+        "tier3_data_sources": {
+            "_note": "关键数据发布网站",
+            "channels": [
+                {"name": "FRED (Federal Reserve Economic Data)", "url": "https://fred.stlouisfed.org", "focus": "美国宏观经济数据库", "note": "免费API，数据最全"},
+                {"name": "BLS (Bureau of Labor Statistics)", "url": "https://www.bls.gov", "focus": "CPI、非农就业、PPI官方数据", "note": "第一手就业和通胀数据"},
+                {"name": "BEA (Bureau of Economic Analysis)", "url": "https://www.bea.gov", "focus": "GDP、PCE官方数据", "note": "第一手GDP和PCE数据"},
+                {"name": "Treasury.gov", "url": "https://home.treasury.gov", "focus": "TGA余额、国债拍卖", "note": "财政部官方"},
+                {"name": "CME FedWatch", "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html", "focus": "利率期货隐含的加息/降息概率", "note": "市场对美联储的实时定价"},
+                {"name": "ISDA SIMM / CME Margins", "url": "https://www.cmegroup.com/clearing/margins/", "focus": "期货保证金变化", "note": "保证金连续提高=杠杆清算预警"},
+                {"name": "TradingView", "url": "https://www.tradingview.com", "focus": "技术图表、实时行情", "note": "最流行的图表工具"},
+                {"name": "Finviz", "url": "https://www.finviz.com", "focus": "股票筛选器、热力图", "note": "板块轮动一目了然"},
+                {"name": "NAAIM Exposure Index", "url": "https://www.naaim.org/programs/naaim-exposure-index/", "focus": "机构投资者仓位暴露指数", "note": "机构配置变化的先行指标"},
+                {"name": "AAII Sentiment Survey", "url": "https://www.aaii.com/sentimentsurvey", "focus": "散户情绪调查", "note": "经典反向指标"},
+                {"name": "CNN Fear & Greed Index", "url": "https://money.cnn.com/data/fear-and-greed/", "focus": "恐惧贪婪指数", "note": "7个子指标综合"},
+                {"name": "Glassnode", "url": "https://glassnode.com", "focus": "链上数据（BTC/ETH）", "note": "MVRV、NUPL、LTH等链上指标"},
+                {"name": "CoinGlass", "url": "https://www.coinglass.com", "focus": "加密货币衍生品数据", "note": "资金费率、清算数据"}
+            ]
+        },
+        "tier4_research": {
+            "_note": "深度研究报告来源",
+            "channels": [
+                {"name": "Goldman Sachs Research", "focus": "全球宏观策略", "note": "Jan Hatzius团队"},
+                {"name": "Morgan Stanley Research", "focus": "全球策略、新兴市场", "note": "Mike Wilson美股策略"},
+                {"name": "JPMorgan Research", "focus": "量化策略、信用分析", "note": "Marko Kolanovic量化"},
+                {"name": "BofA Global Research", "focus": "基金经理调查（FMS）", "note": "每月FMS是机构情绪风向标"},
+                {"name": "Bridgewater Daily Observations", "focus": "宏观/去杠杆化/流动性", "note": "Ray Dalio创办"},
+                {"name": "Lyn Alden Investment Strategy", "url": "https://www.lynalden.com", "focus": "宏观流动性分析", "note": "最佳免费宏观分析之一"},
+                {"name": "CrossBorder Capital", "url": "https://www.crossbordercapital.com", "focus": "全球流动性追踪", "note": "Michael Howell全球流动性模型"}
+            ]
+        }
+    },
+
+    "twitter_key_accounts": {
+        "_description": "50个Twitter/X上最有价值的宏观分析师、基金经理和投资思想领袖",
+        "_selection_criteria": "基于信息时效性、分析深度、预测准确率和行业影响力筛选",
+
+        "macro_economists": {
+            "_note": "宏观经济学家和策略师 — 理解大周期和政策走向",
+            "accounts": [
+                {"handle": "@NickTimiraos", "name": "Nick Timiraos", "role": "WSJ首席美联储记者", "focus": "美联储政策", "priority": "最高", "note": "被称为'美联储传声筒'，FOMC前最重要的信息源"},
+                {"handle": "@michaelsderby", "name": "Michael S. Derby", "role": "WSJ美联储记者", "focus": "美联储讲话/纪要解读", "priority": "高"},
+                {"handle": "@RaoulGMI", "name": "Raoul Pal", "role": "Real Vision CEO/前高盛", "focus": "宏观流动性、加密", "priority": "高", "note": "全球流动性周期理论推广者"},
+                {"handle": "@LynAldenContact", "name": "Lyn Alden", "role": "独立宏观分析师", "focus": "流动性、财政赤字、BTC", "priority": "高", "note": "最好的免费宏观分析之一"},
+                {"handle": "@LukeGromen", "name": "Luke Gromen", "role": "FFTT LLC创始人", "focus": "美元体系/财政", "priority": "高", "note": "美国财政主导(fiscal dominance)理论"},
+                {"handle": "@JeffSnider_AIP", "name": "Jeff Snider", "role": "Eurodollar分析师", "focus": "美元流动性/回购市场", "priority": "高", "note": "全球美元短缺理论"},
+                {"handle": "@biaborsobizari", "name": "Jim Bianco", "role": "Bianco Research创始人", "focus": "固收/利率/美联储", "priority": "高", "note": "债券市场最权威的声音之一"},
+                {"handle": "@elerianm", "name": "Mohamed El-Erian", "role": "前PIMCO CEO/Allianz首席经济顾问", "focus": "全球宏观", "priority": "高", "note": "New Normal概念提出者"},
+                {"handle": "@jaborosi", "name": "Julia Coronado", "role": "MacroPolicy Perspectives创始人/前美联储", "focus": "美联储政策分析", "priority": "中高"},
+                {"handle": "@daborosi", "name": "David Rosenberg", "role": "Rosenberg Research", "focus": "宏观/周期分析", "priority": "中", "note": "偏空但分析严谨"}
+            ]
+        },
+
+        "equity_strategists": {
+            "_note": "股票策略师和基金经理 — 指导选股和仓位",
+            "accounts": [
+                {"handle": "@WarrenBuffett", "name": "Warren Buffett", "role": "伯克希尔CEO", "focus": "价值投资", "priority": "高", "note": "不活跃但每次发言必关注"},
+                {"handle": "@StanleyDruckenmiller", "name": "Stanley Druckenmiller", "role": "传奇基金经理", "focus": "宏观对冲", "priority": "高", "note": "公开演讲含金量极高"},
+                {"handle": "@chaaborosi", "name": "Chamath Palihapitiya", "role": "Social Capital CEO", "focus": "科技/VC/宏观", "priority": "中", "note": "科技投资视角独特"},
+                {"handle": "@ACInvestorBlog", "name": "Albert Edwards", "role": "法国兴业银行全球策略师", "focus": "冰河时代(Ice Age)理论", "priority": "中", "note": "最著名的长期空头之一"},
+                {"handle": "@TihoBrkan", "name": "Tiho Brkan", "role": "Atlas Pulse创始人", "focus": "全球资产配置", "priority": "中", "note": "数据可视化出色"},
+                {"handle": "@KeithMcCullough", "name": "Keith McCullough", "role": "Hedgeye CEO", "focus": "四象限经济模型", "priority": "中高", "note": "GIP模型(Growth/Inflation/Policy)"},
+                {"handle": "@haborosi", "name": "Howard Marks", "role": "Oaktree Capital联创", "focus": "信用周期/风险管理", "priority": "高", "note": "每份备忘录必读"}
+            ]
+        },
+
+        "quant_technicals": {
+            "_note": "量化分析师和技术分析师 — 提供数据驱动的信号",
+            "accounts": [
+                {"handle": "@MacroAlf", "name": "Alfonso Peccatiello", "role": "The Macro Compass创始人", "focus": "宏观/固收/流动性量化", "priority": "最高", "note": "最好的宏观量化分析Twitter账号"},
+                {"handle": "@WifeyAlpha", "name": "Wifey Alpha", "role": "量化策略师", "focus": "期权/波动率/量化", "priority": "高", "note": "数据分析极其深入"},
+                {"handle": "@GameofTrades_", "name": "Game of Trades", "role": "技术分析", "focus": "图表/历史对比", "priority": "中", "note": "历史对比图非常有价值"},
+                {"handle": "@TaviCosta", "name": "Tavi Costa", "role": "Crescat Capital", "focus": "商品/矿业/宏观", "priority": "中高", "note": "商品超级周期理论"},
+                {"handle": "@sentimentrader", "name": "SentimenTrader", "role": "情绪数据平台", "focus": "情绪指标/仓位数据", "priority": "高", "note": "最权威的市场情绪数据"},
+                {"handle": "@CorvinCodirla", "name": "Corvin Codirla", "role": "前投行交易员", "focus": "期权流/波动率", "priority": "中"},
+                {"handle": "@jam_croissant", "name": "Cem Karsan", "role": "Kai Volatility创始人", "focus": "gamma/vanna/charm期权Greeks", "priority": "高", "note": "期权市场微观结构大师"}
+            ]
+        },
+
+        "fed_watchers": {
+            "_note": "美联储观察者 — FOMC决议前的关键信息源",
+            "accounts": [
+                {"handle": "@Markzandi", "name": "Mark Zandi", "role": "穆迪首席经济学家", "focus": "经济预测", "priority": "中高"},
+                {"handle": "@jasonfurman", "name": "Jason Furman", "role": "前白宫经济顾问委员会主席/哈佛教授", "focus": "就业/财政政策", "priority": "中高"},
+                {"handle": "@LHSummers", "name": "Larry Summers", "role": "前美国财长/哈佛教授", "focus": "宏观/通胀", "priority": "高", "note": "2021年最早预警通胀的重量级人物"},
+                {"handle": "@waborosi", "name": "Neel Kashkari", "role": "明尼阿波利斯联储主席", "focus": "美联储政策", "priority": "中", "note": "FOMC投票委员，经常公开发言"},
+                {"handle": "@FedGuy24", "name": "Joseph Wang", "role": "前纽约联储交易员", "focus": "美联储操作/流动性", "priority": "最高", "note": "FedGuy——最懂美联储操作机制的人"}
+            ]
+        },
+
+        "crypto_analysts": {
+            "_note": "加密货币分析师 — BTC/ETH周期和链上分析",
+            "accounts": [
+                {"handle": "@100trillionUSD", "name": "PlanB", "role": "S2F模型创始人", "focus": "BTC估值模型", "priority": "高", "note": "Stock-to-Flow模型"},
+                {"handle": "@woaborosi", "name": "Willy Woo", "role": "链上分析师", "focus": "BTC链上数据", "priority": "高", "note": "NVT ratio等链上指标"},
+                {"handle": "@glassnode", "name": "Glassnode", "role": "链上数据平台", "focus": "BTC/ETH链上指标", "priority": "高", "note": "MVRV/NUPL/LTH等专业指标"},
+                {"handle": "@Bitcoin", "name": "Bitcoin Magazine", "role": "BTC媒体", "focus": "BTC生态新闻", "priority": "中"},
+                {"handle": "@CryptoQuant", "name": "CryptoQuant", "role": "链上+交易所数据", "focus": "交易所流入/流出/储备", "priority": "中高"},
+                {"handle": "@theRealKiyosaki", "name": "Robert Kiyosaki", "role": "《富爸爸》作者", "focus": "BTC/黄金/宏观", "priority": "低", "note": "观点极端但有影响力"}
+            ]
+        },
+
+        "china_focused": {
+            "_note": "中国/亚洲市场分析 — 理解全球第二大经济体",
+            "accounts": [
+                {"handle": "@michaelxpettis", "name": "Michael Pettis", "role": "北大光华教授/卡内基", "focus": "中国经济结构", "priority": "最高", "note": "理解中国经济最深刻的西方学者"},
+                {"handle": "@brad_setser", "name": "Brad Setser", "role": "CFR高级研究员/前美国财政部", "focus": "全球资本流动/中国外汇", "priority": "高"},
+                {"handle": "@chinaborosi", "name": "George Magnus", "role": "前UBS首席经济学家", "focus": "中国人口/债务", "priority": "中高"},
+                {"handle": "@KyleFromVan", "name": "Kyle Bass", "role": "Hayman Capital创始人", "focus": "中国/日本宏观", "priority": "中", "note": "观点偏空但逻辑清晰"},
+                {"handle": "@SoberLook", "name": "Walter Adventures", "role": "数据分析", "focus": "全球数据可视化", "priority": "中高", "note": "数据图表质量极高"}
+            ]
+        },
+
+        "geopolitics_commodities": {
+            "_note": "地缘政治和大宗商品 — 供给侧冲击预警",
+            "accounts": [
+                {"handle": "@zaborosi", "name": "Zoltan Pozsar", "role": "前瑞信/纽约联储", "focus": "回购市场/美元体系重构", "priority": "最高", "note": "Bretton Woods III理论，全球最懂回购市场的人"},
+                {"handle": "@ErikSTownsend", "name": "Erik Townsend", "role": "MacroVoices主持人", "focus": "能源/宏观", "priority": "中高"},
+                {"handle": "@jaborosi2", "name": "Jeff Currie", "role": "前高盛大宗商品主管", "focus": "商品超级周期", "priority": "高", "note": "商品研究最权威"},
+                {"handle": "@PeterSchiff", "name": "Peter Schiff", "role": "Euro Pacific Capital CEO", "focus": "黄金/美元崩溃论", "priority": "低", "note": "永远看空美元但黄金观点有参考价值"},
+                {"handle": "@JavierBlas", "name": "Javier Blas", "role": "Bloomberg能源专栏", "focus": "石油/天然气/能源政策", "priority": "高", "note": "能源市场最好的记者"}
+            ]
+        }
+    },
+
+    "fomc_calendar_2026": {
+        "_description": "2026年FOMC议息会议完整日程（来源：美联储官网）",
+        "_source": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "_last_updated": "2026-02-18",
+        "meetings": [
+            {"dates": "2026-01-27/28", "end_date": "2026-01-28", "has_sep": false, "note": "2026年首次议息"},
+            {"dates": "2026-03-17/18", "end_date": "2026-03-18", "has_sep": true, "note": "含经济预测摘要(SEP)和点阵图"},
+            {"dates": "2026-04-28/29", "end_date": "2026-04-29", "has_sep": false, "note": ""},
+            {"dates": "2026-06-16/17", "end_date": "2026-06-17", "has_sep": true, "note": "含经济预测摘要(SEP)和点阵图"},
+            {"dates": "2026-07-28/29", "end_date": "2026-07-29", "has_sep": false, "note": ""},
+            {"dates": "2026-09-15/16", "end_date": "2026-09-16", "has_sep": true, "note": "含经济预测摘要(SEP)和点阵图"},
+            {"dates": "2026-10-27/28", "end_date": "2026-10-28", "has_sep": false, "note": ""},
+            {"dates": "2026-12-08/09", "end_date": "2026-12-09", "has_sep": true, "note": "含经济预测摘要(SEP)和点阵图，年度最后一次"}
+        ],
+        "blackout_periods": {
+            "_note": "FOMC黑静期（禁止美联储官员公开发言）",
+            "periods": [
+                "2026-01-17 至 2026-01-29",
+                "2026-03-07 至 2026-03-19",
+                "2026-04-18 至 2026-04-30",
+                "2026-06-06 至 2026-06-18",
+                "2026-07-18 至 2026-07-30",
+                "2026-09-05 至 2026-09-17",
+                "2026-10-17 至 2026-10-29",
+                "2026-11-28 至 2026-12-10"
+            ]
+        }
+    },
+
+    "earnings_calendar_2026": {
+        "_description": "2026年美股Top50重点公司财报日历（按季度）",
+        "_note": "日期为预估，实际以公司公告为准。财报通常在盘后(AMC)或盘前(BMO)发布",
+        "q4_2025_reports": {
+            "_note": "2026年1-2月发布的2025Q4财报",
+            "reports": [
+                {"date": "2026-01-28", "ticker": "MSFT", "name": "微软", "quarter": "FY26Q2", "timing": "AMC"},
+                {"date": "2026-01-29", "ticker": "META", "name": "Meta", "quarter": "Q4", "timing": "AMC"},
+                {"date": "2026-01-29", "ticker": "TSLA", "name": "特斯拉", "quarter": "Q4", "timing": "AMC"},
+                {"date": "2026-01-30", "ticker": "AAPL", "name": "苹果", "quarter": "FY26Q1", "timing": "AMC"},
+                {"date": "2026-01-30", "ticker": "AMZN", "name": "亚马逊", "quarter": "Q4", "timing": "AMC"},
+                {"date": "2026-02-04", "ticker": "GOOGL", "name": "谷歌", "quarter": "Q4", "timing": "AMC"},
+                {"date": "2026-02-06", "ticker": "LLY", "name": "礼来", "quarter": "Q4", "timing": "BMO"},
+                {"date": "2026-02-12", "ticker": "AVGO", "name": "博通", "quarter": "FY26Q1", "timing": "AMC"},
+                {"date": "2026-02-26", "ticker": "NVDA", "name": "英伟达", "quarter": "FY26Q4", "timing": "AMC"}
+            ]
+        },
+        "q1_2026_reports": {
+            "_note": "2026年4-5月发布的2026Q1财报（预估日期）",
+            "reports": [
+                {"date": "2026-04-22", "ticker": "TSLA", "name": "特斯拉", "quarter": "Q1", "timing": "AMC"},
+                {"date": "2026-04-23", "ticker": "META", "name": "Meta", "quarter": "Q1", "timing": "AMC"},
+                {"date": "2026-04-24", "ticker": "MSFT", "name": "微软", "quarter": "FY26Q3", "timing": "AMC"},
+                {"date": "2026-04-24", "ticker": "GOOGL", "name": "谷歌", "quarter": "Q1", "timing": "AMC"},
+                {"date": "2026-04-30", "ticker": "AAPL", "name": "苹果", "quarter": "FY26Q2", "timing": "AMC"},
+                {"date": "2026-04-30", "ticker": "AMZN", "name": "亚马逊", "quarter": "Q1", "timing": "AMC"},
+                {"date": "2026-05-28", "ticker": "NVDA", "name": "英伟达", "quarter": "FY27Q1", "timing": "AMC"}
+            ]
+        },
+        "q2_2026_reports": {
+            "_note": "2026年7-8月发布的2026Q2财报（预估日期）",
+            "reports": [
+                {"date": "2026-07-22", "ticker": "TSLA", "name": "特斯拉", "quarter": "Q2", "timing": "AMC"},
+                {"date": "2026-07-23", "ticker": "META", "name": "Meta", "quarter": "Q2", "timing": "AMC"},
+                {"date": "2026-07-23", "ticker": "MSFT", "name": "微软", "quarter": "FY26Q4", "timing": "AMC"},
+                {"date": "2026-07-24", "ticker": "GOOGL", "name": "谷歌", "quarter": "Q2", "timing": "AMC"},
+                {"date": "2026-07-31", "ticker": "AAPL", "name": "苹果", "quarter": "FY26Q3", "timing": "AMC"},
+                {"date": "2026-07-31", "ticker": "AMZN", "name": "亚马逊", "quarter": "Q2", "timing": "AMC"},
+                {"date": "2026-08-27", "ticker": "NVDA", "name": "英伟达", "quarter": "FY27Q2", "timing": "AMC"}
+            ]
+        }
+    },
+
+    "options_expiry_2026": {
+        "_description": "2026年期权到期日历",
+        "monthly_expiry": [
+            {"date": "2026-01-17", "type": "月度期权到期"},
+            {"date": "2026-02-21", "type": "月度期权到期"},
+            {"date": "2026-03-20", "type": "三重巫日(Triple Witching)", "note": "股指期货+期权+个股期权同时到期，波动放大"},
+            {"date": "2026-04-17", "type": "月度期权到期"},
+            {"date": "2026-05-15", "type": "月度期权到期"},
+            {"date": "2026-06-19", "type": "三重巫日(Triple Witching)"},
+            {"date": "2026-07-17", "type": "月度期权到期"},
+            {"date": "2026-08-21", "type": "月度期权到期"},
+            {"date": "2026-09-18", "type": "三重巫日(Triple Witching)"},
+            {"date": "2026-10-16", "type": "月度期权到期"},
+            {"date": "2026-11-20", "type": "月度期权到期"},
+            {"date": "2026-12-18", "type": "三重巫日(Triple Witching)"}
+        ],
+        "0dte_note": "0DTE期权（当日到期）每个交易日都有，已成为市场波动的重要驱动力"
+    },
+
+    "economic_data_calendar": {
+        "_description": "每月关键经济数据发布节奏和重要性评级",
+        "high_impact": [
+            {"indicator": "非农就业报告(NFP)", "source": "BLS", "typical_date": "每月第一个周五 08:30ET", "impact": "最高", "note": "美联储双重使命指标，市场波动最大的数据之一"},
+            {"indicator": "CPI消费者物价指数", "source": "BLS", "typical_date": "每月第二周周三 08:30ET", "impact": "最高", "note": "通胀核心指标，2022年以来市场最敏感"},
+            {"indicator": "PCE物价指数", "source": "BEA", "typical_date": "每月最后一周 08:30ET", "impact": "最高", "note": "美联储首选通胀指标"},
+            {"indicator": "FOMC利率决议", "source": "Fed", "typical_date": "见FOMC日历", "impact": "最高", "note": "含声明+点阵图+鲍威尔新闻发布会"},
+            {"indicator": "GDP初值/修正/终值", "source": "BEA", "typical_date": "季度末月 08:30ET", "impact": "高", "note": "经济增长全景"},
+            {"indicator": "零售销售", "source": "Census", "typical_date": "每月第三周 08:30ET", "impact": "高", "note": "消费占GDP 70%，最重要的消费指标"}
+        ],
+        "medium_impact": [
+            {"indicator": "PPI生产者物价指数", "source": "BLS", "typical_date": "每月第二周周四 08:30ET", "impact": "中", "note": "通胀上游指标"},
+            {"indicator": "ISM制造业PMI", "source": "ISM", "typical_date": "每月第一个工作日 10:00ET", "impact": "中", "note": "50分水岭（扩张/收缩）"},
+            {"indicator": "ISM服务业PMI", "source": "ISM", "typical_date": "每月第三个工作日 10:00ET", "impact": "中", "note": "服务业占经济80%"},
+            {"indicator": "JOLTS职位空缺", "source": "BLS", "typical_date": "每月月初（滞后2个月）10:00ET", "impact": "中", "note": "劳动力供需缺口"},
+            {"indicator": "密歇根消费者信心", "source": "UMich", "typical_date": "每月中旬(初值)/月末(终值) 10:00ET", "impact": "中", "note": "消费者情绪前瞻+通胀预期"},
+            {"indicator": "新屋开工/建筑许可", "source": "Census", "typical_date": "每月第三周 08:30ET", "impact": "中", "note": "房地产先行指标"},
+            {"indicator": "首次申请失业金", "source": "DOL", "typical_date": "每周四 08:30ET", "impact": "中", "note": "高频就业数据"},
+            {"indicator": "耐用品订单", "source": "Census", "typical_date": "每月第四周 08:30ET", "impact": "中", "note": "制造业/投资前瞻"}
+        ]
+    },
+
+    "macro_indicator_framework": {
+        "_description": "投资Agent的宏观指标分析框架 — 从全球顶尖分析师视角构建",
+
+        "net_liquidity_model": {
+            "_note": "净流动性模型（Michael Howell/Lyn Alden/Raoul Pal方法论）",
+            "formula": "净流动性 = 美联储总资产(WALCL) - TGA余额(WTREGEN) - ON RRP余额(RRPONTSYD)",
+            "thresholds": {
+                "weekly_decline_5pct": "预警 — 流动性快速收缩",
+                "sofr_above_5.5pct": "警报 — 银行间流动性紧张",
+                "tga_above_800b": "关注 — 财政部大量抽水",
+                "on_rrp_below_100b": "预警 — 流动性蓄水池干涸"
+            },
+            "correlation": "净流动性与标普500、BTC高度正相关（R²>0.85）"
+        },
+
+        "yield_curve_model": {
+            "_note": "收益率曲线模型",
+            "key_spreads": {
+                "10y_2y": {"series": "T10Y2Y", "inversion_signal": "< 0 = 衰退预警（领先12-18个月）"},
+                "10y_3m": {"series": "T10Y3M", "inversion_signal": "< 0 = 更准确的衰退信号"},
+                "steepening_after_inversion": "曲线从倒挂恢复（变陡）时，衰退往往即将开始"
+            }
+        },
+
+        "credit_risk_model": {
+            "_note": "信用风险监控",
+            "indicators": {
+                "hy_spread": {"series": "BAMLH0A0HYM2", "warning": "> 500bp = 信用压力", "crisis": "> 800bp = 信用危机"},
+                "ig_spread": {"name": "投资级债券利差", "warning": "> 200bp = 企业信用恶化"},
+                "move_index": {"name": "MOVE债券波动率指数", "warning": "> 120 = 债市压力", "crisis": "> 150 = 债市恐慌"},
+                "ted_spread": {"name": "TED利差(LIBOR-T-Bill)", "warning": "> 50bp = 银行间信任下降"}
+            }
+        },
+
+        "sentiment_cycle_model": {
+            "_note": "情绪周期模型（Hedgeye四象限 + AAII/NAAIM）",
+            "indicators": {
+                "fear_greed_index": {"source": "CNN", "extreme_fear": "< 20（反向买入信号）", "extreme_greed": "> 80（反向卖出信号）"},
+                "vix": {"normal": "12-20", "elevated": "20-30", "panic": "> 30", "crisis": "> 50"},
+                "put_call_ratio": {"bullish": "< 0.7", "neutral": "0.7-1.0", "bearish": "> 1.0", "extreme_bearish": "> 1.3（反向买入信号）"},
+                "naaim_exposure": {"source": "NAAIM", "low": "< 40（机构减仓）", "high": "> 90（机构满仓）"},
+                "aaii_bull_bear": {"source": "AAII", "note": "当看空比例 > 50%时往往是底部信号（经典反向指标）"},
+                "margin_debt": {"source": "FINRA", "note": "融资余额下降 = 杠杆清算进行中"}
+            }
+        }
+    },
+
+    "industry_tracking": {
+        "_description": "重要行业研究和数据追踪源",
+
+        "ai_semiconductor": {
+            "sector_name": "AI / 半导体",
+            "key_data": [
+                {"indicator": "NVIDIA数据中心营收增速", "frequency": "quarterly", "importance": "最高", "note": "AI投资的晴雨表"},
+                {"indicator": "全球半导体销售额(WSTS)", "source": "https://www.wsts.org", "frequency": "monthly", "importance": "高"},
+                {"indicator": "SOX半导体指数", "ticker": "^SOX", "frequency": "daily", "importance": "高"},
+                {"indicator": "台积电月度营收", "frequency": "monthly", "importance": "高", "note": "台积电10号公布上月营收"},
+                {"indicator": "AI相关资本开支(MSFT/GOOGL/META/AMZN)", "frequency": "quarterly", "importance": "高", "note": "Capex指引是AI需求的领先指标"}
+            ],
+            "key_companies": ["NVDA", "AVGO", "TSM", "AMD", "ASML", "MRVL", "ARM"]
+        },
+
+        "cloud_saas": {
+            "sector_name": "云计算 / SaaS",
+            "key_data": [
+                {"indicator": "AWS/Azure/GCP云业务增速", "frequency": "quarterly", "importance": "高"},
+                {"indicator": "Bessemer Cloud Index(EMCLOUD)", "frequency": "daily", "importance": "中"},
+                {"indicator": "SaaS公司Rule of 40指标", "frequency": "quarterly", "importance": "中"}
+            ],
+            "key_companies": ["MSFT", "AMZN", "GOOGL", "CRM", "ORCL", "NOW", "SNOW"]
+        },
+
+        "energy_commodities": {
+            "sector_name": "能源 / 大宗商品",
+            "key_data": [
+                {"indicator": "WTI原油价格", "ticker": "CL=F", "frequency": "daily", "importance": "高"},
+                {"indicator": "美国原油库存(EIA)", "source": "https://www.eia.gov", "frequency": "weekly(Wed)", "importance": "中"},
+                {"indicator": "OPEC月度报告", "frequency": "monthly", "importance": "中"},
+                {"indicator": "Henry Hub天然气", "ticker": "NG=F", "frequency": "daily", "importance": "中"},
+                {"indicator": "铜价(Dr. Copper)", "ticker": "HG=F", "frequency": "daily", "importance": "中", "note": "铜价被称为Dr. Copper，经济健康度晴雨表"},
+                {"indicator": "黄金价格", "ticker": "GC=F", "frequency": "daily", "importance": "高", "note": "避险+通胀对冲"}
+            ],
+            "key_companies": ["XOM", "CVX", "COP", "SLB", "BHP"]
+        },
+
+        "healthcare_pharma": {
+            "sector_name": "医疗 / 制药",
+            "key_data": [
+                {"indicator": "FDA新药审批日历(PDUFA)", "source": "https://www.fda.gov/drugs/new-drugs-fda-cders-new-molecular-entities-and-new-therapeutic-biological-products/pdufa-date", "frequency": "不定期", "importance": "高"},
+                {"indicator": "GLP-1药物销售（LLY/NVO）", "frequency": "quarterly", "importance": "高", "note": "当前医疗板块最大主题"},
+                {"indicator": "CMS医保政策变化", "frequency": "不定期", "importance": "中"}
+            ],
+            "key_companies": ["LLY", "NVO", "UNH", "JNJ", "ABBV", "MRK", "PFE"]
+        },
+
+        "financials_banking": {
+            "sector_name": "金融 / 银行",
+            "key_data": [
+                {"indicator": "KBE/KRE银行ETF", "ticker": "KRE", "frequency": "daily", "importance": "高", "note": "区域银行健康度指标"},
+                {"indicator": "FDIC季度银行报告", "source": "https://www.fdic.gov/analysis/quarterly-banking-profile", "frequency": "quarterly", "importance": "中"},
+                {"indicator": "高盛Financial Conditions Index", "frequency": "daily", "importance": "高"},
+                {"indicator": "Senior Loan Officer Survey", "source": "Fed", "frequency": "quarterly", "importance": "高", "note": "信贷标准收紧程度"}
+            ],
+            "key_companies": ["JPM", "BAC", "GS", "MS", "WFC", "BLK"]
+        },
+
+        "china_tech": {
+            "sector_name": "中概科技",
+            "key_data": [
+                {"indicator": "KWEB中概互联ETF", "ticker": "KWEB", "frequency": "daily", "importance": "高"},
+                {"indicator": "中国PMI(官方+财新)", "frequency": "monthly", "importance": "中"},
+                {"indicator": "人民币汇率(USD/CNY)", "ticker": "CNY=X", "frequency": "daily", "importance": "中"},
+                {"indicator": "中国社融数据", "frequency": "monthly", "importance": "中", "note": "信贷脉冲领先指标"}
+            ],
+            "key_companies": ["TCEHY", "BABA", "PDD", "JD", "BIDU", "NTES"]
+        }
+    }
+}

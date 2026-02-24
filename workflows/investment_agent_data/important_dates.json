@@ -1,0 +1,78 @@
+{
+    "_description": "重要日期日历 - 美联储议息、财报日、期权到期日、经济数据发布",
+    "_usage": "wf6每日运行时检查未来7天是否有重要事件，纳入报告'今日关注'",
+    "_version": "2.0",
+    "_updated": "2026-02-22",
+    "_note": "FOMC日期来源: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+
+    "fomc_meetings_2026": [
+        {"date": "2026-01-28", "type": "FOMC议息", "note": "2026年首次议息"},
+        {"date": "2026-03-18", "type": "FOMC议息", "note": "含经济预测摘要(SEP)和点阵图"},
+        {"date": "2026-04-29", "type": "FOMC议息", "note": ""},
+        {"date": "2026-06-17", "type": "FOMC议息", "note": "含经济预测摘要(SEP)和点阵图"},
+        {"date": "2026-07-29", "type": "FOMC议息", "note": ""},
+        {"date": "2026-09-16", "type": "FOMC议息", "note": "含经济预测摘要(SEP)和点阵图"},
+        {"date": "2026-10-28", "type": "FOMC议息", "note": ""},
+        {"date": "2026-12-09", "type": "FOMC议息", "note": "含经济预测摘要(SEP)和点阵图，年度最后一次"}
+    ],
+
+    "fomc_blackout_2026": [
+        {"start": "2026-01-17", "end": "2026-01-29"},
+        {"start": "2026-03-07", "end": "2026-03-19"},
+        {"start": "2026-04-18", "end": "2026-04-30"},
+        {"start": "2026-06-06", "end": "2026-06-18"},
+        {"start": "2026-07-18", "end": "2026-07-30"},
+        {"start": "2026-09-05", "end": "2026-09-17"},
+        {"start": "2026-10-17", "end": "2026-10-29"},
+        {"start": "2026-11-28", "end": "2026-12-10"}
+    ],
+
+    "earnings_calendar_2026_q1": [
+        {"date": "2026-01-28", "company": "MSFT", "name": "微软", "quarter": "FY26Q2"},
+        {"date": "2026-01-29", "company": "META", "name": "Meta", "quarter": "Q4"},
+        {"date": "2026-01-29", "company": "TSLA", "name": "特斯拉", "quarter": "Q4"},
+        {"date": "2026-01-30", "company": "AAPL", "name": "苹果", "quarter": "FY26Q1"},
+        {"date": "2026-01-30", "company": "AMZN", "name": "亚马逊", "quarter": "Q4"},
+        {"date": "2026-02-04", "company": "GOOGL", "name": "谷歌", "quarter": "Q4"},
+        {"date": "2026-02-06", "company": "LLY", "name": "礼来", "quarter": "Q4"},
+        {"date": "2026-02-12", "company": "AVGO", "name": "博通", "quarter": "FY26Q1"},
+        {"date": "2026-02-26", "company": "NVDA", "name": "英伟达", "quarter": "FY26Q4"},
+        {"date": "2026-04-22", "company": "TSLA", "name": "特斯拉", "quarter": "Q1"},
+        {"date": "2026-04-23", "company": "META", "name": "Meta", "quarter": "Q1"},
+        {"date": "2026-04-24", "company": "MSFT", "name": "微软", "quarter": "FY26Q3"},
+        {"date": "2026-04-24", "company": "GOOGL", "name": "谷歌", "quarter": "Q1"},
+        {"date": "2026-04-30", "company": "AAPL", "name": "苹果", "quarter": "FY26Q2"},
+        {"date": "2026-04-30", "company": "AMZN", "name": "亚马逊", "quarter": "Q1"},
+        {"date": "2026-05-28", "company": "NVDA", "name": "英伟达", "quarter": "FY27Q1"}
+    ],
+
+    "options_expiry_2026": [
+        {"date": "2026-01-17", "type": "月度期权到期"},
+        {"date": "2026-02-21", "type": "月度期权到期"},
+        {"date": "2026-03-20", "type": "三重巫日(Triple Witching)", "note": "股指期货+期权+个股期权同时到期"},
+        {"date": "2026-04-17", "type": "月度期权到期"},
+        {"date": "2026-05-15", "type": "月度期权到期"},
+        {"date": "2026-06-19", "type": "三重巫日(Triple Witching)"},
+        {"date": "2026-07-17", "type": "月度期权到期"},
+        {"date": "2026-08-21", "type": "月度期权到期"},
+        {"date": "2026-09-18", "type": "三重巫日(Triple Witching)"},
+        {"date": "2026-10-16", "type": "月度期权到期"},
+        {"date": "2026-11-20", "type": "月度期权到期"},
+        {"date": "2026-12-18", "type": "三重巫日(Triple Witching)"}
+    ],
+
+    "economic_data_monthly": {
+        "_description": "每月经济数据发布节奏（通常日期，实际以官方公告为准）",
+        "cpi": {"typical_day": "第二周周三", "source": "BLS", "impact": "最高"},
+        "nonfarm_payrolls": {"typical_day": "每月第一个周五", "source": "BLS", "impact": "最高"},
+        "pce": {"typical_day": "月末", "source": "BEA", "impact": "最高（美联储首选通胀指标）"},
+        "ppi": {"typical_day": "第二周周四", "source": "BLS", "impact": "中"},
+        "retail_sales": {"typical_day": "第三周", "source": "Census", "impact": "高"},
+        "gdp": {"typical_day": "季末月月底", "source": "BEA", "impact": "高"},
+        "ism_manufacturing": {"typical_day": "每月第一个工作日", "source": "ISM", "impact": "中"},
+        "ism_services": {"typical_day": "每月第三个工作日", "source": "ISM", "impact": "中"},
+        "jolts": {"typical_day": "每月月初（滞后2月）", "source": "BLS", "impact": "中"},
+        "initial_claims": {"typical_day": "每周四", "source": "DOL", "impact": "中"},
+        "umich_sentiment": {"typical_day": "每月中旬/月末", "source": "UMich", "impact": "中"}
+    }
+}

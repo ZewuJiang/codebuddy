@@ -1,0 +1,36 @@
+---
+description: 
+alwaysApply: true
+enabled: true
+updatedAt: 2026-02-24T05:22:35.385Z
+provider: 
+---
+
+# 投资Agent报告 MD→PDF 转换规则
+
+## 核心规则
+每次修改投资Agent每日分析报告的MD文件后，**必须**使用 `workflows/md_to_pdf.py` 脚本同步生成PDF文件。
+
+## 正确的转换命令
+```bash
+cd /Users/zewujiang/Desktop/AICo/codebuddy/workflows
+python3 md_to_pdf.py "投资Agent-每日分析-{DATE}.md" "投资Agent-每日分析-{DATE}.pdf"
+```
+
+## 禁止事项
+- **禁止**使用 pandoc 直接转PDF（会导致中文乱码）
+- **禁止**使用 weasyprint 单独转PDF（缺少长图裁剪逻辑）
+- **禁止**手动拼接HTML+CSS再转PDF
+
+## PDF标准
+- 单页长图形式，无分页
+- 中文字体：STHeiti / PingFang SC
+- 页面宽度：280mm
+- MBB咨询风格排版
+- 表格深色表头+斑马纹
+
+## 验证检查点
+生成后验证：
+1. `file xxx.pdf` 应显示 "1 pages"
+2. 文件大小应在 2-5MB 范围
+3. Mac预览打开无乱码

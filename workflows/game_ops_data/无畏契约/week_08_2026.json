@@ -1,0 +1,225 @@
+{
+    "meta": {
+        "game_name": "无畏契约",
+        "wechat_account": "无畏契约",
+        "developer": "Riot Games（拳头游戏）",
+        "publisher": "深圳市腾讯计算机系统有限公司",
+        "game_type": "5V5战术射击端游",
+        "week_number": 8,
+        "year": 2026,
+        "date_range": ["2026-02-16", "2026-02-22"],
+        "analyst": "AI Assistant",
+        "report_date": "2026-02-22",
+        "data_sources": [
+            "微信公众号「无畏契约」",
+            "官网 https://val.qq.com/main.html",
+            "B站官方账号 https://space.bilibili.com/147546636/"
+        ],
+        "note": "本周为农历春节假期核心阶段（除夕2/16至初六2/22），V26新赛季「时候正好」运营中，VCT CN启点赛已于2/9落幕"
+    },
+    "summary": {
+        "total_articles": 8,
+        "key_highlights": [
+            "【斗牛2v2】大年初四（2/19）限时上线全新2v2匹配模式「斗牛」，纯枪法对决无技能，春节组队新玩法",
+            "【VCT 2026赛季限定】大年初四（2/20）上线VCT 2026赛季限定礼包，含「篆刀」近战武器+盘盘+动态卡面，限时发售",
+            "【掠影3.0套装】全新武器套装「掠影3.0」及回火礼包上线，延续经典掠影系列",
+            "【新英雄怜悯】新英雄「怜悯」已上线，官方发布推广视频",
+            "【春节福利小程序】搜索「无畏契约春节福利」小程序，完成任务获取皮蛋币可兑换R点和7款红包封面"
+        ],
+        "overall_assessment": "本周为V26赛季「时候正好」运营期，叠加春节假期。核心运营策略为：(1) 「斗牛2v2」全新限时模式上线，提供春节期间轻量级组队娱乐选项；(2) VCT 2026赛季限定礼包（篆刀）限时发售，赛事IP转化为商业化收入；(3) 春节福利小程序+分阵营全民活动等社交裂变玩法持续运营；(4) 掠影3.0套装+怜悯英雄推广，维持版本内容新鲜度。VCT CN联赛启点赛已于2/9圆满落幕（AG/XLG/EDG出线圣地亚哥大师赛），本周进入赛后传播期。整体呈现'新模式+限定商业化+春节社交'的组合拳运营。"
+    },
+    "dimensions": {
+        "gameplay_content": {
+            "priority_level": "high",
+            "display_name": "玩法内容",
+            "description": "重大版本更新（新玩法、角色、地图、武器等T0）、不定期玩法活动（T1）",
+            "entries": [
+                {
+                    "title": "限时模式「斗牛2v2」大年初四上线",
+                    "date": "2026-02-19",
+                    "tier": "T0",
+                    "detail": "2月19日（大年初四）更新后，全新限时2v2匹配模式「斗牛」正式上线。该模式不依赖英雄技能，纯拼枪法对决，拉上搭子2人即可开黑。官方公众号发布「马住新年好搭子，一起双排，欢乐斗牛！」推广文章，强调春节轻量级组队娱乐定位。这是无畏契约首次推出2v2正式匹配模式。",
+                    "source_url": "https://new.qq.com/rain/a/20260219A03BXP00",
+                    "source_title": "更新公告：大年初四，斗牛2v2匹配限时上线！",
+                    "player_feedback": "玩家对纯枪法模式反响积极，认为适合春节休闲组队",
+                    "images": [{"file": "pass2_1.jpg", "desc": "斗牛2v2模式Q版双人卡面"}]
+                },
+                {
+                    "title": "新英雄「怜悯」正式上线",
+                    "date": "2026-02-16",
+                    "tier": "T1",
+                    "detail": "官网首页显示「怜悯，来了！」推广视频（51秒），新英雄怜悯已在V26赛季中正式上线。同时铁臂迎来增强调整：Q-闪点爆破投射物速度提升20%（2000→2400），E-山崩地陷宽度从7.5米提升至8米。版本平衡性持续优化。",
+                    "source_url": "https://val.qq.com/main.html",
+                    "source_title": "【无畏契约】怜悯，来了！",
+                    "player_feedback": "怜悯英雄的技能机制引发战术讨论，铁臂增强获得坦克位玩家好评",
+                    "images": [{"file": "hero2_jineng_img.png", "desc": "新英雄怜悯/铁臂技能界面截图"}]
+                },
+                {
+                    "title": "新武器「追猎」加入武器库",
+                    "date": "2026-02-16",
+                    "tier": "T1",
+                    "detail": "V26新赛季加入全新武器「追猎」，官网发布2分27秒武器介绍视频。追猎定位介于鬼魅与正义之间，在半起局中为技能运用和枪法对拼都提供更多选择，丰富了经济博弈的战术空间。",
+                    "source_url": "https://val.qq.com/main.html",
+                    "source_title": "【无畏契约】追猎 // 武器介绍",
+                    "player_feedback": null,
+                    "images": []
+                },
+                {
+                    "title": "「爆能大乱斗」限时模式持续运营",
+                    "date": "2026-02-16",
+                    "tier": "T2",
+                    "detail": "全新快节奏5v5限时模式「爆能大乱斗」持续开放。每回合随机分配英雄（同队不重复），无需拥有英雄即可使用，装备免费，技能可在回合中持续充能，地图各处散落终极能量球。2/19更新中对爆能大乱斗的装备进行了调整。",
+                    "source_url": "https://val.qq.com/",
+                    "source_title": "全新限时模式「爆能大乱斗」",
+                    "player_feedback": "随机英雄机制广受欢迎，降低了新手入门门槛",
+                    "images": [{"file": "map2_1.png", "desc": "地图更新前后对比（古城风格场景）"}, {"file": "map3_1.png", "desc": "地图更新前后对比（工业风格场景）"}]
+                }
+            ]
+        },
+        "active_events": {
+            "priority_level": "high",
+            "display_name": "活跃活动",
+            "description": "提高玩家活跃或留存的活动（节庆活动、限时任务、邀请好友等）",
+            "entries": [
+                {
+                    "title": "春节福利小程序：皮蛋币兑换R点+红包封面",
+                    "date": "2026-02-16",
+                    "tier": "T0",
+                    "detail": "搜索「无畏契约春节福利」微信小程序，打瓦完成任务获取皮蛋币，可兑换R点和7款超精美红包封面。通过微信小程序+游戏内任务联动，同时拉动微信生态流量和游戏内活跃。红包封面数量有限，手慢无。",
+                    "source_url": "https://new.qq.com/rain/a/20260219A03BXP00",
+                    "source_title": "更新公告中提及春节福利小程序",
+                    "player_feedback": "红包封面社交裂变传播效果显著",
+                    "images": []
+                },
+                {
+                    "title": "全民活动：「瓦，分阵营啦！」",
+                    "date": "2026-02-16",
+                    "tier": "T1",
+                    "detail": "官网首页推出「全民活动：瓦，分阵营啦！」社区互动活动，玩家可选择阵营参与对决，增强社区归属感和竞争氛围。该活动贯穿V26赛季，本周春节期间持续运营。",
+                    "source_url": "https://val.qq.com/main.html",
+                    "source_title": "全民活动：瓦，分阵营啦！",
+                    "player_feedback": null,
+                    "images": []
+                },
+                {
+                    "title": "新年好搭子·斗牛双排号召",
+                    "date": "2026-02-22",
+                    "tier": "T1",
+                    "detail": "公众号发布「马住新年好搭子，一起双排，欢乐斗牛！」推文，号召玩家在春节期间找到搭子一起体验2v2斗牛模式。文案突出「马年开黑不缺席」主题，结合春节社交属性拉动组队率。",
+                    "source_url": "https://new.qq.com/rain/a/20260222A04HFF00",
+                    "source_title": "「马」住新年好搭子，一起双排，欢乐「斗牛」！",
+                    "player_feedback": null,
+                    "images": []
+                }
+            ]
+        },
+        "monetization": {
+            "priority_level": "high",
+            "display_name": "商业化",
+            "description": "促进玩家消费的活动（IP联动、新皮肤上架、充值活动、售价变化等）",
+            "entries": [
+                {
+                    "title": "VCT 2026赛季限定礼包「篆刀」上线",
+                    "date": "2026-02-20",
+                    "tier": "T0",
+                    "detail": "大年初四（2月20日）早上八点，VCT 2026赛季限定礼包正式上线主打商城。礼包包含「篆刀」近战武器、盘盘、动态卡面等独家内容。限时发售，下架后不会进入现售商店或夜市。以宝石璀璨光芒辉映冠军荣耀为主题，B站官方账号同步发布展示视频。该系列为电竞赛事IP衍生商业化产品，购买可支持VCT赛事生态。",
+                    "source_url": "http://news.17173.com/content/02192026/215944921.shtml",
+                    "source_title": "《无畏契约》锁定初四 VCT 2026赛季限定，篆刀明日登场",
+                    "player_feedback": "篆刀近战武器设计获得玩家好评，限定属性提升购买意愿",
+                    "images": [{"file": "pass3_1.jpg", "desc": "VCT 2026赛季限定动态卡面：紫色猛兽+英雄战斗画面"}]
+                },
+                {
+                    "title": "「掠影3.0」套装及回火礼包上线",
+                    "date": "2026-02-16",
+                    "tier": "T1",
+                    "detail": "官网首页展示「掠影//3.0套装及回火礼包」已上线商城。掠影系列是无畏契约最经典的武器皮肤系列之一，3.0版本延续了掠影系列的科技感设计，配套回火礼包提供升级所需材料。回火礼包作为附加消费项，提升了套装的整体客单价。",
+                    "source_url": "https://val.qq.com/main.html",
+                    "source_title": "掠影//3.0套装及回火礼包",
+                    "player_feedback": "掠影系列忠实粉丝积极购入3.0版本",
+                    "images": [{"file": "pass1_1.jpg", "desc": "掠影3.0套装武器皮肤展示"}]
+                },
+                {
+                    "title": "V26赛季战斗通行证视觉更新",
+                    "date": "2026-02-19",
+                    "tier": "T2",
+                    "detail": "2/19更新中同步更新了全新活动通行证与战斗通行证的视觉效果（1月8日至3月9日赛季）。战斗通行证为V26赛季核心付费内容之一，视觉升级提升了通行证吸引力。",
+                    "source_url": "https://val.qq.com/",
+                    "source_title": "V26赛季战斗通行证",
+                    "player_feedback": null,
+                    "images": []
+                }
+            ]
+        },
+        "content_marketing": {
+            "priority_level": "medium",
+            "display_name": "内容营销",
+            "description": "创作者计划、热门内容、KOL直播等",
+            "entries": [
+                {
+                    "title": "B站官方账号高频视频输出",
+                    "date": "2026-02-16",
+                    "tier": "T1",
+                    "detail": "B站官方账号（无畏契约，UID:147546636）本周持续发布内容：VCT 2026篆刀限定展示（7万播放）、斗牛2v2模式预告（8.3万播放）、圣地亚哥大师赛赛制介绍（1.9万播放）、马年新春大事件合集（10万播放）等。通过B站视频矩阵实现内容覆盖。",
+                    "source_url": "https://space.bilibili.com/147546636/",
+                    "source_title": "无畏契约B站官方账号",
+                    "player_feedback": null,
+                    "images": []
+                },
+                {
+                    "title": "掌上无畏契约APP推广",
+                    "date": "2026-02-16",
+                    "tier": "T2",
+                    "detail": "官网首页持续推广「掌上无畏契约」APP，主打查战绩、找搭子、拿福利、看每日商店四大功能。作为端游的移动端配套工具，增强玩家离线参与度和商城曝光。",
+                    "source_url": "https://val.qq.com/main.html",
+                    "source_title": "掌上无畏契约正式上线",
+                    "player_feedback": null,
+                    "images": []
+                }
+            ]
+        },
+        "esports": {
+            "priority_level": "medium",
+            "display_name": "电竞赛事",
+            "description": "重大赛事节点、高关注度赛事",
+            "entries": [
+                {
+                    "title": "VCT CN联赛启点赛落幕，AG/XLG/EDG出线圣地亚哥大师赛",
+                    "date": "2026-02-16",
+                    "tier": "T0",
+                    "detail": "2月9日，V26无畏巡回广州站暨VCT CN联赛启点赛在广州保利世贸博览馆落幕。最终AG以3-2战胜XLG获得冠军，K1ra获赛事MVP。AG、XLG和EDG三支队伍获得圣地亚哥大师赛参赛资格。启点赛采用全新三败赛制，12支VCT CN联赛队伍经过三周鏖战，赛事热度较高。本周为赛后传播和内容产出期。B站发布圣地亚哥大师赛赛制介绍视频。",
+                    "source_url": "https://space.bilibili.com/147546636/",
+                    "source_title": "V26无畏巡回广州站启点赛赛事落幕",
+                    "player_feedback": "AG黑马之旅引发热议，K1ra选手人气飙升",
+                    "images": []
+                },
+                {
+                    "title": "2026圣地亚哥大师赛赛制公布",
+                    "date": "2026-02-16",
+                    "tier": "T1",
+                    "detail": "B站官方发布「2026圣地亚哥大师赛赛制介绍」视频（1分45秒，1.9万播放），公布了VCT 2026年度首个国际大赛的赛制细节。AG、XLG和EDG将代表CN赛区出征，赛事关注度持续升温。",
+                    "source_url": "https://space.bilibili.com/147546636/",
+                    "source_title": "2026圣地亚哥大师赛赛制介绍",
+                    "player_feedback": "CN赛区玩家期待三支队伍的国际赛表现",
+                    "images": []
+                }
+            ]
+        },
+        "other_major": {
+            "priority_level": "low",
+            "display_name": "其他重大事件",
+            "description": "线下活动、品牌联动等",
+            "entries": [
+                {
+                    "title": "无畏巡回广州站线下活动（赛后效应）",
+                    "date": "2026-02-16",
+                    "tier": "T1",
+                    "detail": "V26无畏巡回首站广州线下活动于1月22日至2月9日在广州保利世贸博览馆举办。虽主体活动已于上周结束，但本周仍有赛后内容传播、选手采访、精彩集锦等二次传播。无畏巡回作为VCT CN赛区的线下品牌活动，首次落地广州，对提升无畏契约在华南地区的品牌影响力有重要意义。官网首页仍保留「无畏巡回 首站福利」入口。",
+                    "source_url": "https://val.qq.com/main.html",
+                    "source_title": "无畏巡回 首站福利",
+                    "player_feedback": "现场观赛玩家好评如潮，带动了周边商品销售",
+                    "images": []
+                }
+            ]
+        }
+    }
+}

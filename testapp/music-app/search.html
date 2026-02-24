@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>音乐APP - 搜索</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Noto Sans SC', -apple-system, sans-serif; }
+    body { background: #0a0a0a; color: #fff; width: 393px; height: 852px; overflow-y: auto; overflow-x: hidden; }
+    body::-webkit-scrollbar { display: none; }
+    .glass { background: rgba(255,255,255,0.05); backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.08); }
+    .search-active { background: rgba(255,255,255,0.1); border: 1px solid rgba(238,90,36,0.4); }
+    .tag-gradient { background: linear-gradient(135deg, rgba(238,90,36,0.2), rgba(255,107,107,0.2)); border: 1px solid rgba(238,90,36,0.3); }
+  </style>
+</head>
+<body>
+  <!-- iOS 状态栏 -->
+  <div class="flex justify-between items-center px-6 pt-3 pb-1">
+    <span class="text-sm font-semibold">9:41</span>
+    <div class="flex items-center gap-1.5">
+      <i class="fas fa-signal text-xs"></i>
+      <i class="fas fa-wifi text-xs"></i>
+      <i class="fas fa-battery-full text-xs"></i>
+    </div>
+  </div>
+
+  <!-- 搜索栏 -->
+  <div class="px-5 py-3">
+    <h1 class="text-2xl font-bold mb-3">搜索</h1>
+    <div class="search-active rounded-2xl px-4 py-3 flex items-center gap-3">
+      <i class="fas fa-search text-orange-400 text-sm"></i>
+      <input type="text" placeholder="歌曲、歌手、专辑、播客..." class="bg-transparent text-sm outline-none w-full text-white placeholder-gray-500">
+      <i class="fas fa-microphone text-gray-400 text-sm"></i>
+    </div>
+  </div>
+
+  <!-- 热搜榜 -->
+  <div class="px-5 mb-5">
+    <div class="flex justify-between items-center mb-3">
+      <h2 class="text-base font-bold flex items-center gap-2">
+        <i class="fas fa-fire text-orange-500"></i> 热搜榜
+      </h2>
+      <span class="text-gray-500 text-[10px]">刚刚更新</span>
+    </div>
+    <div class="space-y-0.5">
+      <div class="flex items-center gap-3 py-2.5 px-3 rounded-xl hover:bg-white/5">
+        <span class="text-orange-500 font-bold text-base w-6 text-center">1</span>
+        <div class="flex-1">
+          <p class="text-sm font-medium">星河漫步 - 林思远</p>
+          <p class="text-[10px] text-gray-500">新歌首发 · 2.3亿次播放</p>
+        </div>
+        <span class="text-[9px] text-red-400 bg-red-500/10 px-1.5 py-0.5 rounded">🔥 HOT</span>
+      </div>
+      <div class="flex items-center gap-3 py-2.5 px-3 rounded-xl hover:bg-white/5">
+        <span class="text-orange-400 font-bold text-base w-6 text-center">2</span>
+        <div class="flex-1">
+          <p class="text-sm font-medium">夜空中最亮的光</p>
+          <p class="text-[10px] text-gray-500">持续霸榜 · 1.8亿次播放</p>
+        </div>
+        <span class="text-[9px] text-red-400 bg-red-500/10 px-1.5 py-0.5 rounded">🔥 HOT</span>
+      </div>
+      <div class="flex items-center gap-3 py-2.5 px-3 rounded-xl hover:bg-white/5">
+        <span class="text-yellow-500 font-bold text-base w-6 text-center">3</span>
+        <div class="flex-1">
+          <p class="text-sm font-medium">彩虹般的梦 - 苏小落</p>
+          <p class="text-[10px] text-gray-500">新歌首发 · 9800万次播放</p>
+        </div>
+        <span class="text-[9px] text-orange-400 bg-orange-500/10 px-1.5 py-0.5 rounded">NEW</span>
+      </div>
+      <div class="flex items-center gap-3 py-2.5 px-3 rounded-xl hover:bg-white/5">
+        <span class="text-gray-500 font-bold text-base w-6 text-center">4</span>
+        <div class="flex-1">
+          <p class="text-sm font-medium">城市漫游指南 - 赵逸风</p>
+          <p class="text-[10px] text-gray-500">热度上升 · 7600万次播放</p>
+        </div>
+        <i class="fas fa-arrow-trend-up text-green-400 text-xs"></i>
+      </div>
+      <div class="flex items-center gap-3 py-2.5 px-3 rounded-xl hover:bg-white/5">
+        <span class="text-gray-500 font-bold text-base w-6 text-center">5</span>
+        <div class="flex-1">
+          <p class="text-sm font-medium">午夜电台 - DJ小白</p>
+          <p class="text-[10px] text-gray-500">5200万次播放</p>
+        </div>
+        <i class="fas fa-arrow-trend-up text-green-400 text-xs"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- 分类浏览 -->
+  <div class="px-5 mb-5">
+    <h2 class="text-base font-bold mb-3">分类浏览</h2>
+    <div class="grid grid-cols-2 gap-2.5">
+      <div class="relative h-20 rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=400&h=160&fit=crop" class="w-full h-full object-cover" alt="pop">
+        <div class="absolute inset-0 bg-gradient-to-r from-pink-600/80 to-pink-600/40"></div>
+        <span class="absolute bottom-2.5 left-3 text-sm font-bold">流行</span>
+      </div>
+      <div class="relative h-20 rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=400&h=160&fit=crop" class="w-full h-full object-cover" alt="rock">
+        <div class="absolute inset-0 bg-gradient-to-r from-red-600/80 to-red-600/40"></div>
+        <span class="absolute bottom-2.5 left-3 text-sm font-bold">摇滚</span>
+      </div>
+      <div class="relative h-20 rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1526478806334-5fd488fcaabc?w=400&h=160&fit=crop" class="w-full h-full object-cover" alt="electronic">
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-600/80 to-blue-600/40"></div>
+        <span class="absolute bottom-2.5 left-3 text-sm font-bold">电子</span>
+      </div>
+      <div class="relative h-20 rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=400&h=160&fit=crop" class="w-full h-full object-cover" alt="jazz">
+        <div class="absolute inset-0 bg-gradient-to-r from-amber-700/80 to-amber-700/40"></div>
+        <span class="absolute bottom-2.5 left-3 text-sm font-bold">爵士</span>
+      </div>
+      <div class="relative h-20 rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=400&h=160&fit=crop" class="w-full h-full object-cover" alt="classical">
+        <div class="absolute inset-0 bg-gradient-to-r from-emerald-700/80 to-emerald-700/40"></div>
+        <span class="absolute bottom-2.5 left-3 text-sm font-bold">古典</span>
+      </div>
+      <div class="relative h-20 rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1546427660-eb346c344ba5?w=400&h=160&fit=crop" class="w-full h-full object-cover" alt="hiphop">
+        <div class="absolute inset-0 bg-gradient-to-r from-purple-700/80 to-purple-700/40"></div>
+        <span class="absolute bottom-2.5 left-3 text-sm font-bold">嘻哈</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 最近搜索 -->
+  <div class="px-5 mb-28">
+    <div class="flex justify-between items-center mb-3">
+      <h2 class="text-base font-bold">最近搜索</h2>
+      <i class="fas fa-trash-can text-gray-500 text-xs"></i>
+    </div>
+    <div class="flex flex-wrap gap-2">
+      <span class="tag-gradient rounded-full px-3 py-1.5 text-xs">林思远</span>
+      <span class="tag-gradient rounded-full px-3 py-1.5 text-xs">夜曲</span>
+      <span class="tag-gradient rounded-full px-3 py-1.5 text-xs">治愈系歌单</span>
+      <span class="tag-gradient rounded-full px-3 py-1.5 text-xs">2026年度歌曲</span>
+      <span class="tag-gradient rounded-full px-3 py-1.5 text-xs">周杰伦</span>
+      <span class="tag-gradient rounded-full px-3 py-1.5 text-xs">lofi beats</span>
+      <span class="tag-gradient rounded-full px-3 py-1.5 text-xs">跑步歌单</span>
+    </div>
+  </div>
+
+  <!-- 底部 Tab Bar -->
+  <div class="fixed bottom-0 left-0 right-0 glass border-t border-white/5">
+    <div class="flex justify-around items-center py-2 pb-5">
+      <div class="flex flex-col items-center gap-0.5">
+        <i class="fas fa-house text-gray-500 text-base"></i>
+        <span class="text-[10px] text-gray-500">首页</span>
+      </div>
+      <div class="flex flex-col items-center gap-0.5">
+        <i class="fas fa-magnifying-glass text-orange-500 text-base"></i>
+        <span class="text-[10px] text-orange-500 font-medium">搜索</span>
+      </div>
+      <div class="flex flex-col items-center gap-0.5">
+        <i class="fas fa-record-vinyl text-gray-500 text-base"></i>
+        <span class="text-[10px] text-gray-500">播放</span>
+      </div>
+      <div class="flex flex-col items-center gap-0.5">
+        <i class="fas fa-book-open text-gray-500 text-base"></i>
+        <span class="text-[10px] text-gray-500">音乐库</span>
+      </div>
+      <div class="flex flex-col items-center gap-0.5">
+        <i class="fas fa-user text-gray-500 text-base"></i>
+        <span class="text-[10px] text-gray-500">我的</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

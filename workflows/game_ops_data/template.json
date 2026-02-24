@@ -1,0 +1,81 @@
+{
+    "_description": "游戏竞品运营监控 - 标准化数据输入模板 v2.0",
+    "_version": "2.0",
+    "_usage": "复制此模板到对应游戏目录下，命名为 week_{周次:02d}_{年份}.json，填入实际数据",
+    "_images_usage": "图片存放在同级 images/ 目录下，images 字段使用对象数组格式 [{\"file\": \"xxx.jpg\", \"desc\": \"描述\"}]",
+    "meta": {
+        "game_name": "游戏名称",
+        "wechat_account": "微信公众号名称",
+        "developer": "研发商",
+        "publisher": "运营商",
+        "game_type": "游戏类型",
+        "week_number": 0,
+        "year": 2026,
+        "date_range": ["YYYY-MM-DD", "YYYY-MM-DD"],
+        "analyst": "AI Assistant",
+        "report_date": "YYYY-MM-DD",
+        "data_sources": [
+            "微信公众号「XXX」",
+            "TapTap官方论坛 https://www.taptap.cn/app/APPID/topic?type=official",
+            "官网 https://www.xxx.com/news"
+        ],
+        "note": "本周特殊背景说明（可选，如节假日、大版本前后等）"
+    },
+    "summary": {
+        "total_articles": 0,
+        "key_highlights": [
+            "【关键词】本周重点1",
+            "【关键词】本周重点2"
+        ],
+        "overall_assessment": "本周整体运营评估（200字以内，概括运营节奏、核心策略、数据亮点）"
+    },
+    "dimensions": {
+        "gameplay_content": {
+            "priority_level": "high",
+            "display_name": "玩法内容",
+            "description": "重大版本更新（新玩法、角色、地图、武器等T0）、不定期玩法活动（T1）",
+            "entries": [
+                {
+                    "title": "运营动作标题",
+                    "date": "YYYY-MM-DD",
+                    "tier": "T0/T1/T2",
+                    "detail": "200字以内详细描述，包含具体时间、内容、亮点",
+                    "source_url": "原文链接（公众号/TapTap/官网）",
+                    "source_title": "原文标题",
+                    "player_feedback": "玩家反馈摘要（可选，null 表示无）",
+                    "images": [{"file": "图片文件名.jpg", "desc": "图片描述"}]
+                }
+            ]
+        },
+        "active_events": {
+            "priority_level": "high",
+            "display_name": "活跃活动",
+            "description": "提高玩家活跃或留存的活动（节庆活动、限时任务、邀请好友等）",
+            "entries": []
+        },
+        "monetization": {
+            "priority_level": "high",
+            "display_name": "商业化",
+            "description": "促进玩家消费的活动（IP联动、新皮肤上架、充值活动、售价变化等）",
+            "entries": []
+        },
+        "content_marketing": {
+            "priority_level": "medium",
+            "display_name": "内容营销",
+            "description": "创作者计划、热门内容、KOL直播等",
+            "entries": []
+        },
+        "esports": {
+            "priority_level": "medium",
+            "display_name": "电竞赛事",
+            "description": "重大赛事节点、高关注度赛事",
+            "entries": []
+        },
+        "other_major": {
+            "priority_level": "low",
+            "display_name": "其他重大事件",
+            "description": "线下活动、品牌联动等",
+            "entries": []
+        }
+    }
+}
