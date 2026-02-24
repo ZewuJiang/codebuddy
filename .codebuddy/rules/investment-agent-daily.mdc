@@ -2,15 +2,22 @@
 description: 当用户提到「投资Agent」「每日分析」「投资分析」「投资预测」「每日报告」「investment agent」或类似关键词时，自动执行投资Agent每日分析与预测全流程。
 alwaysApply: false
 enabled: true
-updatedAt: 2026-02-24T10:41:31.634Z
+updatedAt: 2026-02-25T01:10:00.000Z
 provider: 
 ---
 
-# 投资Agent每日分析 — 标准工作流 v7.3.3
+# 投资Agent每日分析 — 标准工作流 v7.4
 
-> **版本更新 v7.3.3 (2026-02-25)**: 🔴🔴🔴**确立"过去24小时内最新且准确的真实数据"为最高优先级**。核心变更：(1)铁律#6.06从僵化的"固定执行链"改为灵活策略导向——web_search/web_fetch/Google Finance/Yahoo Finance等手段均可，不限顺序，以获取到真实数据为准；(2)铁律#1新增(e)灵活获取手段；(3)P0声明强调"获取手段灵活处理"；(4)搜索后验证兜底改为灵活策略；(5)注意事项#45确立灵活获取最高原则。保持v7.3.2全部数据铁律+v7.3.1全部检查项+v7.3优先级机制。
+> **版本更新 v7.4 (2026-02-25)**: 🔴🔴🔴**固化0225实战验证的"双轨数据获取"标准执行路径**。核心变更：
 >
-> v7.3.2变更：确立"每一个数据都必须是实时最新准确数据"为不可妥协的铁律；P0优先级声明；数据铁律#1全面升级；新增铁律#6.05"实时数据溯源"；数据时效性验证3步协议；终审#10覆盖10个数据点5大类；第3.5阶段D项web_search实时复核；注意事项#43/#44。
+> 1. **第一阶段重构为"web_search + web_fetch Google Finance双轨并行"**——实战证明Google Finance是最稳定、最精确的个股/指数/加密数据源，新增"第1.2阶段: Google Finance精确采集"，30+个已验证URL模板标准化
+> 2. **新增已验证URL模板库**——覆盖美股个股(NASDAQ/NYSE)、四大指数、VIX、11个GICS sector ETF、亚太6大指数、加密3币种，全部经0225实战验证可返回精确数据
+> 3. **新增数据源失败矩阵**——Yahoo Finance中国大陆403、Google Finance期货代码(CL=F/GC=F)不识别、CNN F&G动态渲染无数值等6项已知失败场景及标准降级路径
+> 4. **搜索结果年份陷阱强化**——web_search搜"2026年2月25日"高概率返回2025年同日数据，新增"年份交叉验证"强制步骤
+> 5. **堵点库扩充至27项**（新增#22-#27：Yahoo Finance 403/Google Finance期货代码/CNN F&G动态页/搜索年份陷阱/上期数据异常检测/OilPrice原油获取路径）
+> 6. **质量标杆更新**——从`20260224-2030`升级为`20260225-0008`（首个v7.4标准产出）
+>
+> 保持v7.3.3全部数据铁律+v7.3.2实时溯源+v7.3.1全部32项终审+v7.3优先级机制。
 
 ---
 
@@ -137,7 +144,7 @@ provider:
 
 ## 最终产出文件（仅两个）
 
-> **质量标杆**: 以 `投资Agent-每日分析-20260224-2030.md/pdf` 为标准参考——v5.0新架构、10-Skill全覆盖、完整终审、单页长图PDF。每次产出的格式、内容深度、排版质量必须与此标杆一致或更优。
+> **质量标杆**: 以 `投资Agent-每日分析-20260225-0008.md/pdf` 为标准参考——v7.4双轨采集、10-Skill全覆盖、完整终审、单页长图PDF。每次产出的格式、内容深度、排版质量必须与此标杆一致或更优。
 >
 > **严禁产出旧版格式**: 旧版v3.3（如`投资Agent-每日分析-20260224-2003.md`）使用Python脚本+Alpha Vantage采集，存在大量"无数据"/"异常"，PDF格式混乱——此格式已永久废弃，不得再产出。
 
@@ -175,16 +182,16 @@ provider:
 
 ### 第一阶段：实时数据采集（🔴最关键阶段，P0优先级）
 
-> **🔴核心原则：报告中的每一个数据都必须是过去24小时内最新且准确的真实数据——这是最高优先级。** AI通过web_search、web_fetch及一切可用手段采集**当前最新**数据，具体获取方式灵活处理，不依赖Python脚本、训练数据或任何缓存。**最低12次搜索**，每次搜索覆盖尽可能多的数据点。**如12次搜索后仍有数据空白、存疑或时效性不足，必须灵活运用web_fetch访问金融数据网页（Google Finance/Yahoo Finance/东方财富等）或其他任何有效途径追加获取，不得因"流程效率"而跳过**。**每次搜索都必须在搜索词中包含当日日期{DATE}以确保获取最新数据**。
+> **🔴核心原则：报告中的每一个数据都必须是过去24小时内最新且准确的真实数据——这是最高优先级。** 采用**"web_search广度覆盖 + web_fetch Google Finance精确采集"双轨并行**策略。web_search负责新闻/政策/宏观概览，Google Finance负责精确数字（指数/个股/加密/ETF）。**最低12次web_search + 20次以上web_fetch**。**每次搜索都必须在搜索词中包含当日日期{DATE}以确保获取最新数据**。
 
-#### 采集批次（3批并行，共12次搜索）
+#### 第1.1步：web_search广度采集（3批并行，共12次搜索）
 
 **批次1 — 美股+全球+宏观（同时搜索5项）**:
 1. `web_search`: "S&P 500 Nasdaq Dow Russell VIX {DATE} closing" → 美股四大指数+VIX
 2. `web_search`: "恒生指数 日经225 DAX 富时100 上证 深证 今日 {DATE}" → 全球6大指数（中文源优先）
 3. `web_search`: "gold COMEX silver WTI Brent copper price today {DATE}" → 贵金属+原油+铜
 4. `web_search`: "CNN Fear Greed Index DXY dollar index today" → F&G+美元指数
-5. `web_search`: "今日重大财经新闻 关税 央行 {DATE}" → 新闻头条+政策动态（一次搜索覆盖新闻+政策）
+5. `web_search`: "今日重大财经新闻 关税 央行 {DATE}" → 新闻头条+政策动态
 
 **批次2 — 个股+行业+信贷（同时搜索4项）**:
 6. `web_search`: "NVDA AAPL MSFT GOOGL META AMZN stock price today" → A级重点个股
@@ -193,24 +200,88 @@ provider:
 9. `web_search`: "KRE high yield spread HY OAS SOFR 10Y treasury today" → 信贷+利率指标
 
 **批次3 — 中国市场+加密+验证（同时搜索3项）**:
-10. `web_search`: "A股 北向资金 恒生科技 腾讯 阿里 今日 {DATE}" → A股+港股+资金流（合并为1次）
-11. `web_search`: "bitcoin ethereum solana price crypto {DATE}" → BTC/ETH/SOL+加密F&G
-12. `web_search`: "US tariff CBP announcement trade policy latest {DATE}" → 英文政策验证源（与搜索5中文源交叉验证）
+10. `web_search`: "A股 北向资金 恒生科技 腾讯 阿里 今日 {DATE}" → A股+港股+资金流
+11. `web_search`: "bitcoin ethereum solana price crypto {DATE}" → BTC/ETH/SOL
+12. `web_search`: "US tariff CBP announcement trade policy latest {DATE}" → 英文政策验证源
+
+#### 第1.2步：Google Finance精确采集（🔴v7.4新增，核心创新）
+
+> **实战验证（0225）**: Google Finance通过web_fetch可稳定返回精确的实时价格、涨跌幅、PE等数据，是目前最可靠的个股/指数/ETF/加密数据源。以下URL模板全部经实战验证。
+
+**URL格式**: `https://www.google.com/finance/quote/{SYMBOL}:{EXCHANGE}`
+
+**🔴 已验证URL模板库（0225实战全部成功）**:
+
+| 类别 | 标的 | URL路径 | 返回数据 |
+|------|------|---------|----------|
+| **美股指数** | S&P 500 | `.INDEXSP:%24SPX` 或搜索 | 指数值+涨跌幅 |
+| **美股指数** | DJIA | `.INDEXDJX:.DJI` | 指数值+涨跌幅 |
+| **美股指数** | NASDAQ | `.INDEXNASDAQ:.IXIC` | 指数值+涨跌幅 |
+| **美股指数** | NDX | `.INDEXNASDAQ:NDX` | 指数值+涨跌幅 |
+| **美股指数** | Russell 2000 | `.INDEXRUSSELL:RUT` | 指数值+涨跌幅 |
+| **VIX** | VIX | `VIX:INDEXCBOE` | VIX值+涨跌幅 |
+| **个股(NASDAQ)** | NVDA/AAPL/MSFT/GOOGL/META/AMZN/AMD/INTC/TSLA/PYPL | `{TICKER}:NASDAQ` | 价格+涨跌幅+PE |
+| **个股(NYSE)** | V/JPM/IBM/LLY/NVO | `{TICKER}:NYSE` | 价格+涨跌幅+PE |
+| **11个GICS ETF** | XLK/XLY/XLI/XLB/XLP/XLC/XLF/XLU/XLRE/XLV/XLE | `{ETF}:NYSEARCA` | 价格+涨跌幅 |
+| **银行ETF** | KRE | `KRE:NYSEARCA` | 价格+涨跌幅 |
+| **亚太指数** | 恒生 | `HSI:INDEXHANGSENG` | 指数值+涨跌幅 |
+| **亚太指数** | 恒生科技 | `HSTECH:INDEXHANGSENG` | 指数值+涨跌幅 |
+| **亚太指数** | 上证 | `000001:SHA` | 指数值+涨跌幅 |
+| **亚太指数** | 深证 | `399001:SHE` | 指数值+涨跌幅 |
+| **亚太指数** | 日经225 | `NI225:INDEXNIKKEI` | 指数值+涨跌幅 |
+| **欧洲指数** | DAX | `DAX:INDEXDB` | 指数值+涨跌幅 |
+| **欧洲指数** | FTSE 100 | `UKX:INDEXFTSE` | 指数值+涨跌幅 |
+| **加密货币** | BTC | `BTC-USD` | 价格+涨跌幅 |
+| **加密货币** | ETH | `ETH-USD` | 价格+涨跌幅 |
+| **加密货币** | SOL | `SOL-USD` | 价格+涨跌幅 |
+
+**执行策略**: 将上述URL分为4-5批并行web_fetch（每批5-8个URL），一次性获取50+个精确数据点。
+
+**⚠️ Google Finance已知限制（0225实战验证）**:
+- ❌ **期货代码不支持**: `CL=F:NYMEX`(WTI)、`GC=F:CMX`(黄金)、`SI=F:COMEX`(白银)、`HG=F:COMEX`(铜) → 返回"找不到匹配结果"
+- ❌ **DXY不支持**: `DX-Y.NYB:NYBOT` → 返回"找不到匹配结果"
+- ❌ **10Y国债不支持**: `TNX:INDEXCBOE` → 返回"找不到匹配结果"
+- ✅ **个股/指数/ETF/加密全部支持**
+
+#### 第1.3步：补充数据获取（针对Google Finance不支持的品种）
+
+| 数据 | Google Finance状态 | 标准降级路径（0225实战验证） |
+|------|-------------------|--------------------------|
+| **WTI/Brent原油** | ❌不支持期货 | `web_fetch` OilPrice.com → web_search "WTI crude oil price today" |
+| **COMEX黄金** | ❌不支持期货 | web_search "COMEX gold price today" → `web_fetch` 金投网 |
+| **现货白银** | ❌不支持期货 | web_search "白银 现货价格 今日" → 金投网/腾讯网 |
+| **铜** | ❌不支持期货 | web_search "铜期货 价格 今日" → 金投网 |
+| **DXY美元指数** | ❌不支持 | web_search "美元指数 DXY 今日" → 同花顺/金投网 |
+| **10Y美债收益率** | ❌不支持 | web_search "10 year treasury yield today" → 每经/FRED |
+| **HY利差(OAS)** | ❌不支持 | web_search "high yield OAS FRED" → FRED官网 |
+| **CNN F&G指数** | ❌动态渲染无数值 | web_search "CNN Fear Greed Index today" → 若仍无精确值，基于VIX+板块表现估算并标注`(估)` |
+| **SOFR** | ❌不支持 | web_search "SOFR rate today" → FRED/纽约联储 |
+
+**⚠️ Yahoo Finance状态（0225实战验证）**: 中国大陆访问返回403 Forbidden或"该服务在中国大陆无法使用"。**不作为首选源，仅在其他途径全部失败时尝试**。
+
+#### 第1.4步：搜索后验证 + 年份陷阱防范
 
 **⚠️ 搜索后验证（v7.3.1强化）**:
-- 12次搜索完成后，**必须逐一核对**以下数据是否全部获取到精确值（非估算）：
-  - [ ] SPX/NDX/DJIA/RUT/VIX（搜索1）
-  - [ ] 恒生/日经/DAX/FTSE/上证/深证（搜索2）
-  - [ ] COMEX黄金/白银/WTI/Brent/铜（搜索3）
-  - [ ] F&G/DXY（搜索4）
-  - [ ] NVDA/AAPL/MSFT/GOOGL/META/AMZN（搜索6）
-  - [ ] TSLA/AMD/NVO/LLY/V/JPM及其PE（搜索7）
-  - [ ] 11个GICS板块涨跌%（搜索8）
-  - [ ] HY利差/KRE/SOFR/10Y（搜索9）
-  - [ ] BTC/ETH/SOL（搜索11）
-- **任何打勾项缺失 → 必须追加获取该标的数据**，禁止用估算值或前一日数据替代
-- **🔴🔴 灵活获取兜底(v7.3.3)**: 若web_search无法获取某数据点精确值，**灵活使用web_fetch直接访问金融数据网页（Google Finance/Yahoo Finance/东方财富等）、或换关键词重搜、或尝试其他数据源**——不限制具体手段，**目标只有一个：获取过去24小时内最新且准确的真实数据**
-- **🔴 每一个获取到的数据都必须确认为当日/最近交易日的实时数据**——若结果中的日期显示为非当日数据，视为未获取到，必须换方式重新获取
+- 12次搜索 + 20+次web_fetch完成后，**必须逐一核对**以下数据是否全部获取到精确值（非估算）：
+  - [ ] SPX/NDX/DJIA/RUT/VIX（Google Finance）
+  - [ ] 恒生/日经/DAX/FTSE/上证/深证（Google Finance）
+  - [ ] COMEX黄金/白银/WTI/Brent/铜（OilPrice+金投网+web_search）
+  - [ ] F&G/DXY（web_search）
+  - [ ] NVDA/AAPL/MSFT/GOOGL/META/AMZN+PE（Google Finance）
+  - [ ] TSLA/AMD/NVO/LLY/V/JPM+PE（Google Finance）
+  - [ ] 11个GICS板块涨跌%（Google Finance ETF）
+  - [ ] HY利差/KRE/SOFR/10Y（web_search+FRED）
+  - [ ] BTC/ETH/SOL（Google Finance）
+- **任何打勾项缺失 → 必须追加获取**
+
+**🔴🔴 年份陷阱防范（v7.4新增）**:
+> **血的教训(0225)**: web_search搜索"A股 上证指数 2026年2月25日"返回的全部是2025年2月25日的数据（上证3346 vs 实际4117，偏差20%+）。搜索引擎在年初/相近日期时高概率混淆年份。
+>
+> **强制验证步骤**:
+> 1. **数量级校验**: 每个搜索结果必须与Google Finance的值做数量级比对（偏差>5%即可疑）
+> 2. **年份标记检查**: 搜索结果URL/标题中若含"2025"等非当前年份字样，该数据100%为历史数据，立即丢弃
+> 3. **Google Finance作为锚**: Google Finance返回的数据默认为最新实时数据（其页面始终显示当前行情），以此为锚验证web_search结果
+> 4. **中文源特别警惕**: 中文金融网站(东方财富/新浪/同花顺)的搜索结果经常混入上一年同日数据，必须逐条核验发布日期
 
 #### 数据时效性验证协议（v7.3.2强化——每个数据必须实时最新）
 
@@ -240,26 +311,30 @@ provider:
 
 **⚠️ 三步均通过才可将该数据写入报告。任何一步不通过则必须重新搜索获取实时数据。**
 
-#### 优先数据源表（v6.0实战验证）
+#### 优先数据源表（v7.4实战验证，按可靠性排序）
 
-| 数据类型 | 首选（中文源优先） | 备选 | web_fetch兜底(v7.3.3) | 实战注意 |
-|----------|-------------------|------|----------------------|----------|
-| 美股指数 | 东方财富/新浪财经 | MarketWatch / Google Finance | `web_fetch` Google Finance指数页 | MarketWatch偶尔401 |
-| 个股价格 | 东方财富/新浪财经 | StockAnalysis / MarketWatch | `web_fetch` Google Finance: `google.com/finance/quote/{TICKER}:{EXCHANGE}` | **web_search无精确价格时必须web_fetch** |
-| VIX | 同花顺/东方财富 | MarketWatch / CBOE | `web_fetch` Google Finance: `google.com/finance/quote/VIX:INDEXCBOE` | — |
-| 加密货币 | 金色财经/币界网 | CoinGecko / Coinglass | `web_fetch` Yahoo Finance: `finance.yahoo.com/quote/BTC-USD/` | CoinGecko有时返回kitco内容 |
-| F&G指数 | CNN Fear & Greed | alternative.me | `web_fetch` CNN F&G页面 | — |
-| 黄金/白银 | 金投网/搜狐财经 | GoldPriceZ.com | `web_fetch` Google Finance: `google.com/finance/quote/GC=F:CMX` | 注意现货vs期货(COMEX)，取纽约尾盘数据 |
-| 美元指数 | 金投网/同花顺 | DollarIndex.org | `web_fetch` Yahoo Finance: `finance.yahoo.com/quote/DX-Y.NYB/` | — |
-| 恒生/A股 | 东方财富/新浪 | — | `web_fetch` Google Finance恒生/上证页面 | 港股15:00收盘/A股15:00收盘 |
-| 日经/欧洲 | MarketWatch/新浪 | Investing.com | `web_fetch` Google Finance: DAX/N225页面 | — |
-| CPI/PCE | TradingEconomics | BLS / FRED | — | 注意区分标准CPI vs Sticky CPI |
-| 个股基本面 | StockAnalysis.com | MarketWatch | `web_fetch` StockAnalysis/Yahoo Finance | PE取网站显示的TTM值 |
-| 财经新闻 | 新华财经/第一财经/中国经济网/每经 | Google News | — | 搜索词包含日期 |
+| 数据类型 | 🥇首选（最可靠） | 🥈备选 | 🥉第三选 | 0225实战注意 |
+|----------|-----------------|--------|---------|-------------|
+| 美股指数(SPX/NDX/DJIA/RUT) | **Google Finance web_fetch** | 东方财富/新浪财经 | MarketWatch(偶尔401) | Google Finance最稳定 |
+| VIX | **Google Finance** `VIX:INDEXCBOE` | 同花顺/东方财富 | MarketWatch | — |
+| 个股价格+PE | **Google Finance** `{TICKER}:{EXCHANGE}` | StockAnalysis.com | 东方财富 | **PE直接从Google Finance页面获取** |
+| 11个GICS ETF | **Google Finance** `{ETF}:NYSEARCA` | web_search sector performance | — | 一次性获取11个精确值 |
+| 亚太指数(恒生/上证/深证/日经) | **Google Finance** | 东方财富/新浪 | — | 港股15:00/A股15:00收盘 |
+| 欧洲指数(DAX/FTSE) | **Google Finance** | MarketWatch | — | — |
+| 加密货币(BTC/ETH/SOL) | **Google Finance** `{COIN}-USD` | CoinGecko web_search | 金色财经 | 7×24实时 |
+| COMEX黄金 | web_search "COMEX gold" + 金投网 | 搜狐财经 | — | ❌Google Finance不支持期货 |
+| 白银 | web_search "白银现货价格" | 金投网/腾讯网 | — | ❌Google Finance不支持 |
+| WTI/Brent原油 | **web_fetch OilPrice.com** | web_search + 金投网 | — | ❌Google Finance不支持期货 |
+| 铜 | web_search "铜期货价格" + 金投网 | 东方财富 | — | ❌Google Finance不支持 |
+| DXY美元指数 | web_search + 同花顺/金投网 | — | — | ❌Google Finance不支持 |
+| 10Y美债收益率 | web_search + 每经/新华财经 | FRED | — | ❌Google Finance不支持 |
+| HY利差(OAS) | **FRED** (`web_fetch`或web_search) | 宏观新闻交叉 | — | FRED数据有1-2周延迟 |
+| F&G指数 | web_search "CNN Fear Greed" | 基于VIX+板块估算`(估)` | — | ❌CNN页面动态渲染无法web_fetch |
+| CPI/PCE | TradingEconomics | BLS / FRED | — | 注意标准CPI vs Sticky CPI |
+| 财经新闻 | 新华财经/第一财经/每经/华尔街见闻 | Google News | — | 搜索词包含日期 |
 | 微信相关 | https://mp.weixin.qq.com/ | — | — | 用户规则要求 |
-| WTI/Brent | oilprice.com/搜狐 | 金投网 | `web_fetch` Yahoo Finance: `finance.yahoo.com/quote/CL=F/` | — |
 | 关税/贸易政策 | 第一财经/华尔街见闻/新华财经 | CBP官网/USTR | — | **必须区分"已生效"vs"待签署"** |
-| 铜/CPER ETF | 东方财富/金投网 | MarketWatch | `web_fetch` Yahoo Finance: `finance.yahoo.com/quote/HG=F/` | 若无实时数据，用近似ETF价格+`(估)`标注 |
+| KRE银行ETF | **Google Finance** `KRE:NYSEARCA` | web_search | — | — |
 
 ### 第1.5阶段：高影响数据验证（采集完成后立即执行）
 
@@ -526,16 +601,16 @@ provider:
 
 ---
 
-## 已知堵点与规避策略（实战积累，21项）
+## 已知堵点与规避策略（实战积累，27项）
 
 | # | 堵点 | 现象 | 规避策略 |
 |---|------|------|----------|
 | 1 | MarketWatch 401 | web_fetch直接访问返回401 | 改用web_search + 中文金融网站(东方财富/同花顺) |
-| 2 | CoinGecko返回Kitco | web_fetch coingecko返回黄金数据 | 改用web_search搜索中文加密新闻源 |
-| 3 | Alpha Vantage限流 | PE=76/D/E=7600%异常值 | 不使用脚本，直接web_search从StockAnalysis.com获取 |
+| 2 | CoinGecko返回Kitco | web_fetch coingecko返回黄金数据 | 改用Google Finance `BTC-USD`/`ETH-USD`/`SOL-USD` |
+| 3 | Alpha Vantage限流 | PE=76/D/E=7600%异常值 | 不使用脚本，直接Google Finance获取PE |
 | 4 | FRED Sticky CPI | 返回Sticky CPI而非标准CPI | web_search "US CPI YoY latest" 确认标准值 |
 | 5 | 港股/A股时差 | 周一日盘vs上周五混用 | 明确标注数据日期列 |
-| 6 | F&G获取失败 | 模块缺失/超时回退50 | web_search "CNN Fear Greed Index" |
+| 6 | F&G获取失败 | 模块缺失/超时回退50 | web_search "CNN Fear Greed Index"；若仍无精确值基于VIX估算标`(估)` |
 | 7 | 评分越界 | Skill 10评分-1.10超出[-1,+1] | 第三阶段审计第1项强制检查 |
 | 8 | NVO口径不一 | Skill说建仓/操作清单说不建仓 | 第三阶段审计第6项强制检查 |
 | 9 | 关税税率混淆 | 总统社交媒体声明税率≠CBP正式生效税率 | 关税数据以CBP海关公告为准；第1.5阶段+第3.5阶段双重验证 |
@@ -546,15 +621,21 @@ provider:
 | 14 | replace_in_file匹配失败 | 换行/空格差异导致编辑失败 | 编辑前先read_file确认精确文本，大段修改分步执行 |
 | 15 | 文件被后续运行覆盖 | 终审修订版被脚本重跑覆盖为低质量版本 | **文件名必须带时间戳（HHMM）**，禁止使用不带时间的文件名 |
 | 16 | 生成时间虚假 | 20:30完成的报告命名为-2300（未来时间） | 完成后执行`date +%H%M`取真实时间，严禁预设/凑整；文件名与报告头部时间必须一致 |
-| 17 | 旧版格式误产出 | 使用Python脚本产出v3.3低质量报告（大量N/A+PDF混乱） | 永久废弃wf6_investment_agent.py脚本，只用AI直接采集+v5.0+架构；以20260224-2030为质量标杆 |
+| 17 | 旧版格式误产出 | 使用Python脚本产出v3.3低质量报告（大量N/A+PDF混乱） | 永久废弃wf6_investment_agent.py脚本，只用AI直接采集+v5.0+架构；以20260225-0008为质量标杆 |
 | 18 | 迭代时搜索引入错误数据 | 优化版重新搜索数据时搜索引擎返回不同年份/来源数据，导致14+项核心数据全面失真 | **迭代时底层数据以上期为锚，禁止重新搜索已有数据；若必须重新搜索，每项偏差>2%必须二次验证（第3.6阶段强制执行）** |
 | 19 | Skill评分总览vs详情不一致 | 修改评分时只改了总览表没改详情(或反之)，导致综合评分验算通过但详情评分矛盾 | **第3.7阶段强制逐一对比10个Skill的总览表和详情评分** |
 | 20 | 修改数据不彻底 | 修正某个数据值时遗漏了该数据在全文其他位置的引用（如HY 286bp在某处仍写290bp） | **第3.7阶段对每个修改的数据做全文grep确认0遗漏** |
-| 21 | web_search无精确个股价格 | web_search返回新闻仅含涨跌幅%而无精确收盘价美元数值，导致大量个股价格使用推算值 | **灵活使用web_fetch访问Google Finance/Yahoo Finance/东方财富等金融数据网页直接获取精确价格，或换关键词重搜——手段不限，穷尽一切途径获取真实数据** |
+| 21 | web_search无精确个股价格 | web_search返回新闻仅含涨跌幅%而无精确收盘价美元数值，导致大量个股价格使用推算值 | **使用Google Finance web_fetch直接获取精确价格+PE，这是最可靠的路径** |
+| 22 | **Yahoo Finance中国大陆403(v7.4新增)** | web_fetch访问`finance.yahoo.com/quote/`返回403 Forbidden或"该服务在中国大陆无法使用" | **不作为首选源**。个股/指数/加密用Google Finance替代；原油用OilPrice.com；DXY用同花顺 |
+| 23 | **Google Finance期货代码不识别(v7.4新增)** | web_fetch访问`google.com/finance/quote/CL%3DF:NYMEX`等期货代码返回"找不到匹配结果" | Google Finance不支持期货品种（WTI/黄金/白银/铜/DXY/国债），这些品种必须走web_search+专业网站（OilPrice/金投网/FRED） |
+| 24 | **CNN F&G动态页面无数值(v7.4新增)** | web_fetch CNN Fear & Greed页面返回页面框架但无具体指数数值（JavaScript动态渲染内容无法抓取） | 优先web_search获取；若仍无精确值，基于VIX水平+板块表现+上期值合理估算，标注`(估)`并说明估算依据 |
+| 25 | **🔴搜索结果年份陷阱(v7.4新增)** | web_search搜索"2026年2月25日 A股上证指数"返回的全部是2025年2月25日的数据（上证3346 vs 实际4117） | **Google Finance作为锚**：任何web_search数据与Google Finance偏差>5%，立即检查搜索结果是否为旧年份数据。搜索结果URL/标题含非当前年份→立即丢弃 |
+| 26 | **上期数据异常检测(v7.4新增)** | 上期报告Russell 2000=2198（实际应为2620+），疑似旧年份数据写入 | 每期产出后与Google Finance当前值交叉验证核心数据；新一期产出时若发现上期某数据与Google Finance偏差>10%，以Google Finance为准而非沿用上期错误数据 |
+| 27 | **OilPrice.com原油获取路径(v7.4新增)** | Google Finance和Yahoo Finance均不支持WTI/Brent期货实时价格 | `web_fetch` OilPrice.com首页可稳定获取WTI和Brent实时价格（0225验证：WTI=$65.87/Brent=$71.02） |
 
 ---
 
-## 注意事项（45条）
+## 注意事项（48条）
 
 1. **ETF价格 ≠ 资产价格**: USO≠WTI原油, GLD≠金价(美元/盎司), UUP≠DXY美元指数
 2. **交易时间差**: 港股/A股/日股15:00收盘, 美股16:00 ET收盘。周末/节假日用最近交易日数据
@@ -601,3 +682,6 @@ provider:
 43. **🔴🔴每一个数据必须实时最新(v7.3.2)**: 报告中的每一个市场数据都必须是通过web_search从权威数据源实时获取的当日/最近交易日数据。**绝对禁止**：使用AI训练数据中的历史值、凭记忆填写数据、使用超过1个交易日的旧数据（除非已标注且无法获取更新值）、搜索结果中年份与当前不符的数据
 44. **🔴数据获取失败处理(v7.3.2)**: 若某个数据点在首选源和3个备选源均无法获取到实时最新值，必须：(a)在报告中明确标注该数据获取时间；(b)使用`(截至MM/DD)`标注；(c)绝不可静默使用旧数据假装是最新数据
 45. **🔴🔴🔴数据获取最高原则(v7.3.3)**: 每一个数据必须是**过去24小时内最新且准确的真实数据**——这是最高优先级，凌驾于一切流程和格式之上。获取手段灵活处理：web_search、web_fetch(Google Finance/Yahoo Finance/东方财富等)、换关键词重搜、换数据源等均可，不限定具体顺序或方式。**唯一铁律：穷尽一切可用手段获取真实数据，只有确实全部途径失败后才可用`(估)`标注。禁止在还有未尝试的获取途径时就放弃使用推算值**
+46. **🔴Google Finance优先(v7.4)**: 个股/指数/ETF/加密数据，**首选Google Finance web_fetch**获取精确值（已验证30+个URL模板），web_search作为补充和交叉验证。Google Finance不支持的品种（期货/DXY/国债/F&G）走专业网站降级路径
+47. **🔴年份陷阱防范(v7.4)**: web_search搜索近期日期时，搜索引擎高概率返回上一年同日数据。**必须用Google Finance实时值作为锚进行数量级校验，偏差>5%的web_search结果必须检查URL/标题中的年份，非当前年份数据立即丢弃**
+48. **🔴双轨采集并行(v7.4)**: 第一阶段采用"web_search广度 + Google Finance精度"双轨并行策略。web_search负责新闻/政策/宏观概览（12次搜索），Google Finance负责精确数字（20+次web_fetch）。两轨数据交叉验证后写入报告

@@ -207,6 +207,10 @@ blockquote table td {{
     font-size: 12px;
 }}
 
+blockquote table td:first-child {{
+    white-space: nowrap;
+}}
+
 /* ─── h4标题（分级子标题） ─── */
 h4 {{
     font-size: 14px;
