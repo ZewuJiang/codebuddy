@@ -1,0 +1,124 @@
+{
+  "_说明": "拼多多（PDD Holdings）深度分析图表数据",
+  "_用法": "python3 generate_charts.py chart_data_pdd.json charts/",
+  "_版本": "v6.1（2/20最高法院裁决后更新）",
+
+  "company_name": "拼多多",
+  "company_name_en": "PDD Holdings Inc.",
+  "ticker": "PDD",
+  "current_price": 106.88,
+  "data_source": "PDD Holdings IR / StockAnalysis.com",
+  "data_date": "2026.02.24",
+
+  "currency_symbol": "¥",
+  "amount_unit": "亿人民币",
+  "amount_unit_short": "亿",
+
+  "market": "US",
+  "accounting_standard": "US GAAP",
+
+  "revenue_trend": {
+    "_说明": "营收与净利润趋势（亿RMB）",
+    "years": ["FY2020", "FY2021", "FY2022", "FY2023", "FY2024", "TTM"],
+    "revenue": [594.9, 939.5, 1305.6, 2476.4, 3938.4, 4185.4],
+    "net_income": [-71.8, 77.7, 315.4, 600.3, 1124.4, 1022.7],
+    "margin": [-12.1, 8.3, 24.2, 24.2, 28.6, 24.4],
+    "source": "PDD Holdings IR / StockAnalysis.com",
+    "revenue_label": "营收（亿RMB）",
+    "income_label": "净利润（亿RMB）",
+    "margin_label": "净利率"
+  },
+
+  "business_mix": {
+    "_说明": "业务板块营收构成（Q3 2025数据，最新财报）",
+    "labels": ["在线营销服务", "交易服务"],
+    "sizes": [533.5, 549.3],
+    "title": "拼多多Q3 2025业务营收构成（亿RMB）",
+    "source": "PDD Holdings Q3 2025 Earnings",
+    "highlight_idx": 1
+  },
+
+  "margin_trend": {
+    "_说明": "盈利能力指标趋势",
+    "years": ["FY2020", "FY2021", "FY2022", "FY2023", "FY2024", "TTM"],
+    "metrics": {
+      "毛利率": [67.6, 66.2, 75.9, 63.0, 60.9, 56.7],
+      "净利率": [-12.1, 8.3, 24.2, 24.2, 28.6, 24.4],
+      "ROE": [-18.0, 4.5, 16.2, 22.5, 35.8, 26.1]
+    },
+    "source": "PDD Holdings IR / StockAnalysis.com",
+    "y_format": "percent",
+    "y_label": "百分比"
+  },
+
+  "valuation_comp": {
+    "_说明": "竞品估值对比",
+    "companies": ["PDD", "Amazon", "Alibaba", "JD.com", "MercadoLibre"],
+    "metrics": {
+      "PE(TTM)": [11.04, 33.78, 25.97, 9.72, 52.15],
+      "PS(TTM)": [2.58, 3.9, 2.8, 0.3, 5.5],
+      "净利率(%)": [24.4, 8.0, 12.0, 3.0, 10.0]
+    },
+    "title": "拼多多 vs 全球电商竞对 关键估值指标对比",
+    "source": "Macrotrends / StockAnalysis.com, 2026.02",
+    "highlight_company": "PDD"
+  },
+
+  "risk_matrix": {
+    "_说明": "风险评估矩阵（v2: 纳入2/20最高法院裁决影响）",
+    "risks": [
+      {"name": "关税政策持续不确定", "probability": 0.60, "impact": 0.75, "level": "中高"},
+      {"name": "国内电商竞争加剧", "probability": 0.80, "impact": 0.70, "level": "高"},
+      {"name": "营收增速持续放缓", "probability": 0.75, "impact": 0.80, "level": "高"},
+      {"name": "Temu美国本土化转型", "probability": 0.65, "impact": 0.65, "level": "中高"},
+      {"name": "毛利率继续下滑", "probability": 0.55, "impact": 0.60, "level": "中"},
+      {"name": "Temu欧洲监管", "probability": 0.50, "impact": 0.60, "level": "中"},
+      {"name": "人民币汇率波动", "probability": 0.50, "impact": 0.40, "level": "中"},
+      {"name": "中美地缘政治", "probability": 0.25, "impact": 0.90, "level": "中"},
+      {"name": "商家流失风险", "probability": 0.35, "impact": 0.50, "level": "中低"},
+      {"name": "管理层交接风险", "probability": 0.25, "impact": 0.45, "level": "低"}
+    ],
+    "source": "AI Investment Research (v2, 2/20最高法院裁决后更新)"
+  },
+
+  "dcf_sensitivity": {
+    "_说明": "DCF敏感性矩阵（每股价值$）",
+    "row_labels": ["9%", "10%", "11%", "12%", "13%"],
+    "col_labels": ["2.0%", "2.5%", "3.0%", "3.5%", "4.0%"],
+    "values": [
+      [175, 189, 207, 229, 258],
+      [152, 163, 176, 192, 212],
+      [135, 143, 153, 165, 180],
+      [121, 127, 135, 144, 155],
+      [109, 115, 121, 128, 137]
+    ],
+    "row_title": "WACC",
+    "col_title": "永续增长率",
+    "current_price": 106.88,
+    "source": "AI Investment Research"
+  },
+
+  "valuation_range": {
+    "_说明": "Football Field图 — 五法估值区间",
+    "methods": ["PE估值法", "EV/EBITDA", "DCF估值法", "FCF Yield", "分析师一致"],
+    "low": [106, 95, 121, 90, 105],
+    "mid": [134, 112, 153, 108, 137.6],
+    "high": [182, 135, 180, 135, 170],
+    "current_price": 106.88,
+    "source": "AI Investment Research"
+  },
+
+  "eps_waterfall": {
+    "_说明": "EPS冲击瀑布图（基准TTM EPS $9.68，v2: 关税冲击下调+新增Temu转型风险）",
+    "base_eps": 9.68,
+    "impacts": [
+      ["关税政策不确定", -0.75],
+      ["国内竞争加剧", -0.65],
+      ["Temu转型风险", -0.40],
+      ["毛利率下滑", -0.40],
+      ["Temu欧洲监管", -0.40],
+      ["汇率波动", -0.30]
+    ],
+    "source": "AI Investment Research (v2, 2/20最高法院裁决后更新)"
+  }
+}

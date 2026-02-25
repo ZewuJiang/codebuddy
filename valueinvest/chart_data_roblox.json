@@ -1,0 +1,111 @@
+{
+  "company_name": "Roblox",
+  "company_name_en": "Roblox Corporation",
+  "ticker": "RBLX",
+  "current_price": 67.29,
+  "data_source": "SEC EDGAR - Roblox 10-K / 8-K / StockAnalysis.com",
+  "data_date": "2026.02.25",
+
+  "currency_symbol": "$",
+  "amount_unit": "亿美元",
+  "amount_unit_short": "亿",
+
+  "market": "US",
+  "accounting_standard": "US GAAP",
+
+  "revenue_trend": {
+    "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+    "revenue": [19.19, 22.25, 27.99, 36.02, 48.91],
+    "net_income": [-4.92, -9.24, -11.52, -9.35, -10.72],
+    "margin": [-25.6, -41.5, -41.2, -26.0, -21.9],
+    "source": "SEC EDGAR - Roblox 10-K / 8-K EX-99.1",
+    "revenue_label": "营收（亿美元）",
+    "income_label": "净亏损（亿美元）",
+    "margin_label": "净利率"
+  },
+
+  "business_mix": {
+    "labels": ["Robux销售（游戏内消费）", "广告/品牌合作"],
+    "sizes": [46.5, 2.4],
+    "title": "Roblox FY2025 业务营收构成估算（亿美元）",
+    "source": "Roblox IR（估算，广告收入尚未单独披露）",
+    "highlight_idx": 0
+  },
+
+  "margin_trend": {
+    "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+    "metrics": {
+      "毛利率": [22.3, 16.4, 19.0, 27.2, 23.8],
+      "FCF利润率": [29.5, -2.6, 4.9, 17.8, 27.7],
+      "SBC/营收": [17.8, 26.5, 31.0, 28.2, 23.1]
+    },
+    "source": "SEC EDGAR - Roblox 10-K / StockAnalysis.com",
+    "y_format": "percent",
+    "y_label": "百分比"
+  },
+
+  "valuation_comp": {
+    "companies": ["Roblox", "Unity", "Spotify", "Meta"],
+    "metrics": {
+      "PS(TTM)": [9.75, 4.2, 4.8, 8.2],
+      "EV/Rev(TTM)": [9.5, 3.7, 4.4, 8.0],
+      "FCF Yield(%)": [2.84, 3.5, 3.1, 3.0]
+    },
+    "title": "Roblox vs 竞对/可比公司 关键估值指标对比",
+    "source": "StockAnalysis.com, 2026.02.25",
+    "highlight_company": "Roblox"
+  },
+
+  "risk_matrix": {
+    "risks": [
+      {"name": "SBC稀释风险", "probability": 0.85, "impact": 0.8, "level": "高"},
+      {"name": "儿童安全监管", "probability": 0.7, "impact": 0.75, "level": "高"},
+      {"name": "SEC调查", "probability": 0.5, "impact": 0.7, "level": "中高"},
+      {"name": "GAAP盈利遥遥无期", "probability": 0.7, "impact": 0.6, "level": "中高"},
+      {"name": "应用商店抽成", "probability": 0.5, "impact": 0.6, "level": "中"},
+      {"name": "用户变现效率低", "probability": 0.5, "impact": 0.55, "level": "中"},
+      {"name": "竞争加剧", "probability": 0.35, "impact": 0.5, "level": "中低"},
+      {"name": "创始人控制权集中", "probability": 0.3, "impact": 0.4, "level": "中低"},
+      {"name": "国际化风险", "probability": 0.5, "impact": 0.45, "level": "中"},
+      {"name": "宏观经济下行", "probability": 0.3, "impact": 0.4, "level": "中低"}
+    ],
+    "source": "AI Investment Research"
+  },
+
+  "dcf_sensitivity": {
+    "row_labels": ["9.0%", "9.5%", "10.0%", "10.5%", "11.0%"],
+    "col_labels": ["2.0%", "2.5%", "3.0%", "3.5%", "4.0%"],
+    "values": [
+      [61, 65, 70, 75, 82],
+      [57, 60, 64, 69, 74],
+      [53, 56, 59, 63, 68],
+      [50, 52, 55, 58, 62],
+      [47, 49, 51, 54, 57]
+    ],
+    "row_title": "WACC",
+    "col_title": "永续增长率",
+    "current_price": 67.29,
+    "source": "AI Investment Research"
+  },
+
+  "valuation_range": {
+    "methods": ["PS估值法", "EV/Revenue", "DCF估值法", "FCF Yield", "分析师一致"],
+    "low": [61, 58, 47, 55, 75],
+    "mid": [74, 71, 55, 76, 122],
+    "high": [87, 89, 82, 95, 171],
+    "current_price": 67.29,
+    "source": "AI Investment Research"
+  },
+
+  "eps_waterfall": {
+    "base_eps": -1.54,
+    "impacts": [
+      ["SBC稀释(3-5%/年)", -0.12],
+      ["儿童安全罚款", -0.08],
+      ["SEC调查和解", -0.05],
+      ["应用商店抽成增加", -0.10],
+      ["DAU增速放缓", -0.15]
+    ],
+    "source": "AI Investment Research（基准EPS为FY2025 GAAP EPS -$1.54）"
+  }
+}

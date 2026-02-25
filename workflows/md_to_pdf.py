@@ -271,6 +271,17 @@ blockquote ul li strong {{
     font-size: 12.5px;
 }}
 
+/* ─── 图表图片样式（投行报告风格，紧凑排版） ─── */
+img {{
+    max-width: 72%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(15, 41, 66, 0.10);
+    border: 1px solid #edf2f4;
+}}
+
 /* ─── 可证伪条件表格状态标记 ─── */
 td:last-child {{
     font-weight: 500;
@@ -344,7 +355,9 @@ def md_to_pdf(md_path: str, output_path: str = None):
 <body>{html_body}</body></html>"""
     
     probe_path = output_path + ".probe.pdf"
-    HTML(string=probe_html, base_url=os.path.dirname(md_path)).write_pdf(probe_path)
+    # 使用MD文件所在目录的绝对路径作为base_url，确保图片引用能正确解析
+    base_dir = os.path.dirname(os.path.abspath(md_path))
+    HTML(string=probe_html, base_url=base_dir).write_pdf(probe_path)
     
     # 第2步：用 pdfplumber 精确测量内容底边（top 坐标系，原点在左上角）
     with pdfplumber.open(probe_path) as plumb:
@@ -366,6 +379,10 @@ def md_to_pdf(md_path: str, output_path: str = None):
         if p.lines:
             max_line_bottom = max(l['bottom'] for l in p.lines)
             max_content_bottom = max(max_content_bottom, max_line_bottom)
+        # 也检查嵌入图片（images）
+        if p.images:
+            max_img_bottom = max(img['bottom'] for img in p.images)
+            max_content_bottom = max(max_content_bottom, max_img_bottom)
     
     if max_content_bottom > 0:
         # pdfplumber 的 bottom 是从顶部算起的距离
