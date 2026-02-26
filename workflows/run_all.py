@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-四大工作流统一调度入口
+五大工作流统一调度入口（投资Agent已迁移至CodeBuddy Agent机制B）
 用法:
   python3 run_all.py           # 运行所有每日工作流
   python3 run_all.py 1         # 仅运行工作流 1
@@ -18,13 +18,10 @@ import wf2_gaming_industry
 import wf3_ai_gaming
 import wf4_market_monitor
 import wf5_game_ops_monitor
-import wf6_investment_agent
-
 DAILY_WORKFLOWS = {
     '1': ('AI 前沿资讯', wf1_ai_frontier),
     '2': ('游戏行业监控', wf2_gaming_industry),
     '4': ('二级市场监控', wf4_market_monitor),
-    '6': ('投资Agent', wf6_investment_agent),
 }
 
 WEEKLY_WORKFLOWS = {
@@ -75,10 +72,10 @@ if __name__ == "__main__":
 
     if not args:
         # 默认运行所有每日工作流
-        run_workflows(['1', '2', '4', '6'])
+        run_workflows(['1', '2', '4'])
     elif args[0] == 'weekly':
         run_workflows(['3', '5'])
     elif args[0] == 'all':
-        run_workflows(['1', '2', '3', '4', '5', '6'])
+        run_workflows(['1', '2', '3', '4', '5'])
     else:
         run_workflows(args)
