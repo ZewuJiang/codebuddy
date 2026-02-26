@@ -1,8 +1,16 @@
 #!/usr/bin/env python3
 """
-Markdown → PDF 转换器
+Markdown → PDF 转换器 (v13.0)
 将投资Agent的MD报告转为宽幅、精美排版的PDF（单页长图形式，无分页）
-使用 markdown + weasyprint + pypdf，支持中文、表格、emoji
+使用 markdown + weasyprint + pdfplumber，支持中文、表格、emoji
+
+🔴 核心约束（v13.0铁律，违反会导致Mac Preview中文乱码）:
+1. font-family必须STHeiti优先，严禁PingFang SC排首位
+   - PingFang SC子集嵌入后Mac Preview CID映射与系统字体冲突→中文乱码
+2. 使用两轮渲染法v2（probe测高度→精确高度重渲染），严禁pypdf裁剪mediabox
+   - pypdf裁剪会破坏字体CMap映射→乱码
+3. CSS中每个选择器只允许定义一次（如h3），禁止重复定义
+4. 生成后必须验证：字体嵌入为STHeiti（非PingFang SC）+中文可提取+Mac Preview无乱码
 """
 
 import sys
@@ -27,264 +35,300 @@ def build_css(height_mm: int) -> str:
     margin: {MARGIN_TOP_MM}mm {MARGIN_LR_MM}mm {MARGIN_BOTTOM_MM}mm {MARGIN_LR_MM}mm;
 }}
 
+/* ══════════════════════════════════════════════
+   GS Investment Research Style · v13.0
+   设计原则：
+   1. 字体层级清晰：H1(32)→H2(22)→H3(17)→H4(15)→body(14)→table(13)
+   2. 颜色体系统一：深蓝#0a1628主调+红#c8102e强调+蓝灰#3d5a80辅助
+   3. 间距节奏协调：标题前留白>标题后留白，段间距适中
+   4. 同级元素严格一致：同级标题/正文/表格字体大小完全相同
+   ══════════════════════════════════════════════ */
+
+/* ─── 全局基础 ─── */
 body {{
-    font-family: "STHeiti", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", sans-serif;
-    font-size: 13px;
-    line-height: 1.75;
+    font-family: "STHeiti", "Hiragino Sans GB", "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
     color: #1a1a2e;
     background: #ffffff;
     max-width: 100%;
+    -webkit-font-smoothing: antialiased;
 }}
 
-/* ─── 标题 ─── */
+/* ─── 标题层级体系（严格递进，绝不重复定义） ─── */
 h1 {{
-    font-size: 28px;
-    font-weight: 700;
-    color: #0f2942;
-    border-bottom: 3px solid #e63946;
-    padding-bottom: 10px;
+    font-size: 32px;
+    font-weight: 800;
+    color: #0a1628;
+    border-bottom: 3px solid #c8102e;
+    padding-bottom: 12px;
     margin-top: 0;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
 }}
 
 h2 {{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
-    color: #0f2942;
-    margin-top: 28px;
-    margin-bottom: 12px;
-    padding-bottom: 6px;
-    border-bottom: 2px solid #edf2f4;
-    border-left: 4px solid #e63946;
-    padding-left: 10px;
+    color: #0a1628;
+    margin-top: 32px;
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    border-bottom: 2px solid #e8ecf0;
+    border-left: 4px solid #c8102e;
+    letter-spacing: 0.3px;
 }}
 
 h3 {{
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #1d3557;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-left: 3px solid #3d5a80;
+    border-bottom: 1px solid #edf2f4;
+}}
+
+h4 {{
+    font-size: 15px;
     font-weight: 600;
-    color: #2b2d42;
-    margin-top: 20px;
+    color: #3d5a80;
+    margin-top: 18px;
     margin-bottom: 8px;
     padding-left: 8px;
-    border-left: 3px solid #457b9d;
+    border-left: 2px solid #a8c5da;
 }}
 
-/* ─── 元数据行 ─── */
+/* ─── 段落 & 正文 ─── */
+p {{
+    margin: 10px 0;
+    line-height: 1.85;
+    font-size: 14px;
+    color: #1a1a2e;
+}}
+
 p strong {{
-    color: #0f2942;
-}}
-
-/* ─── 引用块（今日预测等） ─── */
-blockquote {{
-    background: linear-gradient(135deg, #f8f9fc 0%, #eef2f7 100%);
-    border-left: 4px solid #e63946;
-    border-radius: 0 8px 8px 0;
-    padding: 14px 18px;
-    margin: 14px 0;
-    color: #2b2d42;
-    font-size: 13px;
-    line-height: 2.0;
-}}
-
-blockquote strong {{
-    color: #e63946;
+    color: #0a1628;
     font-size: 14px;
 }}
 
-/* ─── 表格 ─── */
-table {{
-    width: 100%;
-    border-collapse: collapse;
-    margin: 12px 0;
-    font-size: 12px;
-    border-radius: 6px;
-    overflow: hidden;
-    table-layout: auto;
-    word-wrap: break-word;
-}}
-
-thead {{
-    background: #0f2942;
-    color: #ffffff;
-}}
-
-th {{
-    padding: 10px 10px;
-    text-align: left;
-    font-weight: 600;
-    font-size: 11.5px;
-    letter-spacing: 0.3px;
-    white-space: nowrap;
-}}
-
-td {{
-    padding: 8px 10px;
-    border-bottom: 1px solid #edf2f4;
-    color: #2b2d42;
-    font-size: 12px;
-    line-height: 1.6;
-}}
-
-tbody tr:nth-child(even) {{
-    background: #f8f9fc;
-}}
-
-tbody tr:hover {{
-    background: #eef2f7;
-}}
-
-/* ─── 代码 ─── */
-code {{
-    background: #edf2f4;
-    color: #e63946;
-    padding: 2px 6px;
-    border-radius: 3px;
-    font-family: "SF Mono", "Menlo", "Monaco", monospace;
-    font-size: 12px;
-}}
-
-/* ─── 列表 ─── */
-ul, ol {{
-    padding-left: 22px;
-    margin: 8px 0;
-}}
-
-li {{
-    margin-bottom: 4px;
-    line-height: 1.7;
-}}
-
-/* ─── 水平线 ─── */
-hr {{
-    border: none;
-    height: 2px;
-    background: linear-gradient(90deg, #e63946 0%, #457b9d 50%, #edf2f4 100%);
-    margin: 24px 0;
-}}
-
-/* ─── 段落 ─── */
-p {{
-    margin: 8px 0;
-    line-height: 1.75;
-}}
-
-/* ─── 加粗 ─── */
 strong {{
     font-weight: 700;
 }}
 
-/* ─── 免责声明 ─── */
-p em:last-child {{
-    font-size: 11px;
-    color: #8d99ae;
+/* ─── 引用块（Analyst Note风格） ─── */
+blockquote {{
+    background: linear-gradient(135deg, #f7f9fc 0%, #edf1f7 100%);
+    border-left: 4px solid #c8102e;
+    border-radius: 0 6px 6px 0;
+    padding: 16px 20px;
+    margin: 16px 0;
+    color: #2b2d42;
+    font-size: 13.5px;
+    line-height: 1.9;
 }}
 
-/* ─── 引用块内列表优化 ─── */
-blockquote ul, blockquote ol {{
+blockquote strong {{
+    color: #c8102e;
+    font-size: 14px;
+}}
+
+blockquote p {{
+    font-size: 13.5px;
     margin: 6px 0;
-    padding-left: 20px;
+    line-height: 1.9;
+}}
+
+/* ─── 引用块内列表 ─── */
+blockquote ul, blockquote ol {{
+    margin: 8px 0;
+    padding-left: 22px;
 }}
 
 blockquote li {{
-    margin-bottom: 3px;
-    line-height: 1.8;
-    font-size: 12.5px;
+    margin-bottom: 4px;
+    line-height: 1.85;
+    font-size: 13.5px;
+}}
+
+blockquote ul li strong {{
+    color: #1d3557;
+    font-size: 13.5px;
 }}
 
 /* ─── 引用块内表格 ─── */
 blockquote table {{
-    margin: 8px 0;
-    font-size: 12px;
+    margin: 10px 0;
+    font-size: 12.5px;
 }}
 
 blockquote table th {{
     padding: 8px 10px;
-    font-size: 11px;
+    font-size: 12px;
 }}
 
 blockquote table td {{
     padding: 7px 10px;
-    font-size: 12px;
+    font-size: 12.5px;
 }}
 
 blockquote table td:first-child {{
     white-space: nowrap;
 }}
 
-/* ─── h4标题（分级子标题） ─── */
-h4 {{
-    font-size: 14px;
-    font-weight: 600;
-    color: #457b9d;
-    margin-top: 14px;
-    margin-bottom: 6px;
-}}
-
-/* ─── 涨跌颜色标记（v7.0新增） ─── */
-td:nth-child(n) {{
-    white-space: normal;
-}}
-
-/* ─── 涨跌加粗项高亮 ─── */
-td strong {{
-    color: #e63946;
-    font-weight: 700;
-}}
-
-/* ─── h3子标题（A/B/C/D分级子表标题） ─── */
-h3 {{
-    font-size: 16px;
-    font-weight: 700;
-    color: #1d3557;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding-bottom: 4px;
-    border-bottom: 1px solid #edf2f4;
-}}
-
-/* ─── One-Liner摘要（v7.0新增） ─── */
+/* ─── One-Liner核心摘要（红底白字横幅） ─── */
 h2 + blockquote:first-of-type {{
-    background: linear-gradient(135deg, #e63946 0%, #c1121f 100%);
+    background: linear-gradient(135deg, #c8102e 0%, #a00d24 100%);
     color: #ffffff;
     border-left: none;
     border-radius: 8px;
-    padding: 12px 20px;
-    font-size: 16px;
+    padding: 14px 24px;
+    font-size: 17px;
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.5px;
+    line-height: 1.6;
 }}
 
 h2 + blockquote:first-of-type strong {{
     color: #ffffff;
-    font-size: 17px;
+    font-size: 18px;
 }}
 
-/* ─── P1/P2操作清单背景色区分（v7.0新增） ─── */
+/* ─── 表格（投行数据表风格） ─── */
+table {{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0;
+    font-size: 13px;
+    border-radius: 6px;
+    overflow: hidden;
+    table-layout: auto;
+    word-wrap: break-word;
+    border: 1px solid #d1d9e0;
+}}
+
+thead {{
+    background: linear-gradient(180deg, #0a1628 0%, #142238 100%);
+    color: #ffffff;
+}}
+
+th {{
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12.5px;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+    border-right: 1px solid rgba(255,255,255,0.08);
+}}
+
+td {{
+    padding: 9px 12px;
+    border-bottom: 1px solid #e8ecf0;
+    color: #2b2d42;
+    font-size: 13px;
+    line-height: 1.65;
+}}
+
+tbody tr:nth-child(even) {{
+    background: #f5f7fa;
+}}
+
+tbody tr:nth-child(odd) {{
+    background: #ffffff;
+}}
+
+/* ─── 表格首列加粗（行标题） ─── */
+td:first-child {{
+    font-weight: 600;
+    color: #1d3557;
+}}
+
+/* ─── 涨跌加粗项高亮 ─── */
+td strong {{
+    color: #c8102e;
+    font-weight: 700;
+}}
+
+/* ─── P1/P2操作表首行加粗 ─── */
 h3:nth-of-type(n) + table tbody tr:first-child {{
     font-weight: 600;
 }}
 
-/* ─── 分析师判断要点式列表优化 ─── */
-blockquote ul li strong {{
-    color: #1d3557;
+/* ─── 代码 ─── */
+code {{
+    background: #edf2f4;
+    color: #c8102e;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: "SF Mono", "Menlo", "Monaco", "PingFang SC", "Noto Sans CJK SC", monospace;
     font-size: 12.5px;
 }}
 
-/* ─── 图表图片样式（投行报告风格，紧凑排版） ─── */
+pre {{
+    background: #f0f2f5;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin: 14px 0;
+    overflow-x: auto;
+    font-family: "SF Mono", "Menlo", "PingFang SC", "Noto Sans CJK SC", monospace;
+    font-size: 12.5px;
+    line-height: 1.65;
+    color: #2b2d42;
+    border: 1px solid #d1d9e0;
+}}
+
+pre code {{
+    background: none;
+    color: #2b2d42;
+    padding: 0;
+    font-family: inherit;
+}}
+
+/* ─── 列表 ─── */
+ul, ol {{
+    padding-left: 24px;
+    margin: 10px 0;
+}}
+
+li {{
+    margin-bottom: 5px;
+    line-height: 1.8;
+    font-size: 14px;
+}}
+
+/* ─── 水平线（章节分隔） ─── */
+hr {{
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, #c8102e 0%, #3d5a80 40%, #d1d9e0 100%);
+    margin: 30px 0;
+}}
+
+/* ─── 免责声明 ─── */
+p em:last-child {{
+    font-size: 12px;
+    color: #8d99ae;
+}}
+
+/* ─── 图表图片样式 ─── */
 img {{
     max-width: 72%;
     height: auto;
     display: block;
-    margin: 10px auto;
+    margin: 12px auto;
     border-radius: 4px;
-    box-shadow: 0 1px 4px rgba(15, 41, 66, 0.10);
-    border: 1px solid #edf2f4;
+    box-shadow: 0 1px 4px rgba(10, 22, 40, 0.10);
+    border: 1px solid #e8ecf0;
 }}
 
-/* ─── 可证伪条件表格状态标记 ─── */
-td:last-child {{
-    font-weight: 500;
+/* ─── 涨跌颜色 ─── */
+td:nth-child(n) {{
+    white-space: normal;
 }}
 """
 
@@ -342,12 +386,14 @@ def md_to_pdf(md_path: str, output_path: str = None):
     print(f"📄 正在转换: {os.path.basename(md_path)}")
     print(f"   → 输出: {os.path.basename(output_path)}")
     
-    # 两步渲染：先用超大页面生成，再用 pdfplumber 精确裁剪底部空白
+    # 两轮渲染法（v2）：先probe测量内容高度，再用精确高度重新渲染
+    # 关键：不使用pypdf裁剪，避免破坏字体CMap映射导致乱码
     
     import pdfplumber
-    from pypdf import PdfReader, PdfWriter
     
-    # 第1步：用超大页面渲染，确保所有内容在一页内
+    base_dir = os.path.dirname(os.path.abspath(md_path))
+    
+    # ── 第1轮：Probe渲染（超大页面，仅用于测量内容高度） ──
     probe_css = build_css(MAX_PAGE_HEIGHT_MM)
     probe_html = f"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -355,58 +401,46 @@ def md_to_pdf(md_path: str, output_path: str = None):
 <body>{html_body}</body></html>"""
     
     probe_path = output_path + ".probe.pdf"
-    # 使用MD文件所在目录的绝对路径作为base_url，确保图片引用能正确解析
-    base_dir = os.path.dirname(os.path.abspath(md_path))
     HTML(string=probe_html, base_url=base_dir).write_pdf(probe_path)
     
-    # 第2步：用 pdfplumber 精确测量内容底边（top 坐标系，原点在左上角）
+    # 用 pdfplumber 精确测量内容底边
     with pdfplumber.open(probe_path) as plumb:
         p = plumb.pages[0]
         page_height_pt = float(p.height)
-        page_width_pt = float(p.width)
         
-        # 找所有字符中最大的 bottom 值（即最低文字的底边）
         max_content_bottom = 0
         if p.chars:
             max_content_bottom = max(c['bottom'] for c in p.chars)
-        # 也检查表格线条（rects），但过滤掉超大背景矩形
         if p.rects:
             content_rects = [r for r in p.rects if r['height'] < page_height_pt * 0.5]
             if content_rects:
-                max_rect_bottom = max(r['bottom'] for r in content_rects)
-                max_content_bottom = max(max_content_bottom, max_rect_bottom)
-        # 也检查线条（lines）
+                max_content_bottom = max(max_content_bottom, max(r['bottom'] for r in content_rects))
         if p.lines:
-            max_line_bottom = max(l['bottom'] for l in p.lines)
-            max_content_bottom = max(max_content_bottom, max_line_bottom)
-        # 也检查嵌入图片（images）
+            max_content_bottom = max(max_content_bottom, max(l['bottom'] for l in p.lines))
         if p.images:
-            max_img_bottom = max(img['bottom'] for img in p.images)
-            max_content_bottom = max(max_content_bottom, max_img_bottom)
+            max_content_bottom = max(max_content_bottom, max(img['bottom'] for img in p.images))
     
-    if max_content_bottom > 0:
-        # pdfplumber 的 bottom 是从顶部算起的距离
-        # pypdf 的 mediabox 原点在左下角
-        margin_bottom_pt = MARGIN_BOTTOM_MM * 72 / 25.4
-        # 内容底部 + 边距 = 需要保留的总高度（从顶部算起）
-        keep_height_pt = max_content_bottom + margin_bottom_pt
-        # 转为 pypdf 坐标：new_bottom = 页面总高度 - 保留高度
-        new_bottom = max(0, page_height_pt - keep_height_pt)
-        print(f"   📐 页面原高: {int(page_height_pt * 25.4 / 72)}mm → 裁剪后: {int(keep_height_pt * 25.4 / 72)}mm (去除 {int(new_bottom * 25.4 / 72)}mm 空白)")
-    else:
-        new_bottom = 0
-    
-    # 第3步：裁剪并输出
-    reader = PdfReader(probe_path)
-    page = reader.pages[0]
-    page.mediabox.lower_left = (0, new_bottom)
-    page.mediabox.upper_right = (page_width_pt, page_height_pt)
-    
-    writer = PdfWriter()
-    writer.add_page(page)
-    writer.write(output_path)
-    
+    # 清理probe文件
     os.remove(probe_path)
+    
+    # 计算精确页面高度（内容高度 + 底部边距 + 安全余量）
+    if max_content_bottom > 0:
+        margin_bottom_pt = MARGIN_BOTTOM_MM * 72 / 25.4
+        exact_height_pt = max_content_bottom + margin_bottom_pt + 20  # 20pt安全余量
+        exact_height_mm = int(exact_height_pt * 25.4 / 72) + 1
+        print(f"   📐 内容高度: {int(max_content_bottom * 25.4 / 72)}mm → 页面高度: {exact_height_mm}mm")
+    else:
+        exact_height_mm = MAX_PAGE_HEIGHT_MM
+        print(f"   ⚠️ 无法测量内容高度，使用最大值: {exact_height_mm}mm")
+    
+    # ── 第2轮：精确渲染（用实际内容高度，WeasyPrint原生输出，无裁剪） ──
+    final_css = build_css(exact_height_mm)
+    final_html = f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><style>{final_css}</style></head>
+<body>{html_body}</body></html>"""
+    
+    HTML(string=final_html, base_url=base_dir).write_pdf(output_path)
     
     size_kb = os.path.getsize(output_path) / 1024
     print(f"✅ PDF已生成（单页长图）: {output_path} ({size_kb:.0f} KB)")
