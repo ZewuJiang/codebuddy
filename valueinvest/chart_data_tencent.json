@@ -1,0 +1,126 @@
+{
+  "_说明": "腾讯控股深度分析图表数据 — 基于2026/02/27实时搜索数据（终极升维v9.0）",
+  "_用法": "python3 generate_charts.py chart_data_tencent.json charts/",
+  "_版本": "v9.0",
+
+  "company_name": "腾讯控股",
+  "company_name_en": "Tencent Holdings",
+  "ticker": "0700.HK",
+  "current_price": 518.0,
+  "data_source": "腾讯IR / 港交所披露易 / 富途 / 东方财富",
+  "data_date": "2026.02.27",
+
+  "currency_symbol": "HK$",
+  "amount_unit": "亿元人民币",
+  "amount_unit_short": "亿",
+
+  "market": "HK",
+  "accounting_standard": "IFRS",
+
+  "revenue_trend": {
+    "_说明": "营收与净利润趋势（人民币），FY2015-FY2024",
+    "years": ["FY2015", "FY2016", "FY2017", "FY2018", "FY2019", "FY2020", "FY2021", "FY2022", "FY2023", "FY2024"],
+    "revenue": [1028, 1519, 2378, 3127, 3773, 4821, 5601, 5546, 6090, 6602.57],
+    "net_income": [288, 414, 715, 787, 933, 1598, 2248, 1882, 1577, 1940.73],
+    "margin": [28.0, 27.3, 30.1, 25.2, 24.7, 33.1, 40.5, 33.9, 25.9, 29.4],
+    "source": "腾讯年报",
+    "revenue_label": "营收（亿元人民币）",
+    "income_label": "IFRS净利润（亿元人民币）",
+    "margin_label": "IFRS净利率"
+  },
+
+  "business_mix": {
+    "_说明": "2025 Q1业务板块营收构成",
+    "labels": ["增值服务（游戏+社交）", "营销服务（广告）", "金融科技及企业服务"],
+    "sizes": [921, 319, 549],
+    "title": "腾讯2025Q1业务营收构成（亿元人民币）",
+    "source": "腾讯2025Q1业绩公告",
+    "highlight_idx": 0
+  },
+
+  "margin_trend": {
+    "_说明": "盈利能力指标趋势",
+    "years": ["FY2018", "FY2019", "FY2020", "FY2021", "FY2022", "FY2023", "FY2024", "2025Q1"],
+    "metrics": {
+      "毛利率": [45.5, 44.5, 46.0, 44.0, 43.0, 48.0, 52.9, 56.0],
+      "Non-IFRS净利率": [27.0, 25.0, 25.5, 22.3, 28.4, 25.9, 33.7, 34.0],
+      "ROE": [25.0, 24.7, 28.1, 29.8, 24.6, 15.1, 21.57, null]
+    },
+    "source": "腾讯年报 / 雪球",
+    "y_format": "percent",
+    "y_label": "百分比"
+  },
+
+  "valuation_comp": {
+    "_说明": "竞品估值对比",
+    "companies": ["腾讯", "Meta", "阿里巴巴", "网易", "京东"],
+    "metrics": {
+      "PE(TTM)": [19.8, 25.0, 15.0, 15.0, 10.0],
+      "净利率(%)": [29.0, 35.0, 15.0, 25.0, 3.0],
+      "营收增速(%)": [8.0, 22.0, 8.0, 7.0, 5.0]
+    },
+    "title": "腾讯 vs 竞对 关键指标对比",
+    "source": "各公司年报 / companiesmarketcap.com, 2026.02.27",
+    "highlight_company": "腾讯"
+  },
+
+  "risk_matrix": {
+    "_说明": "风险评估矩阵",
+    "risks": [
+      {"name": "监管政策不确定性", "probability": 0.5, "impact": 0.8, "level": "中高"},
+      {"name": "Prosus持续减持\n(净供给缺口~175亿HKD)", "probability": 0.8, "impact": 0.5, "level": "中高"},
+      {"name": "AI CapEx→D&A冲击\n毛利率均值回归", "probability": 0.6, "impact": 0.7, "level": "中高"},
+      {"name": "宏观经济放缓\n(广告Beta风险)", "probability": 0.5, "impact": 0.6, "level": "中"},
+      {"name": "游戏增长不及预期", "probability": 0.35, "impact": 0.6, "level": "中"},
+      {"name": "地缘政治风险", "probability": 0.5, "impact": 0.65, "level": "中"},
+      {"name": "短视频竞争", "probability": 0.5, "impact": 0.45, "level": "中"},
+      {"name": "AI竞争加剧", "probability": 0.5, "impact": 0.5, "level": "中"},
+      {"name": "汇率风险", "probability": 0.35, "impact": 0.3, "level": "中低"},
+      {"name": "商誉减值风险", "probability": 0.2, "impact": 0.45, "level": "低"}
+    ],
+    "source": "AI Investment Research"
+  },
+
+  "dcf_sensitivity": {
+    "_说明": "3阶段DCF敏感性矩阵（港元/股，不含投资组合）— FCFF + SBC扣除",
+    "row_labels": ["8.0%", "8.5%", "9.0%", "9.5%", "10.0%", "10.5%"],
+    "col_labels": ["2.0%", "2.5%", "3.0%", "3.5%", "4.0%"],
+    "values": [
+      [560, 610, 670, 745, 850],
+      [510, 545, 595, 655, 740],
+      [465, 495, 535, 585, 650],
+      [425, 450, 485, 530, 585],
+      [390, 415, 445, 480, 530],
+      [365, 380, 410, 440, 485]
+    ],
+    "row_title": "WACC",
+    "col_title": "永续增长率",
+    "current_price": 518.0,
+    "source": "AI Investment Research — 3-Stage FCFF (SBC-Deducted)"
+  },
+
+  "valuation_range": {
+    "_说明": "六法Football Field图（港元/股）",
+    "methods": ["SOTP分部加总", "PE估值法", "EV/EBITDA", "3阶段DCF", "FCF Yield", "分析师一致"],
+    "low": [477, 545, 441, 475, 371, 602],
+    "mid": [523, 636, 546, 520, 495, 754],
+    "high": [569, 758, 650, 710, 619, 984],
+    "current_price": 518.0,
+    "source": "AI Investment Research — 六法交叉验证"
+  },
+
+  "eps_waterfall": {
+    "_说明": "EPS冲击瀑布图（人民币/股），基准为FY2024 IFRS EPS",
+    "base_eps": 20.94,
+    "impacts": [
+      ["监管政策收紧", -1.57],
+      ["D&A冲击毛利率(CapEx→524亿D&A传导)", -1.47],
+      ["宏观经济→广告Beta", -1.26],
+      ["AI投入回报不及预期", -1.05],
+      ["Prosus净供给缺口", -0.84],
+      ["游戏增长不及预期", -1.05],
+      ["地缘政治升级", -0.63]
+    ],
+    "source": "AI Investment Research"
+  }
+}
