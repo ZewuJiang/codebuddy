@@ -179,23 +179,71 @@ blockquote table td:first-child {{
     white-space: nowrap;
 }}
 
-/* ─── One-Liner核心摘要（红底白字横幅） ─── */
+/* ─── §1核心摘要（GS/MS/MBB浅蓝卡片，左对齐） ─── */
 h2 + blockquote:first-of-type {{
-    background: linear-gradient(135deg, #c8102e 0%, #a00d24 100%);
-    color: #ffffff;
-    border-left: none;
-    border-radius: 8px;
-    padding: 14px 24px;
-    font-size: 17px;
+    background: #eef4fa;
+    border-left: 4px solid #1a5276;
+    border-radius: 0 8px 8px 0;
+    padding: 20px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0;
+    line-height: 1.85;
+    color: #1a1a2e;
+}}
+
+h2 + blockquote:first-of-type > p:first-child {{
+    font-size: 18px;
     font-weight: 700;
-    text-align: center;
-    letter-spacing: 0.5px;
-    line-height: 1.6;
+    color: #1a5276;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #c5d9e8;
 }}
 
 h2 + blockquote:first-of-type strong {{
-    color: #ffffff;
+    color: #1a5276;
+    font-size: 14px;
+    font-weight: 700;
+}}
+
+h2 + blockquote:first-of-type > p:first-child strong {{
+    color: #1a5276;
     font-size: 18px;
+}}
+
+h2 + blockquote:first-of-type ul {{
+    margin: 4px 0 8px 0;
+    padding-left: 20px;
+}}
+
+h2 + blockquote:first-of-type li {{
+    font-size: 13.5px;
+    line-height: 1.8;
+    margin-bottom: 3px;
+    color: #2b2d42;
+}}
+
+h2 + blockquote:first-of-type li strong {{
+    color: #0a1628;
+    font-size: 13.5px;
+}}
+
+/* ─── §1结论行（加大字号突出） ─── */
+h2 + blockquote:first-of-type > p:last-child {{
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a5276;
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid #c5d9e8;
+    line-height: 1.7;
+}}
+
+h2 + blockquote:first-of-type > p:last-child strong {{
+    color: #c8102e;
+    font-size: 16px;
 }}
 
 /* ─── 表格（投行数据表风格） ─── */

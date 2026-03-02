@@ -1,0 +1,107 @@
+{
+  "company_name": "阶跃星辰",
+  "company_name_en": "StepFun",
+  "ticker": "Pre-IPO",
+  "current_price": 40.0,
+  "data_source": "钛媒体 / 36氪 / 智谱MiniMax招股书 / OpenAI Anthropic官方",
+  "data_date": "2026.02.28",
+  "currency_symbol": "$",
+  "amount_unit": "亿美元",
+  "amount_unit_short": "亿",
+  "market": "HK",
+  "accounting_standard": "IFRS",
+
+  "revenue_trend": {
+    "years": ["2023", "2024", "2025", "2026E", "2027E", "2028E"],
+    "revenue": [0.14, 0.34, 0.69, 1.65, 3.50, 6.00],
+    "net_income": [-1.38, -2.76, -2.76, -2.07, -1.10, 0.20],
+    "margin": [0, 0, 0, 0, 0, 3.3],
+    "source": "钛媒体报道 / 同行对比估算",
+    "revenue_label": "营收（亿美元）",
+    "income_label": "净利润（亿美元）",
+    "margin_label": "净利率"
+  },
+
+  "business_mix": {
+    "labels": ["B端-终端Agent\n(汽车/手机/IoT)", "B端-API/MaaS", "C端-阶跃AI应用", "其他"],
+    "sizes": [2.5, 1.5, 0.5, 0.5],
+    "title": "阶跃星辰2025年收入结构估算（亿元人民币）",
+    "source": "基于公开信息估算",
+    "highlight_idx": 0
+  },
+
+  "margin_trend": {
+    "years": ["种子轮\n2023Q2", "A轮\n2023Q4", "B轮\n2024.12", "B+轮\n2026.01", "Pre-IPO\n2026.03", "IPO预期\n2026H2"],
+    "metrics": {
+      "估值（亿美元）": [1.5, 6.5, 17.5, 27.5, 40, 100]
+    },
+    "y_format": "number",
+    "y_label": "估值（亿美元）",
+    "source": "融资报道综合整理"
+  },
+
+  "valuation_comp": {
+    "companies": ["阶跃星辰\n(Pre-IPO)", "智谱AI\n(02513.HK)", "MiniMax\n(00100.HK)", "月之暗面", "OpenAI", "Anthropic"],
+    "metrics": {
+      "PS倍数(2025收入)": [58, 66, 46, 0, 15, 42],
+      "2025收入(亿美元)": [0.69, 0.53, 0.70, 0, 200, 90],
+      "估值(亿美元)": [40, 35, 32, 30, 3000, 3800]
+    },
+    "highlight_company": "阶跃星辰\n(Pre-IPO)"
+  },
+
+  "risk_matrix": {
+    "risks": [
+      {"name": "技术迭代\n(DeepSeek效应)", "probability": 0.7, "impact": 0.8, "level": "高"},
+      {"name": "商业化\n不及预期", "probability": 0.5, "impact": 0.8, "level": "高"},
+      {"name": "三年锁定期\n流动性风险", "probability": 1.0, "impact": 0.9, "level": "高"},
+      {"name": "港股市场\n估值回调", "probability": 0.4, "impact": 0.7, "level": "中高"},
+      {"name": "大厂挤压\n(字节/阿里)", "probability": 0.5, "impact": 0.7, "level": "中高"},
+      {"name": "AI行业\n泡沫风险", "probability": 0.4, "impact": 0.8, "level": "中高"},
+      {"name": "吉利系\n依赖风险", "probability": 0.3, "impact": 0.6, "level": "中"},
+      {"name": "地缘政治\n算力限制", "probability": 0.4, "impact": 0.5, "level": "中"},
+      {"name": "监管政策\n趋严", "probability": 0.2, "impact": 0.5, "level": "中低"},
+      {"name": "人才流失\n风险", "probability": 0.2, "impact": 0.6, "level": "低"}
+    ]
+  },
+
+  "dcf_sensitivity": {
+    "row_labels": ["乐观20%", "偏乐15%", "基准30%", "偏悲15%", "悲观10%", "极悲10%"],
+    "col_labels": ["$5亿估值", "$25亿估值", "$42亿估值", "$60亿估值", "$150亿估值"],
+    "values": [
+      [0.13, 0.63, 1.05, 1.50, 3.75],
+      [0.13, 0.63, 1.05, 1.50, 3.75],
+      [0.13, 0.63, 1.05, 1.50, 3.75],
+      [0.13, 0.63, 1.05, 1.50, 3.75],
+      [0.13, 0.63, 1.05, 1.50, 3.75],
+      [0.13, 0.63, 1.05, 1.50, 3.75]
+    ],
+    "row_title": "情景概率",
+    "col_title": "DCF估值结果",
+    "current_price": 40,
+    "fmt": "${:.0f}亿",
+    "currency_symbol": "$"
+  },
+
+  "valuation_range": {
+    "methods": ["PS倍数法\n(2026E)", "可比交易法", "概率加权DCF", "MOIC回报法", "综合估值"],
+    "low": [25, 30, 25, 30, 35],
+    "mid": [41, 45, 42, 40, 41],
+    "high": [66, 60, 60, 55, 50],
+    "current_price": 40
+  },
+
+  "eps_waterfall": {
+    "base_eps": 100.0,
+    "impacts": [
+      ["Pre-IPO折扣\n($40亿入场)", 0],
+      ["IPO基石溢价\n(→$100亿)", 150],
+      ["上市后上涨\n(港股AI热)", 50],
+      ["DeepSeek冲击\n(技术迭代)", -40],
+      ["商业化不及预期", -30],
+      ["三年锁定期\n流动性折价", -25],
+      ["AI行业泡沫\n回调风险", -20],
+      ["终端Agent\n生态成功", 35]
+    ]
+  }
+}
