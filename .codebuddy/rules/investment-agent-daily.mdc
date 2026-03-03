@@ -74,7 +74,7 @@ provider:
 > **执行细则**：
 > 1. **大老板已汇报标的优先覆盖**: 以下标的在深度分析中已向大老板汇报过，属于**一级关注对象**，有任何动态必须第一时间纳入§3：NVDA / AAPL / GOOGL / 腾讯(0700.HK) / PDD / RBLX / 阶跃星辰(Pre-IPO) / BRK.B。此清单随新增深度分析报告动态扩展
 > 2. **AI全产业链13环主动扫描**: 每日batch 0b不再是"有事才说"的被动模式，升级为**主动搜索+交叉验证**——必须对AI产业链13个环节（芯片设计→制造/封装→光通信→存储HBM→服务器→网络→散热/液冷→电力→大模型→云计算→应用/Agent→终端AI→机器人）逐环扫描，确认有无重大动态
-> 3. **交叉验证机制**: batch 0b扫描后，必须用中英文财经媒体交叉验证（Bloomberg/Reuters/WSJ + 华尔街见闻/第一财经/智通财经/格隆汇/36Kr），确保过去24h内AI链重大事件无遗漏
+> 3. **交叉验证机制**: batch 0b扫描后，必须用中英文财经媒体交叉验证（参照`references/media-watchlist.md`：一级必扫Bloomberg/Reuters/WSJ + 华尔街见闻/第一财经/智通财经/格隆汇；二级强化CNBC/The Information/36Kr/晚点LatePost），确保过去24h内AI链重大事件无遗漏
 > 4. **财报季特殊规则**: AI链核心公司进入财报季时（NVDA/AMD/AVGO/TSM/MSFT/GOOGL/META/AMZN + SNPS/CDNS/MU/SMCI/DELL/FN/COHR等供应链核心），财报日前后3天自动升级为§3重点标的展开，不受"有事才写"限制
 > 5. **中国AI生态必覆盖**: 腾讯混元/百度文心/阿里通义/字节豆包/DeepSeek/智谱/阶跃星辰/月之暗面等中国AI公司的重大发布、融资、政策影响，与美股AI标的同等重视。中国AI基建上市公司（中际旭创/新易盛/天孚通信/胜宏科技/工业富联/寒武纪/海光信息/中芯国际/澜起科技等）有重大财报/订单/产能动态，同等纳入
 > 6. **遗漏=致命错误**: 任何AI产业链Top 3公司（按市值/影响力）的重大事件（$1B+订单/重大技术突破/政策冲击/财报）在报告中未提及，视为致命错误，等同RULE ZERO违反
@@ -639,6 +639,8 @@ Marshall Wace / Balyasny / Schonfeld / Exoduspoint / Farallon / FengHe(丰和) /
 
 ## 数据源优先级表
 
+> 📋 **媒体追踪完整清单**: 详见 `references/media-watchlist.md`（含三级媒体分层+batch 0/0a扫描SOP+交叉校验机制）
+
 | 数据类型 | 首选 | 备选 | 第三选 |
 |----------|------|------|--------|
 | 美股指数/个股 | Google Finance | 东方财富/StockAnalysis | MarketWatch |
@@ -649,8 +651,10 @@ Marshall Wace / Balyasny / Schonfeld / Exoduspoint / Farallon / FengHe(丰和) /
 | WTI原油 | web_fetch OilPrice.com | 金投网 | web_search |
 | DXY | web_search + 金投网 | 同花顺 | — |
 | 10Y美债 | web_search | FRED | 每经 |
-| 财经新闻(中) | 华尔街见闻/第一财经/智通财经/格隆汇 | 金十数据/证券时报 | — |
-| 财经新闻(英) | Bloomberg/Reuters/WSJ/CNBC | FT/MarketWatch | Nikkei Asia |
+| **全球头条扫描** | **Bloomberg + Reuters + WSJ** | **CNBC + MarketWatch** | **FT + Barron's** |
+| 财经新闻(中) | 华尔街见闻/第一财经/智通财经/格隆汇 | 金十数据/证券时报/财新 | 36Kr/晚点LatePost |
+| 财经新闻(英) | Bloomberg/Reuters/WSJ/CNBC | FT/MarketWatch/Barron's | Nikkei Asia/Semafor |
+| **AI/科技动态** | **The Information + TechCrunch** | **36Kr + 晚点LatePost** | **Semafor** |
 | 聪明钱/13F | SEC EDGAR | WhaleWisdom/HedgeFollow | web_search |
 | 基金策略师观点 | Bloomberg/CNBC/Reuters | 各基金官网/投资者信 | X(Twitter)/LinkedIn |
 | 微信相关 | https://mp.weixin.qq.com/ | — | — |
@@ -687,6 +691,7 @@ Marshall Wace / Balyasny / Schonfeld / Exoduspoint / Farallon / FengHe(丰和) /
 
 | 版本 | 日期 | 核心变更 |
 |------|------|---------|
+| **v17.6.1** | 2026-03-03 | **媒体追踪体系化版**: 新增`references/media-watchlist.md`媒体追踪知识库（一级必扫7家+二级强化11家+三级雷达7类）；新增batch 0a深度媒体补充扫描（CNBC/The Information/TechCrunch/36Kr/晚点LatePost/FT/财新）；数据源优先级表新增全球头条扫描+AI科技动态行；RULE THREE交叉验证引用media-watchlist.md；含batch 0/0a扫描SOP+中英文双语交叉校验+终审自查步骤 |
 | **v17.6** | 2026-03-03 | **基金&大资金深度覆盖版**: 基于《头部基金25H1持仓情况_v2.pdf》学习，§4从10大核心机构→三梯队26家（一级核心8家+二级追踪10家+三级雷达8家）；新增段永平H&H Investment（一级核心）；新增策略师/CIO核心观点追踪机制+华尔街首席策略师追踪；新增RULE FOUR（基金覆盖完整性铁律6条）；新增fund-universe.md基金知识库；致命错误12→14条（+一级基金遗漏+策略师盲区） |
 | **v17.5** | 2026-03-03 | **AI产业链深度覆盖版**: 基于4份内部研究报告学习，产业链标的从17类粗颗粒→24类供应链级别；新增NVDA供应链19家核心供应商精确Ticker；新增中国AI基建50+标的(含A股代码)；新增半导体设备5大巨头+数据中心托管4家；新增ai-supply-chain-universe.md知识库；RULE THREE新增产业链知识库联动规则(第7条)+未上市公司全覆盖(第8条)；覆盖范围新增未上市AI重磅公司行(字节/OpenAI/Anthropic/Perplexity/Cursor等)；纳入标准+1(未上市AI公司重磅事件)；致命错误11→12条 |
 | **v17.4** | 2026-03-03 | **AI产业链全覆盖版**: 新增RULE THREE(AI产业链敏感度铁律)；大老板已汇报标的优先覆盖机制；batch 0b主动扫描升级；覆盖范围扩展至17类+中国AI生态 |

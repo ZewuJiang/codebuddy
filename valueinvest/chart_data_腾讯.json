@@ -1,0 +1,123 @@
+{
+  "_说明": "腾讯控股深度分析图表数据",
+  "_用法": "python3 generate_charts.py chart_data_腾讯.json charts/",
+  "_版本": "v6.0",
+
+  "company_name": "腾讯",
+  "company_name_en": "Tencent Holdings Ltd.",
+  "ticker": "0700.HK",
+  "current_price": 515.0,
+  "data_source": "腾讯2024年年报 / 港交所",
+  "data_date": "2026.03.03",
+
+  "currency_symbol": "HK$",
+  "amount_unit": "亿元(CNY)",
+  "amount_unit_short": "亿",
+
+  "market": "HK",
+  "accounting_standard": "IFRS",
+
+  "revenue_trend": {
+    "_说明": "营收与Non-IFRS净利润趋势",
+    "years": ["FY2020", "FY2021", "FY2022", "FY2023", "FY2024"],
+    "revenue": [4821, 5602, 5546, 6090, 6603],
+    "net_income": [1227, 1238, 1577, 1578, 2227],
+    "margin": [25.45, 22.10, 28.44, 25.91, 33.73],
+    "source": "腾讯年报 (Non-IFRS净利口径)",
+    "revenue_label": "营收（亿元人民币）",
+    "income_label": "Non-IFRS净利润（亿元人民币）",
+    "margin_label": "Non-IFRS净利率"
+  },
+
+  "business_mix": {
+    "_说明": "2024年业务营收构成",
+    "labels": ["本土游戏", "国际游戏", "社交网络", "营销服务(广告)", "金融科技及企服", "其他"],
+    "sizes": [1397, 580, 1215, 1214, 2120, 77],
+    "title": "腾讯2024年业务营收构成（亿元人民币）",
+    "source": "腾讯2024年年报",
+    "highlight_idx": 4
+  },
+
+  "margin_trend": {
+    "_说明": "盈利能力指标趋势",
+    "years": ["FY2020", "FY2021", "FY2022", "FY2023", "FY2024"],
+    "metrics": {
+      "毛利率": [46.1, 43.1, 48.6, 49.7, 54.6],
+      "Non-IFRS净利率": [25.5, 22.1, 28.4, 25.9, 33.7],
+      "Non-IFRS经营利润率": [28.7, 25.5, 26.1, 26.2, 29.9]
+    },
+    "source": "腾讯年报",
+    "y_format": "percent",
+    "y_label": "百分比"
+  },
+
+  "valuation_comp": {
+    "_说明": "中国互联网竞品估值对比",
+    "companies": ["腾讯", "阿里巴巴", "拼多多", "美团", "网易"],
+    "metrics": {
+      "PE(TTM)": [21, 15, 10, 25, 15],
+      "市值(万亿HKD)": [4.69, 3.08, 1.32, 0.80, 0.50],
+      "营收增速(%)": [8, 8, 59, 22, 6]
+    },
+    "title": "腾讯 vs 中国互联网龙头 关键估值对比",
+    "source": "公开市场数据，2026.03",
+    "highlight_company": "腾讯"
+  },
+
+  "risk_matrix": {
+    "_说明": "风险评估矩阵",
+    "risks": [
+      {"name": "AI投资回报不确定", "probability": 0.6, "impact": 0.85, "level": "高"},
+      {"name": "中国宏观经济放缓", "probability": 0.55, "impact": 0.8, "level": "高"},
+      {"name": "监管政策风险", "probability": 0.45, "impact": 0.8, "level": "中高"},
+      {"name": "地缘政治风险", "probability": 0.45, "impact": 0.75, "level": "中高"},
+      {"name": "Prosus持续减持", "probability": 0.6, "impact": 0.5, "level": "中高"},
+      {"name": "视频号商业化不及预期", "probability": 0.35, "impact": 0.65, "level": "中"},
+      {"name": "字节跳动竞争", "probability": 0.7, "impact": 0.5, "level": "中"},
+      {"name": "游戏新品不及预期", "probability": 0.4, "impact": 0.55, "level": "中"},
+      {"name": "汇率风险", "probability": 0.25, "impact": 0.35, "level": "中低"},
+      {"name": "人才竞争/流失", "probability": 0.3, "impact": 0.4, "level": "中低"}
+    ],
+    "source": "AI Investment Research"
+  },
+
+  "dcf_sensitivity": {
+    "_说明": "DCF敏感性矩阵（每股港元）",
+    "row_labels": ["8.0%", "8.5%", "9.0%", "9.5%", "10.0%"],
+    "col_labels": ["2.0%", "2.5%", "3.0%", "3.5%", "4.0%"],
+    "values": [
+      [580, 620, 670, 730, 820],
+      [530, 560, 600, 645, 710],
+      [485, 510, 540, 575, 625],
+      [450, 470, 495, 525, 565],
+      [420, 438, 458, 480, 510]
+    ],
+    "row_title": "WACC",
+    "col_title": "永续增长率",
+    "current_price": 515.0,
+    "source": "AI Investment Research"
+  },
+
+  "valuation_range": {
+    "_说明": "Football Field估值区间图",
+    "methods": ["PE估值法", "EV/EBITDA", "DCF估值法", "FCF Yield", "卖方一致", "SOTP"],
+    "low": [535, 520, 430, 440, 547, 600],
+    "mid": [630, 591, 458, 484, 670, 705],
+    "high": [768, 660, 530, 550, 780, 800],
+    "current_price": 515.0,
+    "source": "AI Investment Research"
+  },
+
+  "eps_waterfall": {
+    "_说明": "EPS冲击瀑布图（Non-IFRS EPS，人民币）",
+    "base_eps": 24.5,
+    "impacts": [
+      ["AI投资回报慢", -2.5],
+      ["宏观经济下行", -2.0],
+      ["监管政策收紧", -1.5],
+      ["视频号不及预期", -1.2],
+      ["游戏收入下滑", -1.0]
+    ],
+    "source": "AI Investment Research"
+  }
+}
