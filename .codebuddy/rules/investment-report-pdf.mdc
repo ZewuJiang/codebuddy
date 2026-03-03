@@ -14,8 +14,14 @@ provider:
 ## 正确的转换命令
 ```bash
 cd /Users/zewujiang/Desktop/AICo/codebuddy/workflows
-python3 md_to_pdf.py "投资Agent-每日分析-{DATE}.md" "投资Agent-每日分析-{DATE}.pdf"
+python3 md_to_pdf.py "/Users/zewujiang/Desktop/OrbitOS/20_日常监控/每日策略简报/投资Agent-每日策略简报-{DATE}.md" "/Users/zewujiang/Desktop/OrbitOS/20_日常监控/每日策略简报/投资Agent-每日策略简报-{DATE}.pdf"
 ```
+
+## 输出路径（OrbitOS）
+所有报告的MD和PDF文件**必须**输出到 OrbitOS 对应目录：
+- 每日策略简报 → `/Users/zewujiang/Desktop/OrbitOS/20_日常监控/每日策略简报/`
+- 股票深度分析 → `/Users/zewujiang/Desktop/OrbitOS/20_日常监控/股票深度分析/`
+- 禁止在 `workflows/` 或 `valueinvest/` 目录留下报告文件最终版本
 
 ## 禁止事项
 - **禁止**使用 pandoc 直接转PDF（会导致中文乱码）

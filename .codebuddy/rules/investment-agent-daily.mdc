@@ -676,6 +676,20 @@ Marshall Wace / Balyasny / Schonfeld / Exoduspoint / Farallon / FengHe(丰和) /
 
 ---
 
+## 报告输出路径（OrbitOS）
+
+**所有投资Agent每日策略简报（MD+PDF）必须输出到以下目录：**
+
+```
+/Users/zewujiang/Desktop/OrbitOS/20_日常监控/每日策略简报/
+```
+
+- 禁止输出到 `workflows/` 目录
+- PDF转换脚本仍使用 `workflows/md_to_pdf.py`，但输出文件路径指向上述 OrbitOS 目录
+- 中间数据文件（JSON等）仍存放在 `workflows/investment_agent_data/`
+
+---
+
 ## 端到端零堵点执行
 
 用户触发"投资Agent每日分析"后，**不需要任何中间干预**即可收到完整报告。

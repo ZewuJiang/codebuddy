@@ -1,0 +1,1947 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>手把手教你用AI构建机构级股票深度分析系统</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Noto Sans SC', -apple-system, 'PingFang SC', 'Helvetica Neue', sans-serif;
+    background: #f0f2f5;
+    color: #1a1a2e;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .article-container {
+    max-width: 680px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0 0 60px rgba(0,0,0,0.08);
+  }
+  
+  /* ===== 封面区域 ===== */
+  .hero-cover {
+    position: relative;
+    width: 100%;
+    padding: 60px 40px 50px;
+    background: linear-gradient(135deg, #0a1628 0%, #1a2744 30%, #0d2137 60%, #162d50 100%);
+    overflow: hidden;
+  }
+  
+  .hero-cover::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -30%;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(59,130,246,0.15) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  
+  .hero-cover::after {
+    content: '';
+    position: absolute;
+    bottom: -30%;
+    left: -20%;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(168,85,247,0.1) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  
+  .hero-tag {
+    display: inline-block;
+    padding: 4px 16px;
+    background: rgba(59,130,246,0.2);
+    border: 1px solid rgba(59,130,246,0.3);
+    border-radius: 20px;
+    font-size: 12px;
+    color: #7db8ff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero-title {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 32px;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.4;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero-title span {
+    background: linear-gradient(135deg, #60a5fa, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .hero-subtitle {
+    font-size: 16px;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.7;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+  }
+  
+  .hero-metrics {
+    display: flex;
+    gap: 24px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero-metric {
+    text-align: center;
+  }
+  
+  .hero-metric-value {
+    font-size: 28px;
+    font-weight: 700;
+    color: #60a5fa;
+    font-family: 'Noto Serif SC', serif;
+  }
+  
+  .hero-metric-label {
+    font-size: 11px;
+    color: rgba(255,255,255,0.45);
+    letter-spacing: 1px;
+  }
+  
+  /* ===== 正文区域 ===== */
+  .content {
+    padding: 40px 32px;
+  }
+  
+  .content p {
+    font-size: 15px;
+    line-height: 2;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .content p.lead {
+    font-size: 16px;
+    color: #1a1a2e;
+    font-weight: 500;
+    border-left: 3px solid #3b82f6;
+    padding-left: 16px;
+    margin-bottom: 28px;
+  }
+  
+  /* 章节标题 */
+  .section-header {
+    margin: 48px 0 28px;
+    position: relative;
+  }
+  
+  .section-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(135deg, #1e3a5f, #2563eb);
+    color: #fff;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 12px;
+    vertical-align: middle;
+  }
+  
+  .section-title {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #0f172a;
+    vertical-align: middle;
+    line-height: 1.4;
+  }
+  
+  .section-divider {
+    width: 48px;
+    height: 3px;
+    background: linear-gradient(90deg, #3b82f6, #a78bfa);
+    border-radius: 2px;
+    margin-top: 12px;
+  }
+  
+  /* 小节标题 */
+  h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 32px 0 16px;
+    padding-left: 12px;
+    border-left: 3px solid #3b82f6;
+  }
+  
+  /* 代码/Prompt展示区 */
+  .prompt-box {
+    background: #0f172a;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .prompt-box::before {
+    content: 'PROMPT';
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: rgba(255,255,255,0.2);
+    font-weight: 700;
+  }
+  
+  .prompt-box code {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 13px;
+    color: #e2e8f0;
+    line-height: 1.8;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+  
+  .prompt-box .highlight {
+    color: #60a5fa;
+    font-weight: 500;
+  }
+  
+  .prompt-box .comment {
+    color: #64748b;
+  }
+  
+  /* ===== 10大模块架构图 ===== */
+  .module-architecture {
+    margin: 28px 0;
+    padding: 28px 20px;
+    background: linear-gradient(135deg, #f8fafc, #eef2ff);
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+  }
+  
+  .module-architecture .arch-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+  }
+  
+  .module-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .module-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 14px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s;
+    cursor: default;
+  }
+  
+  .module-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-color: #3b82f6;
+  }
+  
+  .module-card.highlight-card {
+    background: linear-gradient(135deg, #eff6ff, #dbeafe);
+    border-color: #93c5fd;
+  }
+  
+  .module-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+  
+  .module-text {
+    flex: 1;
+  }
+  
+  .module-num {
+    font-size: 10px;
+    color: #94a3b8;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .module-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1e293b;
+    line-height: 1.3;
+  }
+  
+  .module-card.full-width {
+    grid-column: 1 / -1;
+  }
+  
+  /* 图标颜色 */
+  .icon-blue { background: #dbeafe; }
+  .icon-green { background: #dcfce7; }
+  .icon-purple { background: #ede9fe; }
+  .icon-orange { background: #fff7ed; }
+  .icon-red { background: #fef2f2; }
+  .icon-cyan { background: #ecfeff; }
+  .icon-yellow { background: #fefce8; }
+  .icon-pink { background: #fdf2f8; }
+  .icon-indigo { background: #eef2ff; }
+  .icon-teal { background: #f0fdfa; }
+  
+  /* ===== 对比升级图 ===== */
+  .upgrade-visual {
+    margin: 28px 0;
+    padding: 24px;
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+  }
+  
+  .upgrade-header {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .upgrade-header h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1e293b;
+  }
+  
+  .upgrade-flow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .upgrade-box {
+    padding: 16px 20px;
+    border-radius: 12px;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .upgrade-box.before {
+    background: #fef3c7;
+    border: 2px solid #f59e0b;
+  }
+  
+  .upgrade-box.after {
+    background: #dcfce7;
+    border: 2px solid #22c55e;
+  }
+  
+  .upgrade-box .version {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #92400e;
+    margin-bottom: 4px;
+  }
+  
+  .upgrade-box.after .version {
+    color: #166534;
+  }
+  
+  .upgrade-box .number {
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Noto Serif SC', serif;
+  }
+  
+  .upgrade-box.before .number {
+    color: #b45309;
+  }
+  
+  .upgrade-box.after .number {
+    color: #16a34a;
+  }
+  
+  .upgrade-box .label {
+    font-size: 13px;
+    color: #64748b;
+  }
+  
+  .upgrade-arrow {
+    font-size: 28px;
+    color: #3b82f6;
+    font-weight: 900;
+    flex-shrink: 0;
+  }
+  
+  /* ===== 踩坑对比卡片 ===== */
+  .pitfall-card {
+    margin: 24px 0;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid #fee2e2;
+    background: #fff;
+  }
+  
+  .pitfall-header {
+    padding: 14px 20px;
+    background: linear-gradient(135deg, #fef2f2, #fff1f2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .pitfall-icon {
+    font-size: 20px;
+  }
+  
+  .pitfall-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #991b1b;
+  }
+  
+  .pitfall-body {
+    padding: 20px;
+  }
+  
+  .pitfall-compare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  
+  .pitfall-before, .pitfall-after {
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 13px;
+    line-height: 1.7;
+  }
+  
+  .pitfall-before {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+  }
+  
+  .pitfall-after {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+  }
+  
+  .pitfall-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+  }
+  
+  .pitfall-before .pitfall-label { color: #dc2626; }
+  .pitfall-after .pitfall-label { color: #16a34a; }
+  
+  .pitfall-before .wrong-text {
+    color: #991b1b;
+    text-decoration: line-through;
+    text-decoration-color: #ef4444;
+  }
+  
+  .pitfall-after .correct-text {
+    color: #166534;
+    font-weight: 600;
+  }
+  
+  /* ===== 迭代演进时间线 ===== */
+  .timeline {
+    margin: 28px 0;
+    padding: 24px 0;
+    position: relative;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(180deg, #3b82f6, #8b5cf6, #ec4899);
+    border-radius: 2px;
+  }
+  
+  .timeline-item {
+    position: relative;
+    padding-left: 52px;
+    margin-bottom: 28px;
+  }
+  
+  .timeline-dot {
+    position: absolute;
+    left: 12px;
+    top: 4px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 3px solid #3b82f6;
+    background: #fff;
+    z-index: 1;
+  }
+  
+  .timeline-item:nth-child(2) .timeline-dot { border-color: #6366f1; }
+  .timeline-item:nth-child(3) .timeline-dot { border-color: #8b5cf6; }
+  .timeline-item:nth-child(4) .timeline-dot { border-color: #a855f7; }
+  .timeline-item:nth-child(5) .timeline-dot { border-color: #d946ef; }
+  .timeline-item:nth-child(6) .timeline-dot { border-color: #ec4899; }
+  
+  .timeline-version {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px 10px;
+    border-radius: 4px;
+    background: #3b82f6;
+    color: #fff;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+  }
+  
+  .timeline-item:nth-child(2) .timeline-version { background: #6366f1; }
+  .timeline-item:nth-child(3) .timeline-version { background: #8b5cf6; }
+  .timeline-item:nth-child(4) .timeline-version { background: #a855f7; }
+  .timeline-item:nth-child(5) .timeline-version { background: #d946ef; }
+  .timeline-item:nth-child(6) .timeline-version { background: #ec4899; }
+  
+  .timeline-content h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 4px;
+  }
+  
+  .timeline-content p {
+    font-size: 13px;
+    color: #64748b;
+    margin-bottom: 0;
+    line-height: 1.7;
+  }
+  
+  .timeline-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+  }
+  
+  .timeline-tag {
+    font-size: 11px;
+    padding: 2px 8px;
+    background: #f1f5f9;
+    border-radius: 4px;
+    color: #475569;
+    font-weight: 500;
+  }
+  
+  /* ===== 数据统计卡片 ===== */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 24px 0;
+  }
+  
+  .stat-card {
+    padding: 20px 16px;
+    background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+  }
+  
+  .stat-value {
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'Noto Serif SC', serif;
+    background: linear-gradient(135deg, #1e3a5f, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .stat-label {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 4px;
+    font-weight: 500;
+  }
+  
+  /* ===== SOP步骤卡片 ===== */
+  .sop-steps {
+    margin: 24px 0;
+    counter-reset: sop-counter;
+  }
+  
+  .sop-step {
+    display: flex;
+    gap: 16px;
+    padding: 18px 0;
+    border-bottom: 1px solid #f1f5f9;
+    counter-increment: sop-counter;
+  }
+  
+  .sop-step:last-child {
+    border-bottom: none;
+  }
+  
+  .sop-step-num {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #1e3a5f, #2563eb);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+  
+  .sop-step-content h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 4px;
+  }
+  
+  .sop-step-content p {
+    font-size: 13px;
+    color: #64748b;
+    margin-bottom: 0;
+    line-height: 1.7;
+  }
+  
+  /* ===== 关键洞察卡片 ===== */
+  .insight-box {
+    margin: 24px 0;
+    padding: 20px 24px;
+    border-radius: 12px;
+    border-left: 4px solid;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  
+  .insight-box.blue {
+    background: #eff6ff;
+    border-color: #3b82f6;
+    color: #1e40af;
+  }
+  
+  .insight-box.green {
+    background: #f0fdf4;
+    border-color: #22c55e;
+    color: #166534;
+  }
+  
+  .insight-box.amber {
+    background: #fffbeb;
+    border-color: #f59e0b;
+    color: #92400e;
+  }
+  
+  .insight-box strong {
+    font-weight: 700;
+  }
+  
+  /* ===== 工作流流程图 ===== */
+  .workflow-flow {
+    margin: 28px 0;
+    padding: 24px;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    border-radius: 16px;
+    overflow-x: auto;
+  }
+  
+  .workflow-flow .flow-title {
+    text-align: center;
+    color: #94a3b8;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .flow-steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+  
+  .flow-step {
+    padding: 10px 14px;
+    border-radius: 8px;
+    text-align: center;
+    min-width: 80px;
+  }
+  
+  .flow-step .step-label {
+    font-size: 10px;
+    color: rgba(255,255,255,0.4);
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .flow-step .step-name {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 2px;
+  }
+  
+  .flow-step.blue-step { background: rgba(59,130,246,0.2); border: 1px solid rgba(59,130,246,0.3); }
+  .flow-step.purple-step { background: rgba(139,92,246,0.2); border: 1px solid rgba(139,92,246,0.3); }
+  .flow-step.green-step { background: rgba(34,197,94,0.2); border: 1px solid rgba(34,197,94,0.3); }
+  .flow-step.orange-step { background: rgba(249,115,22,0.2); border: 1px solid rgba(249,115,22,0.3); }
+  
+  .flow-arrow {
+    color: #475569;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  /* ===== 报告截图展示区域 ===== */
+  .report-showcase {
+    margin: 28px 0;
+    padding: 28px 20px;
+    background: linear-gradient(135deg, #f8fafc, #eef2ff);
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+  }
+  
+  .report-showcase .showcase-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #64748b;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+  .report-mockup {
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    text-align: left;
+    border: 1px solid #e2e8f0;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  
+  .mockup-header {
+    padding-bottom: 16px;
+    border-bottom: 2px solid #1e3a5f;
+    margin-bottom: 16px;
+  }
+  
+  .mockup-title {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 6px;
+  }
+  
+  .mockup-meta {
+    font-size: 11px;
+    color: #94a3b8;
+  }
+  
+  .mockup-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-top: 12px;
+  }
+  
+  .mockup-table th {
+    background: #1e293b;
+    color: #fff;
+    padding: 8px 10px;
+    text-align: left;
+    font-weight: 600;
+  }
+  
+  .mockup-table td {
+    padding: 7px 10px;
+    border-bottom: 1px solid #f1f5f9;
+    color: #334155;
+    font-size: 11.5px;
+  }
+  
+  .mockup-table tr:nth-child(even) td {
+    background: #f8fafc;
+  }
+  
+  .mockup-table .tag-hold {
+    display: inline-block;
+    padding: 1px 8px;
+    background: #fef3c7;
+    color: #92400e;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  
+  /* ===== 防错清单可视化 ===== */
+  .checklist-visual {
+    margin: 24px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 14px;
+    border: 1px solid #e2e8f0;
+  }
+  
+  .checklist-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .checklist-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    font-size: 13px;
+    color: #334155;
+    line-height: 1.6;
+  }
+  
+  .check-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #dcfce7;
+    color: #16a34a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  
+  /* ===== 进度条可视化 ===== */
+  .progress-visual {
+    margin: 24px 0;
+  }
+  
+  .progress-item {
+    margin-bottom: 14px;
+  }
+  
+  .progress-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+  
+  .progress-name {
+    font-weight: 600;
+    color: #334155;
+  }
+  
+  .progress-value {
+    color: #64748b;
+    font-weight: 500;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background: #f1f5f9;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 1s ease;
+  }
+  
+  .fill-blue { background: linear-gradient(90deg, #3b82f6, #60a5fa); }
+  .fill-green { background: linear-gradient(90deg, #22c55e, #4ade80); }
+  .fill-purple { background: linear-gradient(90deg, #8b5cf6, #a78bfa); }
+  .fill-orange { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+  
+  /* ===== 文末CTA ===== */
+  .cta-section {
+    margin: 48px 0 0;
+    padding: 32px 24px;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    border-radius: 16px;
+    text-align: center;
+  }
+  
+  .cta-section h3 {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    padding: 0;
+    margin: 0 0 12px;
+  }
+  
+  .cta-section p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  /* ===== 分隔符 ===== */
+  .divider {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 40px 0;
+  }
+  
+  .divider::before, .divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #e2e8f0;
+  }
+  
+  .divider span {
+    font-size: 18px;
+    color: #cbd5e1;
+  }
+  
+  /* ===== 引用块 ===== */
+  .quote-box {
+    margin: 24px 0;
+    padding: 20px 24px;
+    background: linear-gradient(135deg, #fefce8, #fef9c3);
+    border-radius: 12px;
+    border: 1px solid #fde68a;
+    font-style: italic;
+    font-size: 14px;
+    color: #713f12;
+    line-height: 1.8;
+    position: relative;
+  }
+  
+  .quote-box::before {
+    content: '\201C';
+    font-size: 48px;
+    color: #f59e0b;
+    position: absolute;
+    top: -8px;
+    left: 12px;
+    font-family: Georgia, serif;
+    opacity: 0.5;
+  }
+  
+  /* ===== 表格样式 ===== */
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 13px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+  }
+  
+  .styled-table th {
+    background: #1e293b;
+    color: #fff;
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+  }
+  
+  .styled-table td {
+    padding: 10px 14px;
+    border-bottom: 1px solid #f1f5f9;
+    color: #334155;
+  }
+  
+  .styled-table tr:nth-child(even) td {
+    background: #f8fafc;
+  }
+  
+  .styled-table tr:hover td {
+    background: #eff6ff;
+  }
+  
+  /* ===== 数据采集动画示意 ===== */
+  .batch-visual {
+    margin: 24px 0;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 14px;
+    border: 1px solid #e2e8f0;
+  }
+  
+  .batch-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1e293b;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .batch-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .batch-label {
+    width: 64px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    flex-shrink: 0;
+    color: #fff;
+  }
+  
+  .batch-1 { background: #3b82f6; }
+  .batch-2 { background: #6366f1; }
+  .batch-3 { background: #8b5cf6; }
+  .batch-4 { background: #a855f7; }
+  
+  .batch-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    flex: 1;
+  }
+  
+  .batch-item {
+    font-size: 11px;
+    padding: 3px 8px;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #e2e8f0;
+    color: #475569;
+  }
+  
+  .batch-count {
+    font-size: 12px;
+    font-weight: 600;
+    color: #3b82f6;
+    flex-shrink: 0;
+    min-width: 36px;
+    text-align: right;
+  }
+  
+  /* ===== 底部 ===== */
+  .article-footer {
+    padding: 24px 32px;
+    background: #f8fafc;
+    border-top: 1px solid #e2e8f0;
+    text-align: center;
+    font-size: 12px;
+    color: #94a3b8;
+    line-height: 1.8;
+  }
+  
+  /* 响应式 */
+  @media (max-width: 480px) {
+    .hero-title { font-size: 24px; }
+    .content { padding: 28px 20px; }
+    .module-grid { grid-template-columns: 1fr; }
+    .pitfall-compare { grid-template-columns: 1fr; }
+    .stats-grid { grid-template-columns: 1fr; }
+    .hero-metrics { flex-wrap: wrap; }
+  }
+</style>
+</head>
+<body>
+
+<div class="article-container">
+
+  <!-- ==================== 封面 ==================== -->
+  <div class="hero-cover">
+    <div class="hero-tag">AI + VALUE INVESTING</div>
+    <h1 class="hero-title">
+      手把手教你用AI构建<br><span>机构级股票深度分析系统</span>
+    </h1>
+    <p class="hero-subtitle">
+      从7个问题到10大模块，一句话触发、30分钟产出<br>
+      一份完整的投行级深度研报——我踩过的所有坑
+    </p>
+    <div class="hero-metrics">
+      <div class="hero-metric">
+        <div class="hero-metric-value">10</div>
+        <div class="hero-metric-label">分析模块</div>
+      </div>
+      <div class="hero-metric">
+        <div class="hero-metric-value">30+</div>
+        <div class="hero-metric-label">数据源搜索</div>
+      </div>
+      <div class="hero-metric">
+        <div class="hero-metric-value">6</div>
+        <div class="hero-metric-label">公司实战验证</div>
+      </div>
+      <div class="hero-metric">
+        <div class="hero-metric-value">4</div>
+        <div class="hero-metric-label">大版本迭代</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== 正文 ==================== -->
+  <div class="content">
+
+    <!-- ===== 开篇 ===== -->
+    <p class="lead">
+      作为个人投资者，你是否也有过这样的困扰：研报看了几十份，但面对一家公司时，依然缺乏一套系统化、结构化的分析框架？
+    </p>
+    
+    <p>
+      经过两周的反复打磨，我用 <strong>CodeBuddy（腾讯云AI代码助手）</strong>构建了一套完整的AI股票深度分析Agent。现在只需要输入一句话——比如"分析苹果公司"——就能在30分钟内自动产出一份<strong>涵盖10大模块、30+页</strong>的机构级深度研报（含专业图表的PDF版本）。
+    </p>
+    
+    <p>
+      这篇文章不是"我做了一个很厉害的东西"的炫技文，而是一份<strong>完整的技术教程</strong>——我会把从0到1构建这套系统的每一步、踩过的每一个坑、修过的每一个bug，都毫无保留地分享出来。你完全可以按照同样的方法，构建属于自己的分析系统。
+    </p>
+
+    <!-- ===== 效果展示 ===== -->
+    <div class="report-showcase">
+      <div class="showcase-title">最终效果 / OUTPUT PREVIEW</div>
+      <div class="report-mockup">
+        <div class="mockup-header">
+          <div class="mockup-title">股票深度分析 - 苹果公司（AAPL）</div>
+          <div class="mockup-meta">分析日期: 2026-02-23 | 数据截止: 2026-02-20 收盘 | AI投资分析系统</div>
+        </div>
+        <table class="mockup-table">
+          <tr>
+            <th style="width:25%">维度</th>
+            <th>核心结论</th>
+          </tr>
+          <tr>
+            <td><strong>综合评级</strong></td>
+            <td><span class="tag-hold">Hold / 逢低买入</span> 综合估值中枢 $244</td>
+          </tr>
+          <tr>
+            <td><strong>核心逻辑</strong></td>
+            <td>AI换机周期验证，Q1营收$1,438亿 (+15.7%)</td>
+          </tr>
+          <tr>
+            <td><strong>催化剂</strong></td>
+            <td>LLM Siri → WWDC26 → iPhone 18</td>
+          </tr>
+          <tr>
+            <td><strong>最大风险</strong></td>
+            <td>关税升级 / 反垄断监管 / AI落后竞对</td>
+          </tr>
+          <tr>
+            <td><strong>估值判断</strong></td>
+            <td>PE 33.6x（75分位），五种方法中枢 $244</td>
+          </tr>
+        </table>
+      </div>
+      <p style="font-size:12px; color:#94a3b8; margin-top:16px; margin-bottom:0; text-align:center;">
+        苹果公司深度分析报告 Executive Summary 截图
+      </p>
+    </div>
+
+    <div class="divider"><span>◆</span></div>
+
+    <!-- ===== 第一章：起点 ===== -->
+    <div class="section-header">
+      <span class="section-number">1</span>
+      <span class="section-title">起点：一个7步Prompt模板</span>
+      <div class="section-divider"></div>
+    </div>
+
+    <p>
+      一切始于一份手工Prompt清单。作为个人投资者，我习惯在分析一家公司时按照固定步骤逐一提问：主营业务是什么？财报数据如何？技术壁垒在哪？竞争对手怎么样？风险有哪些？
+    </p>
+    
+    <p>
+      这份清单很快被我固化成了一个Markdown文件——<strong>valueinvestprompt.md</strong>：
+    </p>
+
+    <div class="prompt-box">
+      <code><span class="comment">// valueinvestprompt.md — 原始7步Prompt模板</span>
+
+<span class="highlight">Step 1</span>  分析公司主营业务、核心含义、产品和客户
+<span class="highlight">Step 2</span>  基于最新财报分析各业务营收占比
+<span class="highlight">Step 3</span>  各主营业务在财报中的亮点与趋势
+<span class="highlight">Step 4</span>  研发/技术壁垒、市场份额、行业地位
+<span class="highlight">Step 5</span>  与竞争对手全面对比分析
+<span class="highlight">Step 6</span>  全网搜索补充遗漏信息
+<span class="highlight">Step 7</span>  风险分析</code>
+    </div>
+
+    <p>
+      这个模板能用，但问题很明显：<strong>每次分析一家公司，我需要手动逐条发送7轮对话</strong>，AI也缺乏统一的输出格式和质量标准。更致命的是——没有估值分析、没有管理层评估、没有技术面、没有交易决策参考。
+    </p>
+
+    <div class="insight-box amber">
+      <strong>关键认知转变：</strong>需要把「手动逐步提问」变成「一句话触发的自动化工作流」。不是每次教AI怎么做，而是把方法论固化成AI的"操作手册"。
+    </div>
+
+    <p>
+      我把这个想法告诉了CodeBuddy：提供了3份之前做的分析PDF（台积电/英伟达/Google）作为参考模板，让它学习报告结构，并用 <strong>AI二级分析Agent Rule</strong> 的形式固化下来。
+    </p>
+
+    <div class="divider"><span>◆</span></div>
+
+    <!-- ===== 第二章：从7到10 ===== -->
+    <div class="section-header">
+      <span class="section-number">2</span>
+      <span class="section-title">搭建Agent：从7模块到10模块</span>
+      <div class="section-divider"></div>
+    </div>
+
+    <p>
+      CodeBuddy从我提供的3份PDF中提取了报告结构，生成了第一版Rule——包含7大分析模块。但在审视后，我发现它<strong>缺少了关键的3个维度</strong>：
+    </p>
+
+    <div class="upgrade-visual">
+      <div class="upgrade-header">
+        <h4>模块升级全貌</h4>
+      </div>
+      <div class="upgrade-flow">
+        <div class="upgrade-box before">
+          <div class="version">V1 初始版</div>
+          <div class="number">7</div>
+          <div class="label">大模块</div>
+        </div>
+        <div class="upgrade-arrow">→</div>
+        <div class="upgrade-box after">
+          <div class="version">V2 升级版</div>
+          <div class="number">10</div>
+          <div class="label">大模块</div>
+        </div>
+      </div>
+      <p style="font-size:12px; color:#94a3b8; text-align:center; margin-bottom:0;">
+        新增：消息前瞻 / 技术面分析 / 交易决策参考
+      </p>
+    </div>
+
+    <p>
+      除了补充5张框架截图让AI学习更完整的分析维度外，我还额外提出了几项不可遗漏的检查项：<strong>管理层与公司治理、风险量化分析、壁垒护城河深度评估</strong>。这催生了<strong>17项专项质检</strong>机制。
+    </p>
+
+    <p>
+      最终的10大模块覆盖了一份机构级研报的完整分析框架：
+    </p>
+
+    <div class="module-architecture">
+      <div class="arch-title">10大模块分析框架</div>
+      <div class="module-grid">
+        <div class="module-card">
+          <div class="module-icon icon-blue">📊</div>
+          <div class="module-text">
+            <div class="module-num">MODULE 01</div>
+            <div class="module-name">数据侧：市值/股价/持仓</div>
+          </div>
+        </div>
+        <div class="module-card">
+          <div class="module-icon icon-green">🏢</div>
+          <div class="module-text">
+            <div class="module-num">MODULE 02</div>
+            <div class="module-name">公司基本面与业务逻辑</div>
+          </div>
+        </div>
+        <div class="module-card">
+          <div class="module-icon icon-purple">📈</div>
+          <div class="module-text">
+            <div class="module-num">MODULE 03</div>
+            <div class="module-name">业务历程复盘</div>
+          </div>
+        </div>
+        <div class="module-card">
+          <div class="module-icon icon-orange">📋</div>
+          <div class="module-text">
+            <div class="module-num">MODULE 04</div>
+            <div class="module-name">财报深度解读</div>
+          </div>
+        </div>
+        <div class="module-card">
+          <div class="module-icon icon-cyan">🏰</div>
+          <div class="module-text">
+            <div class="module-num">MODULE 05</div>
+            <div class="module-name">壁垒护城河与行业地位</div>
+          </div>
+        </div>
+        <div class="module-card">
+          <div class="module-icon icon-red">⚔️</div>
+          <div class="module-text">
+            <div class="module-num">MODULE 06</div>
+            <div class="module-name">竞争格局深度对比</div>
+          </div>
+        </div>
+        <div class="module-card">
+          <div class="module-icon icon-yellow">👤</div>
+          <div class="module-text">
+            <div class="module-num">MODULE 07</div>
+            <div class="module-name">管理层与公司治理</div>
+          </div>
+        </div>
+        <div class="module-card highlight-card">
+          <div class="module-icon icon-pink">💰</div>
+          <div class="module-text">
+            <div class="module-num">MODULE 08</div>
+            <div class="module-name">估值分析与定价</div>
+          </div>
+        </div>
+        <div class="module-card highlight-card">
+          <div class="module-icon icon-indigo">📰</div>
+          <div class="module-text">
+            <div class="module-num">MODULE 09</div>
+            <div class="module-name">消息前瞻与催化剂</div>
+          </div>
+        </div>
+        <div class="module-card highlight-card">
+          <div class="module-icon icon-teal">🎯</div>
+          <div class="module-text">
+            <div class="module-num">MODULE 10</div>
+            <div class="module-name">交易决策参考</div>
+          </div>
+        </div>
+      </div>
+      <p style="font-size:11px; color:#94a3b8; text-align:center; margin-top:14px; margin-bottom:0;">
+        高亮模块为 V2 新增 | 每个模块均含子项质检标准
+      </p>
+    </div>
+
+    <div class="divider"><span>◆</span></div>
+
+    <!-- ===== 第三章：首次实战 ===== -->
+    <div class="section-header">
+      <span class="section-number">3</span>
+      <span class="section-title">首次实战：以苹果公司为例</span>
+      <div class="section-divider"></div>
+    </div>
+
+    <p>
+      10大模块的Rule写好后，我用苹果公司（AAPL）作为第一个实战目标。<strong>一句话触发</strong>："分析苹果公司"——Agent就开始自动执行整套工作流。
+    </p>
+
+    <h3>4批次并行数据采集</h3>
+
+    <p>
+      Agent会自动将数据采集拆分为4个批次，每批次并行执行多次搜索，覆盖不同数据维度：
+    </p>
+
+    <div class="batch-visual">
+      <div class="batch-title">4批次并行数据采集 SOP</div>
+      <div class="batch-row">
+        <div class="batch-label batch-1">Batch 1</div>
+        <div class="batch-items">
+          <span class="batch-item">市值/股价</span>
+          <span class="batch-item">财报数据</span>
+          <span class="batch-item">机构持仓</span>
+          <span class="batch-item">全球排名</span>
+        </div>
+        <div class="batch-count">8次</div>
+      </div>
+      <div class="batch-row">
+        <div class="batch-label batch-2">Batch 2</div>
+        <div class="batch-items">
+          <span class="batch-item">业务逻辑</span>
+          <span class="batch-item">行业地位</span>
+          <span class="batch-item">技术壁垒</span>
+          <span class="batch-item">发展历程</span>
+        </div>
+        <div class="batch-count">8次</div>
+      </div>
+      <div class="batch-row">
+        <div class="batch-label batch-3">Batch 3</div>
+        <div class="batch-items">
+          <span class="batch-item">竞对对比</span>
+          <span class="batch-item">管理层</span>
+          <span class="batch-item">风险因素</span>
+          <span class="batch-item">分析师评级</span>
+        </div>
+        <div class="batch-count">8次</div>
+      </div>
+      <div class="batch-row">
+        <div class="batch-label batch-4">Batch 4</div>
+        <div class="batch-items">
+          <span class="batch-item">估值模型</span>
+          <span class="batch-item">催化剂</span>
+          <span class="batch-item">技术面</span>
+          <span class="batch-item">交叉验证</span>
+        </div>
+        <div class="batch-count">6次</div>
+      </div>
+      <p style="font-size:11px; color:#94a3b8; text-align:center; margin-top:12px; margin-bottom:0;">
+        共计 30+ 次 web_search / web_fetch 调用，覆盖官网、SEC、投研平台等数据源
+      </p>
+    </div>
+
+    <h3>PDF渲染踩坑：中文乱码</h3>
+
+    <p>
+      数据采集和报告撰写都很顺利，但在最后一步——<strong>Markdown转PDF</strong>时翻车了。用 WeasyPrint 生成的PDF在macOS预览中显示为乱码方块。
+    </p>
+
+    <div class="pitfall-card">
+      <div class="pitfall-header">
+        <span class="pitfall-icon">⚠️</span>
+        <span class="pitfall-title">踩坑 #1：PDF中文字体渲染失败</span>
+      </div>
+      <div class="pitfall-body">
+        <p style="font-size:13px; color:#64748b; margin-bottom:12px;">
+          <strong>根因：</strong>WeasyPrint默认不加载macOS系统字体，需要在CSS中显式声明<code>@font-face</code>并指定<code>.ttc</code>字体文件路径。
+        </p>
+        <div class="pitfall-compare">
+          <div class="pitfall-before">
+            <div class="pitfall-label">BEFORE 错误写法</div>
+            <span class="wrong-text">font-family: 'PingFang SC';</span><br>
+            <span style="font-size:12px; color:#94a3b8;">直接引用字体名，WeasyPrint找不到</span>
+          </div>
+          <div class="pitfall-after">
+            <div class="pitfall-label">AFTER 修复方案</div>
+            <span class="correct-text">@font-face + 指定.ttc路径</span><br>
+            <span style="font-size:12px; color:#94a3b8;">声明本地字体文件完整路径</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p>
+      这个bug的修复方案被我固化进了 <code>md_to_pdf.py</code> 脚本，后续所有报告的PDF生成都走统一管线，彻底杜绝此类问题。
+    </p>
+
+    <div class="divider"><span>◆</span></div>
+
+    <!-- ===== 第四章：4轮审视 ===== -->
+    <div class="section-header">
+      <span class="section-number">4</span>
+      <span class="section-title">4轮审视：从"能用"到"专业"</span>
+      <div class="section-divider"></div>
+    </div>
+
+    <p>
+      第一版苹果报告"看起来像那么回事"——有表格、有数据、有结论。但当我逐行审视时，发现了<strong>一系列致命问题</strong>。正是这些问题驱动了整个系统的核心迭代。
+    </p>
+
+    <div class="insight-box blue">
+      <strong>四轮审视SOP：</strong>每份报告完成后，必须经过四轮检查：① 结构完整性 → ② 数据准确性 → ③ 计算逻辑验证 → ④ 表述严谨性。任何一轮不通过，回炉修改。
+    </div>
+
+    <h3>问题一：数据模糊化</h3>
+    <p>
+      第一版报告中充斥着"约XX亿""大约X%"的模糊表述。一份机构级报告不允许出现没有精确来源的模糊数字——<strong>要么给出精确值+出处，要么标明"数据不可得"，绝不用"约"字搪塞过去</strong>。
+    </p>
+
+    <h3>问题二：缺少Executive Summary</h3>
+    <p>
+      30页的报告，投资者翻开第一页应该在30秒内知道结论。第一版没有这个模块。后来增加了一个"一页纸摘要"——用表格呈现评级/逻辑/风险/估值/适合人群，底部一句话总结。
+    </p>
+
+    <h3>问题三：估值分析不够硬</h3>
+    <p>
+      最初只有P/E比较法。后来升级为<strong>五种估值方法交叉验证</strong>：
+    </p>
+
+    <div class="progress-visual">
+      <div class="progress-item">
+        <div class="progress-label">
+          <span class="progress-name">P/E Relative（可比估值）</span>
+          <span class="progress-value">对标行业均值</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill fill-blue" style="width: 85%"></div></div>
+      </div>
+      <div class="progress-item">
+        <div class="progress-label">
+          <span class="progress-name">DCF 自由现金流折现</span>
+          <span class="progress-value">三情景敏感性分析</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill fill-green" style="width: 90%"></div></div>
+      </div>
+      <div class="progress-item">
+        <div class="progress-label">
+          <span class="progress-name">PEG 成长性调整</span>
+          <span class="progress-value">EPS增速匹配</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill fill-purple" style="width: 70%"></div></div>
+      </div>
+      <div class="progress-item">
+        <div class="progress-label">
+          <span class="progress-name">EV/EBITDA 企业价值倍数</span>
+          <span class="progress-value">消除资本结构差异</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill fill-orange" style="width: 75%"></div></div>
+      </div>
+    </div>
+
+    <p>
+      多种方法的估值区间取交集，得到综合中枢价——这才是可以辅助决策的估值参考。
+    </p>
+
+    <h3>致命踩坑：市值排名写错了</h3>
+
+    <div class="pitfall-card">
+      <div class="pitfall-header">
+        <span class="pitfall-icon">⚠️</span>
+        <span class="pitfall-title">踩坑 #2：写了"全球第一大市值"，实际是第二</span>
+      </div>
+      <div class="pitfall-body">
+        <p style="font-size:13px; color:#64748b; margin-bottom:12px;">
+          AI在撰写时直接使用训练数据中的旧排名，没有与当前搜索数据进行交叉验证。当时NVIDIA市值$4.66万亿排名第一，苹果$3.88万亿排名第二。
+        </p>
+        <div class="pitfall-compare">
+          <div class="pitfall-before">
+            <div class="pitfall-label">BEFORE 错误</div>
+            <span class="wrong-text">全球第一大市值公司</span>
+          </div>
+          <div class="pitfall-after">
+            <div class="pitfall-label">AFTER 修正</div>
+            <span class="correct-text">全球第二大市值公司<br>（仅次于NVIDIA $4.66万亿）</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>隐蔽踩坑：混用不同时间点数据</h3>
+
+    <div class="pitfall-card">
+      <div class="pitfall-header">
+        <span class="pitfall-icon">⚠️</span>
+        <span class="pitfall-title">踩坑 #3：报告开头写$3.88万亿，后文变成$3.95万亿</span>
+      </div>
+      <div class="pitfall-body">
+        <p style="font-size:13px; color:#64748b; margin-bottom:12px;">
+          <strong>根因：</strong>AI在不同搜索批次中获取了不同时间点的市值数据，没有统一到同一截止时间。报告中同时出现了2月18日和2月20日的市值数据，造成内部矛盾。
+        </p>
+        <p style="font-size:13px; color:#475569; margin-bottom:0;">
+          <strong>修复方案：</strong>新增「实时数据铁律」——报告开头声明数据截止时间，全文所有数据必须对齐到同一时间戳，不得出现"近期""最近"等模糊时间表述。
+        </p>
+      </div>
+    </div>
+
+    <div class="quote-box">
+      这两个bug让我深刻认识到：AI最容易在「排名/比较/时序」类描述上犯错。因为训练数据中的排名已经过时，而AI会倾向于使用记忆中的"常识"而非当前搜索结果。解决方案是：写入硬约束铁律，强制AI在每次排名/比较时引用具体数据来源。
+    </div>
+
+    <div class="divider"><span>◆</span></div>
+
+    <!-- ===== 第五章：规则迭代 ===== -->
+    <div class="section-header">
+      <span class="section-number">5</span>
+      <span class="section-title">规则迭代：从v1到v4的演进</span>
+      <div class="section-divider"></div>
+    </div>
+
+    <p>
+      每一次踩坑都会变成Rule中的一条铁律。经过苹果、拼多多、Roblox、腾讯、英伟达等6家公司的实战验证，规则体系从v1迭代到了v4：
+    </p>
+
+    <!-- 迭代时间线 -->
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-version">V1</span>
+          <h4>初始版 — 基础框架</h4>
+          <p>7大分析模块 + 4步数据采集流程。能跑通，但质量不达标。</p>
+          <div class="timeline-tags">
+            <span class="timeline-tag">7模块</span>
+            <span class="timeline-tag">基础Rule</span>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-version">V2</span>
+          <h4>升级版 — 10模块 + 质检体系</h4>
+          <p>新增3个模块，引入10条核心原则、四轮审视SOP、12项估值防错清单、10个典型错误案例库。</p>
+          <div class="timeline-tags">
+            <span class="timeline-tag">10模块</span>
+            <span class="timeline-tag">四轮审视</span>
+            <span class="timeline-tag">防错清单</span>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-version">V2.1</span>
+          <h4>补丁版 — 数据铁律</h4>
+          <p>引入实时数据铁律、批次0全球市值排名预检查、防止混用时间点数据机制。</p>
+          <div class="timeline-tags">
+            <span class="timeline-tag">实时数据铁律</span>
+            <span class="timeline-tag">时间戳统一</span>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-version">V3</span>
+          <h4>稳定版 — 6阶段工作流</h4>
+          <p>完整的六阶段工作流、PDF图表管线、多公司验证通过。</p>
+          <div class="timeline-tags">
+            <span class="timeline-tag">六阶段SOP</span>
+            <span class="timeline-tag">图表自动化</span>
+            <span class="timeline-tag">Roblox验证</span>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-version">V4</span>
+          <h4>生产版 — 铁律 + 经验库</h4>
+          <p>新增4条铁律、22条实战经验库、量化交叉验证矩阵。封装为Skill，一键部署。</p>
+          <div class="timeline-tags">
+            <span class="timeline-tag">4条铁律</span>
+            <span class="timeline-tag">22条经验</span>
+            <span class="timeline-tag">Skill封装</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>核心设计思想：三层防线</h3>
+
+    <p>
+      迭代到v4后，质量保障体系形成了清晰的三层结构：
+    </p>
+
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th style="width:20%">层级</th>
+          <th style="width:30%">机制</th>
+          <th>作用</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>第一层</strong></td>
+          <td>铁律（Iron Rules）</td>
+          <td>不可违反的硬约束，如"所有排名必须附数据源""同一报告数据截止时间唯一"</td>
+        </tr>
+        <tr>
+          <td><strong>第二层</strong></td>
+          <td>防错清单（Checklist）</td>
+          <td>12项估值防错 + 17项质检，AI在输出前逐条自检</td>
+        </tr>
+        <tr>
+          <td><strong>第三层</strong></td>
+          <td>案例库（Case Library）</td>
+          <td>22个真实错误案例，让AI"记住"曾经犯过的错</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="insight-box green">
+      <strong>关键经验：</strong>Rule中「铁律」>「建议」>「示例」。用"必须""禁止""不得"等强约束词，比"建议""尽量""可以"效果好10倍。AI对"强指令"的遵从度远高于"弱建议"。
+    </div>
+
+    <div class="divider"><span>◆</span></div>
+
+    <!-- ===== 第六章：工作流全景 ===== -->
+    <div class="section-header">
+      <span class="section-number">6</span>
+      <span class="section-title">最终工作流全景</span>
+      <div class="section-divider"></div>
+    </div>
+
+    <p>
+      到v4版本，一次完整的分析从触发到产出PDF，经历六个阶段：
+    </p>
+
+    <div class="workflow-flow">
+      <div class="flow-title">六阶段工作流 END-TO-END</div>
+      <div class="flow-steps">
+        <div class="flow-step blue-step">
+          <div class="step-label">STAGE 1</div>
+          <div class="step-name">触发识别</div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step blue-step">
+          <div class="step-label">STAGE 2</div>
+          <div class="step-name">4批次采集</div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step purple-step">
+          <div class="step-label">STAGE 3</div>
+          <div class="step-name">报告撰写</div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step purple-step">
+          <div class="step-label">STAGE 4</div>
+          <div class="step-name">四轮审视</div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step green-step">
+          <div class="step-label">STAGE 5</div>
+          <div class="step-name">图表生成</div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step orange-step">
+          <div class="step-label">STAGE 6</div>
+          <div class="step-name">PDF渲染</div>
+        </div>
+      </div>
+    </div>
+
+    <p>
+      其中图表生成环节值得一提：Agent会自动根据财报数据生成8张标准化图表，包括营收趋势图、业务结构饼图、利润率趋势、估值对比、风险矩阵、DCF敏感性分析、估值区间和EPS瀑布图。这些图表直接嵌入PDF，让报告从"纯文字"升级为"图文并茂"。
+    </p>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-value">30+</div>
+        <div class="stat-label">页报告篇幅</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">8</div>
+        <div class="stat-label">张专业图表</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">~30min</div>
+        <div class="stat-label">全流程耗时</div>
+      </div>
+    </div>
+
+    <h3>实战验证：6家公司全部跑通</h3>
+
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th>公司</th>
+          <th>代码</th>
+          <th>市场</th>
+          <th>验证结果</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>苹果 Apple</td>
+          <td>AAPL</td>
+          <td>美股</td>
+          <td>首次实战 + 4轮迭代样板</td>
+        </tr>
+        <tr>
+          <td>拼多多 PDD</td>
+          <td>PDD</td>
+          <td>美股(中概)</td>
+          <td>验证中概股适配能力</td>
+        </tr>
+        <tr>
+          <td>Roblox</td>
+          <td>RBLX</td>
+          <td>美股</td>
+          <td>验证亏损型成长股适配</td>
+        </tr>
+        <tr>
+          <td>腾讯</td>
+          <td>0700.HK</td>
+          <td>港股</td>
+          <td>验证港股 + 多业务线适配</td>
+        </tr>
+        <tr>
+          <td>英伟达 NVIDIA</td>
+          <td>NVDA</td>
+          <td>美股</td>
+          <td>验证高估值科技股适配</td>
+        </tr>
+        <tr>
+          <td>伯克希尔(股东信)</td>
+          <td>BRK</td>
+          <td>美股</td>
+          <td>特殊格式：股东信解读</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="divider"><span>◆</span></div>
+
+    <!-- ===== 第七章：可复制SOP ===== -->
+    <div class="section-header">
+      <span class="section-number">7</span>
+      <span class="section-title">给读者的可复制SOP</span>
+      <div class="section-divider"></div>
+    </div>
+
+    <p>
+      如果你也想用AI构建自己的分析系统，以下是我总结的5步操作流程：
+    </p>
+
+    <div class="sop-steps">
+      <div class="sop-step">
+        <div class="sop-step-num">1</div>
+        <div class="sop-step-content">
+          <h4>准备参考材料</h4>
+          <p>收集2-3份你认为高质量的分析报告（PDF/文章），以及你常用的分析Prompt或问题清单。这些是AI学习"什么是好报告"的素材。</p>
+        </div>
+      </div>
+      <div class="sop-step">
+        <div class="sop-step-num">2</div>
+        <div class="sop-step-content">
+          <h4>创建第一版Rule</h4>
+          <p>让CodeBuddy分析参考材料，提取报告结构，生成第一版Agent Rule。核心三要素：触发条件、分析模块列表、数据源优先级。不用追求完美，能跑通就行。</p>
+        </div>
+      </div>
+      <div class="sop-step">
+        <div class="sop-step-num">3</div>
+        <div class="sop-step-content">
+          <h4>首次实战 → 逐条审视</h4>
+          <p>选一家你熟悉的公司做第一次分析。拿到报告后，<strong>逐行阅读</strong>，记录所有不满意的地方：数据不准、逻辑矛盾、结构缺失、表述模糊。这是最关键的一步。</p>
+        </div>
+      </div>
+      <div class="sop-step">
+        <div class="sop-step-num">4</div>
+        <div class="sop-step-content">
+          <h4>将踩坑经验固化为铁律</h4>
+          <p>把审视中发现的每个问题，写成Rule中的硬约束。用"必须""禁止"而非"建议""尽量"。把错误案例写进Rule，让AI记住教训。</p>
+        </div>
+      </div>
+      <div class="sop-step">
+        <div class="sop-step-num">5</div>
+        <div class="sop-step-content">
+          <h4>多公司验证 → 持续迭代</h4>
+          <p>用3-5家不同类型的公司（大盘股/成长股/中概股/港股）验证Rule的泛化能力。每次验证都可能发现新问题，持续补充迭代。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="insight-box amber">
+      <strong>核心建议：</strong>Rule的关键不是"写得多"，而是"每条都来自真实踩坑"。一条来自实战教训的铁律，比十条凭空想象的建议有效100倍。你的Rule应该是一部"错误编年史"，而不是一份"理想规范"。
+    </div>
+
+    <div class="divider"><span>◆</span></div>
+
+    <!-- ===== 第八章：结尾 ===== -->
+    <div class="section-header">
+      <span class="section-number">8</span>
+      <span class="section-title">写在最后</span>
+      <div class="section-divider"></div>
+    </div>
+
+    <p>
+      两周的构建过程让我有四点深刻体会：
+    </p>
+
+    <p>
+      <strong>第一，AI分析的边界很清楚。</strong>数据搜集、结构化分析、多维度覆盖——这些是AI的强项。但最终的投资判断、仓位决策、风险承受——这些永远是人的事。AI是你的"研究团队"，不是你的"基金经理"。
+    </p>
+
+    <p>
+      <strong>第二，Rule的本质是"方法论编码"。</strong>你把自己的投资分析方法论——怎么看财报、怎么算估值、怎么评管理层——以Rule的形式"编码"给了AI。这意味着你的分析能力不再受时间和精力限制，可以无限复用。
+    </p>
+
+    <p>
+      <strong>第三，最好的Agent来自迭代，不是设计。</strong>第一版永远不够好。是实战中的每一个bug、每一次"这写错了"的审视，推动着系统从能用到好用。与其花一周设计完美的Rule，不如花一天写个v1然后开始实战迭代。
+    </p>
+
+    <p>
+      <strong>第四，警惕AI的"迎合性偏差"。</strong>在测试过程中我们发现一个重要现象：当你在分析过程中向AI提供带有倾向性的补充信息时（比如"我觉得这家公司AI投入已经落后了"），AI会倾向于顺着你的判断调整评级——你喂正面信息它就看多，喂负面信息它就看空，评级会随着你的引导来回摇摆。这是当前大语言模型的固有特性，学术上称为 <strong>Sycophancy Bias（迎合性偏差）</strong>，并非某个Agent的独有问题，而是所有AI分析工具都面临的共性挑战。
+    </p>
+
+    <div class="pitfall-card">
+      <div class="pitfall-header">
+        <span class="pitfall-icon">⚠️</span>
+        <span class="pitfall-title">踩坑 #4：AI的评级会被用户输入"带节奏"</span>
+      </div>
+      <div class="pitfall-body">
+        <p style="font-size:13px; color:#64748b; margin-bottom:12px;">
+          <strong>现象：</strong>在对话中告诉AI"这家公司有失去AI船票的风险"→ 评级下调；随后补充"集团层面非常重视，投入很大"→ 评级又回升。AI并未独立验证这些信息，而是直接采信并调整结论。
+        </p>
+        <p style="font-size:13px; color:#475569; margin-bottom:0;">
+          <strong>根因：</strong>LLM天然倾向于认同用户的观点（alignment训练的副作用），在缺乏硬约束的情况下，AI会把用户的主观判断当作"新增事实"纳入分析。
+        </p>
+      </div>
+    </div>
+
+    <div class="checklist-visual">
+      <div class="checklist-title">应对策略（已写入Rule铁律）</div>
+      <div class="checklist-item">
+        <div class="check-icon">✓</div>
+        <span><strong>触发时保持中性：</strong>只给出公司名称，不附加主观判断（"分析腾讯" ✅ vs "分析腾讯，我觉得它AI落后了" ❌）</span>
+      </div>
+      <div class="checklist-item">
+        <div class="check-icon">✓</div>
+        <span><strong>补充信息用事实：</strong>如需补充，以可验证的事实陈述代替观点引导（"补充：腾讯2025年研发投入680亿" ✅ vs "我觉得腾讯研发投入不够" ❌）</span>
+      </div>
+      <div class="checklist-item">
+        <div class="check-icon">✓</div>
+        <span><strong>评级锚定数据源：</strong>Rule中明确要求——所有评级变动必须基于可验证的公开数据，禁止仅因用户口述信息就调整结论</span>
+      </div>
+      <div class="checklist-item">
+        <div class="check-icon">✓</div>
+        <span><strong>视为初稿参考：</strong>核心评级判断仍需人工独立完成，AI报告是"研究素材"而非"最终结论"</span>
+      </div>
+    </div>
+
+    <div class="insight-box blue">
+      <strong>核心认知：</strong>AI分析工具的价值在于<strong>数据采集和结构化呈现</strong>，而非替你做判断。越是理解它的局限，越能用好它的优势。
+    </div>
+
+    <div class="cta-section">
+      <h3>人人都可以拥有自己的投资分析团队</h3>
+      <p>
+        如果你也在用AI做投资分析，或者对构建方法有独特见解<br>
+        欢迎在评论区分享你的经验和想法
+      </p>
+    </div>
+
+  </div>
+
+  <!-- ===== 底部 ===== -->
+  <div class="article-footer">
+    工具：CodeBuddy（腾讯云AI代码助手）<br>
+    声明：本文仅分享技术方法论，不构成任何投资建议
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -87,8 +87,15 @@ cd workflows && python3 wf5_game_ops_monitor.py
 ```
 产出 PDF + MD 双格式（含嵌入图片）
 
+**输出路径（OrbitOS）：**
+- 游戏竞品运营周报 → `/Users/zewujiang/Desktop/OrbitOS/20_日常监控/游戏竞品运营/`
+- 游戏新品追踪报告 → `/Users/zewujiang/Desktop/OrbitOS/20_日常监控/游戏新品追踪/`
+- 游戏行业同步报告 → `/Users/zewujiang/Desktop/OrbitOS/20_日常监控/游戏行业同步/`
+- AI+游戏前沿动态 → `/Users/zewujiang/Desktop/OrbitOS/20_日常监控/AI+游戏前沿动态/`
+- 禁止输出到 `workflows/` 目录，中间数据文件（JSON/图片）仍存放在 `workflows/game_ops_data/`
+
 ### Step 7: 反馈给用户
-- 告知文件路径
+- 告知文件路径（OrbitOS目录下）
 - 列出本周 3-5 条核心要点
 
 ## 质量红线
