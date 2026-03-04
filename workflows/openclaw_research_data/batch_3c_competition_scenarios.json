@@ -1,0 +1,87 @@
+{
+  "batch": "3C",
+  "topic": "竞争格局量化+情景推演",
+  "collected_at": "2026-03-04",
+  "market_size": {
+    "ai_agent_global": {
+      "2024": "百亿美元（两年膨胀15倍）",
+      "2025": "$7.38B",
+      "2030_est": "$47.1B",
+      "cagr": "44.8%"
+    },
+    "traditional_saas": {
+      "total": "$2.7万亿",
+      "share": "仍握80%企业入口"
+    },
+    "global_ai_startup_funding_2024": "$1004亿（同比+79.61%）",
+    "us_ai_100m_plus_rounds_2025": "55家以上AI创业公司融资超$1亿"
+  },
+  "saas_disruption": {
+    "klarna_case": {
+      "action": "砍掉Salesforce",
+      "savings": "$4000万利润增加",
+      "significance": "AI Agent取代传统SaaS的标志性案例"
+    },
+    "dingtalk": "AI工作台半年接入200个智能体",
+    "model_hallucination": "GPT-4.5 SimpleQA准确率62.5%，幻觉率7.1%",
+    "gartner_position": "AI Agent列为2025年十大战略技术趋势之首"
+  },
+  "developer_productivity": {
+    "ai_code_generation": "41%的代码由AI生成（2025年）",
+    "adoption_rate": "84%开发者使用或计划使用AI工具",
+    "actual_usage": "92%开发者在工作流某些部分使用AI",
+    "daily_usage": "51%专业开发者每天使用AI工具",
+    "productivity_boost": "10-30%生产力提升（平均）",
+    "time_saving": "编码测试任务节省30-60%时间",
+    "perception_gap": {
+      "expected": "快24%",
+      "actual": "反而慢19%（因调试审查AI代码）",
+      "subjective": "开发者仍觉得快了20%（心理负担减轻）"
+    },
+    "trust_issues": {
+      "trust_rate": "仅29-46%信任AI输出",
+      "almost_correct": "66%面临'几乎正确但不完全正确'问题",
+      "debug_harder": "45.2%认为调试AI代码比人工代码更花时间",
+      "avoid_critical": "69-76%在关键任务中避免使用AI"
+    }
+  },
+  "three_routes_analysis": {
+    "platform_giants": {
+      "players": ["OpenAI", "Anthropic", "Google", "Microsoft", "Meta"],
+      "advantage": "资本、计算资源、用户基础、模型能力",
+      "risk": "竞争激烈、烧钱严重（OpenAI欠$1万亿计算成本）"
+    },
+    "open_source": {
+      "players": ["DeepSeek", "Qwen/通义", "LangChain", "CrewAI"],
+      "advantage": "社区生态、低成本、灵活部署",
+      "risk": "商业化困难、利润率低"
+    },
+    "vertical_agents": {
+      "players": ["Devin(编程)", "Harvey(法律)", "Manus(通用→被收购)"],
+      "advantage": "专业深度、用户粘性",
+      "risk": "天花板低、大厂挤压、最终可能被收购（如Manus→Meta）"
+    }
+  },
+  "scenario_modeling": {
+    "scenario_1_platform_wins": {
+      "probability": "高",
+      "description": "OpenAI/Anthropic/Google三巨头瓜分市场，Agent成为OS级入口",
+      "evidence": "Claude Code $1-2B ARR, OpenAI Codex App 50万下载, Meta收购Manus"
+    },
+    "scenario_2_open_source_disrupts": {
+      "probability": "中",
+      "description": "DeepSeek等开源模型+开源Agent框架降维打击，民主化Agent",
+      "evidence": "DeepSeek 1.9亿MAU, 训练成本仅$557万, 完全开源"
+    },
+    "scenario_3_saas_fights_back": {
+      "probability": "中低",
+      "description": "Salesforce/ServiceNow等传统SaaS巨头通过Agent化转型反击",
+      "evidence": "SaaS仍握$2.7万亿市场和80%企业入口"
+    }
+  },
+  "key_predictions": {
+    "gartner_2028": "15%日常工作决策由Agentic AI自主完成",
+    "coding_automation": "2026年已有41%代码AI生成，预计2028年达60%+",
+    "market_consolidation": "通用Agent创业公司最终被大厂收购是必然归宿（Manus案例验证）"
+  }
+}

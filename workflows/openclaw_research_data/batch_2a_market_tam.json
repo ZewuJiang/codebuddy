@@ -1,0 +1,70 @@
+{
+  "batch": "2A",
+  "topic": "行业概览+市场规模TAM",
+  "search_date": "2026-03-04",
+  "data": {
+    "market_size": {
+      "source_techjury": {
+        "2024": "$5.40B (Grand View Research)",
+        "2025": "$7.60-7.84B",
+        "2027": "$15-25B (基于明确ROI应用)",
+        "2030_conservative": "$50-52B (MarketsandMarkets/Grand View Research)",
+        "2034_aggressive": "$236B (Precedence Research)",
+        "cagr_2025_2034": "45.8%",
+        "cagr_2030_conservative": "46.3%",
+        "apac_cagr": "49.5%"
+      },
+      "source_csdn_manus": {
+        "2033": "$130B+ (全球AI Agent市场)",
+        "cagr_2023_2033": "43.9%"
+      },
+      "china_rpa_ai": {
+        "source": "IDC",
+        "2023": "24.7亿RMB",
+        "2026_forecast": "70亿RMB+"
+      }
+    },
+    "gartner_predictions": {
+      "agentic_ai_2028": "至少15%的日常工作决策将由代理型AI自主完成(2024年为0%)",
+      "2030_human_robot": "80%的人类将每天与智能机器人打交道(目前不到10%)",
+      "ai_code_assistants_2028": "75%的企业软件工程师将使用AI代码助手",
+      "top_10_trend_2025": "Agentic AI列为2025年十大战略技术趋势之首"
+    },
+    "enterprise_roi_cases": {
+      "lumen_telecom": "每年节省$50M，相当于187名全职员工",
+      "healthcare": "90%医院计划2025年采用AI Agent，每家$200K-$2M年价值",
+      "financial_services": "每个AI Agent部署可赚取$100K-$500K",
+      "microsoft_365_copilot": "70%财富500强已使用",
+      "ibm": "2023年1月至今AI节省$4.5B+目标"
+    },
+    "market_segments": {
+      "customer_service": "占最大收入份额约35%",
+      "north_america": "占40%市场份额",
+      "top_5_companies": "Google/IBM/OpenAI/AWS/Microsoft占42-50%份额"
+    },
+    "three_drivers": {
+      "driver_1": "模型能力跨越信任阈值——o1系列强化学习+CoT推理，人类敢交出系统权限",
+      "driver_2": "Scaling Law边际递减→增长曲线从'博学'转向'能干'",
+      "driver_3": "商业模式从'卖Token'转向'卖工时'——AI直接替人完成劳动",
+      "citic_report": "当前AI正由辅助工具向自主劳动力跨越，Agent化转型驱动Token需求井喷"
+    },
+    "idc_predictions": {
+      "2025": "AI Agent落地元年",
+      "china_ai_market_2026": "$264.4B (中国AI市场整体)",
+      "cagr_2021_2026": "20%+"
+    },
+    "protocol_standards": {
+      "mcp": "Model Context Protocol，被比喻为AI的USB-C接口，阿里/腾讯/谷歌/字节跳动均接入",
+      "a2a": "Agent-to-Agent Protocol，Google推出，实现多智能体协作",
+      "anp": "Agent Network Protocol，构成AI Agent协议黄金三角"
+    },
+    "agent_timeline": {
+      "2023": "AutoGPT引爆Agent概念",
+      "2024_03": "Devin（首个AI软件工程师）发布",
+      "2025_03": "Manus（Monica.im）全球首款通用AI Agent爆火",
+      "2025_04": "MCP协议爆发，巨头争相接入",
+      "2025": "OpenAI推出Operator、Agent SDK、Responses API",
+      "2026": "Agent标准化协作新纪元"
+    }
+  }
+}

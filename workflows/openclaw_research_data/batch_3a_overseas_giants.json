@@ -1,0 +1,142 @@
+{
+  "batch": "3A",
+  "topic": "海外大厂逐一深挖",
+  "collected_at": "2026-03-04",
+  "companies": {
+    "OpenAI": {
+      "agent_products": {
+        "Codex": {
+          "launch": "2025年5月（云端Research Preview），2026年2月桌面版",
+          "model": "Codex-1 → GPT-5.2-Codex → GPT-5.3-Codex",
+          "codex_app": "2026年2月2日macOS版发布，定位'多智能体指挥中心'",
+          "downloads": "50万次下载（Codex App）",
+          "features": ["云端沙盒环境", "并行多任务", "代码库预加载", "联网能力（2025年6月）", "多Agent并行协作"],
+          "benchmarks": {
+            "terminal_bench_2_0": "77.3%（GPT-5.3-Codex，vs前代64%）",
+            "swe_bench_pro": "57%",
+            "osworld": "64%"
+          },
+          "efficiency": "同等任务token减半，推理速度提升25%+",
+          "cyber_security": "首个'高能力'网络安全模型，$10M防御基金"
+        },
+        "Agent_SDK": "2025年3月开源，支持MCP协议，多Agent动态任务协作",
+        "Operator": "自主浏览器Agent",
+        "Responses_API": "替代Assistants API的新Agent构建API"
+      },
+      "strategy": "从编码助手扩展到通用'计算机操作员'，自动化整个软件开发生命周期",
+      "altman_quotes": "2025目标：AGI第一，Agents第二；AI Agent将重塑世界经济",
+      "financials": {
+        "enterprise_llm_spend_avg": "$7M(2025), $11.6M(2026预估)",
+        "market_share": "62%(2024) → 53%(2026预估)，仍最大但在收缩",
+        "high_end_model_adoption": "46%客户在生产中使用最强模型（vs Anthropic 75%）",
+        "compute_obligations": "欠NVIDIA/Microsoft/Oracle超$1万亿计算成本"
+      },
+      "platform": "推出Frontier企业AI平台"
+    },
+    "Anthropic": {
+      "agent_products": {
+        "Claude_Code": {
+          "ARR": "$1B（2025年11月达成，上线仅6个月）→ 2026年1月接近$2B",
+          "growth": "超越ChatGPT同期增速的'ChatGPT时刻'",
+          "web_version": "2025年10月上线Web版，Pro/Max订阅可用",
+          "pricing": "Pro $20/月, Max $100/$200/月",
+          "github_stars": "开源仓库，541 commits"
+        },
+        "Cowork": {
+          "launch": "2026年1月12日Research Preview",
+          "description": "Claude Desktop集成版，无需终端技术能力",
+          "availability": "Max订阅用户"
+        },
+        "Computer_Use": "桌面Agent，可控制光标/浏览器/应用"
+      },
+      "acquisitions": {
+        "Bun": {
+          "date": "2025年12月2日",
+          "details": "收购热门JS运行时Bun，创始人Jarred Sumner（高中辍学）",
+          "strategic_intent": "加速Claude Code的开发者工具生态"
+        }
+      },
+      "financials": {
+        "valuation": "寻求$350B+估值，融资$20B+",
+        "market_share": "14%(2024) → 18%(2026预估)，增长强劲",
+        "high_end_adoption": "75%客户在生产中使用最强模型"
+      },
+      "latest_model": "Claude Opus 4.6（2026年2月5日发布）",
+      "opus_46_benchmark": {
+        "terminal_bench_2_0": "65.4%（落后GPT-5.3-Codex的77.3%）"
+      }
+    },
+    "Meta": {
+      "manus_acquisition": {
+        "date": "2025年12月29-30日",
+        "price": "20-30亿美元（最可能区间），不超50亿",
+        "manus_arr": "$1.25亿（上线8个月）",
+        "manus_scale": "处理147万亿tokens，支撑8000万台虚拟计算机",
+        "founder": "肖弘出任Meta VP，领导通用AI智能体全球业务",
+        "significance": "Meta史上第三大收购（仅次于WhatsApp和Scale AI）",
+        "negotiation_speed": "初步接触到签署仅十余天"
+      },
+      "strategy": {
+        "positioning": "将Manus定位为AI战略的'执行层'",
+        "llama_model": "Llama模型显露疲态，通过收购补齐Agent短板",
+        "integration_plan": "整合到Meta社交与企业服务平台"
+      }
+    },
+    "Microsoft": {
+      "agent_products": {
+        "GitHub_Copilot": {
+          "agent_mode": "2025年推出Agent Mode，支持自主多步骤编码任务",
+          "mcp_support": "支持MCP本地服务器",
+          "models": "GPT-4o, Claude 3.5 Sonnet, Gemini"
+        },
+        "Copilot_Agents": "Microsoft 365 Copilot Agents，生成式AI重塑企业工作流",
+        "Azure_AI_Agent_Service": "企业级Agent部署平台"
+      },
+      "strategy": "全面Agent化Microsoft 365生态，从辅助工具到自主开发者"
+    },
+    "Google": {
+      "agent_products": {
+        "Jules": "GitHub编程Agent，自然语言→可合并代码",
+        "Project_Mariner": "Chrome浏览器Agent，网页操作自动化",
+        "Project_Astra": "通用助手，调用Google Lens+地图",
+        "Gemini_Code_Assist": "企业编码助手，免费版面向个人开发者",
+        "Gaming_Agent": "实时解读游戏画面，语音提供玩法提示"
+      },
+      "models": "Gemini 2.0全面支撑Agent化转型",
+      "strategy": "一次性发布四个Agent产品，全面转向Agent时代",
+      "chrome_integration": "Gemini集成到Chrome地址栏和代码审查流程"
+    },
+    "Perplexity": {
+      "agent_products": {
+        "Perplexity_Computer": {
+          "launch": "2026年2月27日",
+          "models": "19种不同AI模型",
+          "subagents": "能创建子代理处理特定问题",
+          "pricing": "$200/月（Perplexity Max专属）",
+          "model_routing": "自动选择最优模型（工程→Claude Sonnet 4.5，医疗→GPT-5.1，视觉→Gemini Flash）",
+          "model_council": "多模型同时查询功能",
+          "cloud_native": "完全云端运行"
+        },
+        "Deep_Research": "Humanity's Last Exam 20.5%准确率"
+      },
+      "strategy": "从搜索引擎转向Agent平台，瞄准'影响GDP决策'的精品用户"
+    },
+    "Notion": {
+      "custom_agents": "自定义AI Agent，自主工作流自动化（具体细节待确认）"
+    }
+  },
+  "industry_metrics": {
+    "ai_coding_wars": "2026年2月OpenAI vs Anthropic同步发布旗舰模型",
+    "enterprise_spend": {
+      "2024": "$2.5M average",
+      "2025": "$7M average",
+      "2026_est": "$11.6M average",
+      "growth": "180% YoY (2024→2025)"
+    },
+    "market_share_shift": {
+      "OpenAI": "62%(2024) → 53%(2026)",
+      "Anthropic": "14%(2024) → 18%(2026)",
+      "trend": "OpenAI仍最大但份额缩小，Anthropic快速增长"
+    }
+  }
+}

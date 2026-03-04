@@ -1,0 +1,105 @@
+{
+  "batch": "2C",
+  "topic": "竞品生态速览+横评",
+  "search_date": "2026-03-04",
+  "data": {
+    "github_top_ai_agent_projects": {
+      "source": "NocoBase博客/CSDN (2026-01-19)",
+      "ranking": [
+        {"rank": 1, "name": "Dify", "stars": "110k", "type": "LLM应用开发平台"},
+        {"rank": 2, "name": "Lobe Chat", "stars": "64.3k", "type": "多模态聊天"},
+        {"rank": 3, "name": "RAGFlow", "stars": "62.1k", "type": "RAG引擎"},
+        {"rank": 4, "name": "OpenHands(原OpenDevin)", "stars": "62k", "type": "软件开发Agent"},
+        {"rank": 5, "name": "MetaGPT", "stars": "57.8k", "type": "多智能体协作"},
+        {"rank": 9, "name": "Mem0", "stars": "38.1k", "type": "长期记忆管理"},
+        {"rank": 12, "name": "AgentGPT", "stars": "34.7k", "type": "浏览器Agent"},
+        {"rank": 17, "name": "GPT Researcher", "stars": "22.9k", "type": "深度研究Agent"}
+      ]
+    },
+    "coding_agent_comparison_2026": {
+      "source": "Builder.io (Feb 2026 update)",
+      "paradigm_shift": "从'终端 vs IDE'转变为'代理优先(Agent-first)' vs 'IDE优先(IDE-first)'",
+      "claude_code_vs_cursor": {
+        "context_window": {
+          "claude_code": "Opus 4.6: 真正可靠的200K，1M Beta",
+          "cursor": "标榜200K，实际有效约70K-120K"
+        },
+        "token_efficiency": "Claude Code比Cursor节省5.5倍Token消耗",
+        "model_support": {
+          "claude_code": "仅Anthropic Claude",
+          "cursor": "多模型(Claude/GPT-5.3/Gemini 3/Cursor自研)"
+        },
+        "tab_completion": {
+          "claude_code": "无",
+          "cursor": "有(杀手级功能)"
+        },
+        "pricing": {
+          "claude_code_pro": "$20/月(约45条消息/5小时)",
+          "claude_code_max_5x": "$100/月",
+          "claude_code_max_20x": "$200/月",
+          "claude_code_team": "$125/用户/月",
+          "cursor_pro": "$20/月",
+          "cursor_pro_plus": "$60/月",
+          "cursor_ultra": "$200/月",
+          "cursor_team": "$40/用户/月"
+        },
+        "best_for": {
+          "claude_code": "大规模重构/框架升级/CI-CD/复杂多文件任务",
+          "cursor": "前端Bug修复/快速Tab补全/初级开发者/多模型切换"
+        },
+        "collaboration_stat": "仅17%的开发者认为AI编码工具改善了团队协作"
+      }
+    },
+    "multi_dimension_comparison": {
+      "dimensions": ["运行方式", "模型支持", "定价", "安全", "Skills/插件", "数据隐私", "长期记忆", "定时任务", "跨应用", "移动端", "MCP支持"],
+      "products": {
+        "claude_code": {
+          "runtime": "终端CLI+VS Code+桌面App+Web IDE",
+          "model": "仅Claude(Opus 4.6/Sonnet 4.5)",
+          "pricing": "$20-200/月",
+          "security": "本地运行，数据不离开设备",
+          "skills": "Skills+Commands+MCP模块",
+          "memory": "三层级记忆(Claude.md)",
+          "mcp": "深度原生集成(Anthropic提出MCP协议)"
+        },
+        "cursor": {
+          "runtime": "VS Code分支IDE",
+          "model": "多模型(Claude/GPT/Gemini/自研)",
+          "pricing": "$20-200/月",
+          "security": "云端处理",
+          "skills": "扩展生态",
+          "memory": "项目级上下文",
+          "mcp": "标准集成(40工具限制)"
+        },
+        "github_copilot": {
+          "runtime": "IDE插件(VS Code/JetBrains等)",
+          "model": "GPT-4o+自研",
+          "pricing": "$10-39/月",
+          "security": "企业级安全",
+          "skills": "GitHub生态集成",
+          "memory": "有限上下文",
+          "mcp": "有限支持"
+        },
+        "devin": {
+          "runtime": "云端自主Agent",
+          "model": "自研混合",
+          "pricing": "企业定价",
+          "security": "沙箱隔离",
+          "skills": "完整开发工具链",
+          "memory": "长期推理",
+          "mcp": "未知"
+        },
+        "manus": {
+          "runtime": "云端全栈Agent",
+          "model": "多模型路由",
+          "pricing": "邀请制→订阅",
+          "security": "云端沙箱",
+          "skills": "全链路工具链",
+          "memory": "长期记忆(用户风格/语气)",
+          "mcp": "支持"
+        }
+      }
+    },
+    "key_insight": "Claude Code在代码Agent领域断层领先(ARR $2B+/企业采用29%/微软内部也在用)；Cursor在IDE体验上仍有杀手锏(Tab补全)；Manus/Devin在通用Agent赛道各有生态位"
+  }
+}

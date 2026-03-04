@@ -313,7 +313,7 @@ code {{
     color: #c8102e;
     padding: 2px 6px;
     border-radius: 3px;
-    font-family: "SF Mono", "Menlo", "Monaco", "PingFang SC", "Noto Sans CJK SC", monospace;
+    font-family: "STHeiti", "Hiragino Sans GB", "Noto Sans CJK SC", "SF Mono", "Menlo", "Monaco", monospace;
     font-size: 12.5px;
 }}
 
@@ -323,7 +323,7 @@ pre {{
     padding: 14px 16px;
     margin: 14px 0;
     overflow-x: auto;
-    font-family: "SF Mono", "Menlo", "PingFang SC", "Noto Sans CJK SC", monospace;
+    font-family: "STHeiti", "Hiragino Sans GB", "Noto Sans CJK SC", "SF Mono", "Menlo", monospace;
     font-size: 12.5px;
     line-height: 1.65;
     color: #2b2d42;
