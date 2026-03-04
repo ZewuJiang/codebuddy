@@ -392,7 +392,6 @@ def generate_markdown(data):
 def generate(news_data=None):
     """
     统一入口：生成游戏竞品运营监控周报
-    与 run_all.py 调度器兼容的标准函数签名
     """
     results = []
     games = get_all_games()

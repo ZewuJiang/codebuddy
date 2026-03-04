@@ -1,6 +1,6 @@
 {
     "_description": "投资Agent核心配置 v3.0 — 全球资本市场10-Skill分析框架",
-    "_usage": "wf6_investment_agent.py 启动时读取此配置，驱动10个分析Skill",
+    "_usage": "投资Agent每日策略简报（CodeBuddy Skill）的10-Skill分析框架参考配置",
     "_version": "3.0",
     "_updated": "2026-02-22",
     "_architecture": "10-Skill体系: 估值(1)+加密(2)+情绪(3)+宏观流动性(4)+全球市场(5)+信贷(6)+贵金属/商品(7)+收益率曲线(8)+波动率(9)+港股A股(10)",
