@@ -1,0 +1,306 @@
+{
+  "query": "GLM大模型 API 接入",
+  "total": 30,
+  "articles": [
+    {
+      "title": "GLM-4.7 vs GPT-5.2:双顶尖大模型实测+一步API接入指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715288&ver=6580&signature=-mk0LPu01-d2YtjxTewneJmgyxVEvikQxIduf0yGqzn-knblrdT7OM9tOaP56o0aPLEvQGu*zD35ZxI2CI2wTs1tGLKG4imgmmhVVXpArWti2gTfDoSyzg180s8eWBKn&new=1",
+      "summary": "更关键的是——二者均支持一步API快速接入,一套代码即可无缝切换.本文从实测体验出发,拆解双模型核心差异,奉上保姆级接入...",
+      "datetime": "2026-01-13 08:07:55",
+      "date_text": "2026年01月13日",
+      "date_description": "51天前",
+      "source": "一步API",
+      "url_resolved": true
+    },
+    {
+      "title": "AI大模型 API,这个平台的MiniMax、GLM 大模型API竟然免费用!难以想象!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715288&ver=6580&signature=5F23JiHYi1I9vrGyd2URA0wxWsxXty88rREfwcwC*Pakat50*oqawBvyedUqd6hK97n05PIbYCXHEVIHqyiYk*5fPbqZV-A6FcqxDKdFvQ7diisWNa-sRxU8hYeSB5MF&new=1",
+      "summary": "接入简单标准的 RESTful API,如果你用过 OpenAI 的接口,5 分钟就能上手.4. 模型够新够全MiniMax、GLM 这些最新最强的模型,...",
+      "datetime": "2026-02-07 18:40:55",
+      "date_text": "2026年02月07日",
+      "date_description": "26天前",
+      "source": "真职前",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱AI GLM-4 模型开放API 正式上线",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715288&ver=6580&signature=o50fj7PD8k-ugd--3oBv2n9qVTxvG9pDDgPpkk*6bjst3cItyEp4wQLBfTvdBZVAY82fNhYrbQ5BXRJVvR5SnVz8XO39oZGgSvvBsoEnSNXXyj3nZA4fDMp3BQeBMnu3&new=1",
+      "summary": "所有开发者均可通过智谱AI的开放平台接入GLM-4模型开放API,便捷高效地体验智谱AI新一代基座大模型GLM-4的强大能力.综合能...",
+      "datetime": "2024-02-01 10:02:22",
+      "date_text": "2024年02月01日",
+      "date_description": "763天前",
+      "source": "君联资本",
+      "url_resolved": true
+    },
+    {
+      "title": "重磅!联通云AISP上线GLM4.7国内编程SOTA大模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715288&ver=6580&signature=5ImOi9PB60DqKNUaUQPqWFt2w1wEiyoWkJu8*DZFunoy*LSKOEDXKRTY*BrddjlYYAzFaIdWD*M0T1uFWE0JYkJPQejmfsZ4-0gowo72nmxNlpE2302OYaYA*HBMzbXB&new=1",
+      "summary": "本地部署GLM4.7国内编程SOTA大模型需调试运行环境、依赖包,尝试接入Claude Code时更需手动打通API,非技术党难以上手,即...",
+      "datetime": "2026-02-07 00:01:25",
+      "date_text": "2026年02月07日",
+      "date_description": "26天前",
+      "source": "联通云",
+      "url_resolved": true
+    },
+    {
+      "title": "AI新鲜事 | GLM-4模型开放API正式上线,阿里达摩院在上海成立新公司",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715288&ver=6580&signature=ChoLjekshrG3lT9-R7U61mxeyFpY9yMtfPkIPL7MVa5oULsmdbTBa01P1ynsLdC*M22QLjGWiA4lqjnWM6ehKOhlFbnfrBozXd-vLxS4TpPo8423RTkYIkYjS*ruSFvy&new=1",
+      "summary": "GLM-4模型开放API正式上线.所有开发者均可通过智谱AI的开放平台接入 GLM-4模型开放API.德国大众汽车宣布成立AI实验室1月31...",
+      "datetime": "2024-02-01 18:32:03",
+      "date_text": "2024年02月01日",
+      "date_description": "763天前",
+      "source": "大模型之家",
+      "url_resolved": true
+    },
+    {
+      "title": "GLM-5登顶开源模型榜, 一步API零门槛解锁顶尖Agent能力",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715288&ver=6580&signature=-mk0LPu01-d2YtjxTewneJmgyxVEvikQxIduf0yGqzm-xLNOuOzgfZIaundylC8iYEsqTJVC-PIEFYQbhipaEToNlQAq3BS-Um2rkVrYNX0GiIxwK6OjEXm8-9rChi4L&new=1",
+      "summary": "通过一步API平台(官网:https://yibuapi.com),5分钟就能零门槛接入GLM-5,把榜单级的Agent能力搬进自己的项目里!先看战绩:...",
+      "datetime": "2026-02-13 08:23:43",
+      "date_text": "2026年02月13日",
+      "date_description": "20天前",
+      "source": "一步API",
+      "url_resolved": true
+    },
+    {
+      "title": "AI Ping 重磅发布《2025大模型API服务行业分析报告》(附全文获取方式)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715288&ver=6580&signature=Vmey7Wx5lGw24tv3KGVN3AnQdMNGlAuXoEI4wd2Vl7t3zIs3J75fcx0GkSJ*leY5FAERwOnWlD6DeBjuT4s5CLJmmK5rr9xmxXk*bVVy9lzkvStTc5VoGwC-rTgbrpI5&new=1",
+      "summary": "整合了中国境内的数十家算力提供商的数百个大模型 API 服务,并基于 7*24 小时的持续性能监测,为用户提供统一的 API 接入与智能...",
+      "datetime": "2026-02-06 19:51:19",
+      "date_text": "2026年02月06日",
+      "date_description": "27天前",
+      "source": "清程AI Ping",
+      "url_resolved": true
+    },
+    {
+      "title": "薅羊毛啦!2026免费AI大模型API实测:从GLM到Qwen",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715288&ver=6580&signature=cPescCKNUFufSYEKUASRMyc6bUBdWuAU6zo2cflz2Uqflm0mUAv2PLfnq2YtTb8nxRvVOuxBmf67QqWyQOL70Rl18omFlqjIencOfScbKjKns6DC9qLxzODVfJ1Rg*4e&new=1",
+      "summary": "一些平台也提供了免费接入多种开源模型的API.Hugging Face 作为全球最大的AI模型中心,拥有超过500,000个模型.它提供灵活的...",
+      "datetime": "2026-02-27 13:02:53",
+      "date_text": "2026年02月27日",
+      "date_description": "6天前",
+      "source": "AI玩记",
+      "url_resolved": true
+    },
+    {
+      "title": "AI 免费大模型api接口与vibe code代码工具资源汇总",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715288&ver=6580&signature=EyVPKUlagDjbv*zilZfRctrFTP6iqirXmZJRPk4bttqy8yrWNXruTcuP36qAFprVMSMSyk5fM4nu1R3NAQqpanEbZgeqNu3QsDG8PVaW9zL3eCarFMFSMaCGt2LmEE34&new=1",
+      "summary": "GLM-4.7, MiniMax-M2.1, Kimi-K2-0905, DeepSeek-V3.1-Terminus, Qwen-3-Coder.• 支持 API Key 接入其他模型.• 注意: 用户反...",
+      "datetime": "2026-01-04 14:01:11",
+      "date_text": "2026年01月04日",
+      "date_description": "60天前",
+      "source": "王青尘",
+      "url_resolved": true
+    },
+    {
+      "title": "大模型API中转服务商推荐4SAPICOM一站式API中转服务",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715288&ver=6580&signature=8NzA9PWDIqirzEXHyiKRKVVmbZ-5Mn3-bRg6IiL8Pz2qm97z27z2hRdVlHUpJgdAbQMomjjospCHoTKS8OVUxFWTG*wIp2Dz0tZcpiE-S5YwxhkHlMfMTW5gFfC1t67n&new=1",
+      "summary": "一站式无缝接入GPT-4、Claude、Gemini、文心一言、通义千问、智谱GLM等全球超过20个主流大模型API.极致稳定:通过智能路由...",
+      "datetime": "2026-01-30 17:42:34",
+      "date_text": "2026年01月30日",
+      "date_description": "34天前",
+      "source": "万能AI生意经",
+      "url_resolved": true
+    },
+    {
+      "title": "使用 New API 接入英伟达大模型,为 Claude Code 提供强力支持",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715290&ver=6580&signature=37Ng7GYpicCCvEX3o664UIzxVWpWRNpVH*y*Zi9Nr-zioENFQytdNxWDmVzpbCnMFqu*7SND12iMrzOGmXMQTacjnX9-FAtaG5CKJeC09DMBjA3yrDVFe6VCPb9Z7ivk&new=1",
+      "summary": "格式的大模型接入到 Claude Code 中,让你的 AI 编程助手更加强大.一、项目介绍什么是 New API?New API[1] 是一个开源的 API 聚...",
+      "datetime": "2026-03-01 20:42:00",
+      "date_text": "2026年03月01日",
+      "date_description": "4天前",
+      "source": "极客枫哥",
+      "url_resolved": true
+    },
+    {
+      "title": "国产大模型接入Claude Code手把手教程,白菜价拥有顶尖AI终端",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715290&ver=6580&signature=bMQ8*aE1K94itwa2ekfJ63OwxZXE*ZqkwYzvkyP-7SmiSBwXVe3hxwsRyC7ceuZAcyHKhVDiN5ulVRlrj5yaaYhTxLMJi*xa2RHx-XvxZldxhAbNcYbxkNOxQef66TD7&new=1",
+      "summary": "去申请API KEY和充值问题.打开智谱的开发者平台:https://www.... 小结:用智谱的GLM国产大模型接入Claude Code,用起来非常丝...",
+      "datetime": "2026-01-08 08:03:09",
+      "date_text": "2026年01月08日",
+      "date_description": "56天前",
+      "source": "数据决策与企业数字化转型",
+      "url_resolved": true
+    },
+    {
+      "title": "GLM-5 登陆 Atlas Cloud:接入智谱 AI 最新旗舰模型,体验复杂推理、代码编程及领先的智能体",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715290&ver=6580&signature=tQtiJNGhMACJPZ1exc-fxaBMtUi5oze70dGNkOUvE15DeNj*AHgIRohsyvCyLYWvdaLAk0VgdwyS9Ih*03EIKj55VH7bfu707Armfu8TllcsonFlA0MuVnkjb*3FYVM-&new=1",
+      "summary": "的开发者,利用 Atlas Cloud 的高并发 API 接入 GLM-5,可以更低成本地复现类似于 Devin 的自动化编程体验,且无需担心复杂的模型...",
+      "datetime": "2026-02-12 19:41:45",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "Atlas Cloud",
+      "url_resolved": true
+    },
+    {
+      "title": "又一个开源王炸!电脑接入这个大模型,能把多个PDF总结为PPT,确实太赞了!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715290&ver=6580&signature=EJOAw47BN2449pzb4AEErnrjR3pg6TY6ARClViNUCpKWkzRV1XqdXb7WlGEKz07BwCMSn6MQKANTFmXpwPfG2bscH5ouSqrLztoRG1DEq4GBOpFq0d*L1fZHngXo8JZG&new=1",
+      "summary": "Claude Code接入GLM-4.7步骤第一步,登录下面地址,获取你的API Key:https://bigmodel.cn/如下图所示是我的Key:第二步:如果你...",
+      "datetime": "2025-12-25 19:50:00",
+      "date_text": "2025年12月25日",
+      "date_description": "70天前",
+      "source": "程序员郭震zhenguo",
+      "url_resolved": true
+    },
+    {
+      "title": "轻松接入大语言模型API -04",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715290&ver=6580&signature=27RrSE0gwnwjaBLkhm80m6-60*eZVgxKdeZa2ogKRZf0uhN6wbG4iond6jySv0I8zvZY3vo3-*ZlhxGIKL2jNepQWo9uIeUb-xQr7mId9CiZtmM78RYmm8hHqNgb7QNh&new=1",
+      "summary": "前言想在自己的应用中接入 AI 能力,但不知道从哪里开始?云端 ... API = 通过互联网调用大模型服务┌─────────────...",
+      "datetime": "2026-03-01 19:52:36",
+      "date_text": "2026年03月01日",
+      "date_description": "4天前",
+      "source": "一诺滚雪球",
+      "url_resolved": true
+    },
+    {
+      "title": "模型广场上新!GLM-5速来体验",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715290&ver=6580&signature=PK4TujMfPhFCSh7pQcEO95En00UCXVdjqDIi3M3C8kxsA7qSWdanEUOZmegoLz*Kxi56N0NW5jH84tPDQgb4eZVh9BLUM0DyLLy5ToZjS9Cl9fqrHdWWM7SLAH7PV5BP&new=1",
+      "summary": "快速接入GLM-5模型能力GLM-5模型新老用户专属福利限时开放,一键领取2500万免费Token额度,30天内可用于 API调用、智能体创...",
+      "datetime": "2026-02-14 16:18:41",
+      "date_text": "2026年02月14日",
+      "date_description": "19天前",
+      "source": "移动云",
+      "url_resolved": true
+    },
+    {
+      "title": "明年是哪年?大模型集体算错/GLM-4.7-Flash发布/扣子2.0升级支持skill/Gemini可跳过思考过程/华为新一代AI眼镜将发布/AI重塑印度外包格局",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715290&ver=6580&signature=LENnUFosMTlc44CQB-6JHiIR0S8nRvDcA14gKj8Qq0Jm-Q0UvSoGb6ma-wl820ZxvVC0k5R7N6E27IUzGVqiPcf2P-MfRwqMnDTsy6FZ6pG-O30cpw-6w*U0OFL7Qfg9&new=1",
+      "summary": "AI大模型接入任务系统与剧情引擎,可根据玩家提问方式、历史选... 谷歌Gemini API五个月请求量猛增140%谷歌披露,GeminiAPI调...",
+      "datetime": "2026-01-20 13:39:12",
+      "date_text": "2026年01月20日",
+      "date_description": "44天前",
+      "source": "套路电影",
+      "url_resolved": true
+    },
+    {
+      "title": "GLM-4 模型开放API 正式上线",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715290&ver=6580&signature=6Y01tFwzkZNUB4IlIkm7hDV7eQ4KawnAar0AO4ncS9-F4S4Z8k7HcBQHvyJdKzCasvcigFV12qVtYtJSYbZ-Kn6nXXPz-IYucJpbk214u2l7ZTEnRh5e3FCErItf8kX0&new=1",
+      "summary": "所有开发者均可通过智谱AI的开放平台接入GLM-4模型开放API,便捷高效地体验智谱AI新一代基座大模型GLM-4的强大能力.✦综合...",
+      "datetime": "2024-01-30 22:18:29",
+      "date_text": "2024年01月30日",
+      "date_description": "764天前",
+      "source": "智谱",
+      "url_resolved": true
+    },
+    {
+      "title": "GLM-4 模型开放API 正式上线",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715290&ver=6580&signature=KEVMVoTvfJfXKFeCPwygYLoWDFQX3P99UUp9SaBFFTqk2TNh*yqnd5XG42PLtAnXNOUqHfVuQ8UrN*E7r6X0Mr5P7HFsEDp1oZdniy6nQzLd05bCskggIRFapo-tNgT5&new=1",
+      "summary": "所有开发者均可通过智谱AI的开放平台接入GLM-4模型开放API,便捷高效地体验智谱AI新一代基座大模型GLM-4的强大能力.综合能...",
+      "datetime": "2024-01-30 22:48:03",
+      "date_text": "2024年01月30日",
+      "date_description": "764天前",
+      "source": "质朴发言",
+      "url_resolved": true
+    },
+    {
+      "title": "实测GLM-4.7:3分钟上手的开源大模型, coding/办公全搞定",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715290&ver=6580&signature=-mk0LPu01-d2YtjxTewneJmgyxVEvikQxIduf0yGqzn9TTmJm38lb5r4FbsDOGShc0vNY6M7kyVEO20*253gbOFw9CmiVFDVIy0EFpCEXU0RRxSzkApYMWBMWgn35QuD&new=1",
+      "summary": "二、3分钟API接入指南,新手零失败GLM-4.7支持官方直连与一步API中转平台两种方式,新手推荐用中转平台,无需复杂配置,3分钟...",
+      "datetime": "2026-01-05 08:36:45",
+      "date_text": "2026年01月05日",
+      "date_description": "59天前",
+      "source": "一步API",
+      "url_resolved": true
+    },
+    {
+      "title": "实测智谱最新大模型!GLM-5有多智能?写代码、做PPT、写调研报告、复杂计算样样行",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715291&ver=6580&signature=1eAn6azLUXPR7TzxQlqZPuhfe7JskaGQIf-kcdpEPbjW8FAUjQDs9wHKrzYCAUbrpF2xAHW51WQMmHBkcZwsY3XZx9F8u9MLOay4vsOg5Fa-lrGu7jQRlNP4yWP9DLo7&new=1",
+      "summary": "API 接入BigModel 开放平台:https://docs.bigmodel.cn/cn/guide/models/text/glm-5Z.ai:https://docs.z.ai/guides/llm/glm-5OpenClaw 接入...",
+      "datetime": "2026-02-12 13:32:22",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "崧雷AI工具箱",
+      "url_resolved": true
+    },
+    {
+      "title": "大模型第一股来了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715291&ver=6580&signature=l0pv2RNRKgJK2T2Z0UrkjeUWipNP2QTMuUjkfthK90fHVmP2iCmpr-DQ8Ml7DsDs*o0XaV8nW24rw*e01NP5UDoo4uUThF4XRVTSqdIQsmfZAqTQrZM3umbuVQ698F7i&new=1",
+      "summary": "押注大模型API调用截至2025年9月30日,智谱模型已经辐射到全... 实践中,企业通常会采取多模型并行接入的策略,而性能更优、服...",
+      "datetime": "2025-12-20 15:38:31",
+      "date_text": "2025年12月20日",
+      "date_description": "75天前",
+      "source": "财联社",
+      "url_resolved": true
+    },
+    {
+      "title": "别再为 Token 费用发愁了,国产大模型 API 随便用",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715291&ver=6580&signature=bNpaDcH59JJMrJoymkf74Sy6nPuTTOA40bUrSWrglJkvEv-68OQH1CasRc5rYhH0KsIH08yD4z99QDGNrdCzgxFKnNFG3INtXX736wfU3K0Q0u0gIj02Wm4qXJukGFri&new=1",
+      "summary": "Qwen、DeepSeek 等高性能旗舰模型 阿里出品,稳定+兼容OpenAI API,无缝接入现有工具!【火山引擎】地址:https://console....",
+      "datetime": "2026-02-26 10:16:15",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "国产大模型研习社",
+      "url_resolved": true
+    },
+    {
+      "title": "大模型API的大众点评来了:7*24小时实测,毫秒级延迟智能路由,选API必备",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715291&ver=6580&signature=QttzYnBjWXrX3s9QptlbxeQQKqM0cOziDgioMPRkBW3BrRYO2nV**w5rD616rgYcZtXW3It4KJ5oRYZhNOCHi4h1fHywIZMh0fJ9pZVvfGkGcGOCI1XgKb25l-PsY86e&new=1",
+      "summary": "这个大模型API的大众点评什么样?咱们平时点个20块钱的外卖,... 帮助接入侧动态选择最合适的执行路径.举个例子~比如你发起了...",
+      "datetime": "2026-02-02 11:37:05",
+      "date_text": "2026年02月02日",
+      "date_description": "31天前",
+      "source": "量子位",
+      "url_resolved": true
+    },
+    {
+      "title": "AQUA实测智谱AI千亿基座模型ChatGLM-Pro:云端协同部署释放大模型潜力",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715291&ver=6580&signature=vRabtRa1FtJJWJr0aKXsKuNmppKBfdj7ajYuTuU0BjxrPFdOl01rKzk7sCaLUFQBz4z2m0V6eYX2aBAnRRp*OpxRMjpcZMShkWzFNB3-F9ByndBAXq5CAaU9Cx-I*yZ3&new=1",
+      "summary": "其核心产品包括GLM大模型、ChatGLM、CodeGeeX、CogView... 中国民航信息网络公司基于接入 ChatGLM-130B API 开发航旅智能...",
+      "datetime": "2023-09-26 18:06:58",
+      "date_text": "2023年09月26日",
+      "date_description": "891天前",
+      "source": "速途网",
+      "url_resolved": true
+    },
+    {
+      "title": "无限白嫖大模型API,支持GLM和千问",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715291&ver=6580&signature=R6lm5OLO-B7Ae7Q1CGZLtt5s-hzx-eGwitWqhGnXEdCEtrQcFcjhbrfvDBQdHjNsoHZKucv4MC7tCrjWB-Bkq0VOlyLnq2IaHw2c3k8Fa-OXjBd3uhrXra2S3h3jh4W*&new=1",
+      "summary": "又发现了个无限白嫖AI大模型API的小东西需要本地安装一个小软件,只有2.15MB双击启动运行然后看日志里面有api地址把api地址填...",
+      "datetime": "2026-02-10 16:05:13",
+      "date_text": "2026年02月10日",
+      "date_description": "23天前",
+      "source": "阿锤科技",
+      "url_resolved": true
+    },
+    {
+      "title": "大模型API免费化浪潮:开发者如何在这场生态战争中获益",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715291&ver=6580&signature=5OnYYk2T4axd1kR3otZE8FoVNBZI0FkkMmBhTeyw91S3HVh7o5V3eb5Ll6MENgxbe3wHCM3Rw*R4Q5xH-P9JG7epjwgDemruvthU0cza2Z7VZJxulcmOT62wq1NDOZo9&new=1",
+      "summary": "阿里云百炼的Coding Plan服务,不仅仅是一个API套餐.它真正有价值的地方在于多模型统一接入与灵活调度能力.用户订阅后可在多...",
+      "datetime": "2026-02-26 15:13:52",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "是小憨憨呀",
+      "url_resolved": true
+    },
+    {
+      "title": "从GLM走向AGI:智谱摘得“全球大模型第一股”桂冠",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715291&ver=6580&signature=49EG2uGs3yWt8gGrnXJ-OEe1bt5hiiOjOhrt1DKTcf89I7d8My*B2teTaAPeapKCeDKwBEhiJEfhO2utK7tlPnRlf9xSL4ouOP1K5KYPEtuis0Ad5IcQA1HXIa2nqgAb&new=1",
+      "summary": "短期内有望实现API收入与本地化部署收入的结构性平衡.目前,GLM大模型应用于互联网、消费电子、工业制造、能源电力、民生治...",
+      "datetime": "2025-12-30 16:06:06",
+      "date_text": "2025年12月30日",
+      "date_description": "65天前",
+      "source": "界面新闻",
+      "url_resolved": true
+    },
+    {
+      "title": "GLM-5国产编程模型深度测评",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715291&ver=6580&signature=Xu8uea9PvQBU*CsGXHACANOSpj14xHpqt8deCd16spiibBBS*G*dYIo4mhiwtd62jtF1GUXpiA1YAcrIhLCtVWbyzz3DPtNRr30guFIJWN2XTSevyrqKpUZd2SXpbSIB&new=1",
+      "summary": "接入方式使用方法智谱官网对话访问 chat.z.ai,选择GLM-5模型直接体验API调用在智谱开放平台 open.bigmodel.cn 注册获取API ...",
+      "datetime": "2026-03-02 08:56:14",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "工具猎人终端",
+      "url_resolved": true
+    },
+    {
+      "title": "白嫖国产最新三大模型:GLM-5、MiniMax-M2.5、Kimi-K2.5,让你的OpenClaw火力全开",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715291&ver=6580&signature=IDIOG0e9gtxubG7*gMtiTRdNoxENeE3z6kkDB9T2TzAjglkLc2XEIEUu97kUhGtLYbHKr6XIOZ9YFXkUPYRWZkXxMF4TSmAOhAbSqlehpcxUVmZUXHcWGhx8V48x6yEW&new=1",
+      "summary": "最后将API无缝接入你的OpenClaw.一、获取模型 API操作步骤非常直观,只需三步:访问官网:https://maas.xfyun.cn/modelSquare...",
+      "datetime": "2026-02-27 09:06:52",
+      "date_text": "2026年02月27日",
+      "date_description": "6天前",
+      "source": "苏米客",
+      "url_resolved": true
+    }
+  ]
+}

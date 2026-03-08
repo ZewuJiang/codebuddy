@@ -1,0 +1,156 @@
+{
+  "query": "MaxClaw OpenClaw",
+  "total": 15,
+  "articles": [
+    {
+      "title": "MaxClaw:OpenClaw 的终极替身?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710745&ver=6580&signature=DO-l0I7FoAOFIota1mYMJmNLmedHHe-Jz4*VXZU12Jl7BngdQUQfz3RpVyUjo8nGHEbyUYthTWCoeSaLIk2jbEFl8YPwfwS5Imq-0KEysSb69CDOgqi3cFhbUja-aLU-&new=1",
+      "summary": "OpenClaw 一样,MaxClaw 也支持接入 Slack、飞书、Telegram、钉钉等 IM 工具.操作流程被简化了不少——直接在 MaxClaw 里问它...",
+      "datetime": "2026-02-27 10:22:51",
+      "date_text": "2026年02月27日",
+      "date_description": "6天前",
+      "source": "黑箱之外Echoes",
+      "url_resolved": true
+    },
+    {
+      "title": "MiniMax发布MaxClaw:OpenClaw云端化,AI Agent时代的“开箱即用”终于来了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710745&ver=6580&signature=ulkrBiofzT9WMA9Pj85w9LXeGkXPkxCaFfO*N0kjJvrkcXDB**282A6EvXYbyHui0NKBw6z0TTtPXJvZYtm2ySvG86DdZbJ4vx9azIgo3jcpy4mCqc0zvT4cUHaTGahO&new=1",
+      "summary": "MaxClaw:一步到位,开箱即用MaxClaw基于OpenClaw构建,直接就集成在了MiniMax Agent网页端.最显著的特点就是零门槛部署,...",
+      "datetime": "2026-02-26 20:05:43",
+      "date_text": "2026年02月26日",
+      "date_description": "6天前",
+      "source": "毒AI",
+      "url_resolved": true
+    },
+    {
+      "title": "2026年AI :OpenClaw、MaxClaw、KimiClaw深度横评:普通人入门该选哪个?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710745&ver=6580&signature=758CbUHE5jbM*hqTFBqNZNruyerna7hYlIpOh79y1W95kBa5JPs*7g8Dw-LAmkiNoenvuzSzj1fc4aT*nluer9rYTGvP9XifSsgPXxt11lgJBE3XoK3JeiE2a5xeVGd8&new=1",
+      "summary": "开源鼻祖OpenClaw MiniMax精装版MaxClaw Kimi轻量版KimiClaw从安装部署到深夜加班,从数据安全到付费陷阱,用最真实的使用场...",
+      "datetime": "2026-03-05 14:03:53",
+      "date_text": "2026年03月05日",
+      "date_description": "5小时前",
+      "source": "小二丶说技术",
+      "url_resolved": true
+    },
+    {
+      "title": "别再问了!OpenClaw、MaxClaw、KimiClaw入门横评,一篇看懂怎么选",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710745&ver=6580&signature=vVvV3FlhYRBXVkPqi*Wc1r-k0JdgARK3lqDflTeGClT8R4L3NdT7aIFSYlcZAt7AD9-AmyScGLE4gj2m98k-FHxRRrbUs*1hZC78tNvvUM-vKGIoUtS6T7rEx92tA446&new=1",
+      "summary": "MiniMax推MaxClaw• Kimi推KimiClaw• 原有的OpenClaw那么大家一定会想问:这仨产品啥区别?哪个适合我?花钱值不值? 02三...",
+      "datetime": "2026-03-05 17:30:26",
+      "date_text": "2026年03月05日",
+      "date_description": "2小时前",
+      "source": "新红岸",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw、MaxClaw、KimiClaw 技术架构实现与选型指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710745&ver=6580&signature=DpWCPyTvnVBqnWjXQuJrYH38XzLscJIzl2eQCfReSEhA9CY6wBT6jge9DxwGkXIWOrPkyQkYoIJ0zRl0wzBWSlP9D47xZ2rBAynO7jwsTps3jYH0laxCZL7*zSTZzco1&new=1",
+      "summary": "OpenClaw 的云端封装方案 MaxClaw 与 KimiClaw,形成了「开源原生 vs 云端托管」的三足鼎立格局.本文将从技术架构、部署模式...",
+      "datetime": "2026-03-04 08:03:58",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "架构之美",
+      "url_resolved": true
+    },
+    {
+      "title": "你的AI助手正在觉醒!OpenClaw、MaxClaw、NullClaw...这群“龙虾”究竟是什么?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710745&ver=6580&signature=qtfr4cQOp5eSA5MOSctKq6nKbaVdDlIhanliJYiEPe88M5LwFdXzb-tAFp3Qq4yeeubCGP0m6pd7YMTr2d*zS62cRjK*MnKtG5xaKSiCdsKWL1ZQODzEzRtEdmM*h3*W&new=1",
+      "summary": "OpenClaw、MaxClaw、NullClaw、Clawdbot……这些带着爪子emoji的词汇频繁出现在各大科技媒体和技术社区,引发了一场关于AI未...",
+      "datetime": "2026-03-02 03:05:23",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "国芯智库",
+      "url_resolved": true
+    },
+    {
+      "title": "别被部署劝退:MaxClaw把OpenClaw变成“打开即用”了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710745&ver=6580&signature=VwOcudfZTYaYau*nRfhq3JG1YYc1ND-Qd8LX0chEcfGh*LDo2CPu94YiuCo0KQtLqk8iichXtmcqaUvdzLs70PC3v72fUBNMZzv2K3WgMNOFJKKpEttXr4u-RJCVqJqC&new=1",
+      "summary": "看到他们悄咪咪上线了一个新玩意儿——MaxClaw.点进去一看,这不是OpenClaw吗?但人家给整成了一键部署.点两下鼠标,10秒...",
+      "datetime": "2026-03-05 17:12:49",
+      "date_text": "2026年03月05日",
+      "date_description": "2小时前",
+      "source": "AI真探社",
+      "url_resolved": true
+    },
+    {
+      "title": "实测三大AI Agent!OpenClaw/MaxClaw/KimiClaw,打工人该选哪只“龙虾”?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710745&ver=6580&signature=yL7uISRtKKdzw8nTM-h9QCCWnT*QBetjYzkIYfX31eunCs-EBcNPR8zmjFgWc8ccA4*vuWkSA7-JuTPkl49TxRoTrGa1ZU*3qQxEqI2QjDU9Ks4D4mI85D2sCuSNAiVa&new=1",
+      "summary": "最近不管是同事、老板还是家人,都在聊被称作“龙虾”的AI Agent,OpenClaw、MaxClaw、KimiClaw三款产品褒贬不一,到底是职场...",
+      "datetime": "2026-03-03 10:39:34",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "冒烟的木头",
+      "url_resolved": true
+    },
+    {
+      "title": "用 OpenClaw + MiniMax MaxClaw 接入飞书机器人,踩坑全记录",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710745&ver=6580&signature=DwBVOyoZZOtKMBME*g*KtqAdkHnFKTgUglmhyUJ6UkypSuJKXP2BM82bB*G3vDXhtGIP6B8p2C7uzyRlaCJxVtkIRCWz-3Cb0ZaKp4QF0w9TZ8*hH-BuY79il7LJmvmj&new=1",
+      "summary": "的MaxClaw——它把 OpenClaw 直接集成到了,零部署、点击即用、7*24 小时云端常驻,省去了所有运维烦恼而且不用担心安全问题...",
+      "datetime": "2026-02-27 17:13:51",
+      "date_text": "2026年02月27日",
+      "date_description": "6天前",
+      "source": "技术判断录",
+      "url_resolved": true
+    },
+    {
+      "title": "AI agent平权,MiniMax推出MaxClaw打通OpenClaw生态 AI日报20260227",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710745&ver=6580&signature=sfFbkqYNWAJP2rgvhiGuKt3BghhjDOURxVS1O891x2Tb4ZWFBpFhlI5HguOsi3eSxS9jfr7Ejw2amOt5BTdZ7Ybe9TJC0GxHEQwuhpl*rchcuDQ6tfOpUOmZBF0IV1IN&new=1",
+      "summary": "MaxClaw核心价值就是做了OpenClaw的上层网关封装,用技术手段干掉了所有非必要门槛.它通过MiniMax的云端算力完成了...",
+      "datetime": "2026-02-27 01:00:21",
+      "date_text": "2026年02月27日",
+      "date_description": "6天前",
+      "source": "拉文斯基",
+      "url_resolved": true
+    },
+    {
+      "title": "MaxClaw上线,OpenClaw终于能一键用了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710747&ver=6580&signature=jWr7tRPqF7ylw8eRsRXv7B869DdIt5CwgrVsNR53hpFiCdpUmwJA9wiZ4fJnGpWnKdpQx1sbJIk3OPabXdYPCLM4Xprgt-UvGME5iIE4FeWVNSEXd*dYKeoXmVuc1cXx&new=1",
+      "summary": "快速摘要MiniMax推出MaxClaw,将开源AI智能体框架OpenClaw实现网页端一键部署,无需代码、服务器或API配置,10秒即可启动....",
+      "datetime": "2026-02-28 09:59:03",
+      "date_text": "2026年02月28日",
+      "date_description": "5天前",
+      "source": "海阔鱼跃飞驰人生",
+      "url_resolved": true
+    },
+    {
+      "title": "MaxClaw|免费体验OpenClaw快速接入飞书指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710747&ver=6580&signature=viH4f6ZJ4NuS4sBNi0TBWwE42-c1FrjxnE-2InTa1EzRpzideAGyN*nPgcoLtgONxKXSPvFdnZEjkbzacx3oyuNlwPbeQDDqHRqQiaGFOAZC**7niAd0I9ALPKDYuG6B&new=1",
+      "summary": "概述MaxClaw是MinMax推出的云端版OpenClaw(原Clawdbot),无需自行部署服务器或管理API密钥,每日提供1000免费积分供体验...",
+      "datetime": "2026-02-26 06:00:22",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "创见AI实验室",
+      "url_resolved": true
+    },
+    {
+      "title": "别再盲选了!OpenClaw / MaxClaw / KimiClaw到底谁值得你掏钱?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710747&ver=6580&signature=ZPCIQnq3yXq8FZ8Rt8-t4EsWDk46AzTxlrAe5yAGpHU7dpfWrE3hBai29F*g6dm6GaWkr0CAFeCXGBJna6GJzx4TPGCahXCbMVvEdqoc0En5RTvffoBSoCVm4qHBHWxB&new=1",
+      "summary": "OpenClaw、MaxClaw、KimiClaw,三个名字长得像亲兄弟,每个都有人吹爆,每个都有人骂坑.你想选一个,但不知道选哪个.你怕...",
+      "datetime": "2026-03-03 07:49:00",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "六西格玛咨询机构",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw、MaxClaw、KimiClaw深度横评:普通人入门该选哪个?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710747&ver=6580&signature=8inYXBPJXno9*-fdirf6sGXkyPrL86raihs65YatKm3iOP*tJws4fSDz6MYsYYQQYvoYHlNdcEKJHQiYFO0jPf6Cd5ma1wGkq4l*8ePpeztqjWaC2kMJH3hBWpo47feV&new=1",
+      "summary": "MaxClaw• Kimi 推出了 KimiClaw• 再加上原本的 OpenClaw,现在就形成了＂三大龙虾＂格局.作为普通人,我们最关心的问题是:...",
+      "datetime": "2026-02-28 19:28:18",
+      "date_text": "2026年02月28日",
+      "date_description": "5天前",
+      "source": "惜阅",
+      "url_resolved": true
+    },
+    {
+      "title": "MiniMax入局OpenClaw!6大龙虾神技,让你的AI助手效率翻倍",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710747&ver=6580&signature=cG4ImPwMKZQDA6FEbgxIyopIWuy4ra01CK6b1VKBZCCS7i0J6pHSN3*t6MHygLfRcH9cPod2xRiJwqd8uvntENjNi4Bibgsh1Y8ouHF88KBXz24k1ioxi8qyIy*dvonE&new=1",
+      "summary": "为什么选择MaxClaw?OpenClaw原生部署需要命令行操作,对新手极不友好.MaxClaw解决了这一痛点:10秒快速部署:无需代码或...",
+      "datetime": "2026-03-01 18:14:13",
+      "date_text": "2026年03月01日",
+      "date_description": "4天前",
+      "source": "雷曼大帅",
+      "url_resolved": true
+    }
+  ]
+}

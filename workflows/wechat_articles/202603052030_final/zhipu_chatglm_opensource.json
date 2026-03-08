@@ -1,0 +1,306 @@
+{
+  "query": "智谱AI ChatGLM 开源",
+  "total": 30,
+  "articles": [
+    {
+      "title": "将门月报 | 智谱AI开源ChatGLM,文远知行助力L4商业化提速,国汽智控与比亚迪签署自动驾驶操作系统量产合作协议...",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715252&ver=6580&signature=VFO3Hyldn5so8xFaq9b6v1SeryG8Q6l8cOGnfkRYpWnljhiNzWYIPhZOjuXkPKZnqmhb*k4n*RyV5pntWQ24txvqtNMaJwjO1f9Ae5GO0FqoLYpqT8i7WClI7DlJZirT&new=1",
+      "summary": "智谱AI开源了GLM系列模型的新成员——中英双语对话模型ChatGLM-6B,支持在单张消费级显卡上进行推理使用.这是继此前开源...",
+      "datetime": "2023-03-31 08:22:18",
+      "date_text": "2023年03月31日",
+      "date_description": "1070天前",
+      "source": "将门创投",
+      "url_resolved": true
+    },
+    {
+      "title": "启明星 | 智谱AI宣布开源ChatGLM-6B大模型,千亿基座对话模型启动内测",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715252&ver=6580&signature=8cK05pr4uz21F5iCAxoXYGmjOvAShrRzJCY2K-WIcqESPpHfb8DcG7D95GbFM3hg7aU03O1EWH0oaLkJQOF7hn8KKDjmhbMQYjIFf2IRdL2mZp*kQcDcTXVWF3iY6ocr&new=1",
+      "summary": "近日,启明创投投资企业、认知智能领跑者智谱AI开源了GLM系列模型的新成员——中英双语对话模型ChatGLM-6B,支持在单张消费...",
+      "datetime": "2023-03-15 10:15:12",
+      "date_text": "2023年03月15日",
+      "date_description": "1086天前",
+      "source": "启明创投",
+      "url_resolved": true
+    },
+    {
+      "title": "我给清华智谱Ai(ChatGLM),写个Java对接的SDK!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715252&ver=6580&signature=963Wh36QtUrdUpoGXOlGurDx5Y1GMeJG1uY84mMw*9FfI9fOzI8pbAwMf*GkINZuJcj9Ks36tWdUwM2QzrrUxWGwX7rW8jc2o0a6riOv5X2Ww4cscte9P7DFW*fdtzjp&new=1",
+      "summary": "但经过了一晚上的折腾,我决定给它写个对接的SDK开源出来!... 但不影响智谱Ai(ChatGLM)是个好东西.他的官网中有API HTTP ...",
+      "datetime": "2023-10-12 07:55:35",
+      "date_text": "2023年10月12日",
+      "date_description": "875天前",
+      "source": "bugstack虫洞栈",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱AI官宣:ChatGLM2-6B可免费商用",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715252&ver=6580&signature=59v3ZwsVpE5tAo1QFLnOyuzmQARY66mNAOyPmyD3UTDSpyfqV6Gxn-Jz39gMoojkGVhWLNpXqTjAk9lPej4nwmYB1b92uMalVHuP2cadQEBWrJ-RmFl8NFTrk5eF9U78&new=1",
+      "summary": "出品 | OSC开源社区(ID:oschina2013)中英双语大模型 ChatGLM2-6B 开发团队 —— 智谱 AI & 清华 KEG 近日宣布,即日起 ...",
+      "datetime": "2023-07-17 18:55:21",
+      "date_text": "2023年07月17日",
+      "date_description": "962天前",
+      "source": "OSC开源社区",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱AI价格是多少?ChatGLM大模型怎样收费?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715252&ver=6580&signature=l2fbiI3b0ounFxNAY2YePhTaNmevpJ5FNjrXqxIaNup0JwU9OSYeDSRaASaLEjbc6TuWvn-TytO8evH6sW0nMxCRWvI-p5nsfAcm5ux0lyoTGsBnpfG2wlovOSyFqVw3&new=1",
+      "summary": "包括ChatGLM-130B和ChatGLM-6B模型.这些大模型支持相对复... 这些模型在国内外的开源社区中产生了较大的影响.智谱AI提供的...",
+      "datetime": "2023-10-21 22:15:22",
+      "date_text": "2023年10月21日",
+      "date_description": "865天前",
+      "source": "Jinkey",
+      "url_resolved": true
+    },
+    {
+      "title": "正面硬刚OpenAI!智谱AI推出第三代基座模型,功能对标GPT-4V,代码解释器随便玩",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715252&ver=6580&signature=QttzYnBjWXrX3s9QptlbxeQQKqM0cOziDgioMPRkBW1pJPeCI6U4gA0E0H-D6mQWZKru6BmfceNhnBKzIldZGrMO5nSqm5vxojoBw*Wxkh2nZZXBn1gOxkFRsidwF51K&new=1",
+      "summary": "智谱AI CEO张鹏在发布会现场提到,此前智谱AI开源的ChatGLM-6B,已经有超过千万的下载量.开放的态度对于智谱AI现在4个月发...",
+      "datetime": "2023-10-28 17:07:31",
+      "date_text": "2023年10月28日",
+      "date_description": "859天前",
+      "source": "量子位",
+      "url_resolved": true
+    },
+    {
+      "title": "快讯|Google:PaLM API 开放以及更多;清华系智谱AI公司宣布开源ChatGLM-6B大模型等",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715252&ver=6580&signature=IofEMIGFTciBt5xTX02FX70Rxwpstm0kGimaTVmVaSkIR856WXq8bOFmo*Yp9QuweyaR5WvH3JF4Svs-hoZ5qA4QTYTq8GPDfgiIRrTWf3shAD4-cvwhzN4blbrv0Swa&new=1",
+      "summary": "清华系智谱AI公司宣布开源ChatGLM-6B大模型清华技术成果转化的公司智谱AI开源了GLM系列模型的新成员“中英双语对话模型...",
+      "datetime": "2023-03-19 16:22:25",
+      "date_text": "2023年03月19日",
+      "date_description": "1082天前",
+      "source": "机器人大讲堂",
+      "url_resolved": true
+    },
+    {
+      "title": "启明星 | 智谱AI张鹏:我们不做中国的ChatGPT",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715252&ver=6580&signature=8cK05pr4uz21F5iCAxoXYGmjOvAShrRzJCY2K-WIcqGoOtPDWO7C9HAjBG4b1SPneGzbpvucxlPuOOMs6MYzs7rYBukg0QjHKlbX3Lsnzp1*fuYI4ZdLE-bOhQp5sgZe&new=1",
+      "summary": "智谱AI宣布开源ChatGLM-6B大模型,千亿基座对话模型启动内测启明星 | 10家启明创投投资企业入选创业邦2023值得关注的AIGC公司...",
+      "datetime": "2023-09-22 23:58:21",
+      "date_text": "2023年09月22日",
+      "date_description": "894天前",
+      "source": "启明创投",
+      "url_resolved": true
+    },
+    {
+      "title": "可部署手机、适配国产芯……全新升级后的 ChatGLM3 真的有点东西:智谱 AI 选择继续开源!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715252&ver=6580&signature=tRJAwQiXI6txzye-zf3b0MGe9pr29VU1w73*Gvjx9t7mG*hgcEtMh16*9bXxAFTAe6DZRfKTGQY6WWMhb646mJYtmGAGMhX7MyGUiR5c1T5AbgfIhC5SEmpbpEnFs9jD&new=1",
+      "summary": "ChatGLM3 继续开源,“搞好开源”是智谱 AI 的初心 在此次 ChatGLM3 大模型的发布现场,智谱 AI 宣布为了进一步推动开源生态,...",
+      "datetime": "2023-10-28 10:15:53",
+      "date_text": "2023年10月28日",
+      "date_description": "859天前",
+      "source": "InfoQ",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱AI千亿基座对话模型ChatGLM启动内测 | 达晨Family",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715252&ver=6580&signature=SvMZlqwjloz4czbf2HzNPFQDeb3H2on67lL5I*J48S7aCM1XRLhm*0cmUs*dMmyhOvNOxCq6zCuivhV40jkSo8qamlHs5*BdrDzAYCMaWgzEk7nEjaB68jnxf2-Vuomt&new=1",
+      "summary": "近日,达晨A轮领投企业智谱AI开源了其GLM系列模型的新成员——中英双语对话模型ChatGLM-6B,支持在单张消费级显卡上进行推...",
+      "datetime": "2023-03-17 15:53:12",
+      "date_text": "2023年03月17日",
+      "date_description": "1084天前",
+      "source": "达晨财智",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱AI给中国大模型公司的商业化打了样",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715254&ver=6580&signature=fbKJ7sq5szJ952-yVj3CSbqGZ2gXhwCJnVWdLe7uaP0iRxl9-2VZe*4mKKWPm1IXbZnSVtuLVyqBpClUkwOVPZnZ82LqmeJ645oxGWp60CI-HphY-DNpeknadmSi6Ckr&new=1",
+      "summary": "智谱AI开源了单卡版模型ChatGLM-6B.截至今天,ChatGLM-6B到目前为止累计的全球下载量已经超过1300万,在github上新数已经...",
+      "datetime": "2024-03-15 09:53:39",
+      "date_text": "2024年03月15日",
+      "date_description": "720天前",
+      "source": "硅星人Pro",
+      "url_resolved": true
+    },
+    {
+      "title": "从清华实验室到港交所:智谱AI七年”上瘾”之路",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715254&ver=6580&signature=lLZIL4AB5CmGlvv--vYztRrY5TRLCthpaRelkCXcQfFFaWaqot9ynlxAgkc5KhkpAe4KH97OnGONJBttv0nuNGwKDCtflaAP1sSPtBdYsIaZp1FW5E9rgwxlrQl1Zmay&new=1",
+      "summary": "2023年3月,智谱AI开源了ChatGLM-6B——一个60亿参数的对话模型,最大的亮点是:可以在消费级显卡上本地部署.这意味着什么...",
+      "datetime": "2026-01-09 10:23:00",
+      "date_text": "2026年01月09日",
+      "date_description": "55天前",
+      "source": "嘲瓜夕拾",
+      "url_resolved": true
+    },
+    {
+      "title": "算能与智谱AI完成适配,加速大模型商业落地",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715254&ver=6580&signature=NAQOzJ51SARdvjjRWHaRma8A2GffvGHzqdWqvb7JkagkW4pGpmUJjJXhEH9YHHmaQiavdHyqYPLiSScyPEzfXh241FjQ1eednrUToZJEnCgkV4k0CmouO8GsKajVwskv&new=1",
+      "summary": "近日,算能与北京智谱华章科技有限公司(下称“智谱AI”)完成兼容性适配.智谱AI授予算能ChatGLM2-6B的开源商用授权书以及模...",
+      "datetime": "2023-08-25 20:40:35",
+      "date_text": "2023年08月25日",
+      "date_description": "923天前",
+      "source": "SOPHGO算能",
+      "url_resolved": true
+    },
+    {
+      "title": "燕山大学-智谱AI大数据基础模型联合实验室发展战略研讨会暨2024北戴河·知识·智能论坛在北京隆重举行",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715254&ver=6580&signature=wEmKUhRGiOJi1IEw5rWNmr4yFIkooLANBHFsDRPBAkyvQ5Yx7AGolagiqiIhLRCcC4D5-oZ0F4DCM5u91QBZRM77lHb6hANZqkfDcpM92kp5b-9NRWG8tMPPp*pwJNLJ&new=1",
+      "summary": "2023年,智谱AI推出了基于千亿基座的对话模型ChatGLM,并开源单卡版模型ChatGLM-6B,使得研究者和个人开发者进行本地微调和...",
+      "datetime": "2024-02-19 11:23:52",
+      "date_text": "2024年02月19日",
+      "date_description": "745天前",
+      "source": "燕山大学校友总会",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱AI CEO张鹏:ChatGLM全球超过百万下载,为行业智能化降本增效|中国AIGC产业峰会",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715254&ver=6580&signature=mAXocwyCm6fmdNkSXxFZjYmZ0mdeLAPknBMhfHQmlfvKhf1BNVKCeF1SrFMTnSD*4dM3-PIK0DmE50JjRenUU9R*fFdy104NxAo3OvUdDVEz8fc8EhjB01uPiXxuEMuu&new=1",
+      "summary": "张鹏介绍了智谱AI在该领域的最新研发和落地进展,包括:(1)... 开源对话模型ChatGLM-6B仅仅62亿参数,可以在单个GPU上运行...",
+      "datetime": "2023-05-03 00:02:34",
+      "date_text": "2023年05月03日",
+      "date_description": "1037天前",
+      "source": "深度学习与NLP",
+      "url_resolved": true
+    },
+    {
+      "title": "亲测 ChatGLM : 清华智谱AI研发的支持中英双语的对话机器人",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715254&ver=6580&signature=Z7Ki2cyg20iq6HLZXWbIP2oXpfMmLanzxO75ehhQN1rt0TI*m-My6AoeyxKAm1zbiiQop5DCn19F-45xPVIamtH9qWyAXKb*a7Mp6KPfYSNMAHDQsSDZo91oaPnobj2h&new=1",
+      "summary": "零、项目介绍ChatGLM-6B 是一个开源的、支持中英双语的对话语言模型,基于 General Language Model (GLM) 架构,具有 62 亿参...",
+      "datetime": "2023-06-07 20:05:26",
+      "date_text": "2023年06月07日",
+      "date_description": "1002天前",
+      "source": "磐创AI",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱AI,强关联的10家公司",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715254&ver=6580&signature=Wwf-1Y*TTyfk2vU10X9auWKzE3C6tt8uOic*GZVKZZVykYebup6W2759bOzvhqBruqWYj62SbPbc4*aFIFIpRi5XsNXeirBWmKddTTTHURaKoyLgXihvns*IAd5gTF0S&new=1",
+      "summary": "其在编程能力和智能体构建方面均达到了开源模型的顶尖水平,... 与智谱AI的关联:公司第一时间接入了智谱AI的ChatGLM通用大模...",
+      "datetime": "2026-02-16 18:35:03",
+      "date_text": "2026年02月16日",
+      "date_description": "17天前",
+      "source": "开封广播电视股海",
+      "url_resolved": true
+    },
+    {
+      "title": "ChatGLM3:智谱AI和清华大学KEG实验室联合发布新一代对话预训练模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715254&ver=6580&signature=NdUYTSDuF1mnY0lZ9aa2QJ*nibLiLKHfJlfJ09KtLciE0oJuypBkiCks1AG3CuP5fXyCLu0yQkkZvMogUptbBVl8PeVGdpnRVO6dz7NbvInxTIU22Ch-w6ZnQ9Eo3w-h&new=1",
+      "summary": "ChatGLM3-6B是ChatGLM系列最新一代的开源模型,在保留了前两代模型对话流畅、部署门槛低等众多优秀特性的基础上,...",
+      "datetime": "2023-10-28 00:41:47",
+      "date_text": "2023年10月28日",
+      "date_description": "859天前",
+      "source": "NLP日志录",
+      "url_resolved": true
+    },
+    {
+      "title": "说说智谱AI",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715254&ver=6580&signature=i2QprCyz4lcFzhR6OtbOFH1ePNTHozO0v5g5UGxVzDvMw9dwNKX4BEVuRbya*ReelvmQErfq1mBchlwla0JO8N0Ysws3Radjy-OyUgB6QbEuuUWTjeCwYxHs1TJvOgaL&new=1",
+      "summary": "智谱AI是一家源于清华大学知识工程实验室的AI公司,专注于研发... 强大的开源生态:公司积极拥抱开源,其GLM系列模型(如...",
+      "datetime": "2026-01-15 12:00:00",
+      "date_text": "2026年01月15日",
+      "date_description": "49天前",
+      "source": "AI&大数据",
+      "url_resolved": true
+    },
+    {
+      "title": "启明星 | 智谱AI正式上线首款生成式AI助手智谱清言",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715254&ver=6580&signature=8cK05pr4uz21F5iCAxoXYGmjOvAShrRzJCY2K-WIcqEVRWKXsA60MtmtA4ELOioeplnb5-*hVzIFQ2nyZrtFXwAP-Heu4NqJ*QhLh92UcD3KEabej3IQwmFMYfuMxPAa&new=1",
+      "summary": "智谱AI宣布开源ChatGLM-6B大模型,千亿基座对话模型启动内测启明·硬科技 | 启明创投周志峰:生成式AI与大模型引路产业变革与创...",
+      "datetime": "2023-08-31 10:27:48",
+      "date_text": "2023年08月31日",
+      "date_description": "917天前",
+      "source": "启明创投",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱AI大模型的爆发之路",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715255&ver=6580&signature=MGodUXabQSNhX*Wt27I0VYrCTH*hoPHPkqoItw7GicGz5yQA6tg4sV4Zyeu9kZADv4i9LjgV*H1v5nBxrulTsn8cbReZ**Ams5mFUVJOi87ZW8vVq*jJi3GzakNF7z-x&new=1",
+      "summary": "智谱AI的爆发,始于深厚的学术根基.2019年,依托清华大学计算... 2022年,千亿参数ChatGLM-130B开源,一举打破海外模型的技术...",
+      "datetime": "2026-02-14 06:58:41",
+      "date_text": "2026年02月14日",
+      "date_description": "19天前",
+      "source": "人民的意义",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱AI全自研基座大模型再升级  ChatGLM3评测排名首位",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715255&ver=6580&signature=NO75QBjJIC-F5pzemVxm9L6jr6KjvGngjXOuJamvM-JvsqAOAFQk0a43P*n-oPGNYXA-rDwG0JvisS07PT3DVruC-oTI-RTT2nmhPWRYh0urV9zXF6e7PmXztkLLEyjX&new=1",
+      "summary": "智谱AI此次推出的ChatGLM3及相关系列产品,全面提升了自身的模型性能,为业界打造了更开放的开源生态,并进一步降低了普通用...",
+      "datetime": "2023-10-30 16:06:36",
+      "date_text": "2023年10月30日",
+      "date_description": "857天前",
+      "source": "夕小瑶科技说",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯阿里参投,智谱AI完成B-4轮融资 | 智涌独家",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715255&ver=6580&signature=XC4T9vp7AtAxY0hzuPIihq3u6E4MTggo-oelRmytnYEKbgYE8FT1mnpRifedTwDYHGLWfQgsd8o7Z32AuzZYr5YL98DsH*kf2v4SEI*k5ysfb1twunpUWsMrBvB0EE1w&new=1",
+      "summary": "智谱AI开源了中英双语对话模型ChatGLM-6B,还推出了针对代码、视频、图像生成的一系列模型.目前,针对B端企业的模型训练、...",
+      "datetime": "2023-09-20 15:24:38",
+      "date_text": "2023年09月20日",
+      "date_description": "897天前",
+      "source": "智能涌现",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱|GLM-5开源",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715255&ver=6580&signature=cMng8Vu5nf6iuSCLgtzfwuN1j*TvOCldyhAsBv4GAdjvYRf0mJz3nM*lcvdUS4RWpqYZShrg-lIyTGB0wvH4b5DtGyIuzOVoI702MuWBc3YPeu-swypfmqkil*PGaEN6&new=1",
+      "summary": "在线体验Z.ai:https://chat.z.ai智谱清言APP/网页版:https://chatglm.cn开源链接GitHub:https://github.com/zai-org/GLM-5Hugging Face:...",
+      "datetime": "2026-02-12 11:16:20",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "拾珠传媒新消费",
+      "url_resolved": true
+    },
+    {
+      "title": "分享三个开源的中文多模态LLM模型:智谱AI的多模态对话和视觉语言模型,阿里的通义千问多模态模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715255&ver=6580&signature=GMyi2zjTXygfiHbzRUPpw3OEbS7xIoT6kJ5nqlQ9hQnH29OBDUoItrV171COLCcxP71eyMwEuzZkvX2pbwdEmKhwEkel0Qd6Vw7o34QPYcPfOFQLL-HNTB7lVQTPBncE&new=1",
+      "summary": "智谱AI的VisualGLM-6B 是一个开源的,支持图像、中文和英文的多模态对话语言模型,语言模型基于 ChatGLM-6B,具有 62 亿参数;...",
+      "datetime": "2024-03-21 08:15:42",
+      "date_text": "2024年03月21日",
+      "date_description": "714天前",
+      "source": "码科智能",
+      "url_resolved": true
+    },
+    {
+      "title": "第一个赴考的人:拆解智谱AI的上市答卷 | 氪睿研究院",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715255&ver=6580&signature=NZy5U-S7qmqicr9qcYQdVZVRF8l9MXqEM1KxnfQEugZfdDwktZXoU1Jj31ZflP3WXfJ5kNsTsKbxwX9LYFml8mJFnsifw9IzjJl3ivRoSpJG3bjnO2sEBfphbm*fd6Wq&new=1",
+      "summary": "智谱AI是最早站上浪尖的公司之一.它背靠清华的科研体系,推出... ChatGLM的技术热度曾让它一度成为开源圈的明星,但热度并不等...",
+      "datetime": "2026-01-20 17:27:55",
+      "date_text": "2026年01月20日",
+      "date_description": "44天前",
+      "source": "RET睿意德",
+      "url_resolved": true
+    },
+    {
+      "title": "一文了解智谱AI及A股同类产品相关公司",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715255&ver=6580&signature=5dIdLmiZEvGJzqAzNG878tUa2PtaHtzq3OqdwaSAnmYilJEBADml2erC-DWkAAkKMJ0TBhbiGEcTlymfVox0VEIbLW2GATWx0G0yHR0Q2FXkqvp-7gscsZiS5EA3MwmV&new=1",
+      "summary": "2023年,推出ChatGLM系列对话模型(包括开源版ChatGLM-6B),成为全球开发者“AI启蒙工具”,同年智谱清言(AI对话助手)上...",
+      "datetime": "2026-02-21 00:02:12",
+      "date_text": "2026年02月21日",
+      "date_description": "12天前",
+      "source": "混沌小生",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱 AI 市场策略全景:ToB 为核、开源为翼,MaaS 驱动的 AGI 落地打法",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715255&ver=6580&signature=0g50mvSzJ*CvoG72Rk1q88jRCONkRwrrlZnkGo6DEnqWWVKJ8ufXn4AEUNnknt85ANw7VUWddNAtnKz*UWZp421LZNzkqUiqzZeNxFAbEVhow*IcyR2Ilcka3iGcbCIC&new=1",
+      "summary": "核心结论智谱 AI 的市场策略以 “长期技术理想(AGI)+ 短期商业闭环” 为双轴,核心打法是 “ToB 为主导、开源为辅助、MaaS 为...",
+      "datetime": "2026-01-20 05:05:54",
+      "date_text": "2026年01月20日",
+      "date_description": "44天前",
+      "source": "数说123之算力大模型",
+      "url_resolved": true
+    },
+    {
+      "title": "市委副书记、市长殷勇到智谱AI调研",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715255&ver=6580&signature=6Y01tFwzkZNUB4IlIkm7hDV7eQ4KawnAar0AO4ncS9-*E2tMD4-O4fooggNrY91LvAQjfL2uB-1p-wpycIobnIK9lkCB1xhSIO9DlgDFjIskFf5hxsOim5ltCMVxE9Pc&new=1",
+      "summary": "智谱AI董事长刘德兵进行了千亿基座的对话模型ChatGLM的现场演... 开源的 ChatGLM-6B 支持在单张消费级显卡上进行推理使用,全...",
+      "datetime": "2023-06-05 21:42:09",
+      "date_text": "2023年06月05日",
+      "date_description": "1003天前",
+      "source": "智谱",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱AI发布GLM-5:国产大模型迎来“工程化”质变",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715255&ver=6580&signature=BoTzo*-BI8*k5EUfPXmq336tgC4OYIlR*1faT*dSeU9elTpy0*YIT39rYgbWhRsm9il7i0xYTxb4BK6bS-e5iZXFGQ4an8rLqK7amTeAHazuxtkb4rBioOklIOJMGtgl&new=1",
+      "summary": "https://chatglm.cn使用建议:Z.ai 是智谱AI面向开发者和专业用户... 开源下载GLM-5已开源,如果你需要在本地服务器或私有化环境中...",
+      "datetime": "2026-02-25 07:02:50",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "NinisDad",
+      "url_resolved": true
+    }
+  ]
+}

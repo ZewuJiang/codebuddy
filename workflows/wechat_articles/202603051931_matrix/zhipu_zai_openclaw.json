@@ -1,0 +1,156 @@
+{
+  "query": "Z.ai OpenClaw",
+  "total": 15,
+  "articles": [
+    {
+      "title": "OpenClaw火爆全网后,有人直接用Zig把它砍到678KB!这才是真正的“零负担AI助手”",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710550&ver=6580&signature=GBlnTZCmpp7eDnQ*ymzhLrA3b8OjcNLm4LOMuoB9lM5wtpDVruQJrBWw0BFgvZEVUHZGZSpr0-bZt3rWw-mzU5QsZwpjzCd3jYQMHDxdqum8ko1iP9Xim*EROzveGSk8&new=1",
+      "summary": "它让“本地跑的自主AI助手”这件事,从科幻变成了日常.但火归火,用过的人很快发现一个扎心的现实:OpenClaw虽然强大,但它...",
+      "datetime": "2026-02-23 16:13:43",
+      "date_text": "2026年02月23日",
+      "date_description": "10天前",
+      "source": "吾想",
+      "url_resolved": true
+    },
+    {
+      "title": "打造你的私人 AI 助手:OpenClaw 安装与配置完全指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710550&ver=6580&signature=617JIagQUMLKTqT3emRHiGLZ9V2efmcGJMZexyz*BbI9I2qPkbUUPXupf0WZdlrp*LCKxZ4ESo*17OdJmZp3yWsvx5ebTda7fCxJU5TCgH4XC8fCkpFTYw91eydYV79u&new=1",
+      "summary": "系列也是热门选择,通过 Z.AI 平台接入:# 快速配置openclaw onboard --auth-choice zai-api-key配置文件中添加:{ ＂env＂: { ＂ZAI_...",
+      "datetime": "2026-02-24 08:00:17",
+      "date_text": "2026年02月24日",
+      "date_description": "9天前",
+      "source": "AI游民",
+      "url_resolved": true
+    },
+    {
+      "title": "GLM-5 配置与 OpenClaw 部署教程",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710550&ver=6580&signature=auGjveVW4RX3qNvwHSlX57jxPSy-XR-MGfED51vPB8q-El6N66Xi-6QMqxFGIy2t4IZEneDazKjZJsBGFCMUyNvZgXC75CARA9JyQ5648VlIsxXtGVU0KMY1IQGUl8PC&new=1",
+      "summary": "Z.AI步骤 1:运行配置命令openclaw configure步骤 2:选择 model步骤 3:选择 Z.AI步骤 4:选择套餐(如果是 coding-plan-cn 计划,...",
+      "datetime": "2026-02-23 22:27:08",
+      "date_text": "2026年02月23日",
+      "date_description": "9天前",
+      "source": "聚点科技TechSpot",
+      "url_resolved": true
+    },
+    {
+      "title": "我的小龙虾(OpenClaw.AI)之体验",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710550&ver=6580&signature=WCwf5uBaLxw8NULMiS*hw9iDJgysxE6unR7ZzJIcExCTbp38U*xrWhmmFp-557DXs3yKOZIwEJfE8GN3iv0bQD7uEduv7*vYq6hef9EV4sRFoJUeww1UJWm-gRQK67pU&new=1",
+      "summary": "想在正常下班后,用碎片时间换换脑子安装OPENCLAW不现实--需要整段的时间.---一个小坑是Z.AI及Minimax得去买海外版的Coding ...",
+      "datetime": "2026-02-17 17:12:37",
+      "date_text": "2026年02月17日",
+      "date_description": "16天前",
+      "source": "ZJMCHE阅读笔记",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw打造数字分身与AI助手概述",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710550&ver=6580&signature=02jsLflDkSHMS-wXjRfrSJ5LbolIGfPCO8QA-6CNh24B2iy7ho-LPGsACw5Fg-*EreTf*32m5KckrWbEuEzC2WoFN9ZVtU0E0IXFD0s23vhAg-DyrKjcj8JCU*UAQmMT&new=1",
+      "summary": "AI(Z.ai)OpenClaw 工具/适配文档网址:https://docs.z.ai/devpack/tool/openclaw说明:模型/平台侧对 OpenClaw 的接入与配置说明入口...",
+      "datetime": "2026-02-25 15:53:43",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "云博士的AI课堂",
+      "url_resolved": true
+    },
+    {
+      "title": "CentOS 系统安装 OpenClaw 完整教程:从零开始部署你的 AI 助手",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710550&ver=6580&signature=JiRBSbWM2DJ*eAYCNmbAayQrp4TV4f36PQ3vs0TiUH*EaWdkEulZVgrhW7eHjEAftpA*uzy2ey-DcgCLRdtnQk*IsVOedLJZ0pfVN1HnhctjxnX7-YyWEnm*QuFBxOXa&new=1",
+      "summary": "OpenClaw 的基础,其中包含 Git(代码管理)、GCC(编译器)... 阿里云旗下,性能稳定Z.AI(GLM):智谱 AI,综合能力强国际模型...",
+      "datetime": "2026-02-10 09:01:04",
+      "date_text": "2026年02月10日",
+      "date_description": "23天前",
+      "source": "想乐购",
+      "url_resolved": true
+    },
+    {
+      "title": "调教OpenClaw,让 AI 助理自己养活自己, 学会自进化与自动装技能",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710550&ver=6580&signature=EtYuRL2RrxDC*uFKZEOBtpYzfW8zZLAYPjmbQIaVPpkwGkrfGkfYbR27tEahW*FmcU1YvlHY9fBV01r1c0IXZX0OH9jUAj6VkuKjIMJ1SGXtkcWdwGG6HivGPI6LIZoF&new=1",
+      "summary": "选择我们的智普模型,也就是Z.AI,配置完成后,openclaw可能会不生效,我们可以让AI助理帮助我们处理这个问题:AI助理开始检查...",
+      "datetime": "2026-02-02 17:30:30",
+      "date_text": "2026年02月02日",
+      "date_description": "31天前",
+      "source": "无处不在的技术",
+      "url_resolved": true
+    },
+    {
+      "title": "Linux Mint 上装 OpenClaw + 飞书 + 智谱 GLM:我从卡权限到飞书里指挥 AI 写日报的血泪教程",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710550&ver=6580&signature=D*VR21KicCyJtpi3XwUmNnUjXAw6JzTt8tU6E8Vn0LH0VN-OO0PW3nZ7hiDlUX7GDO3khcQg6dy6OO2KygdrGL10cXVdy*0TyySXPTYc9rpdf8TNFGq*XCSiSyEdqtAI&new=1",
+      "summary": "openclaw wizard,选 Z.AI 或 Zhipu provider,填:{  ＂provider＂: ＂zai＂,  ＂model＂: ＂glm-4.7-flash＂,  ＂apiKey＂: ＂你的API_...",
+      "datetime": "2026-02-18 09:15:11",
+      "date_text": "2026年02月18日",
+      "date_description": "15天前",
+      "source": "屏幕内外的生活",
+      "url_resolved": true
+    },
+    {
+      "title": "这个世界专属于你的AI智能体,OpenClaw(小龙虾)保姆级部署教程,10分钟包部署完成.",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710550&ver=6580&signature=iu*9hYxPpWukrMMI74*Ah7jo1lS*ToUCBLMmhkGbrz-bCoGnVScFj3LQNQk-1ulL01KifAwud5K-37x-Fw9PIxabqOlvf9nhRw0qyIEuyyLxZa-NFvcG*fHQgV3ahxxk&new=1",
+      "summary": "openclaw onboard --install-daemon然后跟着下面的截图走Minimax就选Minimax,智谱就选Z.AI.Minimax(配置步骤)Z.AI(配置步骤)...",
+      "datetime": "2026-03-05 16:12:45",
+      "date_text": "2026年03月05日",
+      "date_description": "3小时前",
+      "source": "lookai.space",
+      "url_resolved": true
+    },
+    {
+      "title": "Mac + OpenClaw + 飞书 + 智谱GLM 免费AI开发环境搭建全攻略",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710550&ver=6580&signature=Vs8DLX*opfNIVsSLQZ27ea*TvRj7EYLJzQev*f0u5I7SeH84XxKw-jh50Joj1fAhSn89GouYsoAKqN*hD6Bt-xTxMZUMC-spiPSQFWfuOR5*EdrKL*mCJDoZzweIlSEF&new=1",
+      "summary": "//openclaw.ai/install.sh | bash安装完成后进入配置界面,依次选择“yes”-＂QuickStart＂.之后配置模型,这里依次选择“Z.AI”->“...",
+      "datetime": "2026-02-14 11:08:59",
+      "date_text": "2026年02月14日",
+      "date_description": "19天前",
+      "source": "机器进化论",
+      "url_resolved": true
+    },
+    {
+      "title": "本地部署OpenClaw和ZeroClaw(Rust重写)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710551&ver=6580&signature=e4tulcRdDRdeVS8pVQbZ5STYkeQsVDh25*d-ueJ*BCS5P*DxhKlSPV3ZXSbJowVi8h-KlsSy5iVaObQI8IpbO1cfGZZZCQwI0c9yH-NJvNxrA*D75xsE65YAVo0FOc*L&new=1",
+      "summary": "-g openclaw@latest3.安装过程中选择一个模型配置,比如这里z.ai.其它全部跳过.openclaw onboard --install-daemon4.我们配...",
+      "datetime": "2026-03-01 18:03:31",
+      "date_text": "2026年03月01日",
+      "date_description": "4天前",
+      "source": "江湖评谈",
+      "url_resolved": true
+    },
+    {
+      "title": "旧手机变私人 AI 服务器:OpenClaw on Android 完整部署手册",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710551&ver=6580&signature=EPcfkUbg5WzyMlRswz6ZfCkIbwWmcjk5MBIAaIUhVuGFYV73NnVF2ys7kljgdzuQD573T3nG3NpTx3ibCgL-9rdT86ZZCU4KUXPy6smVDR5Pc4lwidavArTOImKpJQec&new=1",
+      "summary": "OpenClaw 的全过程,包含所有关键报错的解决方案.最终效果:... Z.ai(GLM)、OpenAI、Claude 等主流 API,按需切换,支持本地模...",
+      "datetime": "2026-02-24 22:26:57",
+      "date_text": "2026年02月24日",
+      "date_description": "8天前",
+      "source": "特种兵部队训练营",
+      "url_resolved": true
+    },
+    {
+      "title": "给自己搭一个 AI 搭档:OpenClaw 安装使用全记录",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710551&ver=6580&signature=OQ9DejaunrFZmENtDjVgRCiRY*O-Zyf0oWaQ51O4*AZx3x-ZTqZMK96uZTqOatU76zMLfWr1tDbaq5F*jZluP2ePk*9l-MdcBT3F4qmdrMGP6pzCsEyoIGUxn*HTbClm&new=1",
+      "summary": "openclaw onboard --install-daemon新手指引强大并伴随着风险,... Moonshot AI、Z.AI 用国内的 API Key 是没有用的,因为他们都是...",
+      "datetime": "2026-02-06 00:33:04",
+      "date_text": "2026年02月06日",
+      "date_description": "27天前",
+      "source": "Simon Wong 的非线性漫游",
+      "url_resolved": true
+    },
+    {
+      "title": "旧安卓秒变AI服务器-openclaw",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710551&ver=6580&signature=4U2YHR0lr2SwQSaZiUlAtxwI4hP1RVMCJzksci43n8aTx8Xc4*BwUV7S2QIPfg1VQo8ZaF6u5bbsIGTV9rtr06Bje0QihVeL1CVVdFTwqOSVGWRptWumPQwuzbEqBmIJ&new=1",
+      "summary": "AI 模型供应商(如 Z.AI GLM 4.7)输入你的 API Key,然后配置 Discord Bot Token:关于 OpenClaw 详细配置:如果你还没有配置过 ...",
+      "datetime": "2026-03-05 08:16:06",
+      "date_text": "2026年03月05日",
+      "date_description": "11小时前",
+      "source": "我的程序员日记",
+      "url_resolved": true
+    },
+    {
+      "title": "小白也能复现的OpenClaw部署教程(Mac mini孤岛AI节点|对接飞书)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710551&ver=6580&signature=MGanvBkph77yMCah-QaW6-Z*XSYp8TOC7vhp5CdwYZ0-pzqDumBsWs3Z-FSv-UTjpP1JtOIUIThgro441FiswY9i9r6j8LC3tJUz7cceyCWl5ax06eXtWwd0XhzffiDb&new=1",
+      "summary": "openclaw onboard --install-daemon按向导选:Gateway mode →... /Z.ai等,配置APIkey)Channel可先跳过,后面单独配置Telegram或...",
+      "datetime": "2026-03-02 20:40:00",
+      "date_text": "2026年03月02日",
+      "date_description": "2天前",
+      "source": "阿久自成长",
+      "url_resolved": true
+    }
+  ]
+}

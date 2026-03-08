@@ -1,0 +1,106 @@
+{
+  "query": "腾讯云 云市场 OpenClaw",
+  "total": 10,
+  "articles": [
+    {
+      "title": "云厂商连夜抢占OpenClaw,个人云市场被一只“虾”撬开了?个人云市场即将爆发!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703458&ver=6580&signature=wD1QHKH*AxS1mEEuRt7ZWq9m64v-cZ2VR0yk44dix-k2yf6LUhlToGoO9Jd*GTzHSeHvW3JZVI*t--*kR6hkROX92hl9jtmE5at1eSEVAHr0kp2*4n4vlgqSGb-2GNZV&new=1",
+      "summary": "个人云市场即将大爆发!OpenClaw一夜之间让每个人都能拥有“... 腾讯云、阿里云、百度智能云、火山引擎等国内云厂商就纷纷推出...",
+      "datetime": "2026-02-27 22:36:56",
+      "date_text": "2026年02月27日",
+      "date_description": "5天前",
+      "source": "小智技术分享",
+      "url_resolved": true
+    },
+    {
+      "title": "4大云厂商OpenClaw部署选型指南:阿里云/腾讯云/百度智能云/火山引擎深度对比",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703458&ver=6580&signature=4blXkhz-iE6DAlDz5LZbQ8cbVeTOfnUD-hT0wQQQkWpBBrlV5sgcNMxQKAH2ex5Yt2IKTZpQmzBtFp4XGrwTN*MEeiCyOrAQi6WhhVFagt8xc2qHiwxXhzIXJv9O61N-&new=1",
+      "summary": "市场镜像部署:使用预配置镜像内容体系: 腾讯云OpenClaw合辑├── 1. OpenClaw部署教程(新手必看)├── 2. OpenClaw接入...",
+      "datetime": "2026-03-03 12:04:33",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "SpringBoot之小韦",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw,给中国AI开辟了一个弯道超车的大市场",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703458&ver=6580&signature=TTOqr7SOsnJup*-4A3nlEsWEdOcidfuasauIKzH05pWb3b8qO53iU6quC3PhLcyInDib7VsLVRQHVY3RPz7WiI9ld6OvAu*XqmtzgdwXgzV5DvT6w*xjNW7IbFnx1yNr&new=1",
+      "summary": "所以腾讯云和阿里云才提供了“一键部署OpenClaw”这个服务,以此抢占这个新兴市场的入口.他们的逻辑很清楚:今天用户因为...",
+      "datetime": "2026-03-04 07:47:53",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "人人都是产品经理",
+      "url_resolved": true
+    },
+    {
+      "title": "疯狂的“OpenClaw”",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703458&ver=6580&signature=JvhUxr2rMbcQndYdh0Amn4BRXqXZ8swBP58TvaDaT9thjN2SyT90mHX-jk3P9Nh8sGlV5KxnDK8dS3*MC9XzAhA6xV386aWVRebscyaTkJzM6iRfSfRYgGuKXVlMjf5y&new=1",
+      "summary": "OpenClaw开年爆火,足以见得市场对这款能真正落地干活的AI ... 整个过程至少需要具备基本的开发经验.虽然阿里云、腾讯云等云...",
+      "datetime": "2026-02-26 17:25:59",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "中国信息化周报",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw:从“数字员工”到人机共生新常态",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703458&ver=6580&signature=wVtrLPBwbp-mmB-HzPsxCVm12vQ55w9FWqZmZQwMIZR4xrIO31X*e9sWRPhScTVzn4VM4d4bl5ThKhtGeZQNRB84Vf3pehGsVrDJcvcK0dSQJd0zQqQ3xgrVGbcl1mCg&new=1",
+      "summary": "OpenClaw已能实现多种部门级自动化场景:市场部自动爬取各平... 阿里云、腾讯云、华为云在48小时内紧急推出“一键部署”服务,...",
+      "datetime": "2026-02-17 13:56:20",
+      "date_text": "2026年02月17日",
+      "date_description": "16天前",
+      "source": "易奇动-I TO WE",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw一键部署方案(全云平台汇总版)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703458&ver=6580&signature=9E5Hz5rXqN0WIDKETch5aj0PDLPP6gY324Bd78pJOQRuCj8Jd7tlbIkl*bhbHQFII0WqRm80b9ZDFM03Xpx5wh8PKMFt1BTxzLRNNmqycWYUCIrKP8gtXgzsf8l6cwAR&new=1",
+      "summary": "腾讯云生态集成部署方案(腾讯生态深度对接)适用场景:需深度... 支持GPU加速阿里云ECS→计算巢服务市场搜「OpenClaw企业版...",
+      "datetime": "2026-02-26 21:32:50",
+      "date_text": "2026年02月26日",
+      "date_description": "6天前",
+      "source": "浩景时光Reading",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw爆红背后:一体机、云厂商、边缘安全,下一个赢家是?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703458&ver=6580&signature=u7Ak1SEYfvEp5sfP5MLCRf1ShCpDOv1hBAhEzGZuAy4gjQtWph*p247VJQjVQPB5FFMGKM*5UPtCRevjwvX2-jXtvcuKiZwb0eMNAZNNmhGCMgCZPaEZUMAt0hq623m*&new=1",
+      "summary": "头部云厂商机会:阿里云、华为云、腾讯云、百度云等可依托自身... 推出基于OpenClaw的定制化云服务,抢占AI原生云市场先机.值...",
+      "datetime": "2026-02-24 08:09:27",
+      "date_text": "2026年02月24日",
+      "date_description": "9天前",
+      "source": "X Partners",
+      "url_resolved": true
+    },
+    {
+      "title": "5 分钟 OpenClaw 云端部署:把 AI 助手从浏览器迁入你的常用软件",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703458&ver=6580&signature=MJr1zxlmsxiymw0XSpfEW41hKzi7jq4YKhMMpIrMxNZMahka8JUvif5xga7wSt3jj1QXhzZTfSIJ2fuZf6SkGBkFDYT4Qmr4Y1hPBLopLRZ0NuMe-HNbs6D5A-c2vPzk&new=1",
+      "summary": "第一步:选购服务器在腾讯云主页搜索“轻量应用服务器”,点击“立即选购”.在镜像市场里找到 “Moltbot (OpenClaw)”.划重点...",
+      "datetime": "2026-02-06 15:46:26",
+      "date_text": "2026年02月06日",
+      "date_description": "27天前",
+      "source": "地球os使用指南",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw爆火:AI从＂能说＂到＂能做＂",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703458&ver=6580&signature=j3YBnsEzsEQQ16bc9ECGDQmbO*LtDqrXWdlFC4Or9cDrx0tqK2Y0ReWyphkPk9LwjV7BOpTCeMjYJag038xSbxuiYmR5ETy5XWVTmZweQTwla7XY3lMkYW2PUuY-ZUNR&new=1",
+      "summary": "腾讯云、华为云齐刷刷地上线＂一键部署＂服务OpenClaw 真正难... OpenClaw精准填补了市场空白.月之暗面基于OpenClaw发布...",
+      "datetime": "2026-03-01 18:00:57",
+      "date_text": "2026年03月01日",
+      "date_description": "3天前",
+      "source": "技术不求人",
+      "url_resolved": true
+    },
+    {
+      "title": "【方正金工】个人AI助理OpenClaw部署及其在金融投研中的应用研究——AI Agent赋能金融投研应用系列之二",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703458&ver=6580&signature=1ScPMqQQkEFwu94xCEgYNtwi-LFznT3ZWPnqR-YaYg0llNxzGmigOY9pkkt2MtmnOGd*thQ7uxTw4xXRXJYLEZ4C-XTiBGfWHk7ekFE4Y7kHdSshREQqbcP1OlAVeLo7&new=1",
+      "summary": "国内云厂商如腾讯云、阿里云、优刻得、火山引擎等均反应迅速,... 技术、需求与市场的三重共振OpenClaw的迅速走红并非偶然,而...",
+      "datetime": "2026-02-05 15:33:03",
+      "date_text": "2026年02月05日",
+      "date_description": "28天前",
+      "source": "春晓量化",
+      "url_resolved": true
+    }
+  ]
+}

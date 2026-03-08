@@ -1,0 +1,106 @@
+{
+  "query": "混元 OpenClaw",
+  "total": 10,
+  "articles": [
+    {
+      "title": "教程!免费部署OpenClaw,搭配免费的混元大模型,爽!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703671&ver=6580&signature=6c5XoYnQ7XyHVWAMyqgxsIT6EmpEwTXNCNQc8sX-UbazO5kpod5sOaF28fhY*qVkBJJwX271V96vgwIVFZ1xl2NB-tJshnwWcdlPxExcV3xnyKWcZNhvJIox9N5Qxp-a&new=1",
+      "summary": "服务器进去后选择重装系统,里面可以选择OpenClaw.使用的大模型用混元,刚好也在做活动,免费送100万Token,够大家测试使用...",
+      "datetime": "2026-02-27 22:28:16",
+      "date_text": "2026年02月27日",
+      "date_description": "5天前",
+      "source": "今日AI",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元活动新开通送百万token,给养的「大龙虾」openclaw 续点「氧气」",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703671&ver=6580&signature=d24DCn57RX*zjcry02fpbOQKhsw45BrUYPTFaiaYx1JkhodkfJUlPiAjtZkoR86BIH2JT8kSgWTDEG7wX9u5UCS*8fHDn2mYHJaiJIIjXj4vurvZt2TbUffRZ05EEgcK&new=1",
+      "summary": "小伙伴们,目前开通混元大模型即送100万Tokens的混元生文调用额度!大家可以冲一波了!正好给部署的openclaw续上!openclaw...",
+      "datetime": "2026-02-28 22:01:02",
+      "date_text": "2026年02月28日",
+      "date_description": "4天前",
+      "source": "小妖同学学AI",
+      "url_resolved": true
+    },
+    {
+      "title": "Docker官方下场了,OpenClaw在中国怎么玩才不翻车?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703671&ver=6580&signature=ooSnySirzIwh7g41xiGRauj3soGzV13VxLHCFRM0aXtbrO0MIeMEwBnMazgzacWkcMRI3dfObjh3OkDjb887DiOTc3Jct*6Z78qe00V8w1ykrYBMEwLoHgXx*otdz*7u&new=1",
+      "summary": "国内大模型API(混元/DeepSeek)OpenClaw跑在Docker Sandbox里,有微虚拟机级别的安全隔离.网络层面只允许连接国内模型API...",
+      "datetime": "2026-02-28 17:10:52",
+      "date_text": "2026年02月28日",
+      "date_description": "5天前",
+      "source": "跨境风向标",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw从零安装到高效驯化完整SOP指南来了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703671&ver=6580&signature=6xNxeoqaQxYBXn1Am8RuVzQRO9UzoUqifU4bjbWNzrFWJDX5rh8vOjvgX27qHTxdgtkoSFeejV1DTTnUjWwn6OReslUOQAeKkb8cLqOZHDiI9se8k7DRbH8Xhz8-xYAN&new=1",
+      "summary": "腾讯云混元支持OpenAI兼容的SDK调用方式.openclaw config set 'models.providers.hunyuan' --json '{ ＂baseUrl＂: ＂https://api....",
+      "datetime": "2026-03-04 11:47:07",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "陳寳",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 新手避坑指南:刚开始用的 3 个建议",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703671&ver=6580&signature=G8BU-nu1Y3j4Wi6e9NeQy7PS21jazuFDChx6r3AykdlrLw0vzy7YQ4dtqblTbeuuJoRi9Bm-EmXCGMYXSnIgcw9fnwOg4LFqBQ78wnck3G3wsq*p4QMV3csXFQVtvCnO&new=1",
+      "summary": "openclaw status 验证方案 B:腾讯云混元(生图专用) 专门用于生成图片 有免费额度 适合:封面图、配图生成建议:先用 Qwen 对话...",
+      "datetime": "2026-03-05 09:50:31",
+      "date_text": "2026年03月05日",
+      "date_description": "7小时前",
+      "source": "二叉叨",
+      "url_resolved": true
+    },
+    {
+      "title": "离线大模型+小龙虾OpenClaw笔记本安装",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703671&ver=6580&signature=KtwxMH7jC-a1POEYytPd4*XxTYaiDbOsTZLr*ffaRyAAw-VW9VlbtcaTYaLsdzDnhlQaV-*Mq2-NuPYdEzKnIWem5CJVsOh6LtzYZ9Nn4p9rwCt2PlEu8RtOm6BYFYjI&new=1",
+      "summary": "腾讯混元、MiniMax五大国产离线模型 + Llama 3.1、Mistral、... openclaw --version  3. 下载国产离线模型(16G集显专用) 新开一...",
+      "datetime": "2026-03-02 09:16:48",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "AI家用",
+      "url_resolved": true
+    },
+    {
+      "title": "99元一年!我用Openclaw搭建自己的AI助理,小白也能5分钟搞定",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703671&ver=6580&signature=4q0gj92HQUMWZFe1qoPnVD55vFqD8xj1XvV7lEIWHVSpZ7sjLAB4rMHo25yQ6UBsq2bjhw1GV4IdeqHMNHaOtxAA8XE*ocNZ6OpJc*o1kDnB0ryTZkfFlEKqouw4TuU4&new=1",
+      "summary": "OpenClaw是啥?开源的AI Agent工具,运行在你自己的云服务器... 腾讯云DeepSeek、腾讯混元(新用户各送100万Tokens)、智谱...",
+      "datetime": "2026-02-26 09:01:17",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "IT小小",
+      "url_resolved": true
+    },
+    {
+      "title": "Openclaw+kimi2.5 保姆级部署指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703671&ver=6580&signature=Me*o-CMMY0oZS169MiIXUVvxwLiE8lxUHvXgVBXVNgHm1wftJuGwC0AU6uRDfuHPLR0j24dufe-cDOWDIwUIydjOcc8c74wA9ngot*Na*tgTVQoIQR0gNVFgJhM5fRQa&new=1",
+      "summary": "(推荐腾讯混元、DeepSeek、通义千问等国内模型,延迟更低)3. 飞书账号��️ 第一步:一键部署OpenClaw(5分钟)腾讯云...",
+      "datetime": "2026-02-08 19:24:23",
+      "date_text": "2026年02月08日",
+      "date_description": "24天前",
+      "source": "朱界AI",
+      "url_resolved": true
+    },
+    {
+      "title": "2026实测|国内5大云厂商 OpenClaw 部署全对比:成本、教程、性能一篇搞定",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703671&ver=6580&signature=mEuInOYIvTV-FkRuFWtL7EsyW-UBaSF*DLtAfY0aZE5jPBS2CPkpSqJQ9-yjxLEjS73Oar9zmjRsSMIvKDG83F99-JZJUXBy5ecd10NK8tX7xFEXCu*n3Fd6COz8RmNk&new=1",
+      "summary": "OpenClaw(原 Clawdbot / Moltbot)是目前最火的本地执行型 AI ... 云端模型(混元、豆包等),数据全本地,隐私可控想要让它稳定...",
+      "datetime": "2026-03-02 08:00:49",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "天宇的FIRE笔记",
+      "url_resolved": true
+    },
+    {
+      "title": "用 OpenClaw 跑完腾讯的最新模型评测CL-bench,结果出乎所有人意料",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703671&ver=6580&signature=Ii2gJgKhlzmy7B6mGX2xcenH5Cn94GVUUIheXodzkdv3gqCn2nZ9GvVSnRivsnCqMbPaMRmlbt-uTAUhFzZ4XoLkY2LFyFKjZih9OBDosBOs4m0dIEc2r5H4MrQPPXxF&new=1",
+      "summary": "OpenClaw 很火,我也安装了多个,突然奇想我是否可以直接用 ... 腾讯混元的＂context learning＂基准CL-bench(Context Learning ...",
+      "datetime": "2026-02-04 19:15:08",
+      "date_text": "2026年02月04日",
+      "date_description": "28天前",
+      "source": "随便",
+      "url_resolved": true
+    }
+  ]
+}

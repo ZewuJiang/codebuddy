@@ -1,0 +1,30 @@
+腾讯云开发者 OpenClaw|tencentcloud_dev_openclaw_officialname
+腾讯云开发者 Clawdbot|tencentcloud_dev_clawdbot_officialname
+腾讯云开发者 Moltbot|tencentcloud_dev_moltbot_officialname
+腾讯云 OpenClaw|tencentcloud_brand_openclaw
+腾讯云服务器 OpenClaw|tencentcloud_server_openclaw
+火山引擎开发者社区 OpenClaw|volcengine_dev_openclaw_officialname
+火山引擎开发者社区 方舟 OpenClaw|volcengine_dev_ark_openclaw
+火山引擎开发者社区 AgentKit|volcengine_dev_agentkit
+火山引擎 OpenClaw|volcengine_brand_openclaw
+百度智能云 OpenClaw|baiducloud_brand_openclaw
+百度智能云 千帆 OpenClaw|baiducloud_brand_qianfan_openclaw
+百度开发者中心 OpenClaw|baidu_devcenter_openclaw
+阿里云开发者 OpenClaw|aliyun_dev_openclaw_officialname
+阿里云 OpenClaw|aliyun_brand_openclaw
+阿里云 百炼 OpenClaw|aliyun_brand_bailian_openclaw
+阿里云 无影 OpenClaw|aliyun_brand_wuying_openclaw
+华为云 OpenClaw|huaweicloud_brand_openclaw
+华为云 Flexus OpenClaw|huaweicloud_brand_flexus_openclaw
+华为云开发者联盟 OpenClaw|huaweicloud_devunion_openclaw
+天翼云 OpenClaw|ctyun_brand_openclaw
+天翼云 飞书 OpenClaw|ctyun_brand_feishu_openclaw
+智谱AI OpenClaw|zhipu_brand_openclaw
+智谱AI GLM OpenClaw|zhipu_brand_glm_openclaw
+月之暗面 OpenClaw|moonshot_brand_openclaw
+Kimi OpenClaw|kimi_brand_openclaw
+MiniMax OpenClaw|minimax_brand_openclaw
+MiniMax MaxClaw|maxclaw_brand_openclaw
+OpenClaw 飞书 机器人|channel_feishu_bot_openclaw
+OpenClaw 企业微信 机器人|channel_wecom_bot_openclaw
+OpenClaw 钉钉 机器人|channel_dingtalk_bot_openclaw

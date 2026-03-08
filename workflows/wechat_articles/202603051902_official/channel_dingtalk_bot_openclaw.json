@@ -1,0 +1,156 @@
+{
+  "query": "OpenClaw 钉钉 机器人",
+  "total": 15,
+  "articles": [
+    {
+      "title": "OpenClaw小白部署教程:含Windows/Linux一键脚本及钉钉机器人配置全攻略",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709923&ver=6580&signature=ZCJA6o5h8x8xsG1M5AwSSHU02zXWa7dkn6PvC7TpA4m49g12vwhmJBENWVKz-Y5OXPuwPBwkphNDUXnXFZOy*LV71*Im6AUlggMooGa8bFUSlisvUHUyx6AQN5aPcI9n&new=1",
+      "summary": "openClaw一键安装前提条件:1.准备好大模型apikey,比如当前我是用deepseek来使用.deepseek apikey申请地址:https://platform....",
+      "datetime": "2026-02-08 22:59:54",
+      "date_text": "2026年02月08日",
+      "date_description": "24天前",
+      "source": "萝卜屯里种萝卜",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 钉钉机器人 403、404 错误故障排查实战",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709923&ver=6580&signature=ordGw7guYhg1gNDna*-S*4mTDCSVjTqLhoFcMLTC-fchQed3javEAX-fWCrPebiF9AhlzgL0oM0743gPnMZ7E7Kg8WeZW43CVvOljSBP*59STkBjbRz9aZFE3L7PLmSD&new=1",
+      "summary": "事件背景先说结论,我的 openclaw 钉钉机器人出现 404 错误,是因为我太信任 openclaw,我让他自己修改模型所导致的.我目前给 ...",
+      "datetime": "2026-03-02 18:13:27",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "规则变量",
+      "url_resolved": true
+    },
+    {
+      "title": "openclaw机器人 聊天室搭建教程:让多个 机器人 在钉钉群里协同工作",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709923&ver=6580&signature=*gBNk-98v7xCrM2Su-VUkeQXxE3a-Zq8fIMYk99RHB4CbKaQ0op0dNZveaoS85P7iYjuZClRtHV3fn7PKC7tfxYhN0SRoJTwEqFI1pL4Jb-y42h04t8rP2s8KfVOH7RB&new=1",
+      "summary": "��openclaw机器人 聊天室搭建教程:让多个 机器人 在钉钉群里协同工作作者:鸿枫 & 小琳(AI 助手)更新:2026-02-06开源地址...",
+      "datetime": "2026-02-06 14:47:43",
+      "date_text": "2026年02月06日",
+      "date_description": "27天前",
+      "source": "鸿枫技术栈",
+      "url_resolved": true
+    },
+    {
+      "title": "钉钉机器人接入大模型新利器:DingTalk OpenClaw Connector 详细介绍",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709923&ver=6580&signature=7bjWITKVEa2E39GFA7LrfC630zBoBTBwl0kAl5zoVGW4JClg0SBuVsBC7rAYUVZPmEW*tuOV1D5qrGZFUVblpeL3bRD9Mx51RQUgIqfNJhUmTCp2wwissjspCUjbsvVc&new=1",
+      "summary": "让你的钉钉机器人脱胎换骨DingTalk OpenClaw Connector 并非一个简单的消息转发工具,它带来了一系列专为提升 AI 交互体验而设...",
+      "datetime": "2026-02-02 08:31:06",
+      "date_text": "2026年02月02日",
+      "date_description": "31天前",
+      "source": "小武的开发空间",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 接入钉钉完整指南:打造 24 小时在线的钉钉 AI 机器人",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709923&ver=6580&signature=8GcrMfg98o5jI9I5TNXWFO5setiFnmRrRTGZadgydYQAhChIcfmPvR-wn-iADFRv*duomLBwO0EXPONflVOG4RQgYT3MPGUXeI9wSdH3nP0O0Zuvk*1LH0xYvH6DUtFc&new=1",
+      "summary": "O、写在前面本文是OpenClaw接入钉钉机器人的详细部署步骤,按照步骤一步一步操作即可完成部署.前置条件:已完成 OpenClaw ...",
+      "datetime": "2026-02-24 08:46:05",
+      "date_text": "2026年02月24日",
+      "date_description": "9天前",
+      "source": "一行人AI实验室",
+      "url_resolved": true
+    },
+    {
+      "title": "几分钟搞定!阿里云轻松部署 OpenClaw:让你的钉钉机器人 7*24 小时自动干活",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709923&ver=6580&signature=9uC6vgiI1ZWSGFpE1umP2Pspauh-rnQYp5JL-sMAy64Hnl0mDtfXV4BhUjOLa8aF8rBe6ige0v9H3v24XTTzAqBVKx9olPMRQ781RbWKBNeUg7ZPcZNPcN6dHJLBxS-N&new=1",
+      "summary": "我尝试了阿里云最新的部署方案——OpenClaw + 钉钉 AI 员工.几分钟时间,一个 7*24 小时在线干活的钉钉机器人就诞生了. 不用写...",
+      "datetime": "2026-02-24 21:32:04",
+      "date_text": "2026年02月24日",
+      "date_description": "8天前",
+      "source": "云端漫客AI",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw与飞书、钉钉、QQ机器人和企业微信已打通;Bilibili收藏夹对话知识库;PaddleOCR扫描PDF转EPUB",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709923&ver=6580&signature=iuNdr-zX7q3gE9xEc-WdoBUZjxPCUmlH*xsrQRjrR2YWe89Aur2-xiaVAyOa1DVaEB96i5YVCS*mdDcmU9pKjOfpNcutsNv9zGAaZ16osq8VHrV1wG0EmTmH*yYIxGCu&new=1",
+      "summary": "旨在快速部署并打通OpenClaw与飞书、钉钉、QQ机器人和企业微信等主流中国即时通讯(IM)平台.它的核心优势在于提供开箱即用...",
+      "datetime": "2026-02-06 10:05:39",
+      "date_text": "2026年02月06日",
+      "date_description": "27天前",
+      "source": "AiBard123工具导航",
+      "url_resolved": true
+    },
+    {
+      "title": "教程:快速搭建OpenClaw AI机器人 对接TG/钉钉/飞书等",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709923&ver=6580&signature=NYV4y4Xf5GjMoDGnZeN-S6FRGSkQ6gD0DBMSsUOWijWhC5PDZ0s4s5jQW0vRUwyaNYgyg1zYSF78JM-DDqrymj0Yc2RnzLY0YqrGpD0LzDZw5fkNzxyJ8zF3gJFFUTQr&new=1",
+      "summary": "OpenClaw,用户只需要配置模型和聊天工具即可,可大幅度缩短... Channel配置里预先设置企微、QQ机器人、钉钉和飞书,我们需要...",
+      "datetime": "2026-02-02 18:37:52",
+      "date_text": "2026年02月02日",
+      "date_description": "31天前",
+      "source": "蓝点网",
+      "url_resolved": true
+    },
+    {
+      "title": "部署开源个人AI助理【OpenClaw】并接入钉钉机器人的简单教程",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709923&ver=6580&signature=rEgvZd1MJCQKJ2AviiDCXPx3Mq3LIZUzSWzYv-Mfe49wojz5MEwQQs60z0dPQo87rQFOwxVn6jcUDHFqngHkKk-n5iPRN2uNVCdXS4ku6HgSQXCk6Cb367Iksub-*z29&new=1",
+      "summary": "openclaw-channel-dingtalkopenclaw plugins install -l .8、钉钉应用及机器人创建钉钉应用访问 钉钉开发者后台创建企业内部应用添加...",
+      "datetime": "2026-02-02 13:07:15",
+      "date_text": "2026年02月02日",
+      "date_description": "31天前",
+      "source": "WalkingCloud",
+      "url_resolved": true
+    },
+    {
+      "title": "部署OpenClaw集成钉钉:24小时智能盯盘抓涨停实战指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709923&ver=6580&signature=2pJuhpJaqbI208vRmi8t5Q2IoHuJaiWvDerUp2cdbdtYYOF95AwFojVYLbl7SQ2jnnHBwyVVV64-wimv*joesJsgKXY2lw7-oAjcwIJhUL7HVrijKCJ2qs0GSoLFDBkc&new=1",
+      "summary": "安装QVeris金融技能包openclaw skills install @qveris/a股监控 --force3. 钉钉机器人集成创建企业应用:登录钉钉开放平台 → 创建机器...",
+      "datetime": "2026-02-27 06:40:44",
+      "date_text": "2026年02月27日",
+      "date_description": "6天前",
+      "source": "韭菜收割机007",
+      "url_resolved": true
+    },
+    {
+      "title": "国人专属扩展,OpenClaw对接钉钉、飞书、QQ机器人、企业微信",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709924&ver=6580&signature=1lBEBDbxbUQOpLJDt9NCf2yvaA4r4PL9Z2Z4B6wiqykFdYKQRleZDkTE5Y*OgpYT4kOFC2TvbnAkSpoJZ0-syQihgnmXc2dtn1OK*qTU0T*QYdnp535CfGvTPlm5ObRd&new=1",
+      "summary": "选择了BytePioneer-AI/openclaw-china、sliverp/qqbot这两个项目.前者集成了钉钉、QQ 机器人、企业微信(智能机器人)、企业微信...",
+      "datetime": "2026-03-02 09:01:22",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "羊刀仙",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw机器人邪修",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709924&ver=6580&signature=e4tulcRdDRdeVS8pVQbZ5STYkeQsVDh25*d-ueJ*BCQxpXYU*g2KogylgZwAO4WuAtLFI95X3DjNeAqpaL3j5D1vn-dk5JtZ5f7aSjccFulyySusK1Gj6fP7erTkUNx2&new=1",
+      "summary": "详情OpenClaw配置钉钉机器人(linux)钉钉开发者平台https://open-dev.dingtalk.com/点击开发者后台点击应用开发创建应用填写应用...",
+      "datetime": "2026-03-04 08:01:04",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "江湖评谈",
+      "url_resolved": true
+    },
+    {
+      "title": "云电脑上部署OpenClaw并接入钉钉,1小时要花300万token",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709924&ver=6580&signature=5koSR3K5drtKWyfI5-30Uc270gFpWei8eljSPw66IQOvCmP02GIjgStdmwHHrwJb9Hqs0PZLYMWrhanuPX0ANBnFsb2-XE4kqmCWaFatyig2fUBs68ToNDacRUei5Wzl&new=1",
+      "summary": "OpenClaw;成功接入钉钉机器人,让团队成员能用自然语言指挥 AI;节省 Token 费用,从订阅策略和配置优化两方面入手,让每一分...",
+      "datetime": "2026-03-05 07:01:36",
+      "date_text": "2026年03月05日",
+      "date_description": "12小时前",
+      "source": "木头左",
+      "url_resolved": true
+    },
+    {
+      "title": "openclaw接入钉钉详细步骤",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709924&ver=6580&signature=G*fIleK5aOnEjvrcU5-g*OIvjiq5YFi8IGK30-iI73OfHoxYQ9N7mu60fRGjdBTw2BBDVcxjwwLIMV6Htu34Tbd1iIzWPr4dfUpcdc-zOD-hPxbU9m24q1chihQ5Ze1A&new=1",
+      "summary": "openclaw gateway restart通过钉钉对话假设之前创建的钉钉机器人叫openclaw,在钉钉中就可以搜索到,直接对话就可以了.效果如...",
+      "datetime": "2026-02-13 16:09:02",
+      "date_text": "2026年02月13日",
+      "date_description": "20天前",
+      "source": "小宁宁的爸爸",
+      "url_resolved": true
+    },
+    {
+      "title": "我用 openclaw 给钉钉装了个「代码警察」,差点把自己逮进去",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709924&ver=6580&signature=VkNiTl8ltv1BbHYIO-hXn0msGTR9Rb3FNPDM9ijlVwJNUdi2KdMoAhFq2Q64pDQeXDboqMkmYAkR-5dQcCxDExPNfWcU3SPcocmss*PnEE8jFG1ppWM9H2smR0QM-X-4&new=1",
+      "summary": "OpenClaw 接钉钉的整体体验是值得的,配合 skills 之后 Qwen 从「聊天机器人」变成了「专业工具」.    Skills 安装偶尔受限于网络和...",
+      "datetime": "2026-02-25 20:11:12",
+      "date_text": "2026年02月25日",
+      "date_description": "7天前",
+      "source": "毛小宅的科技小窝",
+      "url_resolved": true
+    }
+  ]
+}

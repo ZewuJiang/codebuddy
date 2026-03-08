@@ -1,0 +1,156 @@
+{
+  "query": "OpenClaw 华为云",
+  "total": 15,
+  "articles": [
+    {
+      "title": "手机也能用OpenClaw了!百度智能云发布移动端接入方案",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702898&ver=6580&signature=bg1ncEn3egRTRKQoAne9iSouyI4alcp1CSH8OfDHt0C4wpXpL*l*QFTcX*LZwxQMwGgHG2CENa*53*kd1TYzbqPd0vR3d*D9PXvpMXTUgJVknKljQWLn6Xf8j-0bztxj&new=1",
+      "summary": "2月2日,百度智能云宣布推出移动端OpenClaw部署方案.通过百度智能云旗下的云端手机服务——红手指Operator,用户现在可以在...",
+      "datetime": "2026-02-03 11:35:43",
+      "date_text": "2026年02月03日",
+      "date_description": "30天前",
+      "source": "百度智能云",
+      "url_resolved": true
+    },
+    {
+      "title": "云商店AI实战 - OpenClaw(一)| 企业AI落地不求人:OpenClaw助你分钟级接入华为云MaaS",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702898&ver=6580&signature=LFGnqBiYGv4CV*5JPu*Jtr-c8pA7hY4DxqNhuZur1GEJ74*bxkauL5VshlZtBP9Od7gSgl1xP-98ohqHcGd*ofuLfp3NHd6yIpiPcHs55JFFa7SWNbPw4iVnaQxFAit1&new=1",
+      "summary": "OpenClaw是专门为企业设计的AI中转站,现已上架华为云云商店KooGallery,并适配接入华为云MaaS服务.该版本支持:左手接住华...",
+      "datetime": "2026-02-04 16:50:39",
+      "date_text": "2026年02月04日",
+      "date_description": "29天前",
+      "source": "华为云云商店",
+      "url_resolved": true
+    },
+    {
+      "title": "AI狂飙VS安全风暴!华为云护航OpenClaw云上安全运行",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702898&ver=6580&signature=A-zwZhiUCmjXLnCBrygN6hcL944lt4QBNqHXc7tiyk6RD5Ii2NXnwSZ1EoBX8pzLk1mz5nRRp-MNEnFJMiSIz-Wy4kuiVEXUZwElhEM-QLy32vcsHGpyP8-QPmigrtzw&new=1",
+      "summary": "华为云提供了一整套匹配的安全方案:通过主机安全(HSS)实现... OpenClaw的故事,是AI技术狂飙突进时代的一个缩影.它既展示...",
+      "datetime": "2026-01-31 11:01:00",
+      "date_text": "2026年01月31日",
+      "date_description": "33天前",
+      "source": "华为云行业创新LAB",
+      "url_resolved": true
+    },
+    {
+      "title": "华为云快速部署OpenClaw",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702898&ver=6580&signature=grubD4kM94eRl6*DIPjhvbeSCdmD0ae*fXRsRLTgb2ypFvEppP9C7MPvANRduMLQKK*8RLgKNStU-YdJcMm0fr-EVD-ZWk1VYvgQwQStwdVNpj4OqoUkvsaMrpcH1GCk&new=1",
+      "summary": "华为云针对OpenClaw采取一键式标准化部署 + 弹性计费 + 生态适配的整体策略,依托自有云服务器资源提供开箱即用方案,具体如下...",
+      "datetime": "2026-02-04 10:18:42",
+      "date_text": "2026年02月04日",
+      "date_description": "29天前",
+      "source": "硅基时代科技",
+      "url_resolved": true
+    },
+    {
+      "title": "百度智能云推出“移动版OpenClaw”,可通过“云手机”一键体验",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702898&ver=6580&signature=yJ5L44QQSm8ylxIlCQm1kdkdUyVlIGv8wpN8Xdnekn5wG*7bEG7fJfmJO6VKkpYcpZO086G9evxrqbeOW20Jnx*1t2G-J2Xwf11vXbV8aj2ziXyCnYSARwZzkWOXZsbz&new=1",
+      "summary": "2月5日,百度智能云正式发布了其“移动版OpenClaw”——红手指Operator.这一基于百度自主研发的ARM云服务以及VLA(视觉-语...",
+      "datetime": "2026-02-06 22:49:08",
+      "date_text": "2026年02月06日",
+      "date_description": "26天前",
+      "source": "魔都翎世产品荟",
+      "url_resolved": true
+    },
+    {
+      "title": "开工大吉 今年安排 OpenClaw 给你打工吧",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702898&ver=6580&signature=LhmhUfEmRiXWQau4vd0byX*rXZ8BWL4P1s49GsNKLK7yqPbF4I0*KS2JaN09EI1KeEzhxE-Lq5kLoFcEYz49b24sZGpQD-2Wjf9j682oFARbTemAEUJ5DkscfPyC58-K&new=1",
+      "summary": "OpenClaw +  飞书第一,便宜.华为云的轻量级服务器,搞活动的时候一年只要几十块钱.OpenClaw 本身是开源免费的.加上模型 ...",
+      "datetime": "2026-02-24 06:33:57",
+      "date_text": "2026年02月24日",
+      "date_description": "9天前",
+      "source": "芯片知事",
+      "url_resolved": true
+    },
+    {
+      "title": "可信OpenClaw智能体云服务绿灯场景测试体系发布",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702898&ver=6580&signature=uxDFmLe*vvyj2woXku9TXV52vOkbjAFpI*8RWmIpoJp8v-y-1iNy1M*0IBzchcXKxCSFuVKCeLVOvb*m5pf1uPzoDrQLdMU9PSOi7vkOlGXnO7gaXZn-qubTHinM0GZv&new=1",
+      "summary": "阿里云、腾讯云、华为云、火山引擎6家云服务商8个OpenClaw智能体云服务产品.根据对各云服务商产品介绍及当前用户应用需求的...",
+      "datetime": "2026-02-12 15:59:13",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "中国信通院CAICT",
+      "url_resolved": true
+    },
+    {
+      "title": "智享新春!移动云*OpenClaw,破解春节大小难题",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702898&ver=6580&signature=PK4TujMfPhFCSh7pQcEO95En00UCXVdjqDIi3M3C8kyVotFGjFwfZ2-7MlfExcmG-624RSw9BL8MF12jyDoENTAc0dnQaU72QSntia8jXj-vMiHEnZRrTB8TiUGZtUxH&new=1",
+      "summary": "智享新春移动云*OpenClaw—破解春节大小难题—春节返乡团圆、企业值守运营的场景里,总有事务繁杂、人力紧张、安全顾虑等痛点...",
+      "datetime": "2026-02-14 16:18:41",
+      "date_text": "2026年02月14日",
+      "date_description": "19天前",
+      "source": "移动云",
+      "url_resolved": true
+    },
+    {
+      "title": "每日AI速递 | 为降低OpenClaw的部署门槛,催生了“年入百万”的应用和服务",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702898&ver=6580&signature=nMLevgM5YArC1CsdFTtUi1qPUjxN*c02kyOcSTIPLQuoe-iVg9fW4e70-lo1GL1iVmuS2EA8qIDjHwExihm0Xb4x4oJVLMDPbncKElE-i2c*0bv1VNhRYCwbtwwes14Q&new=1",
+      "summary": "OpenClaw使用成本高,且存在隐私泄露和账号被封的风险.2、MWC26大会发布(1)【华为-运维智能体】华为在 MWC26 巴塞罗那...",
+      "datetime": "2026-03-03 21:33:24",
+      "date_text": "2026年03月03日",
+      "date_description": "1天前",
+      "source": "探微观智",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw工作原理解析,附应用生态及相关资源",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702898&ver=6580&signature=Tt9jY78vp-380LVIBxCG0PHnooYgKsLy8q2VYtkvKw8-qyBgtqgDGhfrbfPqAKzqFow8y2-j1PP-JrjkdJ5lR3h81U2Zz-WEkAL*SbYSq-hRs0qrAFU4n419AHF9UTIn&new=1",
+      "summary": "//cloud.tencent.com/act/pro/lighthouse-moltbot华为云:使用 OpenClaw(Moltbot)搭建个人 AI 助手(飞书)https://support.huaweicloud....",
+      "datetime": "2026-02-27 20:47:29",
+      "date_text": "2026年02月27日",
+      "date_description": "5天前",
+      "source": "晓文AI",
+      "url_resolved": true
+    },
+    {
+      "title": "用这个接入 OpenClaw,绝了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702899&ver=6580&signature=N3bJhVL9RgJ9PEclloQjvzMXQgbctylhkqAkgY78KD8wE3U9SnifnLxIS4-EVBSFoeGqFZHxvr*a6CqlW-rYiTbwANubQFo1WZGvMsBmZ4*sFa8Afhwasz30jJFhBasJ&new=1",
+      "summary": "OpenClaw 的热度看本质,会发现运行 OpenClaw 所需要的,其实... 华为云 AI Token 服务要同时做到的两件事:高吞吐 + 低延时,本...",
+      "datetime": "2026-02-04 09:31:16",
+      "date_text": "2026年02月04日",
+      "date_description": "29天前",
+      "source": "芋道源码",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 到底云部署好,还是本地部署好?一篇讲透所有区别与选择",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702899&ver=6580&signature=1*wjD3h9UU7j1pG9Fa6JQ0AtMY2q1cZQNjZgVAWI2JAqvUMoS*zWhw-Uo9t64QlbXgIGBI89pNPgTol7fJlvY4mJdJ7UaZAVjaH3GaGqWUdVYVLBagdfG7xMt1cLj55x&new=1",
+      "summary": "云部署:把 OpenClaw 放在阿里云、腾讯云、华为云等第三方云服务器上运行.你通过远程连接使用,服务由云厂商帮你托管,相当于...",
+      "datetime": "2026-02-25 22:20:47",
+      "date_text": "2026年02月25日",
+      "date_description": "7天前",
+      "source": "茁壮发展",
+      "url_resolved": true
+    },
+    {
+      "title": "移动云电脑玩转OpenClaw!24小时数字员工,零门槛上手",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702899&ver=6580&signature=PK4TujMfPhFCSh7pQcEO95En00UCXVdjqDIi3M3C8kwYgDW76SBDLAo*5RE*59KyUTPbh18cXgBV5LUI00hSTBx2WsZQTk2NuxlIGZvTFQHJ0i-MzXydLiBZHLPHaXAQ&new=1",
+      "summary": "现象级AI智能体OpenClaw爆火,移动云电脑专属方案上线!无需命令行、无需手动配环境,预置镜像一键部署,普通人也能拥有24小...",
+      "datetime": "2026-02-10 20:05:23",
+      "date_text": "2026年02月10日",
+      "date_description": "22天前",
+      "source": "移动云",
+      "url_resolved": true
+    },
+    {
+      "title": "2026实测|国内5大云厂商 OpenClaw 部署全对比:成本、教程、性能一篇搞定",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702899&ver=6580&signature=mEuInOYIvTV-FkRuFWtL7EsyW-UBaSF*DLtAfY0aZE5jPBS2CPkpSqJQ9-yjxLEjfAYYP3cNANkLKGAZ3qJgzjmrtR528i8JDVrwVVBF1i4z5FlP3meDKgYjF8JjZcce&new=1",
+      "summary": "覆盖腾讯云、阿里云、百度智能云、火山引擎、华为云,从价格、... OpenClaw(原 Clawdbot / Moltbot)是目前最火的本地执行型 AI ...",
+      "datetime": "2026-03-02 08:00:49",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "天宇的FIRE笔记",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw爆火:AI从＂能说＂到＂能做＂",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702899&ver=6580&signature=j3YBnsEzsEQQ16bc9ECGDQmbO*LtDqrXWdlFC4Or9cDrx0tqK2Y0ReWyphkPk9LwT2D0jDcbSzEbgzUohE0i*2xE4PKyZEs9HP75nerZ7zSTQWKkL6gzcqYUL-SD5mTU&new=1",
+      "summary": "腾讯云、华为云齐刷刷地上线＂一键部署＂服务OpenClaw 真正难商业化落地的痛点在哪?从＂模型售卖＂到＂执行服务＂的产业链变...",
+      "datetime": "2026-03-01 18:00:57",
+      "date_text": "2026年03月01日",
+      "date_description": "3天前",
+      "source": "技术不求人",
+      "url_resolved": true
+    }
+  ]
+}

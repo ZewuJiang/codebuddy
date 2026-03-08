@@ -1,0 +1,156 @@
+{
+  "query": "华为云开发者联盟 OpenClaw",
+  "total": 15,
+  "articles": [
+    {
+      "title": "技术案例 | 基于华为开发者空间,零部署OpenClaw接入飞书实现热门新闻主动推送功能",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709726&ver=6580&signature=JxKOEXGkHyTXs6mJjCAspyHpmh9oZ7iwEAPHXMtpCIRwmvyN7EiKqOzGxvr1Hnb7q59v3ubxKCezxyzW5ZvxKY0eu8UmK-OLbESRWbxgkVxUt12vn7tiiIkWDEBqKkdu&new=1",
+      "summary": "在华为开发者空间-云开发环境上快速启动OpenClaw并接入飞书搭建AI助手,实现热门新闻主动推送功能.适用对象企业开发者个人开...",
+      "datetime": "2026-02-05 15:52:39",
+      "date_text": "2026年02月05日",
+      "date_description": "28天前",
+      "source": "华为云开发者联盟",
+      "url_resolved": true
+    },
+    {
+      "title": "中国信通院发布可信OpenClaw智能体云服务绿灯场景(2026年2月)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709726&ver=6580&signature=fXn-NAf5sfic1tMH-nOeG8-NIqUsfLEPYvUetJqaOfut2jpTRupvqc6HC7xtRNiD5oz-W77YCdXsyjffJlSIHx7NSbMCwacF2216UPgsM5G*MGdHCyVMwpGdvPAgDEgh&new=1",
+      "summary": "前言2026年初,OpenClaw成为AI智能体领域现象级开源项目,在全球开发者社区快速走红.国内云厂商迅速跟进,推出云主机集成、...",
+      "datetime": "2026-02-12 17:06:42",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "云计算开源产业联盟",
+      "url_resolved": true
+    },
+    {
+      "title": "云商店AI实战 - OpenClaw(一)| 企业AI落地不求人:OpenClaw助你分钟级接入华为云MaaS",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709726&ver=6580&signature=LFGnqBiYGv4CV*5JPu*Jtr-c8pA7hY4DxqNhuZur1GEJ74*bxkauL5VshlZtBP9O8OmFDnknAk2fgMd12z-kkceZkkaWlftKOWW0gDjUJuI3ZiWdo8jtq6ZJHlW*F0YQ&new=1",
+      "summary": "OpenClaw是专门为企业设计的AI中转站,现已上架华为云云商店KooGallery,并适配接入华为云MaaS服务.该版本支持:左手接住华...",
+      "datetime": "2026-02-04 16:50:39",
+      "date_text": "2026年02月04日",
+      "date_description": "29天前",
+      "source": "华为云云商店",
+      "url_resolved": true
+    },
+    {
+      "title": "AI狂飙VS安全风暴!华为云护航OpenClaw云上安全运行",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709726&ver=6580&signature=A-zwZhiUCmjXLnCBrygN6hcL944lt4QBNqHXc7tiyk6RD5Ii2NXnwSZ1EoBX8pzLnZO-LGmzBhEt3g8*irbJDRm7rz5K99QMnFKfuAS6iL32Dqv8v6ouv-N*h9GRvCGp&new=1",
+      "summary": "由于“OpenClaw”与Anthropic的明星产品“Claude”在发音和拼写上过于相似,开发者Peter Steinberger被迫将项目更名为Moltbot(...",
+      "datetime": "2026-01-31 11:01:00",
+      "date_text": "2026年01月31日",
+      "date_description": "33天前",
+      "source": "华为云行业创新LAB",
+      "url_resolved": true
+    },
+    {
+      "title": "别再跟风抢Mac Mini了!国产算力的AI Agent狂欢,终于来了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709726&ver=6580&signature=jns*VheUJaKHDjeA7cZ*CTSdw6K7pnoR-H73*sgST5WiStiZReXDeXZKJ67LFngWX0ZVUXdWfmqfCKn9ByhDZw-R3hW*4Bo8WGQC159GTymC-5uhDkayMYVuA*UOdOjh&new=1",
+      "summary": "当华为昇腾、沐曦、摩尔线程的算力卡,能像NVIDIA的显卡一样,一键跑起OpenClaw,一键部署AI智能体;当开发者不用再为配置环...",
+      "datetime": "2026-02-03 14:54:17",
+      "date_text": "2026年02月03日",
+      "date_description": "30天前",
+      "source": "平哥谈科技",
+      "url_resolved": true
+    },
+    {
+      "title": "2026/02/02 AI速递 | AI技术周报:多模态突破、安全挑战与医疗应用新进展",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709726&ver=6580&signature=QwZIfgoWIJzCbh6iQ5BWUPOlOsPEsK2ztXuU79oxEXYC*fKPdt3IA*F9IHQEoXH-3zyrlLbhiW8aeTVXBX9t98eu6Q*tvdI-NemKXwb80dP18dprolpvWTjB7kJmgMRJ&new=1",
+      "summary": "华为云推出智慧医疗专区,RuiPath病理大模型助力基层医疗AI普惠  06. AI代理安全漏洞频现:OpenClaw与Moltbook暴露系统风险,攻...",
+      "datetime": "2026-02-02 09:12:03",
+      "date_text": "2026年02月02日",
+      "date_description": "31天前",
+      "source": "一尘学佛",
+      "url_resolved": true
+    },
+    {
+      "title": "当顶级投资人开始＂扫货＂AI Agent:一个赛道崛起的隐秘信号",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709726&ver=6580&signature=6I5bsDE07JLHmxJNXZZEg9Ywk5pU1zhCTXorei99ybjVY1ZybhNVi4bTJ2yzwt35fs8KhOyifB7LpvnWL7iyagqC3BAFjWbKtI-Gy4ym-odLEDQY42A8peYvwl06nznb&new=1",
+      "summary": "OpenClaw Core │ 插件市场 │ 开发者工具 │├─────────────────────────────────────...",
+      "datetime": "2026-02-12 00:07:21",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "辰汤科技",
+      "url_resolved": true
+    },
+    {
+      "title": "AI技术资讯丨人工智能应用行业动态02月25日",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709726&ver=6580&signature=pmh17ObE5jy-sLvBBzFn*K90Yh1UiZxGnP53urOhdsFuia1TfQtyuG5TkNJ0-BgXN8CJvaYsJWIHJ-wGLSnrLtwgozQUhRI8zRW5W1uL-p6Q2JmlZvmWKVwAhDJ7hp45&new=1",
+      "summary": "谷歌生态:近期大面积封禁使用开源智能体OpenClaw的开发者账号,此举突显了AI厂商通过封闭生态锁定用户的趋势,迫使依赖第三...",
+      "datetime": "2026-02-25 06:28:59",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "苍海一笑",
+      "url_resolved": true
+    },
+    {
+      "title": "华为云快速部署OpenClaw",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709726&ver=6580&signature=grubD4kM94eRl6*DIPjhvbeSCdmD0ae*fXRsRLTgb2ypFvEppP9C7MPvANRduMLQFmS6eRUX80kkjUA*y288d4xVxdR0PnNCmSdEI-2MxAPIl6e3IX2kQxxaaLdrWxqC&new=1",
+      "summary": "华为云针对OpenClaw采取一键式标准化部署 + 弹性计费 + 生态适配的整体策略,依托自有云服务器资源提供开箱即用方案,具体如下...",
+      "datetime": "2026-02-04 10:18:42",
+      "date_text": "2026年02月04日",
+      "date_description": "29天前",
+      "source": "硅基时代科技",
+      "url_resolved": true
+    },
+    {
+      "title": "盘前消息汇总…",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709726&ver=6580&signature=DOdC2ZMeqzroYg4UkoS9H1dgZJZyE183x*R1yqnfoRHf2heINN03JSa2pLxUopcUrhtrlDMjAPCHjJaIsMZmhObYQKczie2ZacEE2Zou0umkQgr9VxtpP93hwuk4WYbm&new=1",
+      "summary": "本届大会由脑机接口产业联盟、脑机交互与人机共融海河实验室和... AI智能体OpenClaw(原Clawdbot)宣布,用户调用Kimi K2.5 模型...",
+      "datetime": "2026-02-01 21:48:26",
+      "date_text": "2026年02月01日",
+      "date_description": "31天前",
+      "source": "万手哥的小金库",
+      "url_resolved": true
+    },
+    {
+      "title": "2026年02月25日全球AI前沿动态",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709727&ver=6580&signature=2NxzW8P3R2fx98ROheGyv-EXOW7goczjzVZspkhM-OGGNQrf5dgrtCXCZTE3EWoEAMxNDIV*NKMYjHZ1sM75xbgr5qAyK51aX9Wf6GC1GmpUzJn2dZK5PS1fxrTTy7py&new=1",
+      "summary": "大面积封禁使用OpenClaw的开发者账号,包括Ultra级企业客户,堵死OpenAI阵营工具调用Gemini模型通道;将ProducerAI纳入Google...",
+      "datetime": "2026-02-26 00:00:53",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "快乐王子AI说",
+      "url_resolved": true
+    },
+    {
+      "title": "AI前线|预计 AI 数据中心存储器紧缺仍将持续!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709727&ver=6580&signature=oIDPvSCrVnixAZ44VJtCMIRattxtxfdPen*5QCoxaI0rZcerr4xJ3vP9CrukSlYdqc6Rm6AXEre1b4-VSHxmHABwNUjad2BrMFklqAHSj90o*DYk62QKeq2QH5wip8wc&new=1",
+      "summary": "OpenClaw 接入该眼镜.AI场景华为携手瑞金医院等开启医疗AI新纪元2026年2月1日,医疗人工智能协同创新论坛 · 医疗人工智能联...",
+      "datetime": "2026-02-11 22:38:15",
+      "date_text": "2026年02月11日",
+      "date_description": "21天前",
+      "source": "未来媒体发布",
+      "url_resolved": true
+    },
+    {
+      "title": "AI技术资讯丨人工智能应用行业动态02月25日",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709727&ver=6580&signature=pmh17ObE5jy-sLvBBzFn*K90Yh1UiZxGnP53urOhdsFuia1TfQtyuG5TkNJ0-BgX32WdQJFKmbzgTee2vQKuYmXOYeehrXtt10deV7LzvmLjMghIFwlBtUmbFNS-XyqN&new=1",
+      "summary": "谷歌生态:近期大面积封禁使用开源智能体OpenClaw的开发者账号,此举突显了AI厂商通过封闭生态锁定用户的趋势,迫使依赖第三...",
+      "datetime": "2026-02-25 06:28:59",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "苍海一笑",
+      "url_resolved": true
+    },
+    {
+      "title": "2026全球十大操作系统排行榜",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709727&ver=6580&signature=waKU99E5G1QPCnNy-lWkI7YLLkkpKWtlYn5CWO63uE5m*xkDjCAz5XkuPeZrM6VR8ubrfiZvw7ZHrvBb2Th0RlZi1*ZjAuoLReiSIiKimNQh0Vcgzz4-9PIeKqdAfOhE&new=1",
+      "summary": "公众号:网络技术联盟站 今天,我们来聊聊一个永恒的话题——操作系统(OS).它就像我们数字生活的“地基”,悄无声息却支撑...",
+      "datetime": "2026-02-16 17:23:38",
+      "date_text": "2026年02月16日",
+      "date_description": "17天前",
+      "source": "Java技术迷",
+      "url_resolved": true
+    },
+    {
+      "title": "知宇拾光|AI动态 20260225:Anthropic弃守安全承诺引发行业震动,AI智能体商用化狂飙突进",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709727&ver=6580&signature=0Fdbfhfht617VSB9OIDoDAQYg5p3JPKpYOXUv8XAcG8DY75evJbh*DvJhhWr6HKlz4vckW20xPPzP8gmBchbXqmhMIgDVhoXCELrZku8IYZuMo2johsE*c-jdDZiUi8N&new=1",
+      "summary": "华为加入Agentic AI基金会成为金牌会员,推动智能体AI系统开放... OpenClaw创始人Peter Steinberger加入OpenAI后首次公开访谈,...",
+      "datetime": "2026-02-26 01:00:27",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "知宇拾光",
+      "url_resolved": true
+    }
+  ]
+}

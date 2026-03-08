@@ -1,0 +1,106 @@
+{
+  "query": "腾讯云 Lighthouse OpenClaw",
+  "total": 10,
+  "articles": [
+    {
+      "title": "30分钟从零到上线:腾讯云Lighthouse OpenClaw一键部署飞书AI助理保姆级教程(建议收藏)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703205&ver=6580&signature=7kXnGoPHdhVgS7400G3*gwDNFvTaPSUDOwZEzhbilK8n7yvW0vnaNbLujmMzJgKU5CmFZLdU00VJPVoIiQ7E9PaWLhEw667W9A600q7AscJoCJbmmwJHEozB4NPQky8I&new=1",
+      "summary": "不废话,直接上干货告别手动配置直到我发现腾讯云Lighthouse的OpenClaw一键部署模板. 下单买服务器,选个模板,点几下鼠标,2...",
+      "datetime": "2026-02-12 09:10:26",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "玩AI的宁博士",
+      "url_resolved": true
+    },
+    {
+      "title": "情人节单身自救,使用爆火的OpenClaw搭建AI女友",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703205&ver=6580&signature=xayaLm0mBd7Y7ElVcgOL9imOphMGBzUSkFINDz5GHRdvfFvUZ8PtFOyMuHbeKRVOii8sNxd*mCUIL34quqwPiw*3clX9g0Qk7D0jtKhoruiuoBig-66VFgkGyuo3NjqC&new=1",
+      "summary": "依托腾讯云Lighthouse的便捷性和OpenClaw的强大功能,新手也能快速上手,话不多说,跟着步骤走,单身也能拥有满满的仪式感很...",
+      "datetime": "2026-02-14 18:00:42",
+      "date_text": "2026年02月14日",
+      "date_description": "18天前",
+      "source": "严小六",
+      "url_resolved": true
+    },
+    {
+      "title": "6个超实用Skills,让你的OpenClaw超进化",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703205&ver=6580&signature=FFgj1ele0AboUxemzguFuLwKkp3CWG95vHSCZzn8-omBIUMWbgbnpSJBMcIA2MjUNtD4CcR*LX4jy*LZbWTVR6I2*VJPcsgvz8Hebolgjr7Ax1d*M83Xe70ipoycsEmB&new=1",
+      "summary": "Lighthouse 部署好 OpenClaw.3分钟,即可在腾讯云 Lighthouse 上完成部署、可视化接入大模型以及 IM 软件.接入教程:https://...",
+      "datetime": "2026-02-06 16:24:22",
+      "date_text": "2026年02月06日",
+      "date_description": "27天前",
+      "source": "鹅厂技术派",
+      "url_resolved": true
+    },
+    {
+      "title": "99元/年打造7*24小时AI员工:腾讯云 OpenClaw 全平台部署与飞书/企微接入指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703205&ver=6580&signature=Me*o-CMMY0oZS169MiIXUVvxwLiE8lxUHvXgVBXVNgGpQpGJWE7s-0ckm0MU*mVx1KwxWXAn4eAce7fponbF7BK2RgbLYrx1-2tKAcqXiwrgIRreDaDPtTf4sgXAuhEt&new=1",
+      "summary": "今天教你用腾讯云Lighthouse一键云端部署,让OpenClaw像SaaS一样7*24小时在线,年费只要99元(一杯星巴克的钱),还能无缝接...",
+      "datetime": "2026-03-01 17:52:34",
+      "date_text": "2026年03月01日",
+      "date_description": "3天前",
+      "source": "朱界AI",
+      "url_resolved": true
+    },
+    {
+      "title": "用腾讯云还是minimax 部署openclaw?哪个简单?哪个便宜?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703205&ver=6580&signature=1*wjD3h9UU7j1pG9Fa6JQ0AtMY2q1cZQNjZgVAWI2JA4G6kcJFjUEi1Ip5q7u0UGdxYO3LB*xXYTA401dRYMz2WcRHjBp4VsCA5RLlXvuwjn4zSq3R8SmsTJqkuaCWkP&new=1",
+      "summary": "OpenClaw 的简易度和成本:01 核心结论:腾讯云更简单,Minimax 更省钱1️⃣ 部署简易度对比维度**腾讯云 Lighthouse****Minimax...",
+      "datetime": "2026-02-27 10:57:41",
+      "date_text": "2026年02月27日",
+      "date_description": "6天前",
+      "source": "茁壮发展",
+      "url_resolved": true
+    },
+    {
+      "title": "【方正金工】个人AI助理OpenClaw部署及其在金融投研中的应用研究——AI Agent赋能金融投研应用系列之二",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703205&ver=6580&signature=1ScPMqQQkEFwu94xCEgYNtwi-LFznT3ZWPnqR-YaYg0llNxzGmigOY9pkkt2MtmnfnLdZtl8xSKzI4GLKqjf3OfDUi1fysYG18cR-4CY4Wgu4eHtK3gJdznU9Wa49SSY&new=1",
+      "summary": "本文中我们以腾讯云Lighthouse一键部署OpenClaw为例,来介绍如何快速部署个人AI助理.我们对配置完成的OpenClaw进行了基础文...",
+      "datetime": "2026-02-05 15:33:03",
+      "date_text": "2026年02月05日",
+      "date_description": "28天前",
+      "source": "春晓量化",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯云 ADP 升级!OpenClaw 插件上线,让你的智能体拥有「远程双手」",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703205&ver=6580&signature=3fieweWak6XbRRegojFotW*JbuYaIYbpSXe-ogNxaibILZCTdH10vY6TCJ4zxMcPZWsuO3CSAMrrCJfdBMfGkrZyeZqZxPFdt5TbzGD1qYMrvC3aOs-StymcPf7lOVHN&new=1",
+      "summary": "在实际业务场景中,企业往往需要在自有服务器(如腾讯云 Lighthouse )上部署 OpenClaw ,用于执行浏览器自动化、复杂操作等任...",
+      "datetime": "2026-02-28 18:40:34",
+      "date_text": "2026年02月28日",
+      "date_description": "4天前",
+      "source": "产业生态伙伴",
+      "url_resolved": true
+    },
+    {
+      "title": "全网最全!OpenClaw (原 Clawdbot) 腾讯云部署,接入QQ / 飞书 / 钉钉保姆级教程",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703205&ver=6580&signature=e2Okh7CA64qAySt4tESnvkqKoY27vddzGPV8uYMp7kPmADJ9JZPoI3uG1rEWjXRDb7nXFEymgpWdNgmE2eGmHyHuwICqYKcem0b*xfH5o3FYfWpDtwGl3pc1KFpSJTCI&new=1",
+      "summary": "腾讯云Lighthouse产品提供的OpenClaw配置面板目前支持腾讯混元、腾讯云DeepSeek、DeepSeek(深度求索)、通义千问、Kimi、...",
+      "datetime": "2026-02-03 09:01:52",
+      "date_text": "2026年02月03日",
+      "date_description": "30天前",
+      "source": "大飞的AI赋能笔记",
+      "url_resolved": true
+    },
+    {
+      "title": "小白入门OpenClaw(Clawdbot/Moltbot)保姆级教程,不需要Mac Mini,不用跑在自己电脑上,安全可控!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703205&ver=6580&signature=ellTN0INOgBwPYSJKxmUBwuIPMOmnjIOc*-qr8T7GrQmhzZvNIVmHYi46YqiGYotDRoyeBVxdwUWg8RitELsD83YudCm6*jaWWBCUbvu8BCGazHORCurKHuqGTm5krxc&new=1",
+      "summary": "购买腾讯云Lighthouse服务器使用以下链接进入腾讯云OpenClaw专属活动进行优惠下单,注意选择海外服务器(比如新加坡/硅谷/东京...",
+      "datetime": "2026-02-07 22:16:41",
+      "date_text": "2026年02月07日",
+      "date_description": "25天前",
+      "source": "梦呓小子阿才",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯云智能体开发OpenClaw专属插件上线:三步打造你的专属AI“外挂”",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703205&ver=6580&signature=MPRnHk2BqfEXCxGp74B-zRfZ-PgjSvQunIhNnQwqAsl3fCYwweLeQvyJ--42QAp1Ta5GCIbxsZMJzFpTmQExGVWCTvPrVrVT8oaVMlH1aqoCzlJ9olFHkegNjy1RREDI&new=1",
+      "summary": "只需在腾讯云Lighthouse部署OpenClaw,即可通过插件直接调用其能力,轻松拓展智能体场景.稳定部署、灵活拓展与一站集成,助...",
+      "datetime": "2026-02-11 16:41:08",
+      "date_text": "2026年02月11日",
+      "date_description": "22天前",
+      "source": "野渡无人知",
+      "url_resolved": true
+    }
+  ]
+}

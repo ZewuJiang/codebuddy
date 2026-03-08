@@ -1,0 +1,156 @@
+{
+  "query": "腾讯云服务器 OpenClaw",
+  "total": 15,
+  "articles": [
+    {
+      "title": "如何用腾讯云轻量应用服务器内置OpenClaw应用搭建OpenClaw并接入QQ、飞书机器人,下载skill,开启对话",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709473&ver=6580&signature=-iG5RAyAfQbaIdSlK8wiNxIcPn4t5pJwyx9wS598S9i-*KeSy3GRIAMvy3sHqQwIW3HdMQzKlMlQHWUDl51WyFInnDvtPrY-jjV8EjZdSILoQBTatG9ifBMOIvm7uM5h&new=1",
+      "summary": "把腾讯云服务器OpenClaw的模型切换成了送10 0万token... http://xhslink.com/o/7SMzDvriYpC复制后打开【小红书】查看笔记!阿里云...",
+      "datetime": "2026-02-25 22:09:11",
+      "date_text": "2026年02月25日",
+      "date_description": "7天前",
+      "source": "我绝不原谅",
+      "url_resolved": true
+    },
+    {
+      "title": "�� 薅腾讯云羊毛!手把手教你薅腾讯云服务器,部署OpenClaw,再接入飞书机器人!(小白也能轻松上手!)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709473&ver=6580&signature=uUi4QTG*2ceEXfDv2FJo4327BPvGszc0WWARXjLheVtRF9io*-5bwD9PhO*wotkZm-sMRRO16VNBSMAdPnnJXuDThUy2FR641v7aaAVEIpcOlaHgvGl37ktKmeZAyJ3Z&new=1",
+      "summary": "薅羊毛:免费领腾讯云服务器�� 养龙虾:配置服务器 + 安装OpenClaw 进阶:让它24小时为你打工(接入飞书) 验货:验证环节 - ...",
+      "datetime": "2026-03-01 15:40:47",
+      "date_text": "2026年03月01日",
+      "date_description": "4天前",
+      "source": "Quinn AI 工具探索",
+      "url_resolved": true
+    },
+    {
+      "title": "在腾讯云服务器的OpenClaw上配置本地ollama",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709473&ver=6580&signature=AVPnTcSoh8iX7ENr15qCqY13XqRlK4dXvSrScikgj-7TIJVJVdzu0OvHCCa-si63wocV6D*Wm77ZWVWIij4orjFSzs*umNAS66F*n0fnj-zdj7a9enEp5MU-wxBCae4S&new=1",
+      "summary": "最近openclaw这个Agent大火.腾讯云服务器上有专门的镜像 ,购买的时候注意区域要选择“弗吉尼亚”.使用了一阵子虽然没有网上...",
+      "datetime": "2026-02-12 20:50:27",
+      "date_text": "2026年02月12日",
+      "date_description": "20天前",
+      "source": "鲍家汇",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw发布到腾讯云服务器",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709473&ver=6580&signature=hwpnwk7agNaFxJNxeO4vNovkIz-l3C354Q6E64OAB3JyuNofPG8oNyUahIE5zyrWmsqzLbz-S*6uJkBQZLK*5D7Z03RqE5NHk6OaZYBwFN9Noiy9gLUnCpfjTIZ3iqV4&new=1",
+      "summary": "配置到腾讯云服务器的OpenClaw应用中.飞书机器人相关配置事件配置在飞书应用管理页,左侧导航栏找到 “事件与回调” ,点击进...",
+      "datetime": "2026-02-03 10:45:37",
+      "date_text": "2026年02月03日",
+      "date_description": "30天前",
+      "source": "五年之后",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯云轻量服务器 + OpenClaw 部署全攻略:从购买到飞书接入",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709473&ver=6580&signature=3nAjuUrZnUx7cvCR7qw-OWPUNW36skr-Seoh6qbgzfxWIawIe2tOj*jjB*9UROaUvF401MMTvPhWWAwpYoSzmBl7FLXCkDnXQisI0nGx6X61JXd3b5*5EmzSu9KAbNd1&new=1",
+      "summary": "但现实往往是:要么受限于各种现成工具的条条框框,要么被复杂的服务器部署代码劝退.直到我遇到了 OpenClaw(曾用名 ...",
+      "datetime": "2026-02-08 22:35:21",
+      "date_text": "2026年02月08日",
+      "date_description": "24天前",
+      "source": "润雨的AI开源日记",
+      "url_resolved": true
+    },
+    {
+      "title": "玩转 Openclaw 玩法技巧之搭建一个中国开发者Skills(附带免费白嫖腾讯云服务器)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709473&ver=6580&signature=fAwNj00qoEUGJR5Ttw85NMBxSPezg-0*Y6oiYiRI5c2trr8rq103MDHPmzK*iM3YcqHCUVccajf0-AQ4DWQf6thLFNknPoyT9NnAYzTRizyZ8yZGIkQLu3GLdZlvaC*f&new=1",
+      "summary": "以及0元白嫖腾讯云服务器(2C2G4M)的保姆级教程的方法,理解Openclaw的正确用法:❝可以任意的让 Openclaw 来干活,如果有...",
+      "datetime": "2026-02-09 14:41:30",
+      "date_text": "2026年02月09日",
+      "date_description": "24天前",
+      "source": "LucianaiB",
+      "url_resolved": true
+    },
+    {
+      "title": "把废弃的腾讯云服务器改为 Openclaw 仅需一句话!!!(附带免费白嫖AI模型)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709473&ver=6580&signature=fAwNj00qoEUGJR5Ttw85NMBxSPezg-0*Y6oiYiRI5c30FrpEhh-NsyeEfNdE7xUCPnl-8A6NMOS89XND62wR7CRnFoo5fqVljIbyREkQ3acsps0sudSkO8tPH1CQ0hZN&new=1",
+      "summary": "Openclaw.一句话让腾讯云服务器改为 Openclaw首先打开你的服务器管理网站 直达链接::https://console.cloud.tencent.com/...",
+      "datetime": "2026-02-03 13:39:59",
+      "date_text": "2026年02月03日",
+      "date_description": "30天前",
+      "source": "LucianaiB",
+      "url_resolved": true
+    },
+    {
+      "title": "0元白嫖腾讯云服务器3个月,有手就能装上小龙虾(OpenClaw),10分钟搞定",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709473&ver=6580&signature=F6eRIz9DNIzY1nPnW-li1-1smwxq4dsZSO9U2qqztFwWKDjD0*IjajyV113FjJ-l6WD4RvHctZjcpppIgtBmVm8OM9986XvfesADafJ9HuK*CsWxMM0TK5SezRydyVZQ&new=1",
+      "summary": "元领腾讯云服务器 + 一键部署 OpenClaw 的教程,一分钱不花,有手就行.这个羊毛出在腾讯的 CodeBuddy 上(跟 Cursor、Trae 类...",
+      "datetime": "2026-03-05 19:13:09",
+      "date_text": "2026年03月05日",
+      "date_description": "4分钟前",
+      "source": "Baoxing玩AI",
+      "url_resolved": true
+    },
+    {
+      "title": "想玩OpenClaw?薅1个月免费的腾讯云服务器来试试手吧",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709473&ver=6580&signature=BhzxIPLM6mJUYFkyB3I4rCtERQSAIVib4SiTXtgWVM4I3HTL5gw-NvN4tsr4nfBYH8vNqPRBZ6BFHExqUXSAQsAp2Qp20ESoUy*GVAyUbRbhF20P*n5zLmGqRlMjN1o6&new=1",
+      "summary": "下载CodeBuddy,新用户注册送一个月的腾讯云服务器,而腾讯云有OpenClaw模板,使用后就相当于直接安装好了OpenClaw!新用...",
+      "datetime": "2026-02-25 11:05:33",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "藏龙岛宝宝生存记",
+      "url_resolved": true
+    },
+    {
+      "title": "最近OpenClaw爆火,保姆级教会你用腾讯服务器直接安装!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709473&ver=6580&signature=Pxyz12Bu*tjsihoiTARzGmwavpDcaSEFnEi6piLcIfbotptTG9uqyja*J8f156LiiwgZSqMPCu70PK3d24qidl63s3RrTkkjXaxWyStN4LAiyGFsFMdSvIYR0JJKUArE&new=1",
+      "summary": "Openclaw 这么神奇与好用,那么第一步,肯定是咱们要学会安装... 腾讯云服务器购买二、配置腾讯云的龙虾服务器1、打开腾讯云:...",
+      "datetime": "2026-03-01 12:55:58",
+      "date_text": "2026年03月01日",
+      "date_description": "4天前",
+      "source": "那里有着你们的故事",
+      "url_resolved": true
+    },
+    {
+      "title": "手把手教你白嫖腾讯云服务器并安装OpenClaw和接入飞书机器人",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709474&ver=6580&signature=ewBreRYLpLClqltqPS16q9RSRVeKNmFdpWpvjMxTbmrgo7rngJQGpm0-3LkRNFqCWRAUdA7KcMIGw3EFORbSfRbGiugphrwgOPNA-vwoUUbMy*182lMwMhT62C9Q53V1&new=1",
+      "summary": "没有看Openclaw,感觉自己落后一个时代了.刚刚开工第一天我... 腾讯云服务器购买二,配置腾讯云的龙虾服务器1.打开腾讯云:...",
+      "datetime": "2026-02-26 17:06:04",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "Python绿色通道",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯云服务器 + QQ 部署 OpenClaw 详细操作流程",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709474&ver=6580&signature=A79XG7zTsgfyHbHxv8VrC00P5zcRcLbEoX*RCnhQmWsAbxbU3eOJ7*tye7GRpoHfuMJYBOS7bJz5yVGr53fJqf00b3-6S6RKfy06sLCbSG3bRaIYMKK3l2FP-opgIR1m&new=1",
+      "summary": "(现在叫openclaw,没错,Moltbot已经不用了),而这两天,随... 将获取的appid和appsecret填入到之前腾讯云服务器的配置页面中...",
+      "datetime": "2026-02-02 16:43:38",
+      "date_text": "2026年02月02日",
+      "date_description": "31天前",
+      "source": "未来AI社",
+      "url_resolved": true
+    },
+    {
+      "title": "白嫖腾讯云服务器 + 接飞书机器人,OpenClaw 保姆级安装教程",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709474&ver=6580&signature=DSMX*WIbtRlXJKpO39TfhzVQrrxAJbBm1VGypBvSN7pt84J4Myctz8k04zHnpwzCM*m-dwQAygD0U1M-JfkMpHlOW6LhtvT2oyCvBz-UWnHl*v8z8*pbJ4JNjRwnMDat&new=1",
+      "summary": "OpenClaw ,直接使用云服务器的模板,那么就要对系统进行重装.然后使用应用模板,选「OpenClaw」这个,再确认后等待机器重...",
+      "datetime": "2026-02-28 15:45:03",
+      "date_text": "2026年02月28日",
+      "date_description": "5天前",
+      "source": "老梁的技术圈",
+      "url_resolved": true
+    },
+    {
+      "title": "免费领腾讯云服务器 + 安装OpenClaw + 对接飞书:自动化运营全攻略",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709474&ver=6580&signature=-Yy0yE7hkPK-kIfRL*gDRu1tSwcHVEs4X9mTuNY8R-S1cV0O10SgRLXvytEVq1bIS3uBGVYhluyR4TAcVXUcLHATd7luiZpdqy6bGQKV2NCYeIqdl*tGSOdLJ7Fn3xfb&new=1",
+      "summary": "直接开干一,领取腾讯云服务器Codebuddy有新年活动:https://... OpenClaw,输入密码,无需备份,确定2,添加大模型推荐 智谱...",
+      "datetime": "2026-03-05 13:55:12",
+      "date_text": "2026年03月05日",
+      "date_description": "5小时前",
+      "source": "罗鸣AI笔记",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw部署神器!阿里腾讯京东云服务器骨折价,几十块搞定AI!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709474&ver=6580&signature=E3TDghvTS0PFCZ4aSLtg6sV70SAxPcCN3MCvLZXoB5AFk6TIX6djWTAKTks1ZP99Tl7ZMvaLf5sZJrZib9IHpAomSxxI61bMhafKhW83i7m4k3wKOvIKEOF3bfuvSY6H&new=1",
+      "summary": "最近OpenClaw火得一塌糊涂,后台直接被问炸了:“想部署OpenClaw,服务器怎么选?”“学生党预算有限,求推荐性价比高的云...",
+      "datetime": "2026-03-04 22:11:25",
+      "date_text": "2026年03月04日",
+      "date_description": "21小时前",
+      "source": "攻城狮成长日记",
+      "url_resolved": true
+    }
+  ]
+}

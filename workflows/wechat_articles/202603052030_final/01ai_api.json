@@ -1,0 +1,286 @@
+{
+  "query": "01.AI Yi-Large API",
+  "total": 28,
+  "articles": [
+    {
+      "title": "零一万物Yi-Large模型全网首测,总分74.29,打平Claude3,刷新国内最好成绩|SuperCLUE",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716179&ver=6580&signature=vDny0zAMkmk89GalPlUM*0ufcP1bHQwZouq9GWrJx-0QwsgXVSxQNizvNI6c8w1t6dvXyJXb4gyo*LHzy*rWHB3zXlpybhgR4O-B9ypbX7dGzojiKy9Kpv5f*InHQlqy&new=1",
+      "summary": "零一万物(01.AI)在5月13日发布了Yi-Large大模型.SuperCLUE团队提前受官方邀请体验Yi-Large API,并对Yi-Large进行了通用性能...",
+      "datetime": "2024-05-13 12:04:26",
+      "date_text": "2024年05月13日",
+      "date_description": "661天前",
+      "source": "CLUE中文语言理解测评基准",
+      "url_resolved": true
+    },
+    {
+      "title": "零一万物发布千亿参数模型 Yi-Large,李开复呼吁关注 TC-PMF,拒绝 ofo 式烧钱打法",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716179&ver=6580&signature=SNchgJdOfmS3*OZeH4n6r2F6Cw9jYieFOui2FMVmxe9gCvXb-wJOJZgZ*u6WuGpkAcrnDHQCzo9kblIydz-w5sf4r*6yM0PcLaeI03UT5nQh7hctY*drB5Pl*88NlspI&new=1",
+      "summary": "www.modelscope.cn/organization/01ai经过微调后的 Yi-1.5-6B/9B/... Yi-Large API 具备超强文本生成及推理性能,适用于复杂推理、预...",
+      "datetime": "2024-05-13 19:26:26",
+      "date_text": "2024年05月13日",
+      "date_description": "661天前",
+      "source": "零一万物 01AI",
+      "url_resolved": true
+    },
+    {
+      "title": "零一万物Yi-1.5来了,国产开源大模型排行榜再次刷新",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716179&ver=6580&signature=3FEKvNbYA0GZhygAePhqwfW1QNzr0oYvZcz-3wf49fytuZ45tbyK99QyqLuV8FAOd1Q-czPCV3aXKEIGX01h7ORLovOZkdok0S8VRWmg5PiN5VYz3IGZCGFNk2ak8gha&new=1",
+      "summary": "//github.com/01-ai/Yi-1.5Hugging Face 模型下载地址:https://... Yi-Large API 具备超强文本生成及推理性能,适用于复杂推理、预...",
+      "datetime": "2024-05-14 04:20:01",
+      "date_text": "2024年05月14日",
+      "date_description": "660天前",
+      "source": "机器之心",
+      "url_resolved": true
+    },
+    {
+      "title": "GPT-4o 排第一,它排第二!国产 AI 终于有个能打的了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716179&ver=6580&signature=cqp7af20jNqqU92sZAgDkixLEn8uPQJ2PKyTOW6hmc6*7VjdhIvQQ7Obgp77YhZLfCbbXEU-eeAe2aTErw77lSMiqhtebIYb-QSSAn6ZeC8BtFL3S0R9pTzDBfSqT70O&new=1",
+      "summary": "Yi-Large API 申请已经开放申请通道,API 申请地址:platform.01.ai可以点击填报等待列表申请通过后可以结合 lobe、ChatNEXTweb ...",
+      "datetime": "2024-05-22 09:01:54",
+      "date_text": "2024年05月22日",
+      "date_description": "652天前",
+      "source": "浩瀚的苍穹",
+      "url_resolved": true
+    },
+    {
+      "title": "对话李开复:中美大模型差距不断缩小,零一万物单一产品收入今年将达1亿元|钛媒体AGI",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716179&ver=6580&signature=J7E0UW4b9CfNpz08DVvPE0OvJ2ffN0Z03kiFtLr7r44dOnDF3NWuE*zc9M4mnzoR2mw0XKqC10N-5ybOSW8T4eZuYqFSf8KW1Ycpf2qIVXfp2w0eC7ftoh-RiE7gFMkN&new=1",
+      "summary": "据悉,零一万物(01.AI)成立于2023年5月16日,致力于打造全新... Yi-Vision API六个模型组成的开源系统,闭源包括Yi-Large API、Yi...",
+      "datetime": "2024-05-13 18:00:10",
+      "date_text": "2024年05月13日",
+      "date_description": "661天前",
+      "source": "钛媒体创投家",
+      "url_resolved": true
+    },
+    {
+      "title": "李开复:不参与“价格战”、模型盲测国内第一欢迎PK",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716179&ver=6580&signature=4UzzN7vttYi1VBHqlGi33gxzzsoI588wam0hpleUIVmy-9RUQZ22UQE8SdJ56hd2NxX8xUXxUAc6wCmjln6xaFFrqKzaSQNNcrTc0VaCPH2HJuJH2tnJ0ksc-hqwkFzI&new=1",
+      "summary": "以机构排序,零一万物 01.AI 仅次于 OpenAI、Google、Anthropic... 当前,Yi-Large API 的定价是 0.02 元 / 千 tokens,大概是 GPT-4 ...",
+      "datetime": "2024-05-22 10:35:02",
+      "date_text": "2024年05月22日",
+      "date_description": "652天前",
+      "source": "AI前线",
+      "url_resolved": true
+    },
+    {
+      "title": "国产大模型评测超GPT-4!李开复:十年内不会套现",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716179&ver=6580&signature=qZcZhl8VSToefT-J4gQYKCFlHTYIDWCZQpOFmbYwvu1mg9ohsmQ4U4618xx134m*wOInYranlAjAt3EnbPQhElkLI-XytR0WOY3S9rTCie*LlVWEIxDjhi*iu9IV0JgB&new=1",
+      "summary": "并同步开放API,允许开发者调用,在此基础上还发布了一站式AI工作平台万知.李开复透露,经测试,Yi-Large评测结果已经至少达到...",
+      "datetime": "2024-05-13 21:35:56",
+      "date_text": "2024年05月13日",
+      "date_description": "660天前",
+      "source": "智东西",
+      "url_resolved": true
+    },
+    {
+      "title": "零一万物在做什么?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716179&ver=6580&signature=TJVOOKdqUyXpRdt26y5kRczFw0C*8HDZ*AaxQpjMUfj9BibwJknKWeaXxDpQDW4CcFRRQ5PepgjQU2hIaPz1x9xsPZaNYP*yCO3F8xvmYzwNydLNfFd4LBEV1yVuth7m&new=1",
+      "summary": "Yi-Large,零一万物首次发布的闭源产品.零一万物已启动下一代 ... 零一万物生产力产品负责人蓝雨川:零一万物 API 平台负责人01零...",
+      "datetime": "2024-05-13 20:39:12",
+      "date_text": "2024年05月13日",
+      "date_description": "661天前",
+      "source": "Founder Park",
+      "url_resolved": true
+    },
+    {
+      "title": "零一万物发布千亿参数模型、海外产品收入将超1亿,李开复:我10年不套现",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716179&ver=6580&signature=4UzzN7vttYi1VBHqlGi33gxzzsoI588wam0hpleUIVmOBnKHwTvGnddyY6VHrRGf-AAzSKTney1v6wQp67yR7JDkbiQZ4XSJk0wsXAkDVlKsBWdtEatgVrjtJ8agyn70&new=1",
+      "summary": "Yi-Large,评测超越 GPT-4.在最新出炉的斯坦福评测机构 ... API 复用性更强,商业模式也更趋近于云服务.比起 AI 1.0 定制化...",
+      "datetime": "2024-05-15 13:15:04",
+      "date_text": "2024年05月15日",
+      "date_description": "659天前",
+      "source": "AI前线",
+      "url_resolved": true
+    },
+    {
+      "title": "openclaw花费Token?13个免费大模型API!零成本畅玩AI!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716179&ver=6580&signature=hgw5nIJ1Pj-qIt52um98xrY-CbJ45P4KS1ZTFzPIUgIMAqJsJLEZ0FtVnBhfIcalpeqGXojV7Uil1-MYtb9M1IOC1TL120tM3C-I6f9H97e8RNZ8*7ltKhTTDwvN3tKo&new=1",
+      "summary": "API免费,但限流为每 秒2请求、每分钟60请求、每天3000请求.... AI驱动01万物提供yi-lightning、yi-large等多种模型.免费限制为每...",
+      "datetime": "2026-02-06 11:41:07",
+      "date_text": "2026年02月06日",
+      "date_description": "27天前",
+      "source": "AI前沿小站",
+      "url_resolved": true
+    },
+    {
+      "title": "近期全球范围内主流通用AI大模型总览及点评V1.0",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716181&ver=6580&signature=4SWic7W42owFLAJbFPhnYXvPbvz6MPMlvC3IFczIDUaadm619uEgUNfgQut4Dl95fewqwJv4cLH7l4ss7TAudZtGpd7XF-j73bT2E3tMzawqY7h*Q8u*9kShAnJs9RAu&new=1",
+      "summary": "API,也能用 open-weight 做定制.主要短板/代价海外合规/落地会... 01.AI:Yi 系(含 Yi-1.5、Yi-Coder 等),开源社区常用的中英双语...",
+      "datetime": "2026-02-20 22:40:19",
+      "date_text": "2026年02月20日",
+      "date_description": "12天前",
+      "source": "若归专选",
+      "url_resolved": true
+    },
+    {
+      "title": "62岁李开复,又有了新身份",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716181&ver=6580&signature=PRp55HYdmdJcKlg3kFdGO-TeAarketCBPL*iXo83azyuEvHYF9wOkUW3rHg9OS8fbwXOBNjZF56MGHvs95o*G*V0LSYoNGMUTHMbfM5rhO4pkg5tvS7Ro7WS2UsiUxOz&new=1",
+      "summary": "API ——Yi-Large、Yi-Large-Turbo、Yi-Medium、Yi-Medium-200K... AI 1.0 的魔咒——一些很优秀创业公司,陷入了一个高成长但低质...",
+      "datetime": "2024-05-18 19:50:44",
+      "date_text": "2024年05月18日",
+      "date_description": "656天前",
+      "source": "创业见闻",
+      "url_resolved": true
+    },
+    {
+      "title": "值得期待!DB-GPT v0.5.6 版本发布",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716181&ver=6580&signature=V7AhQmQg2WF0KAtH*I*wSeRs7Z8oZF7vnLvXlNtfti4b9o9KZFD38B9s18Cdlfr*0eppUFTS6AR4hjznvTJyjU0uXOlIECqbW7UPhPo2l*zQkxg8t8XFiECSM-gnTL06&new=1",
+      "summary": "{your-deepseek-api-key} python test_proxyllm.py 支持 Yi-1.5 LLM修改.env 文件# [Yi-1.5-34B-Chat](https://huggingface.co/01-ai/Yi-1.5-34...",
+      "datetime": "2024-05-17 14:33:30",
+      "date_text": "2024年05月17日",
+      "date_description": "657天前",
+      "source": "EosphorosAI",
+      "url_resolved": true
+    },
+    {
+      "title": "国产大模型价格战,多名业内人士发表看法;传腾讯计划投资月之暗面;微软Copilot+PC或将搭载GPT-4o丨AI情报局",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716181&ver=6580&signature=ekw8fkAiVSG-rZBn10fx4rZg2grhqprLl4owuoLhcgB6QVzz0WI7XwcceBc3LyJzWpdw7jmulkKC0mGy29O8q3NIyPrjDAl63SGwo9nIA0anygJnSSb*DRySans4zhVq&new=1",
+      "summary": "Yi-Large 总榜排名世界模型第7,中国大模型中第一,已经超过... 在总榜上,GPT系列占了前10的4个,以机构排序,零一万物 01.AI...",
+      "datetime": "2024-05-22 08:37:00",
+      "date_text": "2024年05月22日",
+      "date_description": "652天前",
+      "source": "雷峰网",
+      "url_resolved": true
+    },
+    {
+      "title": "英伟达首次将华为列为“芯片制造竞争对手” ;苹果放弃造车后要全面转攻AI;人形机器人已经进厂打工|AI产业周报",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716181&ver=6580&signature=*1aQGMvv3BW4UBVFan7iairYuKESYH20oXDRKZPYjAEKKmj8h-zZP-phNr3TKT6X5jCrNDB*ersYEl8Pwj5VIj6TuXIvoXu1qxxKcahLbo9zzqayCgbb-3h8t9l*SBvO&new=1",
+      "summary": "Mistral Large的表现优于70B参数规模的Llama 2.此外,Mistral AI... 此次API邀测提供Yi-34B-Chat(0205)、Yi-34B-Chat-200K.其中,...",
+      "datetime": "2024-03-01 20:21:27",
+      "date_text": "2024年03月01日",
+      "date_description": "734天前",
+      "source": "黑智",
+      "url_resolved": true
+    },
+    {
+      "title": "2026年国内外主流大模型公司对比表",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716181&ver=6580&signature=hCc*LAtDeHPmhaCSm6-UXO2NaNccGjzriZ1MuqAaz0n5kRxntvnUJ7yh95jkr9zrO51plomYjHmzraAvXV2tsCBIxHuQLHVZgNpful8WwLl0Kl17j72tuITv4rZvL6TL&new=1",
+      "summary": "01万物Yi-Large / Yi-34B01万物 (中国)开源+闭源;双语能力强;上下文200K国际化应用、双语翻译、企业知识库API, Hugging Face...",
+      "datetime": "2026-02-22 00:12:52",
+      "date_text": "2026年02月22日",
+      "date_description": "11天前",
+      "source": "做一个精致有趣的妞儿",
+      "url_resolved": true
+    },
+    {
+      "title": "单卡3小时训练专属大模型Agent-基于LLaMA Factory实战",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716181&ver=6580&signature=TUJ60I9idOh*paPmVY9Pq17*xmWpnpaVhfy00v*ub6fTPwp0jbnZ-hkkrfvyVtkdCL9DwUkLCdK7vAyVww1WBT3g9Bv6QKUKL9y6m*ix*2I5R71Zk3Znl8R9wD-Mdffc&new=1",
+      "summary": "-m llmtuner.api.app --model_name_or_path models/yi-agent-6b --... //arxiv.org/pdf/2210.03629.pdf[3] 01-ai https://01.ai/",
+      "datetime": "2024-01-22 12:12:18",
+      "date_text": "2024年01月22日",
+      "date_description": "773天前",
+      "source": "NLP工作站",
+      "url_resolved": true
+    },
+    {
+      "title": "大模型存储实践:性能、成本与多云",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716181&ver=6580&signature=ORjHI4IOedrSqrG3HlBA0Ji3WaLQ-00vHpIJl2wt*J4N-mYpFR3a3KGOd5ocadsgMjjINAsldXgrCkpiNmbOzOoZkVc9N*ECYKKPQAHvMxl-JUySrTyvL4LqUkccFZk9&new=1",
+      "summary": "01.AI[1]》(以下简称《Yi 论文》),其预训练数据集包含 3T ... API 的 QPS 限制.4. 使用 S3FS 等方案挂载 S3 等对象存储时,...",
+      "datetime": "2024-04-03 16:00:48",
+      "date_text": "2024年04月03日",
+      "date_description": "701天前",
+      "source": "Juicedata",
+      "url_resolved": true
+    },
+    {
+      "title": "Github开源项目周报 | 第11周 Top20",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716181&ver=6580&signature=*4cdEn4FJgJPd5XRtlmWCTklZ7*I3jEXP7kzYlLUXnKaCzmPJbI6YNWDqR9WFqKMBkvbvoJKY1PpDYaeKijU2l4DH9kkxYM8xF5az-7C4IWSBjnkQc766W1Tm0AKy1PH&new=1",
+      "summary": "用于探索和测试Api的开源IDE(postman/insomnia的轻量级替代品)... 01-ai / Yi:A series of large language models trained from scratch by...",
+      "datetime": "2024-03-18 12:51:39",
+      "date_text": "2024年03月18日",
+      "date_description": "717天前",
+      "source": "AIGC创想者",
+      "url_resolved": true
+    },
+    {
+      "title": "单卡3小时训练专属大模型Agent-基于LLaMA Factory实战",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716181&ver=6580&signature=hNeXWxpS61YKmF9AMXJw3Xntt5GK9gzH2IYQeX*eQYTaauR9sz*gycbTX25v7XxPD*Z7BP6MsXylVS6uvsMXSwMaicMnSlCnRRmlvD-IxXrGaQCEk4ZKCjaxq9c8w6Pb&new=1",
+      "summary": "-m llmtuner.api.app --model_name_or_path models/yi-agent-6b --... //arxiv.org/pdf/2210.03629.pdf[3] 01-ai https://01.ai/",
+      "datetime": "2024-01-24 12:10:48",
+      "date_text": "2024年01月24日",
+      "date_description": "771天前",
+      "source": "AINLP",
+      "url_resolved": true
+    },
+    {
+      "title": "AI简报 | 智谱推出1元/百万tokens;零一万物将发布第一个专有模型Yi-Large;OpenAI下周二凌晨放大招...",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716182&ver=6580&signature=4ICZHFAy4ATwj7gF4bDpS46UL56FzqV*-EuQjyWIdxu77n0580F7No9flklyOrAk9IF0PjbIdOQFbY3oj-Y3zvXV0gBJUnI*7hCUvMNTWhI3qR1tuwwxDrFNZwo2gF7w&new=1",
+      "summary": "零一万物即将在2024年5月13日通过其官方网站01.AI发布一套全新的升级版开源模型Yi-Large.这些模型可能会为人工智能领域带来重...",
+      "datetime": "2024-05-12 07:26:43",
+      "date_text": "2024年05月12日",
+      "date_description": "662天前",
+      "source": "AssoAI",
+      "url_resolved": true
+    },
+    {
+      "title": "​大公司动态丨首批2024款苹果iPad Pro进入准备发货状态;长城董事长亲自演短剧男主;芒果超媒股票涨超12%→",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716182&ver=6580&signature=rNzqilHL4FBUDs5t5ijLJ8LH*F7Bp8Aar5o1hmHsYVQOXB1XWQD6WbjvUDAvA5tBqIjktPGUzWNNF4A0239daJ3yYpgGfxtvNwa9-f85uJKvx4xDRbNslj06qO*D*KKw&new=1",
+      "summary": "Yi-1.5 系列,每个版本达到同尺寸中 SOTA 性能最佳.零一万物于... “API 开放平台” .在发布会上,李开复还宣布,零一万物已启动...",
+      "datetime": "2024-05-13 22:07:06",
+      "date_text": "2024年05月13日",
+      "date_description": "660天前",
+      "source": "新华网财经",
+      "url_resolved": true
+    },
+    {
+      "title": "AI编程从0到1之10X提效(AI 厂商及模型 )02篇",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716182&ver=6580&signature=AquAUmbNqWSsEGiYIPgpqNdSjxGUtGmHwY6AVr9qV4*8JKKzFJ0uCGcR071B3SOre9jlOjWabqzpIDmIVJe7fM2ZF2e4jHafA-Ws9lcMeBFvJaDkbTuomRaOkyH17lvR&new=1",
+      "summary": "API.开源替代品(如 DeepSeek V3.2)允许微调和更低费用,尽... 其他:StepFun、01.AI(Yi 系列)、Baichuan(垂直 LLM);华为的...",
+      "datetime": "2026-02-11 08:21:31",
+      "date_text": "2026年02月11日",
+      "date_description": "22天前",
+      "source": "南昌前端圈",
+      "url_resolved": true
+    },
+    {
+      "title": "字节正式发布“豆包大模型”家族;Anthropic修改服务政策;尘白禁区禁止未成年游玩;《黑神话:悟空》定价268元丨出海周报",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716182&ver=6580&signature=U2DVvZ9WyEnhoBUwShwGlTLbx6yxtpBF1Ngv0WzzN-7b7E8mByvEiw-ieQjwGxedppZme95r3gPfLCajDsRzK7R9ozhEVzkIyRrDG-WnFBs01BkFe1bYVGsxfv5mIzjW&new=1",
+      "summary": "AI 公司零一万物发布千亿参数闭源模型 Yi-Large5月13日,在零一... Yi-1.5 系列,每个版本达到同尺寸中 SOTA 性能最佳.在国际领先...",
+      "datetime": "2024-05-20 08:01:06",
+      "date_text": "2024年05月20日",
+      "date_description": "654天前",
+      "source": "点点出海",
+      "url_resolved": true
+    },
+    {
+      "title": "朱啸虎:AI应用明年肯定大爆发;第3款爆火AI游戏出现了;美国AI创企一骑绝尘;定价策略里的秘密 | ShowMeAI日报",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716182&ver=6580&signature=3W0wFBjqX8f7jg21UZbWm4CuWUNKd793cM*4xrWFKPn877Mu1El9InAvZHttYZWHyCWFMvp82x3-PHZsXJc946mGVKW4Rpz2s0MT0A4Set1ZYWj3bsEGcB1zAnMChBby&new=1",
+      "summary": "Yi API 平台https://platform.lingyiwanwu.com�� 官网国内版  https://www.lingyiwanwu.com国际版  https://01.AI李开复教授也一改往日的...",
+      "datetime": "2024-05-14 12:01:37",
+      "date_text": "2024年05月14日",
+      "date_description": "660天前",
+      "source": "ShowMeAI研究中心",
+      "url_resolved": true
+    },
+    {
+      "title": "大模型之战,燃起来了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716182&ver=6580&signature=E0*iGBrAtV7LDbnIKMGfeGvkCSlNs3Y0*I9bc-rT9q8F89QMdgL5ayvcQsoK0twV251gE*AL2eR2MJ0jWIBlDxbKJ3x2a6ECsu2lyklSgBNC-NZ1dMhN62wNhIXhYqOI&new=1",
+      "summary": "Yi-Large闭源大模型,斯坦福评测机构 AlpacaEval 2.0的排行榜上... 堪称AI“大乱炖”,目的就是狙击OpenAI.其中,包括Gemini 1.5...",
+      "datetime": "2024-05-17 11:38:56",
+      "date_text": "2024年05月17日",
+      "date_description": "657天前",
+      "source": "青澄财经",
+      "url_resolved": true
+    },
+    {
+      "title": "AIOps在美团的探索与实践——故障发现篇",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716182&ver=6580&signature=*TIivcfWnRTIxtL2Hy3sUTnU44fFdx4Hv6qipQMJosdf-7DIgzXbEsfvkn4KuCpu6HDUE2msfRfxkx1KFNx5wxCcJDcTFXsZE73WS2XDv7JLhfI-yP74ravuI06L-2AV&new=1",
+      "summary": "只是某种算法,而AI运维组件(或称学件),则是在类似API的基... 2018-11-01.[3] 美团系统指标监控Mt-Falcon[EB/OL]. https://tech....",
+      "datetime": "2020-10-16 08:36:26",
+      "date_text": "2020年10月16日",
+      "date_description": "1966天前",
+      "source": "zhisheng",
+      "url_resolved": true
+    },
+    {
+      "title": "每日ai新闻资讯汇总--机器之心、量子位、英伟达、arxiv...",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716182&ver=6580&signature=I5tEZatijr*ekP3BnpN0GcNu5OpSihdHMYbHl8sDNi6YpVb4rS0iLthTOFGGS2vtGlqkBSDFylgF6X2jQ3EFyx5a9IBfrsB-sW2hDm-CfOo6XYGRxp1VaBrMs9H1lgG4&new=1",
+      "summary": "AI漫剧生成进入工业化时代 链接: https://www.qbitai.com/2026/01/... 现有的解决方案要么依赖于具有隐私风险的专有API,要么依赖于...",
+      "datetime": "2026-01-31 17:04:49",
+      "date_text": "2026年01月31日",
+      "date_description": "33天前",
+      "source": "喃喃自语小陈",
+      "url_resolved": true
+    }
+  ]
+}

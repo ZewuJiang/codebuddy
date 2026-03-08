@@ -1,0 +1,96 @@
+{
+  "query": "腾讯云 即时通信 OpenClaw",
+  "total": 9,
+  "articles": [
+    {
+      "title": "手把手教您搭建微信版OpenClaw!腾讯云IM配置全流程(含免费方案)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703479&ver=6580&signature=*l*zVBdiHXfAB74j6ccVp3Lc4oBiko0B675yWWKEVq*7udFBXWTWadmAZL8pme*anuUWma*2n4OUVr4SgurluXQyQtOErunfHhU4eqm88nd15EG-uMFyC3NcL6*Pgl1L&new=1",
+      "summary": "通过腾讯云即时通信IM + OpenClaw 的组合,我们可以在微信小程序中轻松接入智能助理,整个过程无需修改原有App代码,真正实现...",
+      "datetime": "2026-02-12 17:21:50",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "云巴巴严选云",
+      "url_resolved": true
+    },
+    {
+      "title": "新手小白也能轻松上手!OpenClaw(原 Clawdbot/MoltBot)云上部署全攻略",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703479&ver=6580&signature=60oN0CSb5XZiUQFUr9cmf4FudICFjwgqTa1lk7L5qh2iBSpPuSz2xuFDEoYUwssaa2yV6GySSQ9NE-sxhID9tifm2ot4QBFAviRybcQY-VSCq4aW6o6Rg1*wJHQfzpT5&new=1",
+      "summary": "手把手教你用腾讯云 Lighthouse 一键部署 AI 智能体 OpenClaw 什... 与即时通讯工具(如 QQ、钉钉、飞书等),实现 7*24 小时自动...",
+      "datetime": "2026-02-03 20:01:06",
+      "date_text": "2026年02月03日",
+      "date_description": "29天前",
+      "source": "飞叶门",
+      "url_resolved": true
+    },
+    {
+      "title": "手把手教你用OpenClaw+飞书免费雇佣一位数字秘书",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703479&ver=6580&signature=y9UPyPIoeHaUgS1d6J*bbEDSwQq8cb*0lr8L1Y*p6hV0QSIQAPLSjCKQQt6yldDYP0FpT4qP-eAJhfSDX9iyTggvbBpbnyksmt9zlHUPE*ovukBBUaWU5fv9gHM4zszI&new=1",
+      "summary": "而是通过即时通信工具来和它交流——就像你平时用微信、QQ 和... OpenClaw 部署在腾讯云服务器上,实现起来相对简单,但是如果...",
+      "datetime": "2026-02-05 20:56:34",
+      "date_text": "2026年02月05日",
+      "date_description": "27天前",
+      "source": "采瓜农",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯云免费服务器还没玩明白?试试扣子编程一键部署OpenClaw,太省心了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703479&ver=6580&signature=pai3-JdRBwc*jSyJUHNwY4e19-bVUYW2joDyNS85VM7a5oOElzbheR5njnGvS0nwNZvqexu0HO7KGsuI-3iTfBWMst6lsWHzuOzq*3eHfYk8UXpJH9OCCdxAiWGD9ciA&new=1",
+      "summary": "你可以通过飞书等即时通信工具与它对话交互,让它帮你完成各类... OpenClaw.开发者可以在扣子编程的沙箱环境里快速安装部署 ...",
+      "datetime": "2026-02-19 12:03:45",
+      "date_text": "2026年02月19日",
+      "date_description": "14天前",
+      "source": "黄铁托",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 私人AI助手部署教程2天10万Star · 本地部署 · 多平台兼容 · 数据隐私自主",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703479&ver=6580&signature=PdNvxD2o*8kDsq80ZA7uQiKtOWOiyKQGVQpVKjs*EtyMy5eXZgSdDdxyyOIEulkVOdKXqtAz3fk4eSZd6tiZ8aOukXX4adI-9D1ScorR0S8U1Fbp07eDJ9SdqAKwCR4c&new=1",
+      "summary": "最终在2026年1月30日定名OpenClaw.本次教程将基于腾讯云服... Slack、飞书等10+即时通讯平台,统一管理所有消息�� 多模型...",
+      "datetime": "2026-02-02 16:03:17",
+      "date_text": "2026年02月02日",
+      "date_description": "31天前",
+      "source": "AI智汇社丨iHui Inf",
+      "url_resolved": true
+    },
+    {
+      "title": "【方正金工】个人AI助理OpenClaw部署及其在金融投研中的应用研究——AI Agent赋能金融投研应用系列之二",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703479&ver=6580&signature=1ScPMqQQkEFwu94xCEgYNtwi-LFznT3ZWPnqR-YaYg0llNxzGmigOY9pkkt2Mtmng-enpADaSB-SpF0Pf*WG83PpkgPqRj1quHOdRfzPvMTs9TLIUuyu7kvo7jFANW83&new=1",
+      "summary": "在OpenClaw爆火的同时,国内云厂商如腾讯云、阿里云、优刻得... 1月建议关注银行、通信、非银金融、交通运输、电子、计算机等...",
+      "datetime": "2026-02-05 15:33:03",
+      "date_text": "2026年02月05日",
+      "date_description": "28天前",
+      "source": "春晓量化",
+      "url_resolved": true
+    },
+    {
+      "title": "上周AI要闻33则:爆火的AI助手Clawdbot代表了什么趋势?为何百度阿里腾讯春节前齐齐上新“AI群聊”?世界模型也有大进展?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703479&ver=6580&signature=nMLevgM5YArC1CsdFTtUi1qPUjxN*c02kyOcSTIPLQv-z9AKVFze-8qmREEPHaP8qX5P3SvboNKy0r0f8BTKOsTmJN8vKgRqKQF38ykWmjSjYfOuA6o5eFvgdVyBs20C&new=1",
+      "summary": "OpenClaw(曾用名Moltbot/ Clawdbot) 爆火,但带来严重安全隐... 等即时通信平台远程操控自己的电脑,支持定时任务、提醒、后台...",
+      "datetime": "2026-02-02 20:05:55",
+      "date_text": "2026年02月02日",
+      "date_description": "30天前",
+      "source": "探微观智",
+      "url_resolved": true
+    },
+    {
+      "title": "2天10万Star!GitHub史上最快开源项目OpenClaw,手把手教你免费实现部署私人AI助手",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703479&ver=6580&signature=7dpZMrml*O9WJZht1uxMAhqiZ1i6O*im5OZHEYcrqCTPGygExGplfmixGIyUnL1LqI*qhvqf*aLtkQO9xjK5iVme-ZnFtEDMqldWZ0yfovZ7XSW1yZMyp61WCP8*VApY&new=1",
+      "summary": "这2天OpenClaw非常火爆,今天我们在腾讯云服务器上手把手教大... Matrix、飞书等10+即时通讯平台,一个助手统一管理所有消息• ...",
+      "datetime": "2026-02-01 12:07:51",
+      "date_text": "2026年02月01日",
+      "date_description": "32天前",
+      "source": "海老豹666",
+      "url_resolved": true
+    },
+    {
+      "title": "全网首发!OpenClaw 云端部署喂饭级教程,零成本 30 分钟打造 7x24h AI 员工",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703479&ver=6580&signature=K0uKcvF18bzLHJqD2DhTe6JEwqdLXDrfbuLapqIhCDdfMOSj6HBC8kn6zRVOndEc8VlPeWJfPe4gyeCE8DBSsEVTmeoDyZN1ceGzyV3UlyF70ROC*6ZN8nKnQOWf42xE&new=1",
+      "summary": "OpenClaw回到腾讯云服务器的 “应用管理” 面板.模型厂商:选... 批量开通:勾选搜索结果中所有与 “即时通讯” 相关的权限(如...",
+      "datetime": "2026-02-19 01:16:39",
+      "date_text": "2026年02月19日",
+      "date_description": "14天前",
+      "source": "鹿途AI智能体",
+      "url_resolved": true
+    }
+  ]
+}

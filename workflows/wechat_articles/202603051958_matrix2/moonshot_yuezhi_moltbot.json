@@ -1,0 +1,296 @@
+{
+  "query": "月之暗面 MoltBot",
+  "total": 29,
+  "articles": [
+    {
+      "title": "Moltbot 智能体爆红全网,OpenAI 发布科研神器,月之暗面开源 K2.5 硬刚 GPT-5.2",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712700&ver=6580&signature=PCqj6PczTMvD--L5O96h8FCbddPZN-Gpd18AQ2wHYbNc416IrzXWomAuYqSxu0t4IzYXf3ZY*NkRQRks7ePvn1tDdQpy2AU0ZH9E0Tw18q1IHOp6lRdr9EIYyE6u3NTZ&new=1",
+      "summary": "Moltbot.神级演示:网友展示的病毒式案例包括:全自动谈判并购... 月之暗面开源 Kimi K2.5,性能对标 GPT-5.2 核心动态:中国 AI ...",
+      "datetime": "2026-01-29 07:03:07",
+      "date_text": "2026年01月29日",
+      "date_description": "35天前",
+      "source": "AI技术新动态",
+      "url_resolved": true
+    },
+    {
+      "title": "AI日报:腾讯混元图像3.0正式开源;Clawdbot迫于压力更名Moltbot;月之暗面发布 Kimi Code",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712701&ver=6580&signature=W0mfySQhYfwqCRXlRX1CF7GxjXkT3354z35V7*gc76*RslzK6QtCsIIOWf7YuNEAApXpB0LtttAVDjlQiJBlUdPCW48keS91-6Evy3k5VR6CB17mjmD74EygLXYKdHtq&new=1",
+      "summary": "月之暗面发布 Kimi Code:多模态加持,无缝集成主流编辑器3、开源 AI 项目 Clawdbot 迫于压力更名 Moltbot,旧账号被抢注上演“发...",
+      "datetime": "2026-01-28 17:00:12",
+      "date_text": "2026年01月28日",
+      "date_description": "36天前",
+      "source": "站长视界",
+      "url_resolved": true
+    },
+    {
+      "title": "Moltbot上市公司龙头",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712701&ver=6580&signature=Pe-jMjedvVG4PS9goUPkc7kaB1ItxHKQQLW*6wM1SS9t59oVi2E4xVdbqjA9msbXdRo71TOCT6L8leVfueikdOw-icYyLGJ6KA7oUwm*uCGs-nZdidkQTsKRIUDLSJPr&new=1",
+      "summary": "MiniMax、月之暗面等中国大模型公司:可能作为本地模型替代方案接入 Moltbot,但尚未形成明确资本关联.总结类别 “龙头”代表 ...",
+      "datetime": "2026-01-30 13:25:50",
+      "date_text": "2026年01月30日",
+      "date_description": "34天前",
+      "source": "创世纪国运牛",
+      "url_resolved": true
+    },
+    {
+      "title": "李亚鹏6小时直播销售额达1.6亿;月之暗面公开喊话;黄仁勋否认对OpenAI不满,透露将巨额投资;国际巨头被曝拟裁员3万人...",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712701&ver=6580&signature=KsdAnVBh8BICj4T9EN-LZoDfz4Q7RlgLnLEE1ZHlus1otQsEERyk5xhLeo0yUrioszDooI2El2Z8IhIjcaqmH-YBtdG361bPP8*oKC18lqEy6iTIa4OqlgyFgo-83yPY&new=1",
+      "summary": "大事件月之暗面公开喊话 2月1日上午,月之暗面Kimi于微博发文... Clawdbot和Moltbot都是它的曾用名. SpaceX申请部署100万颗卫...",
+      "datetime": "2026-02-02 16:26:07",
+      "date_text": "2026年02月02日",
+      "date_description": "31天前",
+      "source": "i黑马",
+      "url_resolved": true
+    },
+    {
+      "title": "月之暗面发布并开源多模态大模型Kimi K2.5;谷歌DeepMind发布AlphaGenome登上Nature封面… | 襄禾AI周刊",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712701&ver=6580&signature=zRo1Y9dgUwDzJdC9sHxFjcdFUcR8s5KTUIV7QwwWa7UektLNWZxQR6ltjKaWhiSXJqGAue9FrikIFOAkVkSRG2QHl8fbWgK0DJNgrPyUBHAiYB6iVp4eqfZNq3hqqtAw&new=1",
+      "summary": "月之暗面发布并开源原生多模态大模型Kimi K2.5,支持智能体集... 基于Moltbot 搭建的Moltbook是专供AI Agent交互的社交平台,短短...",
+      "datetime": "2026-02-03 09:02:33",
+      "date_text": "2026年02月03日",
+      "date_description": "30天前",
+      "source": "襄禾资本",
+      "url_resolved": true
+    },
+    {
+      "title": "AI助手Moltbot火了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712701&ver=6580&signature=mM1k4sooxILkBail2jE01fTRgOrBgIKI09Ts89Td3TJNxeNGMCEtOJnCYhk6eVr43-9O1nY7q4cDvSXw3ogBx8s4to62sosfGueb3aIlq0qj7aT5PPZLeQgYmg36kdPS&new=1",
+      "summary": "Moltbot内置浏览器控制、Canvas画布、定时任务等工具,可以像... 1月27日消息,月之暗面Kimi发布并开源Kimi K2.5模型,宣布这是...",
+      "datetime": "2026-02-02 06:01:33",
+      "date_text": "2026年02月02日",
+      "date_description": "31天前",
+      "source": "网络助推创变",
+      "url_resolved": true
+    },
+    {
+      "title": "月之暗面发布 Kimi K2.5:升级原生多模态与并行智能体机制;首例「AI 幻觉」侵权案宣判:AI 承诺不具法律效力丨日报",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712701&ver=6580&signature=iS9O-2i*QlSKWFOnCvZXBbU1edjg4k51NKm4dOxLiemvV1DwajRafSux1mKFwMCWiikf*6Nc*nS7Vj69Jaky2tXqL0fMXQLVsyBnGEsydLhdCQ2ucdPNj5bBdL1mXo4j&new=1",
+      "summary": "月之暗面正式面向公众推出旗舰大模型最新版本「Kimi K2.5」,... Moltbot :GitHub Star 已突破 7 万开发者 Peter Steinberger 发起的...",
+      "datetime": "2026-01-28 18:40:12",
+      "date_text": "2026年01月28日",
+      "date_description": "36天前",
+      "source": "RTE开发者社区",
+      "url_resolved": true
+    },
+    {
+      "title": "月之暗面公开喊话求助百度,百度悄然优化“Kimi官网”检索结果;何小鹏回应IRON人形机器人首秀行走摔倒;王石发文疑辟谣失联传闻丨邦早报",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712701&ver=6580&signature=hKTDT56CgJ5CxtDwsWnb2BjVED7TRsF2iTyL6xlU9JKsZjqE3E3B8F31yZBLN2PXRlX5Ux-cYYGu73OmOdG4Jct2QDSt62Lzxp3RraEHUhJ4qmZPV7jPkP1wMuwN2oxD&new=1",
+      "summary": "月之暗面Kimi官方微博也发文表示“已恢复.”截至发稿,双方对... Clawdbot和Moltbot都是它的曾用名.(新华社)【中科清能完成...",
+      "datetime": "2026-02-02 08:40:29",
+      "date_text": "2026年02月02日",
+      "date_description": "31天前",
+      "source": "创业邦",
+      "url_resolved": true
+    },
+    {
+      "title": "Moltbot (原Clawdbot)一键部署教程 | 轻松拥有专属AI助理",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712701&ver=6580&signature=K9OKAK4B1ONOmjSINo2DJEGGIJJd*EftVfNsOoamASyXyTpH*Z*2ZkZ6-yz3Q*DevfNO54jGWYJZ6efWUt0CTq9SgSYalA8XFs*acedJor3tdLZLD5OvXhWIB1gg6cU7&new=1",
+      "summary": "Moltbot 原Clawdbot)一键部署教程 | 轻松拥有专属AI助理 推荐使... 厂商说明Moonshot AI月之暗面/Kimi,国内友好Qwen阿里通义千...",
+      "datetime": "2026-01-28 18:10:37",
+      "date_text": "2026年01月28日",
+      "date_description": "36天前",
+      "source": "今晚的康桥观智能体",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw近一半用户来自中国,大家在FOMO什么?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712701&ver=6580&signature=XxkmUJPdhjxjOXGGB6H44rh*JpWwW0xisUUKFXz1sOwIRo8azWTFSGs-7AEaJu6F4VBSO-oBySItvdBqa4rI81kek1K-E2uTLWDEnavOZufE7IXOXKPdmBaRod9bisfd&new=1",
+      "summary": "将应用更名为Moltbot,意为蜕壳机器人,不过他仍然保留了龙虾形... 月之暗面1月27日发布的新模型Kimi K2.5的token调用量达到1.16...",
+      "datetime": "2026-02-12 08:46:00",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "第一财经YiMagazine",
+      "url_resolved": true
+    },
+    {
+      "title": "从Clawdbot到Moltbot:2026年,个人AI代理的“iPhone时刻”真正来临",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712702&ver=6580&signature=Ii40PcwlwGOkVtBXXl4dPIhQMqOAKGHUpHEVBrz0owkgFI8zX7rBrtA7EQ4T73pa9upXNlmAi4n0YuqnlAtYosd2YoUr-ccZrXRpelFHp7h1FCwU1hTq10oZQu38qd5b&new=1",
+      "summary": "Clawdbot/Moltbot的核心突破在于 “执行能力” .它不再是只会回... ——阿里、月之暗面、深度求索等企业相继推出新一代大模型,...",
+      "datetime": "2026-01-29 10:04:56",
+      "date_text": "2026年01月29日",
+      "date_description": "35天前",
+      "source": "架构之旅",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek-OCR2发布/谷歌搜索升级,Gemini3成默认模型/Kimi Code发布/Google推AI Plus套餐7.99美元/Clawdbot更名Moltbot",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712702&ver=6580&signature=LENnUFosMTlc44CQB-6JHiIR0S8nRvDcA14gKj8Qq0KmbdP3PopxVYxA8LVyRhxgvDkeFxe64m*ZrT9srEtlZx22LwoqLWsEOLGtdhpvVAWtAeUdfVeiJXIQvssjlzJ3&new=1",
+      "summary": "月之暗面发布Kimi Code:K2.5多模态驱动的编程工具 Google AI ... 开源项目Clawdbot更名Moltbot,旧账号被抢注发币骗局�� ...",
+      "datetime": "2026-01-28 13:54:08",
+      "date_text": "2026年01月28日",
+      "date_description": "36天前",
+      "source": "套路电影",
+      "url_resolved": true
+    },
+    {
+      "title": "科技日报!腾讯开源混元3.0,月之暗面推Kimi Code,雅虎上线Scout",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712702&ver=6580&signature=pw-iyd05aSlTGMQRt8gtbXfhxwBq1s907Ij2cgzO8ZHLIQ6qK4c9DdiFAQAYty*vKo1HlpzA9tWm*kWjQOGfho5PPtm9wCxky6W3WdZo-cJ*GBhPXvfX1oARtOXJV0et&new=1",
+      "summary": "新闻提要NEWS BRIEF01 Clawdbot正式更名Moltbot:AI爬虫赛道再洗牌,品牌升级背后暗藏数据合规新战局 02 月之暗面发布Kimi ...",
+      "datetime": "2026-01-29 09:15:54",
+      "date_text": "2026年01月29日",
+      "date_description": "35天前",
+      "source": "不被定义的号",
+      "url_resolved": true
+    },
+    {
+      "title": "AI周报|2026年1月第4周:Moltbot爆红、Qwen3万亿参数、从Chat到Agent时代",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712702&ver=6580&signature=VuC6r6EQ4ulJyfxDUSKM*urvXLlfNRHbLELDMkt6CQK65UgAT*TCMbFGO7XmfDVjXIidiE*wY4e0GQ*1liv-fKS3e-*9mUfwMYPbznspxYE-L7BdrXPmDIF2KT4nSAdS&new=1",
+      "summary": "Clawdbot/Moltbot成为硅谷最火爆的AI个人助手引发安全争议;阿... 月之暗面发布并开源Kimi K2.5模型,在Agent任务、代码生成、图...",
+      "datetime": "2026-01-30 20:31:01",
+      "date_text": "2026年01月30日",
+      "date_description": "33天前",
+      "source": "朱洙的天下",
+      "url_resolved": true
+    },
+    {
+      "title": "本周上新 | 月之暗面Kimi K2.5、阿里Z-Image基座模型、腾讯混元图像3.0、DeepSeek-OCR 2、PaddleOCR-VL-1.5...",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712702&ver=6580&signature=MWjCR6fUapqb9Z1sg7TBIKfmq5YKQSWnrUBk8yK5ruh7ufKUccEuxxfMi57aXu4VShX5zpKmpsiRm*frd-z8XdsFrWl6599F*MyNZ*Cj-1AvNm*63FJkXSs*Mj2YEFqs&new=1",
+      "summary": "SCNet本周上新 超算互联网上线Moltbot一键部署!阿里语音识别模型Qwen3-ASR月之暗面Kimi K2.5OCR模型DeepSeek-OCR 2昆仑...",
+      "datetime": "2026-02-01 12:28:47",
+      "date_text": "2026年02月01日",
+      "date_description": "32天前",
+      "source": "山西云时代先进计算分公司",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw:更名迭代,带火Kimi K2.5,支起Moltbook和RentAHuman,人类从旁观到被反向雇佣",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712702&ver=6580&signature=fi9gNYclObNt5APTxt*VbzgwenQlI*UEKPyeUEfGFWwg95wRjGIz18jjT81MSNQj8ROXSYD1Eq7ndJuLsXTGKY5m-3NsIRTBa23z0hjheeyzw6blYd2No4mxYmQS3sqm&new=1",
+      "summary": "Moltbot迭代更名而来的开源AI自动化代理工具,从初期的新鲜尝鲜... 月之暗面旗下的迭代模型,没有盛大的发布会,没有铺天盖地的营...",
+      "datetime": "2026-02-04 21:28:36",
+      "date_text": "2026年02月04日",
+      "date_description": "28天前",
+      "source": "海纳创新",
+      "url_resolved": true
+    },
+    {
+      "title": "飞书接入Clawdbot,小白都能上手的免费安装手册,别再去闲鱼花冤枉钱了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712702&ver=6580&signature=oWu3TiNYj6JC4nzIxSGMAPtIaBSRxjASgk7fP7E3HGACuHqx3pJRFp7-MBfJ6b2aUAUnbQPf5e-kBCiv8aLoUbIL4aL5aOd35U7qF1vR4Oml3C8zZ-O5uRmf1L0v2ka6&new=1",
+      "summary": "更多开源免费内容可以前往《Moltbot 学习手册》地址:https://... (智谱 GLM / Minimax / 月之暗面 / 千问等)4. Git: 安装需要用到...",
+      "datetime": "2026-01-30 09:01:16",
+      "date_text": "2026年01月30日",
+      "date_description": "34天前",
+      "source": "曹工不加班",
+      "url_resolved": true
+    },
+    {
+      "title": "月之暗面 Kimi Claw Beta:这可能是目前门槛最低的 AI 代理服务",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712702&ver=6580&signature=FWNLqNRVyNHfgLwhdndgO9hLYs-0vOPLk0LmdNAUEBBIOtDrM1XDJ8dMMOfPVz3LZcRkpibz*nyXgJKyHtWJXKatkU-aq*KHaKRh7fvSgBUL3eg4hKfMdY4J1AeQIitq&new=1",
+      "summary": "月之暗面悄悄上线了 Kimi Claw Beta.时间节点不是巧合.这是一... Moltbot,因为版权问题又改回来了)是开发者 Peter Steinberger ...",
+      "datetime": "2026-02-24 16:18:25",
+      "date_text": "2026年02月24日",
+      "date_description": "9天前",
+      "source": "EA同学",
+      "url_resolved": true
+    },
+    {
+      "title": "AI日报:腾讯混元图像3.0正式开源;Clawdbot迫于压力更名Moltbot;月之暗面发布 Kimi Code",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712702&ver=6580&signature=3KQfMcqnGuN25KY26E3hVQtguqopbMe4QEHmnBWUZ477r3cyl6uW8WanJZuRy0SXMa0Jtp-NX7OzGH3euEIk11KxPnnEmUKOUVWYbYBAEdwCvIHkVAkUYY-bXuFIJ3cX&new=1",
+      "summary": "月之暗面发布 Kimi Code,以多模态和开源 SDK 推动国产 AI 编程工具发展.开源项目 Clawdbot 因商标冲突更名 Moltbot,旧账号却被...",
+      "datetime": "2026-01-30 08:38:36",
+      "date_text": "2026年01月30日",
+      "date_description": "34天前",
+      "source": "最新人工智能咨讯",
+      "url_resolved": true
+    },
+    {
+      "title": "ClawdBot/Moltbot 现象级个人Agent的爆发与影响, Google 将 Gemini 深度集成至 Chrome,迈向“Agentic Web”, 中国模型 Kimi K2.5 发布",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712702&ver=6580&signature=4xgtaUP*-K7ig-Ag26J3Rj2XMuiwZ6jdm4dRxfVjpUQDMoGbbZZ*tp1Vfp7-fuDWGAW2*H8R0eTNM7RtpXVbEOnsRjOn836GHzzSEGUYVrOuNCndWFSUASitz67Jerni&new=1",
+      "summary": "关于Moltbot理念的深度思考(中文转推)• 推文 url: https://x.com/... 中国AI公司月之暗面发布了 Kimi K2.5 模型,声称在多项基准上超...",
+      "datetime": "2026-01-29 10:34:33",
+      "date_text": "2026年01月29日",
+      "date_description": "35天前",
+      "source": "Web全栈工程师成长之路",
+      "url_resolved": true
+    },
+    {
+      "title": "AI日报:阿里千问最强模型来了;Kimi开源K2.5;DeepSeek开源OCR2;Clawdbot迫于压力更名Moltbot",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712703&ver=6580&signature=UCsEWkt08pxRxwox6Vrr6fEGcHtNopMcI*AUhhhO4CGgNEBwaRLCmB5nJ3xy5-qbixX3rsb04WbKxyASNaTavq-xNhuPjJlwXFlm2-Q64b5VGjYvnOOWL0V1oG43c9rk&new=1",
+      "summary": "Moltbot1月28日,开源AI代理 Clawdbot 更名为 Moltbot,因与 ... 月之暗面创始人杨植麟首次出镜,开源 Kimi K2.5.作为 Kimi 迄今...",
+      "datetime": "2026-01-28 21:06:51",
+      "date_text": "2026年01月28日",
+      "date_description": "35天前",
+      "source": "HsuDan",
+      "url_resolved": true
+    },
+    {
+      "title": "GitHub精选 | 全天候 AI 助手 Moltbot",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712703&ver=6580&signature=Gw-SezyVNGrI39P-e3s-W7jJvCRRH5OzLfffFBZwP*aQXtkVnODhY38lH2S8UURj8w6MAuBNXNlU9PD65AFGlKpD-sRFSlQZ43ub0FD2ohVcelEztDCmWnbzpWBCIVq8&new=1",
+      "summary": "Moltbot、MCP 协议标准化、秘密管理工具 Vault、System ... 工具:月之暗面 Kimi 的命令行客户端• Claude Code 竞品:提供...",
+      "datetime": "2026-01-29 19:23:58",
+      "date_text": "2026年01月29日",
+      "date_description": "35天前",
+      "source": "深港数码",
+      "url_resolved": true
+    },
+    {
+      "title": "2026开年炸场!1月热门AI模型与工具全盘点(不仅仅只有Clawdbot、Claude Cowork)——今年必然是AI的元年!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712703&ver=6580&signature=2iGBX-eOnzsjlbriPXGwb4Zc8tZRHg7n8eGebYr87YvwhLDYFc1zo6DKQFYReEbuJvlvMyj1ZdipFLhJQDVVhyKLlSFZptJl9EB4bNSITvSM*RD2Rsz8CB2dC9Skbp*3&new=1",
+      "summary": "国产开源旗舰:Kimi K2.5(月之暗面)核心定位:全球首个实现... 个人贾维斯:Clawdbot/Moltbot(开源社区)核心定位:自托管的...",
+      "datetime": "2026-02-03 17:08:46",
+      "date_text": "2026年02月03日",
+      "date_description": "30天前",
+      "source": "南风AI之旅",
+      "url_resolved": true
+    },
+    {
+      "title": "2.2小赵读报 | 百亿量化私募谁最强?宁波3家跻身年度前十;AI专属社交网络Moltbook火爆出圈引热议",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712703&ver=6580&signature=upOUBs6CNVKgF3Y36QtucIgh16*lv1wyTVUVKUfB5q09ltOjWCSkJ03oeWF0KUy9P42z21H3jwqatbuylagrbp3dcki0yefRIE4JLzhjokejbYG4fwjAH-asqVsbFi6Z&new=1",
+      "summary": "月之暗面Kimi官方微博也发文表示“已恢复.”截至发稿,双方对... Clawdbot和Moltbot都是它的曾用名.AI:【暴涨超102%,全球芯片...",
+      "datetime": "2026-02-02 17:20:04",
+      "date_text": "2026年02月02日",
+      "date_description": "31天前",
+      "source": "甬创链",
+      "url_resolved": true
+    },
+    {
+      "title": "月之暗面发布Kimi Claw:一个在云端拥有40G空间的24*7运行的OpenClaw,基于Kimi模型驱动,可以一键部署哦~",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712703&ver=6580&signature=UFogkawW6NUaGYCdcoHH4-xzBK1k29FIJV07klrlkqLUOEF3r2SaAoJN8kA7DVAEQmGT*AbLebNI2wxchq3veh07kHlFlr54f*7uxL5fxEanS416rlcEw3WTmttjlLY0&new=1",
+      "summary": "OpenClaw(原 Clawdbot,后短暂更名为 Moltbot)是一款开源的本地优先个人 AI 智能体,由开发者 Peter Steinberger 创建,于 2025 ...",
+      "datetime": "2026-02-15 22:58:49",
+      "date_text": "2026年02月15日",
+      "date_description": "17天前",
+      "source": "DataLearner",
+      "url_resolved": true
+    },
+    {
+      "title": "Moltbot 安装教程:小白也能轻松上手的完整指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712703&ver=6580&signature=1jP*MLVJJ5Z8w2UgKdIRubKYwVSN8hWqa7uj8bze25A9-wirwRMuNjqPl-*gw5AZYoHBYS1vEAS*JPOwhWbL8iIa1tVEnnn39hT7aKg65NOAFoZzNYGV3vSoU0eTYR4a&new=1",
+      "summary": "Moltbot,或者在安装过程中遇到了各种问题,那么这篇文章就是为... 月之暗面 API 密钥 (Kimi)3.12 安全建议• 将敏感信息存储在环...",
+      "datetime": "2026-01-28 22:29:26",
+      "date_text": "2026年01月28日",
+      "date_description": "35天前",
+      "source": "咖啡干嚼java",
+      "url_resolved": true
+    },
+    {
+      "title": "模数快讯 | 2026第4周",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712703&ver=6580&signature=AfXB8J00KLj2wysqkFUEpcHfBPHFcrzbzv4ot1IAwtaZBv5L2uvF317F6wGuSe9ufJQFG6fnELH9zazsnB8EUlBFBBBo8s-rcC*tvLi4Nvjch-kKhSQviN11plsFWLCS&new=1",
+      "summary": "//www.pcmag.com/news/clawdbot-now-moltbot-is-hot-new-ai-agent... 月之暗面创始人杨植麟亲自发布了迄今为止最强大的开源模型——...",
+      "datetime": "2026-01-30 08:31:18",
+      "date_text": "2026年01月30日",
+      "date_description": "34天前",
+      "source": "Magic World 模数世界",
+      "url_resolved": true
+    },
+    {
+      "title": "【AI资讯】每日简报 2026年1月30日",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712703&ver=6580&signature=6G3rgBQRkhSDj0CKHyYVhrfAnQWJilzBmEzOHDR9iMM8tAQFzxJO7hwrIkLOe5WPphnD5jD729JPaHqXANYvioS7H8qLNpQqqAwQUPf5NETUljH4ojrEdFuJ-W*PflYu&new=1",
+      "summary": "月之暗面Kimi Agent伴随Kimi K2.5模型上线,办公能力“史诗级跃... Moltbot允许用户通过通讯软件发送指令执行任务,无需打开特定...",
+      "datetime": "2026-01-30 11:31:36",
+      "date_text": "2026年01月30日",
+      "date_description": "34天前",
+      "source": "智能人工食堂",
+      "url_resolved": true
+    },
+    {
+      "title": "一条命令安装openclaw(clawdbot/moltbot)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712703&ver=6580&signature=eWdbA5fQTjBovgPAOjqjjCoRWL8vedn7tMpCYRf5s2BTCCisTxjeUQaWCiEAzvA4quyvh6VdJV4fqGwLKgyJ8DftJl-x5mulaK*bcSgjw-DIi4qj3Sa7VkEzMkbpqrFc&new=1",
+      "summary": "模型选择月之暗面kimi2.5和智普glm4.7-flash都可以免费使用两种使用方式1. web页面使用2. tui终端使用简介Openclaw 是一个开源框架...",
+      "datetime": "2026-02-03 21:16:28",
+      "date_text": "2026年02月03日",
+      "date_description": "29天前",
+      "source": "点个赞再走吧",
+      "url_resolved": true
+    }
+  ]
+}

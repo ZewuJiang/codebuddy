@@ -1,0 +1,156 @@
+{
+  "query": "腾讯云 OpenClaw",
+  "total": 15,
+  "articles": [
+    {
+      "title": "��用腾讯云简单三步搭建OpenClaw",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709455&ver=6580&signature=isAGlMBlb1liyLz2DvwBuDpHwJIWBWuNwd8Ki17spF7ePnu8iZFqt8oxnAYcZjuqsrsiwX7MOZ8eaDe9*hpXX6KtEdXYMK41Pj8*rYZFbnJDhmf5fvJFeO03b8EPKJNr&new=1",
+      "summary": "给云服务器安装腾讯云社区的OpenClaw镜像,这个镜像已经做了大部分预设,并且和腾讯云面板做了融合.        安装好这个镜像就可...",
+      "datetime": "2026-02-18 11:21:13",
+      "date_text": "2026年02月18日",
+      "date_description": "15天前",
+      "source": "程鹏亮",
+      "url_resolved": true
+    },
+    {
+      "title": "云上的openclaw哪家强,界面化设置腾讯云最棒",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709455&ver=6580&signature=3zbDga1yNpM*gqiOBuV4gTGddzb6YI9l2Rm-UYdWetSxea9O-uIlFwV9DtDGmZTDtylDPKBwr7nRpvOZNt0P3Zby5n179FacPqZh980XQ27AxxriS9eL-Nw-NtBm92Z2&new=1",
+      "summary": "openclaw/openclaw.json.三、为啥腾讯云的最强腾讯云针对OpenClaw设立了专属资源页面,整合了所有教程、优惠套餐和部署入口...",
+      "datetime": "2026-02-11 09:17:39",
+      "date_text": "2026年02月11日",
+      "date_description": "22天前",
+      "source": "程序猿涛哥",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯云上新大模型API服务,助力OpenClaw高效运行",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709455&ver=6580&signature=2vXDs103hnvTSgbm-EqQD3X0Xu2SK-YjsbYT**c9ZGEfKWmq6OSFK5GjtyuZ3mGfI7XkkjO-EC0zEAosctJ0cEJYlQlsQBquH-LskrC-8i8hOfMvo-f6CJt0a48E*zm2&new=1",
+      "summary": "OpenClaw 调用需求,腾讯云面向开发者提供“高性能大模型 API”服务,助力开发者低门槛构建专属 AI Agent.OpenClaw运行,需...",
+      "datetime": "2026-02-04 16:28:38",
+      "date_text": "2026年02月04日",
+      "date_description": "29天前",
+      "source": "腾讯云智能",
+      "url_resolved": true
+    },
+    {
+      "title": "10分钟搞定:腾讯云部署 QQ + OpenClaw(Clawdbot) + Kimi 2.5 全流程实战",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709455&ver=6580&signature=ErfzqkT4hTWVSIQB9ywDyBrjaP97*uBobxBxDyYSB9u9LlYCaDb5SzIOGqWd5pJVKqWh7urPzpXtHMsvtqeY0B4CX1zN8rrs50KrXgqotTLFithQJzA8I-A8McCljnsO&new=1",
+      "summary": "腾讯云OpenClaw链接:https://cloud.tencent.com/act/pro/lighthouse-moltbot如果你目前已经有闲置的腾讯云服务器了,想体验一下 ...",
+      "datetime": "2026-02-08 17:25:18",
+      "date_text": "2026年02月08日",
+      "date_description": "25天前",
+      "source": "天欣AI",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯云+OpenClaw+飞书:10 分钟,零代码拥有你的 24 小时 AI 管家",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709455&ver=6580&signature=RfHaN-ZgaTUT*T959Getko8ryKUJzJbRx4hYFWbHbiuQTwhqCz*ijPoVlbThcfHEzJ8XFzHMwiMQG4DwBzfcI*lDXv78vSqyXUUBiWT2WZNpN3ZMhoMCzHQusbeLlP5C&new=1",
+      "summary": "腾讯云 + openclaw 的配置打通了.三、在飞书中应用小龙虾打开飞书,创建群组.为群组起一个名称.群组建立后,点击设置添加群...",
+      "datetime": "2026-02-23 18:19:55",
+      "date_text": "2026年02月23日",
+      "date_description": "10天前",
+      "source": "启迪Prompter",
+      "url_resolved": true
+    },
+    {
+      "title": "如何用腾讯云轻量应用服务器内置OpenClaw应用搭建OpenClaw并接入QQ、飞书机器人,下载skill,开启对话",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709455&ver=6580&signature=-iG5RAyAfQbaIdSlK8wiNxIcPn4t5pJwyx9wS598S9i-*KeSy3GRIAMvy3sHqQwIGqtCGwUOaYDeKXWmbMLd*UHQjKNhgtEK0AwB*ibgN382vovX42PahTmOeOxTA8mc&new=1",
+      "summary": "腾讯云OpenClaw文件管理路径在root/.openclaw/workspace下,注意点击右上角的显示隐藏文件:文件管理OpenClaw也可以管其它位...",
+      "datetime": "2026-02-25 22:09:11",
+      "date_text": "2026年02月25日",
+      "date_description": "7天前",
+      "source": "我绝不原谅",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw发布到腾讯云服务器",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709455&ver=6580&signature=hwpnwk7agNaFxJNxeO4vNovkIz-l3C354Q6E64OAB3JyuNofPG8oNyUahIE5zyrWfpzXEw3JSJfMPirmSrTLHWcxXTwBYuXd7wE*elSISOAJ*2E5JMlwl6-3zfDlO4xz&new=1",
+      "summary": "腾讯云OpenClaw的文档https://cloud.tencent.com/developer/article/26249731、选择活动云服务器下单支付薅羊毛,续费两年3、...",
+      "datetime": "2026-02-03 10:45:37",
+      "date_text": "2026年02月03日",
+      "date_description": "30天前",
+      "source": "五年之后",
+      "url_resolved": true
+    },
+    {
+      "title": "在腾讯云服务器的OpenClaw上配置本地ollama",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709455&ver=6580&signature=AVPnTcSoh8iX7ENr15qCqY13XqRlK4dXvSrScikgj-7TIJVJVdzu0OvHCCa-si63*eGGXccfV5nAHnY0pB9MHRnJYLYDJH6VYPnAQYyd5ph66zhvuy8yUc*lGzCLWyMF&new=1",
+      "summary": "最近openclaw这个Agent大火.腾讯云服务器上有专门的镜像 ,购买的时候注意区域要选择“弗吉尼亚”.使用了一阵子虽然没有网上...",
+      "datetime": "2026-02-12 20:50:27",
+      "date_text": "2026年02月12日",
+      "date_description": "20天前",
+      "source": "鲍家汇",
+      "url_resolved": true
+    },
+    {
+      "title": "我用腾讯云+OpenClaw搭了个＂公务员刷题机器人＂,2小时搞定自动推送",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709455&ver=6580&signature=CtwuqT*9yPCvsY27GNKEeId92L6DEaf20Icg6b01n*l44RYSZ-HGitmX0-ivKvHxYVXqUG6GPk0K7MW899AJZ45ypqKyIUjQxFvOITG3KeD7YYNoqsdjRmktoRepB3dc&new=1",
+      "summary": "昨天折腾了件挺有意思的事——用腾讯云开了个OpenClaw,想看看这玩意儿到底能不能替我干点脏活累活.结果一试,还可以....",
+      "datetime": "2026-02-25 12:21:38",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "成长中的超市",
+      "url_resolved": true
+    },
+    {
+      "title": "想玩OpenClaw?薅1个月免费的腾讯云服务器来试试手吧",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709455&ver=6580&signature=BhzxIPLM6mJUYFkyB3I4rCtERQSAIVib4SiTXtgWVM4I3HTL5gw-NvN4tsr4nfBYUwACI564TIF6g5CjWfAbHRAcb4Rg6NVG1EI04numTxS7B*P0*-hA9xTGE2r3vj4q&new=1",
+      "summary": "而腾讯云有OpenClaw模板,使用后就相当于直接安装好了OpenClaw!新用户邀请链接:国际版:https://www.codebuddy.ai/promotion/...",
+      "datetime": "2026-02-25 11:05:33",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "藏龙岛宝宝生存记",
+      "url_resolved": true
+    },
+    {
+      "title": "手把手教您搭建微信版OpenClaw!腾讯云IM配置全流程(含免费方案)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709457&ver=6580&signature=*l*zVBdiHXfAB74j6ccVp3Lc4oBiko0B675yWWKEVq*7udFBXWTWadmAZL8pme*aIG*Em4nQDKiAcfYP3z6pTjdC44P9SeDSxuXAXAtGf56RcqGODcPYDfDWhhbO5wbU&new=1",
+      "summary": "通过腾讯云即时通信IM + OpenClaw 的组合,我们可以在微信小程序中轻松接入智能助理,整个过程无需修改原有App代码,真正实现...",
+      "datetime": "2026-02-12 17:21:50",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "云巴巴严选云",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯云首发支持OpenClaw接入企微QQ钉钉飞书",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709457&ver=6580&signature=-aq2E0SZLS4Q9oNDBj5NXDwjD*UKiOe02O-LDiEsxZXQn3zngfhmcWHETwVd2h462ipdDJnrCnyyp6W0sJsFuhAfR2qvaT25CFNrlVFovC8LK1cAe1aQFZscdvkIuc4f&new=1",
+      "summary": "腾讯云首发支持OpenClaw接入企业微信、QQ、钉钉、飞书四大国内主流IM APP 这波流量各大云平台都在抢,拥有国内最大IM通讯的...",
+      "datetime": "2026-02-02 11:32:01",
+      "date_text": "2026年02月02日",
+      "date_description": "31天前",
+      "source": "AI神经",
+      "url_resolved": true
+    },
+    {
+      "title": "从零搭建OpenClaw,腾讯云+Telegram方案",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709457&ver=6580&signature=vG18XyiZVU5n*0podqbzG2FKejlF5swjzbCu3PMzhTHHvFBkObWFpk*NVk-jXheErY*Pq2R8OgZBHz1huy-7g2NC20R82tir5ni-OpUgKbirg*-p2PmhQUzIcGqQutaS&new=1",
+      "summary": "OpenClaw在MacMini里容易“放不开手脚”腾讯云地址一定一定要从这进️https://cloud.tencent.com/act/pro/lighthouse-moltbot别跟骁...",
+      "datetime": "2026-02-11 22:35:21",
+      "date_text": "2026年02月11日",
+      "date_description": "21天前",
+      "source": "骁哥AI编程",
+      "url_resolved": true
+    },
+    {
+      "title": "教你一键企微配置OpenClaw:腾讯云轻量应用服务器+智能体开发平台",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709457&ver=6580&signature=3fieweWak6XbRRegojFotW*JbuYaIYbpSXe-ogNxaiaQ3Ngo6jO9D*IDH0f9nm3GhhCS3jihQNM0g4CaMfSWJQ0yyqcgE6oIAVxHB04IUo4-zjVWDWznyF1SMZqcfqdN&new=1",
+      "summary": "实现目标:openclaw →    adp-openai-gateway →  腾讯云 ADP          ↑                              ↓    OpenAI 格式                    ADP 格式(当前仅...",
+      "datetime": "2026-02-03 18:01:40",
+      "date_text": "2026年02月03日",
+      "date_description": "30天前",
+      "source": "产业生态伙伴",
+      "url_resolved": true
+    },
+    {
+      "title": "用 OpenClaw 跑完腾讯的最新模型评测CL-bench,结果出乎所有人意料",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709457&ver=6580&signature=Ii2gJgKhlzmy7B6mGX2xcenH5Cn94GVUUIheXodzkdv3gqCn2nZ9GvVSnRivsnCqZ20OaYTfSdo--VGashFyxbrXdqubxvTRQD6Dv6CMQrukGIPsfXt9terjrbR4HXUA&new=1",
+      "summary": "OpenClaw curl -fsSL https://openclaw.ai/install.sh | bash# 腾讯云安装方式https://cloud.tencent.com/developer/article/26249732.3 准备 ...",
+      "datetime": "2026-02-04 19:15:08",
+      "date_text": "2026年02月04日",
+      "date_description": "29天前",
+      "source": "随便",
+      "url_resolved": true
+    }
+  ]
+}

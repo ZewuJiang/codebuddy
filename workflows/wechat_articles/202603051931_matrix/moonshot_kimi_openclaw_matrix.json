@@ -1,0 +1,156 @@
+{
+  "query": "Kimi OpenClaw",
+  "total": 15,
+  "articles": [
+    {
+      "title": "Kimi版OpenClaw:AI智能体的平民化革命",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710655&ver=6580&signature=b833vbvspZVQ41RlQ*9fJAzSSU0AIl0EmxZrpDDzF6EdA0Id3kqLN5ObR2dJhJL2ryPOpOLos0uENRIjJuErreXWGnaDz3Red6Vf5Emashgwv83oh0OCoaTxLNBjoJvG&new=1",
+      "summary": "Kimi版OpenClaw的核心定位是:让每个人都能拥有自己的AI数字助理.它将复杂的AI智能体技术简化为“一键可用”的云服务,降低...",
+      "datetime": "2026-02-20 17:38:52",
+      "date_text": "2026年02月20日",
+      "date_description": "13天前",
+      "source": "Ai100S",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw * Kimi 2.5:一次可复现的 Agent 工程实践记录",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710655&ver=6580&signature=eTzKPCMjS-veZGpj59KWfIMIfrCV4Iw-BaIFXnrjCieHwcNvVdgbyUV*jEMQBc5o8w*3tkHqeyg2W1-EvfhNCWCkAuqUlmyQ9ydXF-aRP**FDon8jXkm8fYeyzzCb-N2&new=1",
+      "summary": "OpenClaw 官方推荐 Kimi 2.5 作为可用模型之一,同时 Artificial Analysis 的榜单也给了一个明确结论:Kimi 2.5 当前是综合表现最强的...",
+      "datetime": "2026-02-12 08:01:56",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "霍格沃兹测试学院",
+      "url_resolved": true
+    },
+    {
+      "title": "用kimi cli + openclaw 实现我的自动化代码agent",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710655&ver=6580&signature=js2XGwWvLcWy-33R9zWKHRX9Tc9bsxi*Qomn17-u6xL0gRNx-3bampIpTOj1K43no8KTcuZ7JH3*TATvCGg8TyMOVxye75kt-0Lfvf9Xtc-Pbx1uFTN9jyU68pxxLHNC&new=1",
+      "summary": "今天试用了下kimi code + openclaw memory 系统, 为什么我不单独用openclaw呢?一方面我觉得openclaw 整个设计是针对一些用户...",
+      "datetime": "2026-02-22 18:05:16",
+      "date_text": "2026年02月22日",
+      "date_description": "11天前",
+      "source": "AI in FinTech",
+      "url_resolved": true
+    },
+    {
+      "title": "Kimi上线OpenClaw!这份入门指南告诉你是否值得入手!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710655&ver=6580&signature=C-Or6VkyQmCT0kHVHbaxnL3C-yHQ47IgRY8GK80Ep8NeRmBkLC9JB1GH4tHG0cp32cVaIva3Hq9VLxtyCtVUuHZeDeg158Qk6gNb-QRFB61v6noAhYcIRwKtoATd6ccD&new=1",
+      "summary": "近日,月之暗面(Moonshot AI)宣布其强大的代码生成模型Kimi OpenClaw正式开放.对于广大编程新手、效率追求者和AI爱好者而言...",
+      "datetime": "2026-03-01 20:10:01",
+      "date_text": "2026年03月01日",
+      "date_description": "3天前",
+      "source": "木柠AI研习",
+      "url_resolved": true
+    },
+    {
+      "title": "Kimi 接入 OpenClaw:最简单智能体配置教程",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710655&ver=6580&signature=GpIee8NB3muoujaN94alV1AEphvhgm*2jGwp8Z7iF76B8He*HslewdpgW*CYC12gkK8yMg2A8vPxvPIB4QCtmS7WfB9ibJgzZQKXApkUfSw2AdIrPIMbx-H3xmxHUDo4&new=1",
+      "summary": "Kimi 和 OpenClaw 这次算是把门槛干到地板了:OpenClaw 已原生支持 Kimi K2.5,不用折腾适配,三种接入方式覆盖新手到重度开发...",
+      "datetime": "2026-02-05 00:52:24",
+      "date_text": "2026年02月05日",
+      "date_description": "28天前",
+      "source": "乔智说",
+      "url_resolved": true
+    },
+    {
+      "title": "Kimi OpenClaw实测:3个无代码抓取神操作,普通人靠它赚第一桶金",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710655&ver=6580&signature=OjTTgL5Q4-MOpLb0zucYhj5iyV5vQ1NgurI6*OO0liptxD0WZx06KorhW1UN8xONHTWdGU6rybCUU1JqeQaxUrzXS*A05Qe0GuExYBRadZLHKpfAFKNbV84K5xfdqjaT&new=1",
+      "summary": "《Kimi OpenClaw实战操作手册》(都是踩过坑的经验,比官方文档实用10倍).对了,所有案例都是真实用户反馈(隐去企业名),...",
+      "datetime": "2026-02-24 12:01:37",
+      "date_text": "2026年02月24日",
+      "date_description": "9天前",
+      "source": "胖叔说AI",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw调用量Kimi K2.5冲上第一",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710655&ver=6580&signature=godY2YcGf-LHbgCh3msP964i1cl303f7W289RsVBpQi3vSWlkp2ZxJWJywK2vH2qPK50kYmIoyaUWoeRhAZYjLONiDV7xt5DsXwH8JaVAu-FlyJG9QKZtkDr4Fj8QRQ9&new=1",
+      "summary": "Kimi K2.5在OpenClaw平台的调用量,居然冲到第一了.OpenRouter上的Kimi K2.5调用量数据这个数据还挺猛的.要知道,它排在前...",
+      "datetime": "2026-02-05 15:21:53",
+      "date_text": "2026年02月05日",
+      "date_description": "28天前",
+      "source": "京小辅自动领京豆",
+      "url_resolved": true
+    },
+    {
+      "title": "Kimi接入OpenClaw:一场改变AI消费市场的静默革命",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710655&ver=6580&signature=W4E3fqy9QrVXIrwi2o8GLwtoBI94wvz1ZniU3Pt6dDYByt*qWbKEL4kxkWaBB6eF2HtZhQHYlU3-q7fT2sXtMDDsZcM*d2GTEqu2HfCY1OoI6Mg09mV7WDb5aPfqVou-&new=1",
+      "summary": "Kimi接入OpenClaw:一场改变AI消费市场的静默革命当AI助手从＂技术极客的玩具＂变成＂普通人触手可及的工具＂,这场革命的硝...",
+      "datetime": "2026-02-24 16:04:55",
+      "date_text": "2026年02月24日",
+      "date_description": "9天前",
+      "source": "木南口肃的脑洞世界",
+      "url_resolved": true
+    },
+    {
+      "title": "Kimi 版 OpenClaw 来了,5000+ Skills 随便用,确实给力!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710655&ver=6580&signature=fCMWu2Z0*F4AVwmHoyFHwD6ifFm5kC8U-A9WFhs6lswff7lqR1WDulAnYo0POhFdTSDgpTY-Qy7ZH3lrFKb2NCSq67GkexmiJGSJY7gGS8oD6Etn*T9zHCSWC9gTD1me&new=1",
+      "summary": "在 X 上刷到 Kimi 上线了 OpenClaw,的不行.在过年走亲戚的间隙中,我偷偷打开 Kimi 官网,发现确实多了个叫 Kimi Claw,简称 ...",
+      "datetime": "2026-02-28 14:03:55",
+      "date_text": "2026年02月28日",
+      "date_description": "5天前",
+      "source": "轮子工厂",
+      "url_resolved": true
+    },
+    {
+      "title": "Kimi上线了OpenClaw手机版,给大家分享5种知识管理的神级技巧",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710655&ver=6580&signature=TlwErfN9xfMgX4xM5HbtqIFkzOKJ*aNFj95zxXvalDSAXPX-lJtHYDJsx4GfTqsCEpFgkkD*RMi9qD1LljJcejfxvliH3yV6bqfYsZFdJ4n9DwApUKbjB4t88icQJOkZ&new=1",
+      "summary": "Kimi选了一种更轻的方式,来驾驭我已经养了很久的OpenClaw.预测一把,会有更多家模型App把类似OpenClaw这样的Agent作为一...",
+      "datetime": "2026-02-20 19:52:25",
+      "date_text": "2026年02月20日",
+      "date_description": "12天前",
+      "source": "卡尔的AI沃茨",
+      "url_resolved": true
+    },
+    {
+      "title": "Kimi 发布最新版 OpenClaw 接入指南(附中文翻译)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710656&ver=6580&signature=mHPA6qJpWrsVrMgmoc0Pm3Ocm*ZwuU60wiveIMFHIernGRKqqIBMR26HagMRrBATDqb1TAEWYr9bQiYMa769pOfLuy*7j4FJARegh9XA*UE1RWtAPpFwhGBGwLPepwRc&new=1",
+      "summary": "OpenClaw 驱动的全新服务.1. Go to Kimi Code https://www.kimi.com/code选择你的计划获取您的 API 密钥.请从此处复制您的 API ...",
+      "datetime": "2026-02-11 15:56:38",
+      "date_text": "2026年02月11日",
+      "date_description": "22天前",
+      "source": "Miss LN",
+      "url_resolved": true
+    },
+    {
+      "title": "免费的 Kimi K2.5,OpenClaw 在“围猎”谁的未来?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710656&ver=6580&signature=cZsFMroFhUdZcqgMX73Dy52vtowrFzcQ2JkHUqn*zwpinqT8pByr2LQ8xynPqOluv*mn*4fPY0FrmF4FZk9NBOYQ6XuUckV-UiWPZpxWZM45p-*JkOu03ISJau0TI2Uf&new=1",
+      "summary": "OpenClaw(那个曾经叫 Clawdbot 的极客心头好)宣布,Kimi K2.5 模型和 Kimi Coding 能力,免费了.不是“限时免费”,不是“新...",
+      "datetime": "2026-02-01 13:56:10",
+      "date_text": "2026年02月01日",
+      "date_description": "32天前",
+      "source": "湍流手记",
+      "url_resolved": true
+    },
+    {
+      "title": "Kimi 版的 OpenClaw 来了!支持 5000+ Skills 太给力了.",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710656&ver=6580&signature=rwkSc2PT78cAXFJoL9RYR64WPF2zQRuSTsNTOqtMjM9A8XoqlroBd0NYeu7q7aIng1x1MmvKutqg1XcbTt23jQ1*IMSaVeqga-af22XK6JYuY2X*Rg6jwTG703ZuvebL&new=1",
+      "summary": "打开 Kimi 的官网,你会发现刚刚上了一个 Kimi Claw 的能力.Kimi 版的 OpenClaw 来了.现在,你不用担心受限于硬件或者复杂的部...",
+      "datetime": "2026-02-16 12:36:17",
+      "date_text": "2026年02月16日",
+      "date_description": "17天前",
+      "source": "逛逛GitHub",
+      "url_resolved": true
+    },
+    {
+      "title": "用掉了34%的 Kimi 额度,OpenClaw 终于学会了提醒我喝水",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710656&ver=6580&signature=ryJ1ncBxXTCTG0PY3KhVxdBPQqO4rXnhCLrb24f7pgdJEVk0ZhXdQ6D35ksiLUG0GFrZcza54bQy7z5*5QGvPPcRtkqL2rPcSfq6PxmZMHACHGK5RC-iSyNBWRl40gDi&new=1",
+      "summary": "Kimi 会员对于想尝试 OpenClaw 的新手来说,性价比真的拉满了.小小喝水提醒,拿捏!目前第一个功能闭环已经成功了.接下来,...",
+      "datetime": "2026-02-09 08:48:40",
+      "date_text": "2026年02月09日",
+      "date_description": "24天前",
+      "source": "严肃的白小白",
+      "url_resolved": true
+    },
+    {
+      "title": "Kimi正式接入OpenClaw,实测和教程看这一篇就够了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710656&ver=6580&signature=TRrv63NSa8hkzBwGenCyn7AIkwqbAwGOFi6qcRYu5PCo2fetcwyLVBWFen72H8sOXqMbWQGcx8Rn3vMEbFxLlouuH3HOTPUFwzRRjKCmQL6itNYdQtpwa1zS1syvYihA&new=1",
+      "summary": "OpenClaw 给接入了.名字叫 Kimi Claw.实测了一下,接入飞书的体验非常丝滑,5 分钟就能搞定.这,就是普通人心心念念的贾维...",
+      "datetime": "2026-02-16 03:57:45",
+      "date_text": "2026年02月16日",
+      "date_description": "17天前",
+      "source": "欧巴聊AI",
+      "url_resolved": true
+    }
+  ]
+}

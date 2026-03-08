@@ -1,0 +1,156 @@
+{
+  "query": "OpenClaw 飞书 机器人",
+  "total": 15,
+  "articles": [
+    {
+      "title": "手把手教你白嫖腾讯云服务器并安装OpenClaw和接入飞书机器人",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709886&ver=6580&signature=ewBreRYLpLClqltqPS16q9RSRVeKNmFdpWpvjMxTbmrgo7rngJQGpm0-3LkRNFqCTFeM8pAczJkGBNhmKbMTfE0gE8QpPwfBK2nwGilrgQGo8-W5e7uTiU8So2Ci36z2&new=1",
+      "summary": "相信老奶奶都能按我的教程搭建自己的OpenClaw飞书机器人.整个流程分为四步:白嫖腾讯云,配置腾讯云,配置飞书机器人,测试...",
+      "datetime": "2026-02-26 17:06:04",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "Python绿色通道",
+      "url_resolved": true
+    },
+    {
+      "title": "如何用OpenClaw,写出精美飞书文档",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709886&ver=6580&signature=vG18XyiZVU5n*0podqbzG2FKejlF5swjzbCu3PMzhTE5kcttbjtv8SpG1hFuniUrQjmai2BgsLDKimjLFssGYeMYqGNoT7XkAMZ460vworRO5i3p6bpZush4XSDwPm*X&new=1",
+      "summary": "OpenClaw用飞书机器人创建的文档,你是没有权限的,所以可以让他直接开下权限建好文档后,就可以开始写内容了,我们直接上点...",
+      "datetime": "2026-02-20 18:51:55",
+      "date_text": "2026年02月20日",
+      "date_description": "13天前",
+      "source": "骁哥AI编程",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw系列:接入飞书篇",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709886&ver=6580&signature=8-vIzGScvDTpboQnibRpuL*NXbb49wDOP00HsHMoWCRmueLKlqGDs*Cl0F41NzyFLSuRM2Ywk6JrcPcAJOhHcQO3FSKGLfUA3zlGxsOt4dKI5RaHOUMOfuh84K5RuohN&new=1",
+      "summary": "OpenClaw → 机器人执行动作 → 结果回传到飞书.二、前置准备1、已正常运行的 OpenClaw 服务(能打开 Web 界面)2、飞书账号3...",
+      "datetime": "2026-02-21 14:18:57",
+      "date_text": "2026年02月21日",
+      "date_description": "12天前",
+      "source": "黑胡子AI大冒险",
+      "url_resolved": true
+    },
+    {
+      "title": "手把手教你配置 OpenClaw 飞书机器人",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709886&ver=6580&signature=aRa-4SlkQ1QfSpWvdqCHb1vscn5P9z2mBbuCw4952YR3N3FCal38UUTPPpLRK5b9dDCosJg02rYoEFr4791MUNQczem2GoiJNeAPM20L4W1cxRiHkbDqDIe3nlxq9zzs&new=1",
+      "summary": "OpenClaw 飞书机器人,从零开始搭建属于你的智能工作助手.为什么选择 OpenClaw + 飞书?飞书作为字节跳动推出的先进团队协作...",
+      "datetime": "2026-03-03 09:02:30",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "K8sCat",
+      "url_resolved": true
+    },
+    {
+      "title": "【限时招募】零基础4天上手!OpenClaw飞书机器人实战营招募开启",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709886&ver=6580&signature=SC8LhbddsmiB2bmkMo3Dn9ozNAqD6NYt32lPEzbYTKTj1B1I0RUh3Ao8vGnYrAEYsBZ9L809KdoOo--eYD2zkiIxm5iViRp507jvkjsfcwk0b2rwbyYQ31AHWk04uJmE&new=1",
+      "summary": "OpenClaw飞书机器人实战营招募开启各位Datawhale的学习伙伴,大家好,我是老马,组队学习的负责人.如果你对AI智能体(Agent...",
+      "datetime": "2026-03-05 00:01:40",
+      "date_text": "2026年03月05日",
+      "date_description": "19小时前",
+      "source": "组队学习老马",
+      "url_resolved": true
+    },
+    {
+      "title": "用OpenClaw做飞书机器人智能助理,小白也能零成本用,企业多用户独立无干扰",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709886&ver=6580&signature=k6SKQwNwbbWTIKjTuRdE5N1PxejHcvF5Z7V5eiJDAXvjaP3Z58WalaanxQ9g*yc9j*YsqVZzz-WTWDTnvEH1yp8oIdqS4vJvuUbGab8ZCobR6wLaeH0lHHyonb3lf*eM&new=1",
+      "summary": "刚琢磨出一个关于OpenClaw的小灵感,核心是想解决企业里用OpenClaw做飞书机器人的普遍痛点,今天分享出来,和大家一起聊聊...",
+      "datetime": "2026-02-27 16:06:31",
+      "date_text": "2026年02月27日",
+      "date_description": "6天前",
+      "source": "老朱稳如K8s",
+      "url_resolved": true
+    },
+    {
+      "title": "��OpenClaw ��+飞书机器人",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709886&ver=6580&signature=AHFXGzK1Qlg8A8MRYz1uvzIN75kTXIaXe90L3BS3C--vX-sWQuyE2izNJ-DB6GBCPMh9cnFqGMqaRBVggN-TxEpunwHop9dIXb0wL9pmpYoXNLaC7xm1*0MWB5kCyfCZ&new=1",
+      "summary": "飞书机器人教程一、OpenClaw Windows 安装教程环境要求Windows 10/11PowerShell 5.1+推荐使用 WSL2(可以获得最佳体验)安装...",
+      "datetime": "2026-03-03 12:21:03",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "为郎",
+      "url_resolved": true
+    },
+    {
+      "title": "Openclaw如何管理飞书知识库",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709886&ver=6580&signature=MGanvBkph77yMCah-QaW6-Z*XSYp8TOC7vhp5CdwYZ2n5o1mTVWNwv8MVYNONspg2*90kyGfnHMYq2rdGG9iAZZPiCujRmS2wDDjOqcKtlckLL481atJMKZ5tj1W7e3O&new=1",
+      "summary": "飞书知识库完全可以开放给openclaw机器人,需要同时做「API 接口权限」+ 「Openclaw.json配置」+「知识库成员授权」三步一、核...",
+      "datetime": "2026-03-02 20:51:29",
+      "date_text": "2026年03月02日",
+      "date_description": "2天前",
+      "source": "阿久自成长",
+      "url_resolved": true
+    },
+    {
+      "title": "Openclaw|把飞书机器人接入Openclaw",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709886&ver=6580&signature=Ohv05PcTM*O7fREja*OY6nQWF6*bmJf7AmO8qmj2lDMvQ9asb5AjfMBEe-U9egYloe9XS5fkM0WfWa--gJXfXU2qYi3njOE3UPQfu8WSS*mIfypcSfNFdjM1Vn0ly374&new=1",
+      "summary": "创建机器人app登陆飞书开放平台https://open.feishu.cn/app,进行... openclaw onboard --install-daemon�� OpenClaw 2026.1.29 (a5...",
+      "datetime": "2026-01-31 16:40:53",
+      "date_text": "2026年01月31日",
+      "date_description": "33天前",
+      "source": "小咩社长",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw完整部署指南:从零到飞书机器人接入,打造你的专属AI助手",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709886&ver=6580&signature=PBGDRh3bOBGEM3en2Pntor*nXHzTFHhFd8zM4ZjYGSn-Xk4kUqYUkeLMxibJZzo3IptanS2WZLvuLGx9QN0M*EaPwYVvd3gR4kIFPpeJdPbGbDg4M2GkPbBYAej0uepm&new=1",
+      "summary": "详细讲解OpenClaw本地部署全流程,包括环境配置、Qwen模型接入、飞书机器人配置等核心步骤.适配macOS/Linux/Windows系统...",
+      "datetime": "2026-03-05 12:03:51",
+      "date_text": "2026年03月05日",
+      "date_description": "7小时前",
+      "source": "栈与堆",
+      "url_resolved": true
+    },
+    {
+      "title": "史上最清晰openclaw接入飞书机器人",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709887&ver=6580&signature=WNGlNVTLCVRkh7AZnb8WfCNkBlSgfM4WeHIKr1Kb7tI4op77hwPRbnuiSdmNZXBW3yM*z9kdmM439jFDSwHkOsHDkXDeRs0Qt9l7DMUrFr6Rd1QzifDS-xzGhiwecwTA&new=1",
+      "summary": "OpenClaw飞书机器人搭建全攻略让AI助手入驻飞书,工作效率翻倍提升 零代码 小白友好 即学即用  为什么你需要这个机器人?想象一...",
+      "datetime": "2026-02-28 00:08:02",
+      "date_text": "2026年02月28日",
+      "date_description": "5天前",
+      "source": "AI同事手册",
+      "url_resolved": true
+    },
+    {
+      "title": "一台闲置电脑+6个飞书机器人,我的 OpenClaw AI员工团队直接干翻10人公司!【保姆级教程】",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709887&ver=6580&signature=O4JP2yqVp*xLaXezfFKu85PQWDuqaaagvC10b-8jrVn-pxHH1CEfVbj64*I1kexT-tg67uiu8GjHJ1aq8F1fdiqIM719PQJPwErXjkNaRyJlBIaz-qc6*dZj9ouIqRRF&new=1",
+      "summary": "通过飞书机器人回复给你一个OpenClaw实例,可以同时接管多个飞书机器人,每个机器人背后是独立的AI Agent.前置条件在开始之...",
+      "datetime": "2026-03-02 07:30:58",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "米佑ASI",
+      "url_resolved": true
+    },
+    {
+      "title": "手把手教你:OpenClaw 接入飞书机器人",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709887&ver=6580&signature=7l98GfTTu4*fEcYvAWJvHipQxEUY8GqdQYzCOATefI-eeJDzgDVlciN3l*Zr7cp*YXgkpulhMBGJFE9xhD21O0jX93JhuRMilmIrMMN2qk9yMszPXknPj3EfNrI9sHcv&new=1",
+      "summary": "「确认发布」此时机器人已发布到飞书,但还不能使用,需要继续配置 OpenClaw 连接.第二部分:OpenClaw 配置步骤 5:清理旧配...",
+      "datetime": "2026-03-03 00:10:58",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "言夕杂说",
+      "url_resolved": true
+    },
+    {
+      "title": "本地部署OpenClaw+Qwen大模型+接入飞书机器人",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709887&ver=6580&signature=nArAgyR-HB6jR-SGZXPXPrQAwM-kOZ0Vwqx1mXvNw*ewg9P3V3b3*VxsthDJ3QTPu1zJ8w0jzlvP-IAm0WXKmwSbMyNnKz4OV5rFmOIuVG4ygKTrW5FSOd1yy1TAjt6f&new=1",
+      "summary": "配置OpenClaw接入飞书机器人#清理旧版飞书插件sudo rm -rf ~/.openclaw/extensions/feishu#安装飞书插件openclaw plugins install @m...",
+      "datetime": "2026-03-05 14:26:21",
+      "date_text": "2026年03月05日",
+      "date_description": "4小时前",
+      "source": "系统运维",
+      "url_resolved": true
+    },
+    {
+      "title": "一文搞定 OpenClaw 飞书机器人:从0到1部署教程(生产可用)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709887&ver=6580&signature=nl9kIXUS9e9VWIkXsfNJDejZdhtcAn5EvrlSK7Wg*CukM-0WGNupFwQ8eoIvOFgYR7g9K0sfQUuVteGumNSZRwPuClDLYL88JzD5Q-VByLnNAfJJI6GqAwPu8Wxn2lKM&new=1",
+      "summary": "想在飞书里拥有一个可控、稳定、私有化的 AI 机器人? OpenClaw + 飞书 官方集成来了,WebSocket 长连接、无需公网 IP、无需回调...",
+      "datetime": "2026-02-28 15:30:41",
+      "date_text": "2026年02月28日",
+      "date_description": "5天前",
+      "source": "舟行一人",
+      "url_resolved": true
+    }
+  ]
+}

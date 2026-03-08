@@ -1,0 +1,306 @@
+{
+  "query": "百川智能 Baichuan 开源",
+  "total": 30,
+  "articles": [
+    {
+      "title": "中信建投 | 百川智能开源Baichuan2大模型,助力大模型开源生态发展",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715533&ver=6580&signature=CoNs3WnK*Trt1IC*1rcD91pbhmKt1kZjmZejJkcKSztLT2ZOR-DRL7EGX1tzuTrrhT9CDq8heO4RmQrVdSMZbdAxslwOwobS8xoKpPEQy6i0gK1LIeqhaX*BdoecTIuw&new=1",
+      "summary": "百川智能开源微调后的Baichuan 2大模型,性能表现优于LLaMa2百川智能成立于2023年4月10日,公司保持了较快的模型更新节奏:...",
+      "datetime": "2023-09-18 07:33:49",
+      "date_text": "2023年09月18日",
+      "date_description": "899天前",
+      "source": "中信建投证券研究",
+      "url_resolved": true
+    },
+    {
+      "title": "百川智能发布Baichuan2大模型:全面领先Llama2,训练切片也开源了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715533&ver=6580&signature=3FEKvNbYA0GZhygAePhqwfW1QNzr0oYvZcz-3wf49fyHeZ8B4elT2BjFodQk0oPArAa8JNQVNPLavgD-YlUbrdYn*lFaWLKuAa*PkcL1Cp5wRmAdMp-b*WngwKEfKcW8&new=1",
+      "summary": "百川智能宣布正式开源微调后的 Baichuan-2 大模型.中国科学院院士、清华大学人工智能研究院名誉院长张钹在发布会上.这是百川...",
+      "datetime": "2023-09-07 14:38:04",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "机器之心",
+      "url_resolved": true
+    },
+    {
+      "title": "百川智能发布Baichuan 2,以“开源”推动大模型生态繁荣",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715533&ver=6580&signature=ChoLjekshrG3lT9-R7U61mxeyFpY9yMtfPkIPL7MVa4OMxNvHUGSTMbEUAqiNIWowAt-JllKrdvXa9mGPfZF*mALscVaDhPTqtk*YM8pHFG2cwGtarPWomRPAzEAlvYp&new=1",
+      "summary": "大模型之家拍摄图片今日,百川智能召开“百川汇海,开源共赢”Baichuan 2开源大模型发布会,正式公布了开源取得的成果,并与合...",
+      "datetime": "2023-09-06 18:44:51",
+      "date_text": "2023年09月06日",
+      "date_description": "911天前",
+      "source": "大模型之家",
+      "url_resolved": true
+    },
+    {
+      "title": "百川智能开源全球最强医疗大模型Baichuan-M3,能力超GPT-5.2",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715533&ver=6580&signature=Asho6F5fZ6w8ZG2TOA0xWzt6zXtLB6DW0JVfEKUPdh*SAqLpOadOFV5Nlay-MvhxLq*G0bhMigsDYJWNnJC6qPS3PplOXVHNkGmKYXDe4iDAFGuYWWSiediiAyndNt*R&new=1",
+      "summary": "百川智能宣布开源新一代医疗大模型 Baichuan-M3,该模型具有强推理、低幻觉和端到端的严肃问诊能力,能像医生一样主动追问、逐...",
+      "datetime": "2026-01-13 20:37:37",
+      "date_text": "2026年01月13日",
+      "date_description": "51天前",
+      "source": "i智说",
+      "url_resolved": true
+    },
+    {
+      "title": "百川智能发布Baichuan-13B,开启中国开源大模型商业化时代",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715533&ver=6580&signature=lykDSDSR4uuk7W1iyORr*7m0kNUNBtfE7JemsDSCE*8SkzQ83dKhMDNKTVU5N8NnE2UAok5Lb5HTq0J3BG*ZqedC2P86cAikPhM9-7ittjp4h4aINVqCMjGnKvrfir7W&new=1",
+      "summary": "百川智能同时开源了Baichuan-13B-Chat的INT8和INT4两个量化版本,在近乎无损的情况下可以很方便的将模型部署在如3090等消费级...",
+      "datetime": "2023-07-13 18:08:05",
+      "date_text": "2023年07月13日",
+      "date_description": "966天前",
+      "source": "AI行业洞察",
+      "url_resolved": true
+    },
+    {
+      "title": "可商用!百川智能开源baichuan-7B大语言模型,支持中、英文",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715533&ver=6580&signature=D8vAHdkGF5nxlk5O13PhiI7wo9r*gGIzyYS7U81rEUheDVDT3VKxnueJ7jW8wmxXE46-hrtCnz12oef3cLXlRy9-SsZeeTTTd*N3eFZjvtEnsCHVO47CLjb94--w5Fs3&new=1",
+      "summary": "‍近日,搜狗创始人王小川创立的百川智能公司,宣布开源了70亿参数的大规模预训练语言模型——baichuan-7B.baichuan-7B基于...",
+      "datetime": "2023-06-17 07:31:57",
+      "date_text": "2023年06月17日",
+      "date_description": "992天前",
+      "source": "AIGC开放社区",
+      "url_resolved": true
+    },
+    {
+      "title": "百川智能开源大模型baichuan-7B剖析",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715533&ver=6580&signature=hNeXWxpS61YKmF9AMXJw3Xntt5GK9gzH2IYQeX*eQYQnVMYZAGC2fjVZ*p0m*JUWxILXRJVlrdQa18hR8isoH9T4yt5Ufw4MRUUvCIBNg818auFHll6xvkHO3iAV1naM&new=1",
+      "summary": "baichuan-7B 主要是参考LLaMA进行的改进,且模型架构与LLaMA一致.而在开源大模型中,LLaMA无疑是其中最闪亮的星,但...",
+      "datetime": "2023-06-16 18:43:30",
+      "date_text": "2023年06月16日",
+      "date_description": "993天前",
+      "source": "AINLP",
+      "url_resolved": true
+    },
+    {
+      "title": "国内首发,阿里云魔搭社区上架百川智能Baichuan 2系列模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715533&ver=6580&signature=SA6aZJQ*J5cJB8NhqYmgOMaRAuPgOlQGdHxuBilqaeKommvivvCaIuIkobuUpiCUh*Z41L7oAAOjy9e7lp0QRYU08qXHxVvPm4FSYkAAb9T-tPiVwnHMaZpmXvucLvso&new=1",
+      "summary": "昨日,百川智能发布第二代开源模型Baichuan 2,正式开源微调后的Baichuan 2-7B、Baichuan 2-13B、Baichuan 2-13B-Chat与其4bit...",
+      "datetime": "2023-09-07 19:51:17",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "阿里云",
+      "url_resolved": true
+    },
+    {
+      "title": "Baichuan2开源大模型正式发布,王小川:性能超过LLaMA2",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715533&ver=6580&signature=*WwqZmUAKjnOLpteaKs076vqaTi5T8wPQoryAtiekPVy92VUKOuUVJzIABlUvBaWw32p2H7QExWP-bmoAEt1ZU-C-cw*pIfnYvL-NZGrsn0YwptCfvwz7ChHuV34YX3x&new=1",
+      "summary": "百川智能举办主题为“百川汇海,开源共赢”的发布会,宣布开源升级微调之后的Baichuan2大模型.开源之后,Baichuan2-7B、...",
+      "datetime": "2023-09-08 20:03:29",
+      "date_text": "2023年09月08日",
+      "date_description": "909天前",
+      "source": "数据猿",
+      "url_resolved": true
+    },
+    {
+      "title": "百川智能发布Baichuan 2,王小川:全面领先LLaMA 2",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715533&ver=6580&signature=C6Ftjw6XrT3wKA2ACjQbRfl6RAxt3k-NAGBkbiT*4GmXDx3SS5Ncuu*GHcrJFmGSOHs36NCYU638a3OGf-P54F89GtYvJQGoNFaCsMf1FjfaJiai8w6ZOB1Pizkmy3JW&new=1",
+      "summary": "百川智能宣布正式开源微调后的Baichuan2-7B、Baichuan2-13B、Baichuan2-13B-Chat与其4bit量化版本,并且均为免费可商用.这款...",
+      "datetime": "2023-09-07 18:02:42",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "AI星球",
+      "url_resolved": true
+    },
+    {
+      "title": "刚刚,百川智能Baichuan2-192K发布,上下文窗口全球最长!一次读完《三体》,拿下7个SOTA",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715534&ver=6580&signature=6YmYGPGW-PvNtaFIGM4liMO-y*3nzZj-46s-vFq63*ueyKGOXrFVGzWUctFZrvmeRyrSQ2SkuGGsRLrx67XTcY7QXUfCPpNqg9BS1JksPhdaMKqv50-c4u-HPAolRHuY&new=1",
+      "summary": "成立于2023年4月的百川智能,用了仅仅6个月的时间,便接连发布了Baichuan-7B/13B,Baichuan2-7B/13B四款开源可免费商用大模型...",
+      "datetime": "2023-10-30 19:52:59",
+      "date_text": "2023年10月30日",
+      "date_description": "857天前",
+      "source": "机器学习研究组订阅",
+      "url_resolved": true
+    },
+    {
+      "title": "完全开源,免费商用!王小川百川智能发布全新开源大模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715534&ver=6580&signature=dWD4paf5rSBI7IoizPhfXFDe85wFRJz1Nb6OlLhZek4MUNuyyL9bL5BStB4fcngxI7KpTnCmaTch36Q841*c9olC5bM*3zg05wglYNZkBnnofHu6hRMvoRRaYPtuaC8m&new=1",
+      "summary": "前不久百川智能推出的Baichuan-7B开源大模型,70亿规模的参数,达到的效果之强让整个开源社区为之一振.而就在25天之后,王小...",
+      "datetime": "2023-07-11 18:30:11",
+      "date_text": "2023年07月11日",
+      "date_description": "968天前",
+      "source": "维科网人工智能",
+      "url_resolved": true
+    },
+    {
+      "title": "百川智能发布Baichuan2,王小川:中国企业用LLaMA2的时代过去了|甲子光年",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715534&ver=6580&signature=AbBxGaWtiEnqaV65tlCSpkkHv*vl6vS3BzgseoH3e5WyxmVpWipfoJtdx2IW*HreNVOUGfXtItBV7e3y42NSBfYl4d6x6CtAtcW0AeZfItTHGvznUmqpi95pchlLEDX6&new=1",
+      "summary": "百川智能宣布正式开源微调后的Baichuan2-7B、Baichuan2-13B、Baichuan2-13B-Chat与其4bit量化版本,并且均为免费可商用....",
+      "datetime": "2023-09-07 19:41:49",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "甲子光年",
+      "url_resolved": true
+    },
+    {
+      "title": "百川智能baichuan7B、13B、53B以及baichuan2总结",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715534&ver=6580&signature=hNeXWxpS61YKmF9AMXJw3Xntt5GK9gzH2IYQeX*eQYQi0r2ZnxqvMb*qqtNkhM1SQbFQcZoBR-xS2RuExJSTX0Juz8-kT3DHSEtl2APNtoQDklyr3ncKxGirWVlPardC&new=1",
+      "summary": "日,百川智能发布新一代大模型 Baichuan-53B.不同于此前发布的 7B 和 13B 模型,Baichuan-53B 并没有走开源路线.Baichuan-53...",
+      "datetime": "2023-12-11 12:10:37",
+      "date_text": "2023年12月11日",
+      "date_description": "815天前",
+      "source": "AINLP",
+      "url_resolved": true
+    },
+    {
+      "title": "AQUA实测百川智能Baichuan-53B,闭源大模型重构商业模式",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715534&ver=6580&signature=vRabtRa1FtJJWJr0aKXsKuNmppKBfdj7ajYuTuU0BjwhRxyurLgDhobRY0tqy9oJBXArWmhSQTVTnC7GN-Bje172e8YGWOTtR8nyNkdMFOp7gcXK8yTLYCpsXao9zGaS&new=1",
+      "summary": "从开源的Baichuan-7B、Baichuan-13B到闭源的Baichuan-53B,代表着百川智能正在迈向商业化的道路上不断前进.闭源大模型在B端...",
+      "datetime": "2023-09-27 18:14:59",
+      "date_text": "2023年09月27日",
+      "date_description": "890天前",
+      "source": "速途网",
+      "url_resolved": true
+    },
+    {
+      "title": "百川智能开源的大模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715534&ver=6580&signature=NdUYTSDuF1mnY0lZ9aa2QJ*nibLiLKHfJlfJ09KtLcgzufyNmXCeAilgU2j5nCB5tArwCYEkecH51lXb4kcGD9LKiks6OB6OMI5GVJInY2p8ml65YQxWSJg6*7YcrqED&new=1",
+      "summary": "Baichuan2是百川智能推出的新一代开源大语言模型,采用2.6万亿Tokens的高质量语料训练.Baichuan2在多个权威的中文、英文...",
+      "datetime": "2023-09-16 00:02:01",
+      "date_text": "2023年09月16日",
+      "date_description": "901天前",
+      "source": "NLP日志录",
+      "url_resolved": true
+    },
+    {
+      "title": "百川智能发布超千亿大模型Baichuan 3,中文评测超越GPT-4",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715534&ver=6580&signature=59v3ZwsVpE5tAo1QFLnOyuzmQARY66mNAOyPmyD3UTCWKgRjnJaq6WLFBJ8udI4A023wponLLs2nX*fG*L7vy38SyV50kRtRqdyGVxXsT7FvhUv-D7fbCmBI4dvkFU-w&new=1",
+      "summary": "百川智能表示,Baichuan 3 还突破 “迭代式强化学习” 技术,进... ENDStar数超3万的开源仓库被清空,作者:保护版权,此仓库不...",
+      "datetime": "2024-01-30 18:50:00",
+      "date_text": "2024年01月30日",
+      "date_description": "765天前",
+      "source": "OSC开源社区",
+      "url_resolved": true
+    },
+    {
+      "title": "百川智能发布医疗大模型Baichuan-M3,计划2027年启动IPO",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715534&ver=6580&signature=6HwkLnIRuAhK0vYZXJrS2DeTWGS*CWGVhuGoFFMzp6nzj-WmlQXSfU4wya3G1dzzV2exBbhgnkklv*oyipslmWwZkvA8qTvWrbbtYGI96j7vrhYH0n-mZlPo9S5ycTu3&new=1",
+      "summary": "1月13日,百川智能在北京举行媒体沟通会,正式推出其新一代开源医疗增强大语言模型 Baichuan-M3.公司创始人兼 CEO 王小川表...",
+      "datetime": "2026-01-14 08:30:34",
+      "date_text": "2026年01月14日",
+      "date_description": "50天前",
+      "source": "TechMeta",
+      "url_resolved": true
+    },
+    {
+      "title": "中山三院发布人工智能医生,百川智能开源新一代医疗大模型 | 医新周报083",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715534&ver=6580&signature=PWayBhjuDCCXYaS*zkHiqIalK5NgU1R2u09xxIes1Xb-jMlvoekotGeNPFOJhxKk7RM-uZe4KRH-oDj9gIxVS6J95Bq6VCLReUXM8eVmiPDrPiyQ1NgNmQmkXA8LJA7Q&new=1",
+      "summary": "百川智能宣布正式开源新一代医疗大模型 Baichuan-M3.在临床推理、幻觉控制和问诊能力三个层面,百川M3实现关键突破.据称,...",
+      "datetime": "2026-01-19 11:49:42",
+      "date_text": "2026年01月19日",
+      "date_description": "45天前",
+      "source": "医新说",
+      "url_resolved": true
+    },
+    {
+      "title": "百川智能发布Baichuan 2,文理兼备全面领先LLaMA 2",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715534&ver=6580&signature=OljEYpPx5v7Hb3dCYTXBVqWBShz617FJFAAI3Pq-hLEgtefpwMQjpzaG2GTvS8UqC6VJBnEYAQI5BhR30o-Y5T0bsftsJeF93fa5gwtllFf4GShAH9MovewKtcexs4E*&new=1",
+      "summary": "百川智能宣布正式开源微调后的Baichuan2-7B、Baichuan2-13B、Baichuan2-13B-Chat与其4bit量化版本,并且均为免费可商用.百川...",
+      "datetime": "2023-09-06 17:55:29",
+      "date_text": "2023年09月06日",
+      "date_description": "911天前",
+      "source": "百川大模型",
+      "url_resolved": true
+    },
+    {
+      "title": "baichuan-7B是由百川智能开发的一个开源可商用的大规模预训练语言模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715536&ver=6580&signature=NdUYTSDuF1mnY0lZ9aa2QJ*nibLiLKHfJlfJ09KtLcjiXad9zknDMXCQJ7uHWFe3fAiW9ODJEVEl-w2QoNcFFxP4pO6tcgfdvV3r1IW-wgPbjmrjIzwYOVDoZD04Sxuu&new=1",
+      "summary": "baichuan-7B 是由百川智能开发的一个开源可商用的大规模预训练语言模型.基于 Transformer 结构,在大约1.2万亿 tokens 上训练的...",
+      "datetime": "2023-06-16 22:51:10",
+      "date_text": "2023年06月16日",
+      "date_description": "992天前",
+      "source": "NLP日志录",
+      "url_resolved": true
+    },
+    {
+      "title": "百川智能开源最新商用大模型!王小川:比LLaMA更香,下一枪打ChatGPT",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715536&ver=6580&signature=QttzYnBjWXrX3s9QptlbxeQQKqM0cOziDgioMPRkBW3W6X1H6H0-waFk4naYlpiufGAYO-CqBJYiEcmydVmpP3enk6k-sF31rvXJDoPZhMUsdHhzy5aQQ6ND1e6uN5hJ&new=1",
+      "summary": "百川智能最新开源微调后的Baichuan2-7B,并且免费商用.王小川表示,MMLU等英文评估基准的英文主流任务评分,70亿参数量的...",
+      "datetime": "2023-09-07 21:04:17",
+      "date_text": "2023年09月07日",
+      "date_description": "909天前",
+      "source": "量子位",
+      "url_resolved": true
+    },
+    {
+      "title": "AI日报 |百川智能发布Baichuan2-53B;Meta将发布系列AI聊天机器人;Midjourney将于年内升级",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715536&ver=6580&signature=UD8mTnWLequekWggLYSWwBwrfRxlVf0t9OJ3s5YVAChteJa1eP2a0*RseKFZv*moOx6BV8B3YWvN*-nHxCZJoR4qjCUgoaWnTMYt-jpa1IJPookT1cEhORadT5f7assO&new=1",
+      "summary": "百川智能发布Baichuan2-53B 闭源大模型,全面升级了Baichuan1-... 2开源大模型在多项评估任务中大幅领先 LLaMA2,在行业里获得...",
+      "datetime": "2023-09-25 18:55:32",
+      "date_text": "2023年09月25日",
+      "date_description": "892天前",
+      "source": "AI先锋官",
+      "url_resolved": true
+    },
+    {
+      "title": "慕华月报·1月 | 百川智能发布超千亿大模型Baichuan 3",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715536&ver=6580&signature=RVtlHY5XyjPw3BkDA6z4Pkd1FKl0rATHSYduqKRqvDCxT6-2vpdEyEJ6y9KROIb7TbSkvUlptd8XEl6znI8tOd5MaMm*apH8n9FIipwJA4V2c3iocpL76iG5CvOX88-V&new=1",
+      "summary": "百川智能发布超千亿参数的大语言模型Baichuan 3.在多个权威通... 大家可免费在开源社区Github内进行下载(具体地址请见原文)一...",
+      "datetime": "2024-02-03 00:28:11",
+      "date_text": "2024年02月03日",
+      "date_description": "761天前",
+      "source": "慕华科创",
+      "url_resolved": true
+    },
+    {
+      "title": "百川最新开源Baichuan2测评揭晓,理科能力提升明显,总分领跑中文开源|SuperCLUE",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715536&ver=6580&signature=vDny0zAMkmk89GalPlUM*0ufcP1bHQwZouq9GWrJx-0ZE3HnhwhXU0mDfx*Y1VHN7qjoNZVYCvNAyOwrHo8s2EcUJW7FbvI-JIQdGhuCqx00uap-LEO29R0YNkgqIvei&new=1",
+      "summary": "百川智能宣布正式开源微调后的Baichuan2-7B、Baichuan2-13B、Baichuan2-13B-Chat与其4bit量化版本,均为免费可商用.并且还开...",
+      "datetime": "2023-09-11 12:07:47",
+      "date_text": "2023年09月11日",
+      "date_description": "906天前",
+      "source": "CLUE中文语言理解测评基准",
+      "url_resolved": true
+    },
+    {
+      "title": "百川智能发布Baichuan2-192K大模型,目前全球最长上下文窗口",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715536&ver=6580&signature=TJVOOKdqUyXpRdt26y5kRczFw0C*8HDZ*AaxQpjMUfghUZETeoKJtjROhgHyXhmvuOxhHjLsJLCETBHxem6SOAkN8G9HPdMz6UEi6E3zNKOvhxvONpumypyX9lLdgNgi&new=1",
+      "summary": "日,百川智能发布 Baichuan2-192K 大模型.其上下文窗口长度高... 对于 Claude,不到 1 分钟就搞定.在开源社区,Meta 也提出了一...",
+      "datetime": "2023-10-30 18:04:13",
+      "date_text": "2023年10月30日",
+      "date_description": "857天前",
+      "source": "Founder Park",
+      "url_resolved": true
+    },
+    {
+      "title": "刚刚,百川智能Baichuan2-192K发布,上下文窗口全球最长!一次读完《三体》,拿下7个SOTA",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715536&ver=6580&signature=1dLLB2VSprU6H1Zj5qe1KkFKTOnOJ2fi*tq*wx-AttdyqIdbBRxZvLkpzloEKXEUKDcGBml5E-Pu51*6JuUeGe7Pk68Dh3--Tis4p*sM0pH6UrYsalkgjLo-WBj3eRFe&new=1",
+      "summary": "成立于2023年4月的百川智能,用了仅仅6个月的时间,便接连发布了Baichuan-7B/13B,Baichuan2-7B/13B四款开源可免费商用大模型...",
+      "datetime": "2023-10-30 14:40:24",
+      "date_text": "2023年10月30日",
+      "date_description": "857天前",
+      "source": "新智元",
+      "url_resolved": true
+    },
+    {
+      "title": "百川智能发布超千亿大模型Baichuan 3,中文评测超越GPT-4",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715536&ver=6580&signature=4UzzN7vttYi1VBHqlGi33gxzzsoI588wam0hpleUIVkTK18WmZOy1*t5KLPlD58cgMSOetocctcO5TAWLKz-5dTTllWNxcgqaQHp8VpV0NO4tHUA5Tj3YP5hKXX6nKUb&new=1",
+      "summary": "根据百川智能,Baichuan 3 在多个英文评测中表现出色,达到接近... 正准备开源,GitHub 见向微软“复仇”!支持OpenAI、Copilot 的...",
+      "datetime": "2024-01-29 15:24:43",
+      "date_text": "2024年01月29日",
+      "date_description": "766天前",
+      "source": "AI前线",
+      "url_resolved": true
+    },
+    {
+      "title": "百川智能发布53B大模型,今年追上GPT-3.5 ,并将更新开源模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715536&ver=6580&signature=TJVOOKdqUyXpRdt26y5kRczFw0C*8HDZ*AaxQpjMUfg5M2Lms3WdoJUy599gptNZ4UCGyPrkZLS-uTMx6XGjXj5rZc5vFw-GpzQsfpEuwaTRsUu5ESkWbYXiweTJd*Bz&new=1",
+      "summary": "透露,百川智能的开源模型也将在今年内发布升级版本.百川强调了 Baichuan-53B 的三个技术优势:预训练数据、搜索增强和对齐能...",
+      "datetime": "2023-08-08 21:48:03",
+      "date_text": "2023年08月08日",
+      "date_description": "939天前",
+      "source": "Founder Park",
+      "url_resolved": true
+    },
+    {
+      "title": "产业调研:百川智能为何选择将大模型开源?| 国君计算机李沐华团队",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715536&ver=6580&signature=R4ZFoOLPL*zeCR5b8JF3DqZroKKHifXxs8uPLlbMT5krLw7Gyvze5YGjUdWY7mmcFtZkHXUiKOy*hcySYGEsasNujbatKOMglEnFisHpXnrdfU6DfEEiU2TWQ3co15lU&new=1",
+      "summary": "百川大模型性能领先、生态友好,引起开源社区极大反响.百川智能虽然成立较晚,但在大模型的各个评价维度,都居于领先地位....",
+      "datetime": "2023-10-15 00:02:09",
+      "date_text": "2023年10月15日",
+      "date_description": "872天前",
+      "source": "计算机文艺复兴",
+      "url_resolved": true
+    }
+  ]
+}

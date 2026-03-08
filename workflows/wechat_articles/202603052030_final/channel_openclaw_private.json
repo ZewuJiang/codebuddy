@@ -1,0 +1,306 @@
+{
+  "query": "OpenClaw 私有化 部署 方案",
+  "total": 30,
+  "articles": [
+    {
+      "title": "AI助手搜索方案深度对比:OpenClaw原生能力与SearXNG私有化部署实战",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716454&ver=6580&signature=HRgdHfjDS9n-hfs7GfXC0jiolYngWeDo9UYOL4PvTzIS14XIs7eDFZs*k-AVU8YTNqymqkVA4uuzF52WOwuYVBQrVQr3jZWd0UVm8-lu1K*R96-uKYKjl9yQIOQjTu1e&new=1",
+      "summary": "OpenClaw 原生的搜索功能、可扩展的搜索方案对比,并详细说明如何在内网部署 SearXNG 私有搜索引擎.一、OpenClaw 原生搜索...",
+      "datetime": "2026-02-26 20:05:59",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "DuranShift-ON",
+      "url_resolved": true
+    },
+    {
+      "title": "小白也能玩转,AI 助手私有化部署实战:OpenClaw 双系统安装+Node.js 环境构建 + 多模型 API 无缝接入",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716454&ver=6580&signature=nl-nERa9mrMqbOY9w4tp-bbWsyApeUN0738TrWDk0uXK5NFO8eky*4ACwL6hXTlmoAKKJdoDbHW1OCD7AGzlfODbbtwM75L0bMPj-mg1VZmVS64JZHgmDR2DY31uOnJI&new=1",
+      "summary": "十、故障排除问题解决方案安装失败(权限错误)macOS/Linux: ... 部署(24/7 云端运行)# 拉取镜像docker pull openclaw/openclaw:...",
+      "datetime": "2026-02-08 21:24:43",
+      "date_text": "2026年02月08日",
+      "date_description": "24天前",
+      "source": "一把火文论",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 自动化部署教程:7天搭建企业级 AI 助手(私有化部署)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716454&ver=6580&signature=SKaqFHTxNLxuQ*K2MqNejSUWfSNsh*gt2dmoc9BNKvSXym7vigwZyLwtOJr53rWktTTlB3Z8OSHr-O4FQ39lBuTeMZOMc1XkAK8S9hmQUqsc2vqYLv2OXzOKB3ngRZq3&new=1",
+      "summary": "OpenClaw 自动化部署教程适合谁?为什么值得照着做网上关于 ... IM,这里都能搜到现成的落地方案.2. 独创“7天从零到私有化部...",
+      "datetime": "2026-03-02 21:45:28",
+      "date_text": "2026年03月02日",
+      "date_description": "2天前",
+      "source": "网站建设300元全包",
+      "url_resolved": true
+    },
+    {
+      "title": "《从零开始:OpenClaw 环境部署与企业私有化 Key 安全管理实践》",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716454&ver=6580&signature=nIBXhBpBnNDmzRZRZOkLfRHcx5kN162vtqVU9W7FuOBSKDQ6qkNEUwHc1XjZTJtMineE87cF8Il8wMz5yBrjC3lNu1O9IZB2VbCXuxVog6h0E6JbqRco8936iXlr28Ev&new=1",
+      "summary": "初步结论OpenClaw 具备巨大潜力,但绝不能直接在生产或高敏环境中使用.必须建立一个“沙箱化”的、受控的部署方案,并配套严...",
+      "datetime": "2026-02-23 08:46:50",
+      "date_text": "2026年02月23日",
+      "date_description": "10天前",
+      "source": "质量工程与测开技术栈",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯云一键部署 OpenClaw:打造私有化 AI 助手的保姆级教程(新手跑通)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716454&ver=6580&signature=9Fp2vGSkpXxdLmu536EX8Zua9LtbfITr-gPUg5txy9k-QxIZoESuAmByuvnVc3skiq4Etczs1dJTjfW9iPXOJxc7mLw4JM5qNzmV6wHJEkvjkImZ5sZ3d*EnyvLijdHm&new=1",
+      "summary": "OpenClaw 封装为应用模板,将这个过程简化为几次点击,极大地降低了入门门槛.服务器选购与系统部署对于初次部署的用户,推荐...",
+      "datetime": "2026-02-01 07:00:13",
+      "date_text": "2026年02月01日",
+      "date_description": "32天前",
+      "source": "白川的 AI 进化论",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw:开源智能体新标杆,从个人实验到全球生态",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716454&ver=6580&signature=NIUaV-UI6CeDJ2G2Rc13inRZlmCgf*UKf6aXlhv7TFtpL11nl04LmBo7Z**8tsyQiWHN2OFVicv*Pyslj2XNGzrBPoIhw9*5Xl062QuIjyYIT7E1Ry6kxGNFKbbdgBIa&new=1",
+      "summary": "私有化部署方案OpenClaw 已不是玩具,而是可落地、可生产、可扩展的AI智能体平台.---四、应用场景:从个人效率到产业落地...",
+      "datetime": "2026-03-03 09:26:02",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "AI 话事人阿明",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw爆火背后:这只＂小龙虾＂凭什么让全球程序员疯狂?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716454&ver=6580&signature=GO2JKmzrAA-l5F7fx8pDycxuwbFnQVdkX1TDkW0ensn40fly*v3ZbHSjLyy7QV2Fftv-vsiF*ouhogbzoHunfIlQRB*RRMXXErIn4MV3*RlsErXY*RVGOZUuxO3d7A2w&new=1",
+      "summary": "等待企业版或私有化部署方案.七、如何开始使用OpenClaw?7.1 部署方式选择方式成本难度适用人群阿里云轻量服务器3-5美元/月新...",
+      "datetime": "2026-02-26 07:35:51",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "健哥的日常随笔",
+      "url_resolved": true
+    },
+    {
+      "title": "github12万星!openclaw彻底点燃个人AI助手赛道!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716454&ver=6580&signature=QKc6puCwnxqObfmPzyNfnWRbkYh-E9xPH3DZ-KSQnhG3JlRVwvbCC0rEbJ-08E9KIQLElLVwOX9WmYkdaElCT9RFkQPN8C*1bUO*9WfdCJBOOGduMOhYfX6YjJSaRLME&new=1",
+      "summary": "OpenClaw提供完全私有化的部署方案,用户数据100%存储在本地设备或私有服务器,避免被第三方收集或滥用.企业安全合规:金融...",
+      "datetime": "2026-01-31 10:20:09",
+      "date_text": "2026年01月31日",
+      "date_description": "33天前",
+      "source": "开源好项目精选",
+      "url_resolved": true
+    },
+    {
+      "title": "单机96路OpenClaw!元脑x86服务器业界首发智能体宿主机性能评测报告",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716454&ver=6580&signature=BbA2ED6BEdxPEL9Xd73zwyCUUwbLwJ5oeICHrrYpfi5R01cu-tUbV95UAcaafYeDNnxfpFG6Ba*6T9WYXI3O4cadrzMBg0gtqY4-SOB35Pmms4pLyLKH4bo3l02863Je&new=1",
+      "summary": "OpenClaw部署是企业私有化落地智能体面临的又一难题.其本地... 元脑x86服务器为渠道伙伴和企业用户提供快速配置方案和优惠价...",
+      "datetime": "2026-02-14 14:00:47",
+      "date_text": "2026年02月14日",
+      "date_description": "19天前",
+      "source": "架构师技术联盟",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 的“龙虾大战”:谁真正获利?谁真正适用?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716454&ver=6580&signature=P0nxJ85v*S8V0CCCpmwxNVTnv8b-P*Sz*LWK8dN6E0Hl57o50qle6yPL13vduPrlWRcgWtxSklzLPgga5rLsnpcRzQiy5qCzI1vTFgOP83B3kgxtgp3iuXgOzSQnfOGc&new=1",
+      "summary": "API,甚至卖“私有化部署解决方案”.更关键的是:OpenClaw 不需要复杂工程化,不需要 LangGraph 那样的确定性流程,用户只要...",
+      "datetime": "2026-03-04 12:32:05",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "系统之美",
+      "url_resolved": true
+    },
+    {
+      "title": "趋势丨播客集*OpenClaw:企业AI私有化落地,重构获客与数据安全新范式",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716455&ver=6580&signature=rhezw9sXeWfB2eUwnZfOkJTmdsPQW**ZbZJxy0HPTWhzWLaPdiAZopK1seRIpij4QnvDXDAH54LRK8qlDtTgksKw28*k9EKU8EDc9c8RrqD5R5qFHiRY0I*kJ3kAhoNp&new=1",
+      "summary": "播客集*OpenClaw:专为50-200人企业打造,一站式AI获客+私有化部署解决方案2026年,企业AI应用正式告别“概念炒作”,进入价...",
+      "datetime": "2026-03-02 15:56:32",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "播客集",
+      "url_resolved": true
+    },
+    {
+      "title": "手把手教你云电脑部署OpenClaw:打造你的私人AI助理",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716455&ver=6580&signature=EW-Yc*48APNV0EVH8Kdc-Oq4n2ZsJm2jtDDuhDo2M4QHDqQDC1Rty2c7*lxWXhGnP4vCGKVOk9bwAaiH0ZN2GI56Nd34-ZoH4fOybdqsroEyd5iVTvNL4fuoEGcnleud&new=1",
+      "summary": "下期预告: 接下来我将介绍在个人电脑上安全部署 OpenClaw 的终极方案,实现真正的本地私有化部署.敬请持续关注!",
+      "datetime": "2026-02-03 08:21:33",
+      "date_text": "2026年02月03日",
+      "date_description": "30天前",
+      "source": "群星闪耀101",
+      "url_resolved": true
+    },
+    {
+      "title": "7 天跑通 OpenClaw:一份给开发者和企业 IT 的自动化部署实战指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716455&ver=6580&signature=YzRTmyD*wYBQaL2c3gGasVAUWkd03oAPXXLJyt0xWwfAhoao7xnJ8DWkjLVHF6pv8m0J7H73uXh2IQi80mOsyGpsC8xduITIXr-EZBpKQBD0somC3IpO40MQkGRbg6Xz&new=1",
+      "summary": "都能找到现成落地方案.OpenClaw教程聚合2)“7 天从零到私有化部署”路径:最适合执行它最实用的地方,是把学习和部署节奏拆...",
+      "datetime": "2026-02-28 16:05:38",
+      "date_text": "2026年02月28日",
+      "date_description": "5天前",
+      "source": "小熊学Java",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 本地部署方案(2026 最新版)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716455&ver=6580&signature=eaF7-Y4qidwd2gyBX7nKU7BoE7cLveoT72qMyPfV1XHnQ5ji7qYpBk0ACzUq7TluOs568epPPEGTPTEg3Y0HF8MOG0q7dqxyk9gAleYanaUdjEfyhXCnrVrq4ZcPO23z&new=1",
+      "summary": "确保你快速跑通私有化部署.一、部署前核心准备:硬件、软件与... 方案二:Docker 容器化部署(推荐,安全隔离)由于 OpenClaw ...",
+      "datetime": "2026-03-02 18:25:56",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "公链开发团队",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw vs Dify vs FastGPT:该选哪个?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716455&ver=6580&signature=rI*JgnODfDYvAokg9CMxzNQLsUMMwYzuheFOxlRRASLCu6*ayy8p7nUHYb6x65aS*mXRaar09n3K*BmfuWHJS-HGNo92wNFGOlsAT-AcfscTnwOk6FqNALRFkJPZEyoq&new=1",
+      "summary": "都可以(私有化部署)八、组合使用方案方案1:OpenClaw + DifyDify: 面向用户的聊天界面OpenClaw: 后端任务执行引擎用户在Dify...",
+      "datetime": "2026-03-03 22:40:57",
+      "date_text": "2026年03月03日",
+      "date_description": "1天前",
+      "source": "人参捣狮",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 部署全攻略:4 种主流方案怎么选?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716455&ver=6580&signature=6o0wKvYcVUJLPu5zkePx3FyfxCXP-g11OGj0LrJ7PURMTOtiHBaKMHF7XjMFBi*uQaRrZfy71FUNTsYvurBrWmDoekya7jElMELr3SYVLReHpn604b4E2Z4rkym0ThBU&new=1",
+      "summary": "部署可能包括:openclaw-backend:后端服务 Deployment(多副... 六、方案四:企业私有化 / 合规场景——安全与管控优先1. 适用场...",
+      "datetime": "2026-03-04 20:03:15",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "奶奶的AI实验室",
+      "url_resolved": true
+    },
+    {
+      "title": "爆火的OpenClaw AI Agent实操指南|新手零代码上手",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716455&ver=6580&signature=27IAeVR1n1AS-GRNaKRA1hN01ZGEbk0l0dGvwYZ9-55CgEpx0mCeYnolDoDqEO7jeqbNF72FHJK5TYlQIH*IHK1rJjgZ-eIEIYIFKUq7GPkvO8f69IUDeP8jfqruwnUi&new=1",
+      "summary": "完成部署02本地部署(数据私有化,适合有基础新手)如果不想用... 无法访问OpenClaw→ 解决方案:进入服务器控制台,手动放行...",
+      "datetime": "2026-02-25 10:30:47",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "AI创销学社",
+      "url_resolved": true
+    },
+    {
+      "title": "宗冀鹏老师《OPENCLAW 赋能国有企业升级》-13366055016-助理董小帅",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716455&ver=6580&signature=xGqJqYky-cBuhWgv6MNysc5mUYNXiE2qXyssyw7KTMeTQ14eEgIShI1U*3APQTK6AIZuxxet4NmdiWeeP7-IeSvm3Hxepa6TS*9qYz81tPPXxefqSIIog1N7HbCmpfjT&new=1",
+      "summary": "合规安全与数据治理·国企数据安全法规与合规要求·OpenClaw 的私有化部署与数据隔离方案·敏感信息处理规范与审批流程·建立...",
+      "datetime": "2026-03-05 17:45:50",
+      "date_text": "2026年03月05日",
+      "date_description": "3小时前",
+      "source": "金牌讲师工作室",
+      "url_resolved": true
+    },
+    {
+      "title": "如何使用Docker部署OpenClaw汉化中文版?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716455&ver=6580&signature=pidf2YidW8GaYEcf8nLsXBHFuYpYv9IDkX6YJQoktTwHBSS4hnwW3Aa6pbvRdkK5VL7El*mR2DSoACg8M90PSs3kFj0hj8QEyJ-NK74BbnWpueKa5Nq9eVvjGdJetgBP&new=1",
+      "summary": "部署 OpenClaw 汉化中文版.想要拥有一个完全私有化部署、支持... 方案说明适用场景设置 Token设置 gateway.auth.token,Dashboard ...",
+      "datetime": "2026-02-08 22:27:31",
+      "date_text": "2026年02月08日",
+      "date_description": "24天前",
+      "source": "Java技术学习号",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw/Moltbot/Clawdbot:私有化 Agent 的架构革命与落地实践",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716455&ver=6580&signature=E6hIQV4EztBOD884CJcWHLyEUp01eY*86vyjB0PXm0p8UpfRj-mBOsECx2qGX3VCOjhM-m72U6wzuOZxLNXfNfTt7-g6Ry7AI*F9U77R4MteNAgOHJEzXnkHr1ID7vIE&new=1",
+      "summary": "OpenClaw实际上是一个可以在用户终端本地私有化部署的Agent... 腾讯云都推出了OpenClaw专属部署方案,基本都是通过其提供的...",
+      "datetime": "2026-02-01 12:59:42",
+      "date_text": "2026年02月01日",
+      "date_description": "32天前",
+      "source": "xkx的技术杂货铺",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw入门:从零开始搭建你的私有化AI助手",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716457&ver=6580&signature=CkcbPd-TU0cpptxRIg0WBwBJl90iPlN8cgTuyEawf1oy0hCtWqvH1G-cGaX14xMh5aBi-pPW5CZEeZTDMcx4JNT6xorLcrtlrdeVW0VeDHKpKpRVZg8uF-CcoybCgdJS&new=1",
+      "summary": "技术架构penClaw Gateway为什么选择OpenClaw?对比其他AI助手特性ChatGPTClaudeOpenClaw私有化部署 云端 云端 本地运行多渠...",
+      "datetime": "2026-02-13 09:30:55",
+      "date_text": "2026年02月13日",
+      "date_description": "20天前",
+      "source": "泉城IT圈子",
+      "url_resolved": true
+    },
+    {
+      "title": "让服务器自己干活:OpenClaw 正在悄悄接管开发和运维",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716457&ver=6580&signature=oQA7n-87w7CxB80iqkU-9BCaAXzvJ*BTc-BNIp8K0dPnxKSf1ADRkIutP3ObNYxdgn13V3jSsRXqnL2c7KvOr4HsvIkms9n25-fnQNAEyvulNTIBrW40waniKdc9gvBe&new=1",
+      "summary": "OpenClaw手机端软件: 飞书等本次任务:让服务器自动部署... 私有化部署经验6. 合作流程   咨询 → 需求分析 → 方案设计 → 开...",
+      "datetime": "2026-02-14 14:40:37",
+      "date_text": "2026年02月14日",
+      "date_description": "19天前",
+      "source": "写代码的中年人",
+      "url_resolved": true
+    },
+    {
+      "title": "拒绝套壳!OpenClaw 零基础部署与“去班味”保姆级教程",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716457&ver=6580&signature=HaiGJD7VL-3c9tfXCPsD5MjaB5ncyhxmjdGwpKK3z1yGQm-O0DNWDdewB3h0XvSG7PaiD7GuDH1m14GPBPssvPn74rnSwysfermwOJ3bZsDkZ*jGx-*VOUktf8EvxS6u&new=1",
+      "summary": "OpenClaw 私有化部署懒人包!全套搞定想获取  私有部署的虚拟... API方案 B(无限制极客专属):VMware 虚拟机 (Ubuntu 22.04...",
+      "datetime": "2026-02-26 21:20:39",
+      "date_text": "2026年02月26日",
+      "date_description": "6天前",
+      "source": "云原生百宝箱",
+      "url_resolved": true
+    },
+    {
+      "title": "新人适用版:永久免费2C16GVPS部署OpenClaw(附数据持久化机制)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716457&ver=6580&signature=Pr0T3B7WPpfUGFoq9Whptpz5j6HHsPCKddOV18dJYFbKfy2B4jgpI4UuO-6N*LD6QBpL9Z7-YW2jz9GdlGorI*MLRh8nzXuq4B*5M2v2YrIIUJvQVcpPoZGwdvY5mkdK&new=1",
+      "summary": "8TB存储的＂白嫖级＂VPS完全掌控:私有化部署,不休眠,模型... CPU方案空间命名:yourname-openclaw-ai(英文)注意事项:...",
+      "datetime": "2026-02-05 22:50:48",
+      "date_text": "2026年02月05日",
+      "date_description": "27天前",
+      "source": "云天明",
+      "url_resolved": true
+    },
+    {
+      "title": "用 OpenClaw 搞钱的 5 个野路子",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716457&ver=6580&signature=wwfw*XtzAz1KGMqhaFVsJ8T8uSlubqqs1ihs2dB8gwksuUl24yBJoJ3IQaBCo2AIuvmvmWxbVRD-WrWgual8QxXehHL4ubWl2yCpFWnoBgeq-IkyYIEQyCMrNUl90Lmp&new=1",
+      "summary": "“OpenClaw 私有化部署,包教包会,500 一次.”这卖的不是技... 你卖的是“降本增效”的方案.这种钱,赚得最轻松,但也最考验...",
+      "datetime": "2026-02-16 21:22:36",
+      "date_text": "2026年02月16日",
+      "date_description": "16天前",
+      "source": "美杜莎之信息抓取者",
+      "url_resolved": true
+    },
+    {
+      "title": "【汉化中文版】OpenClaw 部署全指南:懒人配置/脚本集成/Docker/NPM 四模式安装及中文适配",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716457&ver=6580&signature=Gcfre4KHsT4IusIpUKQNnCrpE4NsmhBIeOTYI3HCdBTtxw62e54fD9lJe82YFx3Zk8*jTA84taoxYvbZsNs3PAXsF4tkMF7ST-5x9KN*Gr0EVhabtfiEEGXXHFTHySL-&new=1",
+      "summary": "核心优势是本地部署,让用户拥有专属的私有化AI助手.原版... openclaw.解决方案:# 错误路径(配置不持久化)-v openclaw-...",
+      "datetime": "2026-02-11 06:19:01",
+      "date_text": "2026年02月11日",
+      "date_description": "22天前",
+      "source": "WMCode",
+      "url_resolved": true
+    },
+    {
+      "title": "1篇说全OpenClaw 主流平台及其核心政策(建议收藏)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716457&ver=6580&signature=OdUR0pB1g657AUvYAQUfj2iJtub7OpHN83IH1CDavPpIANGePO3Ed7D3h8GpyziTIIPadtZQ-zpjaRRe9os7LdgSqo6UUrQmbcSwAggz-qpwXXjV33XYVAY8QX7sjUAa&new=1",
+      "summary": "OpenClaw 相关功能的主流平台及其核心政策与特点,帮助开发者和企业快速选择适合自己的部署方案.一、国内云厂商(提供一键部...",
+      "datetime": "2026-02-25 01:15:59",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "玩转AI小玩",
+      "url_resolved": true
+    },
+    {
+      "title": "动手部署 OpenClaw 后,我重新理解“组织”与“教育”",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716457&ver=6580&signature=ULq*6iC1swNS9T-*P0ptjo1T1lWKCFLVjkdS3gN3AdH9W-ipnaOhbgaTA*LQZUHfmx4AYj6hMyO8W7xRZv5JNZGuD-vheq8Eh-4PFY-PY*U3MkGNx81AnzUH8tDARZrN&new=1",
+      "summary": "随着 OpenClaw 的部署进度一点点完成,一种奇妙的错位感油然而... 也容易搞乱环境(Python 版本管理是个深坑).我建议的方案是...",
+      "datetime": "2026-02-16 08:20:15",
+      "date_text": "2026年02月16日",
+      "date_description": "17天前",
+      "source": "南山独唱团",
+      "url_resolved": true
+    },
+    {
+      "title": "寻找1000位需要OpenClaw的朋友",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716457&ver=6580&signature=h6H5nCQSHmQdvGhWN9MYf6nFWwq8oo2dp7DitE2QG5nDCp9tksxnus4E1DucZx5GGyU27ODFGtZknWNJKd3Pa88QQIAs2C0V5MwBPxA-Viwo3BTHWXsTqdGj2O*E2jy6&new=1",
+      "summary": "生产环境私有化部署:根据您的硬件或云端条件,完成 OpenClaw ... 服务模式和收费标准方案一:远程指导部署适合:有技术人员配合...",
+      "datetime": "2026-03-03 08:54:13",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "AI品一品",
+      "url_resolved": true
+    },
+    {
+      "title": "试过所有 OpenClaw 使用方案后,我们帮你整理了这份最实用选型指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716457&ver=6580&signature=PPuoaKq-bZpgkxJyz3SyIddfxusaxxPXWAljshXlJ5to-SbhEuddLeoN1b0m8ymvHB9b8Busbrchz1QKCS4wJuB*mWYaeK1bikRicTSd2bcyp6EcsuFwkFZ7S2zyu9Kb&new=1",
+      "summary": "各云厂商官方方案&真实可查白嫖额度OpenClaw 硬件要求低的特... 适配敏感业务开发与私有化部署.想快速验证场景、团队协作、7*...",
+      "datetime": "2026-02-28 22:04:25",
+      "date_text": "2026年02月28日",
+      "date_description": "4天前",
+      "source": "自然语言处理与推荐系统",
+      "url_resolved": true
+    }
+  ]
+}

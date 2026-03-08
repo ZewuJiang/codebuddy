@@ -1,0 +1,156 @@
+{
+  "query": "OpenClaw 火山方舟",
+  "total": 15,
+  "articles": [
+    {
+      "title": "3分钟完成5000字行业报告:OpenClaw+火山方舟 Coding Plan+飞书实战指南(二)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702948&ver=6580&signature=vGrcIIg-KSyz5357pClwhZrr6ql35Ojb785fWvzzE520Oka*BZOBtcyDEK4UjRLv*vNvuE5zcLCHSTu-9QsD58CAM0vhwyoBtCEsigguCjU1QCtSlXNAhFl6P1fZH*a4&new=1",
+      "summary": "继上一篇彭超老师的OpenClaw + 火山方舟 Coding Plan + 飞书实战指南,社区开发者又投稿了“后续篇”,决定“整点好玩的”.本...",
+      "datetime": "2026-02-12 11:09:14",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "Agent Developer Group",
+      "url_resolved": true
+    },
+    {
+      "title": "告别周末加班,OpenClaw+火山方舟大模型 Plan 替我 15 分钟搞定周报",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702948&ver=6580&signature=v*78tRArTrFpO5rjWnaA5dHQuyotYNt5aFs9dcn*M-wPUg24k2N5D1lViV6kNcWXpiGuyQ5eZxuKM6aVailhCYgSvx6fzpdtmet8rXoMBQ5NduSMJRvXuALtZknUKg0q&new=1",
+      "summary": "OpenClaw + 火山方舟大模型 Coding Plan + 飞书,把繁琐的周报制作转化为高效、省心的工作流程.生成步骤如下:本机一行命令安...",
+      "datetime": "2026-02-28 21:54:24",
+      "date_text": "2026年02月28日",
+      "date_description": "4天前",
+      "source": "火山引擎开发者社区",
+      "url_resolved": true
+    },
+    {
+      "title": "从踩坑到跑通:OpenClaw + 火山方舟 Coding Plan + 飞书实战指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702948&ver=6580&signature=v*78tRArTrFpO5rjWnaA5dHQuyotYNt5aFs9dcn*M-wpMLggbrVBfOcnF585zzWvz5ub4uW-RSDezdzn5vayrTIsO*B263rDIFONDsiex7Mjwm6B1n3hE2VuLUA*7yeF&new=1",
+      "summary": "OpenClaw + 火山方舟2026年1月,OpenClaw(原 Clawdbot/Moltbot)以不到两周突破 17 万 GitHub Stars 的速度爆火出圈,成为 ...",
+      "datetime": "2026-02-09 18:21:42",
+      "date_text": "2026年02月09日",
+      "date_description": "23天前",
+      "source": "火山引擎开发者社区",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 的模型轮转配置(fallback):以火山方舟Coding Plan为例",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702948&ver=6580&signature=Jwgk7yNUJ0H3qHrCnYRR*Sd9B50dj*RwhWh5SQldOWvLc4CSzTIcWBr73hi40zYr*b8U8HhkwPk5ICgiyv7cDqPlHSLdz4U0a0rgy787ddTdX15zlIjmDnn2JIl0QGZf&new=1",
+      "summary": "(OpenClaw 的 GLM-5,MiniMax-M2.5,Kimi 2.5,火山方舟真实评测) 一文中提到过模型的选择.一个模型打天下,也不是不行. 但在...",
+      "datetime": "2026-03-04 15:51:56",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "曾嵘胡扯的地方",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 选什么模型?GLM-5,MiniMax-M2.5,Kimi 2.5,火山方舟 Coding Plan 真实评测",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702948&ver=6580&signature=Jwgk7yNUJ0H3qHrCnYRR*Sd9B50dj*RwhWh5SQldOWugieCEZlOnAgFMeiGMrUzYVzksiluNjijjENKa31ITlpPiHFKHRPoKpQjwzo48EDp5rf3lQ2XwnbMvtFqQK51x&new=1",
+      "summary": "OpenClaw 默认使用 Brave、Perplexity 或 Gemini 这些付费工具来... 元火山方舟Doubao-Seed-2.0-Code、Doubao-Seed-Code、Kimi-...",
+      "datetime": "2026-02-28 17:51:57",
+      "date_text": "2026年02月28日",
+      "date_description": "4天前",
+      "source": "曾嵘胡扯的地方",
+      "url_resolved": true
+    },
+    {
+      "title": "3 分钟部署OpenClaw,这次部署门槛基本为0",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702948&ver=6580&signature=VR-H6bsDoRFMUT65KjsZAGXVWdCDSWp1VZXNBDLIqdrO92dPDecbbdQxaZQLmvFt-6*hM*smMriYJ9rjvLEAfSQzanvkkRHwQ911ESzCoTzJSXvP9v9-8MW15EHIfoCi&new=1",
+      "summary": "你可以直接完成火山方舟、飞书、OpenClaw 三者的联动.如果你刚刚购买了 Coding Plan,这里就可以直接选择模型和 Api Key.消...",
+      "datetime": "2026-02-15 09:31:07",
+      "date_text": "2026年02月15日",
+      "date_description": "18天前",
+      "source": "老K茶馆",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 小龙虾・火山引擎企业级部署指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702948&ver=6580&signature=dm-nNhA1U0p7N-JmOfP6Qi3c2ly9wqahjR*q9hwyRGePOricGvhgg5PL8710lTGUdUEEZJ-rMFZonRm5gLffR-EJREkXbLxSD9L7qTubtqSq9h36hB-iRdxKeVJmrx8J&new=1",
+      "summary": "系统,预装 OpenClaw 官方镜像,利用火山引擎镜像仓库 CR实现版本化管理,支持灰度更新与回滚.算力层接入火山方舟 Coding ...",
+      "datetime": "2026-03-04 07:05:28",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "Ai企服干货社",
+      "url_resolved": true
+    },
+    {
+      "title": "openclaw烧200美元13小时,国产套餐29元能撑多久?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702948&ver=6580&signature=HqXvbRyIKxFYhL4yv7RMiJUHEPjDI****t6jYGl70yfGklih0VD33o1cT1AfLbotQrcabloylvvMEImQ462I4Qz*Y7*ChzBmXdfJJ6Zyyww8-5nQ*dMrsTgStmyu2D4v&new=1",
+      "summary": "7.9元起,Claude Code、OpenClaw终于不烧钱了!)火山方舟(字节跳动)——有Auto智能调度包含Doubao-Seed-Code、GLM-4.7...",
+      "datetime": "2026-03-04 12:17:48",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "元小二D-Space",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 小龙虾・火山引擎极简安装指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702948&ver=6580&signature=dm-nNhA1U0p7N-JmOfP6Qi3c2ly9wqahjR*q9hwyRGfSd97zp-KjqbMhPEiEKfSt6z14Nvlll5avQ5e*zFRJYO6lUizRis8aBKGVvVGPiOtXQtG1PwGipq8cLLaeFnRC&new=1",
+      "summary": "直接选用火山引擎OpenClaw 预装镜像,省去手动安装依赖的麻烦,一键创建实例即可.订阅火山方舟 Coding Plan,给龙虾备足粮登...",
+      "datetime": "2026-03-03 18:47:49",
+      "date_text": "2026年03月03日",
+      "date_description": "1天前",
+      "source": "Ai企服干货社",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw(Clawdbot):飞书 + 火山引擎 ,配置全网爆火的OpenClaw原来如此简单!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702948&ver=6580&signature=drT0YVYIs2It5hvnakWiXO*r0KJUCM8FBIcVy2BNn277bwxmHxPAam7NrY8H8kGptQuUlJ-oUwddredavA9odztTz5cqgHkCNtp1wnI2aZamq1juBxCKWVb22fQrAAqa&new=1",
+      "summary": "OpenClaw.1、注册云账号火山引擎地址:https://www.volcengine... 火山方舟 后选择 API Key 管理 ,点击 创建 API Key .创建成功后...",
+      "datetime": "2026-02-15 13:54:47",
+      "date_text": "2026年02月15日",
+      "date_description": "18天前",
+      "source": "嘿哥的AI基地",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw放量万亿token,阿里云进击火山腹地",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702950&ver=6580&signature=j444-Ko2WWKrHmQxLuoVE60UnTckOSKJFb1z9217Yd7dQLKgvvbPiv3dItleutDigPCC0B2C-AjzUggoROE1UVxbVp2y*jb9q6YaTnGveRXpAsW9hB*E4FqBf-3UU*Uq&new=1",
+      "summary": "OpenClaw(原名:Clawdbot)爆火,将阿里、字节的MaaS订单... 火山引擎智能算法负责人、火山方舟负责人吴迪则在采访中预测,...",
+      "datetime": "2026-02-11 22:56:24",
+      "date_text": "2026年02月11日",
+      "date_description": "21天前",
+      "source": "白鲸实验室",
+      "url_resolved": true
+    },
+    {
+      "title": "豆包 2.0+飞书 OpenClaw,构建 7*24 小时 AI 生产力",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702950&ver=6580&signature=vIcgMiWE3rEYvPR5X1cpIgWcndO*N8BpRTRo5TurzHfQmVrVEsnC7PmpD7FR7WK-8S2fRB3ZW2IUJr90jdPtvJBa3o0a63eMwk86Z4BIuYMR4vSYmCnpPGDDDaR-irXo&new=1",
+      "summary": "配置由于火山方舟不在 OpenClaw 官方支持的渠道商中,所以需要使用 OpenAI 接口兼容的形式先声明豆包 2.0 模型 ＂models＂: {   ＂...",
+      "datetime": "2026-03-02 19:33:20",
+      "date_text": "2026年03月02日",
+      "date_description": "2天前",
+      "source": "莫尔索随笔",
+      "url_resolved": true
+    },
+    {
+      "title": "1分钟搞定!OpenClaw 接入 GLM5.0/Seedance2.0/MiniMax M2.5保姆教程",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702950&ver=6580&signature=e2Okh7CA64qAySt4tESnvkqKoY27vddzGPV8uYMp7kOYTl87PyobNCT8mxfHfa23ePkUB01PfSHn1aTYNxZzCeChxC0PQ*CaovKWRp6fDIjnxfga5ahOBvQCDYX3GYBQ&new=1",
+      "summary": "(2)注册/登录火山引擎账号(3)开通＂火山方舟＂服务(4)在 API Key 管理页面创建 API Key,复制API Key后面要用.如何在OpenClaw中...",
+      "datetime": "2026-02-13 19:00:17",
+      "date_text": "2026年02月13日",
+      "date_description": "19天前",
+      "source": "大飞的AI赋能笔记",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw + Seedance强强联合:一句话生成视频,保姆级教程",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702950&ver=6580&signature=89L-iyjJ60RwKn1sKCxGeh3wrtahKZuEum3v03mDOml2VnUzQVd3CrO8bL1*waCc-I2HZ4lyIGtHvTYVE2Sdo2ankzmOzdsFcRsHFyZh0ZUgbN0m1CAzxAhu1GwsnID4&new=1",
+      "summary": "OpenClaw1.1 访问部署页面打开火山引擎 OpenClaw 一键部署页... 火山方舟 Seedance 2.0 体验中心 2.0 版本会更强大,生成质量更...",
+      "datetime": "2026-02-14 23:53:00",
+      "date_text": "2026年02月14日",
+      "date_description": "18天前",
+      "source": "元峰AGI",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw(原Clawdbot/Moltbot)多云接入全指南:Kimi 2.5适配+飞书接入+700+Skill资源一文拉满",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702950&ver=6580&signature=ADS7XtDsVBiTcVG1QUDYiFYANtIUG3bQkauv3z9yL0wM5n-syqrbNqUS6b105YJUo9FWyrHKWF*TsENy6QNmZVOOQF2vwku*2uzfazE25pBwNsDYIWkdBAn-64eCFGvw&new=1",
+      "summary": "OpenClaw(曾用名Clawdbot/Moltbot,一周内三次改名终定版)... 开通火山方舟→ 飞书创建企业应用→ 配置.env文件对接;● 熟手路...",
+      "datetime": "2026-02-02 16:48:51",
+      "date_text": "2026年02月02日",
+      "date_description": "31天前",
+      "source": "天津老狼",
+      "url_resolved": true
+    }
+  ]
+}

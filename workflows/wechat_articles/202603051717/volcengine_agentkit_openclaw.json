@@ -1,0 +1,106 @@
+{
+  "query": "火山引擎 AgentKit OpenClaw",
+  "total": 10,
+  "articles": [
+    {
+      "title": "OpenClaw狂揽16万star,是时候聊聊Agent Tools的AB面了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703587&ver=6580&signature=3FEKvNbYA0GZhygAePhqwfW1QNzr0oYvZcz-3wf49fx*NfrQ7YguIkGrb0hsR7EWbAGWN7ASWsm*2UAHJhfsdlVmPpXhldqLhwCvU5GyH*7txZRJoWMSaktyPGxBV8-A&new=1",
+      "summary": "OpenClaw 的困境,也折射出企业级 Agent 的真实需求:不只是功... AgentKit 要解决的问题.火山引擎 AgentKit 通过 AI 逆向工程实现...",
+      "datetime": "2026-02-06 12:50:15",
+      "date_text": "2026年02月06日",
+      "date_description": "27天前",
+      "source": "机器之心",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 正在走向 AI 办公的下一阶段",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703587&ver=6580&signature=lI2BXHGN6*1oKCG*2c0CGc1WPdi56edTtorTUDvjx0q1zDg5AS2enXZs0roi5RoDtHdW*cOqydLz-Iqunckp3Jt*pLD4oIB-UEzhipUu1eJQaOrhHnhtwQ*HNGKIJz*B&new=1",
+      "summary": "#一人公司模式探索 #OpenClaw工作范式变化 #AI办公新阶段 #AgentKit云上AI助手 #AI办公新阶段火山引擎在 AgentKit 官方实践中推出...",
+      "datetime": "2026-02-24 07:46:00",
+      "date_text": "2026年02月24日",
+      "date_description": "9天前",
+      "source": "我是小白 ai",
+      "url_resolved": true
+    },
+    {
+      "title": "让OpenClaw安全上岗,火山引擎发布业界首个AI助手安全方案",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703587&ver=6580&signature=v*78tRArTrFpO5rjWnaA5dHQuyotYNt5aFs9dcn*M-x4rCDE-SR4dX6nz2i9FmsDHzGef0A4qjHzNjQ275iOBtHXJZh3hCCMNoH8TmkHEKd0TKPcF7lNvjlYpuSsESUC&new=1",
+      "summary": "平台安全打造“免疫级”底层环境火山引擎为通过 ECS 和 Agentkit 部署的 OpenClaw 提供基础安全保障方案,从访问控制、指令过滤...",
+      "datetime": "2026-02-25 18:02:33",
+      "date_text": "2026年02月25日",
+      "date_description": "7天前",
+      "source": "火山引擎开发者社区",
+      "url_resolved": true
+    },
+    {
+      "title": "OPEN Claw的前世今生(问题与展望篇)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703587&ver=6580&signature=spPgSdxrONamk1uG0Q9xv4PabCkEsnOq1hHnCDYRFVLIKXCHa4-tfii9F*bkJXyNvUIVKEgi-GmljX5nR5hfFNrNdRj*oG65oaVTGqT8s-8XH-MmkJ8rFMrOJI4QbyO9&new=1",
+      "summary": "优先评估企业级AI Agent平台(如火山引擎AgentKit)将OpenClaw作为概念验证(PoC)工具,探索AI Agent潜力建立完善的权限管理...",
+      "datetime": "2026-02-24 08:03:11",
+      "date_text": "2026年02月24日",
+      "date_description": "9天前",
+      "source": "打印机旁的订书机",
+      "url_resolved": true
+    },
+    {
+      "title": "2026年02月08日全球AI前沿动态",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703587&ver=6580&signature=2NxzW8P3R2fx98ROheGyv-EXOW7goczjzVZspkhM-OGd8TcrrqBs0Fo8-V62ZRL4zcojIrCH9japL1J5JMPbv8OmtL9KxQeRJO40ulNVokvLXg5MN8s2zHUelHMaC2Aq&new=1",
+      "summary": "VoxYZ、OpenClaw、火山引擎AgentKit等│  ├─ 2.2 行业智能体应用:NASA火星车导航、高德鹰眼系统、高盛会计自动化等│  └─ ...",
+      "datetime": "2026-02-09 00:01:28",
+      "date_text": "2026年02月09日",
+      "date_description": "24天前",
+      "source": "快乐王子AI说",
+      "url_resolved": true
+    },
+    {
+      "title": "AI双雄齐发!Claude Opus 4.6与GPT-5.3-Codex激烈角逐;千人齐聚旧金山!OpenClaw全球首秀引爆科技狂潮",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703587&ver=6580&signature=a-JllWANu9dFZHuPbxs80luFZqQAaFA-*jWHf1ErEoJ-ZjOoBDWZtl1rUZytHN9hY7ikWLwwkcl4DHNkURDK-5MtcORuPrCHZQBB1WBAS*pulfqHkVZO9OYcrUqvul2r&new=1",
+      "summary": "OpenClaw爆红背后,AgentKit如何破解企业智能转型难题?开源... 火山引擎的AgentKit通过提供统一治理、工具资产化管理和零信任...",
+      "datetime": "2026-02-06 22:00:35",
+      "date_text": "2026年02月06日",
+      "date_description": "26天前",
+      "source": "dlmaster",
+      "url_resolved": true
+    },
+    {
+      "title": "AI资讯日报 2026/2/8 Waymo联手DeepMind发布世界模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703587&ver=6580&signature=StT74baiBe*1aCbV3vTx*3RR*TxOpJ4PU2dTQOq0Bov-lwxmbJ1Xpn8UO*pBik1CFvbrOW8HbOI0SKfuxOgBN4uZl8zLNp-WCTDq*DDcIb3PgTRzT5mJyH8D2qKpBdAn&new=1",
+      "summary": "火山引擎AgentKit方案(AI资讯)瞄准OpenClaw安全漏洞问题��️.通过AI逆向工程实现存量系统智能化转换,基于MCP工具精准...",
+      "datetime": "2026-02-08 05:28:41",
+      "date_text": "2026年02月08日",
+      "date_description": "25天前",
+      "source": "何夕2077",
+      "url_resolved": true
+    },
+    {
+      "title": "Clawdbot (又名Moltbot/OpenClaw) 带动Mac mini与十大云主机部署火线对决",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703587&ver=6580&signature=PGZp*-3AZmc6SESX5tgWv89RJy01KVRiGrhsctYdxLZp3NPsXKSRUR2ISCIt39raKqrSfRDO6wyl0QWaTKPzk-crGvDlG0F07PGty-SMf1Lj7UwG7RB8wHcdnS5yA8tz&new=1",
+      "summary": "LAS火山引擎天翼云腾讯云阿里云微软云Azure百度云移动云AWS ... Pi agent (RPC)               ├─ CLI (openclaw …)               ├─ ...",
+      "datetime": "2026-02-03 07:31:28",
+      "date_text": "2026年02月03日",
+      "date_description": "30天前",
+      "source": "克里斯托AGENT",
+      "url_resolved": true
+    },
+    {
+      "title": "2026年第一个现象级AI工具来了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703587&ver=6580&signature=P8EQlUNXK2lZXs080Ytg535Df*7AzYBnhfsl0-r7o1zlEmU*D1i*9kofVUYp2UjIXZmE01iV6RnaI9tLc7cME9MLCtn1WRsaG98ivCSPcUEAdirgw32wUWSDQQYFcerk&new=1",
+      "summary": "3️⃣火山引擎的破局方案火山引擎刚刚官宣成为2026央视春晚独... AgentKit针对OpenClaw暴露的问题,给出了三个杀手锏:①AI逆...",
+      "datetime": "2026-02-09 10:10:27",
+      "date_text": "2026年02月09日",
+      "date_description": "24天前",
+      "source": "熵变AI实验室",
+      "url_resolved": true
+    },
+    {
+      "title": "摆脱复杂指令,使用 OpenClaw 轻松管理 MySQL 云数据库",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703587&ver=6580&signature=v*78tRArTrFpO5rjWnaA5dHQuyotYNt5aFs9dcn*M-wmNVQfd-pzQ6RBjsCvGlemdBcemOeKV*bHJtIx0ln6UjS5977hmh-u*ucwnx8gpjQeJS6VYlCNnPAS0XgSzYXW&new=1",
+      "summary": "与火山引擎服务进行交互,您需要生成并获取访问密钥.登录火山... openclaw/skills/cp -r agentkit-samples/skills/volcengine-rds-mysql ...",
+      "datetime": "2026-02-27 18:46:32",
+      "date_text": "2026年02月27日",
+      "date_description": "5天前",
+      "source": "火山引擎开发者社区",
+      "url_resolved": true
+    }
+  ]
+}

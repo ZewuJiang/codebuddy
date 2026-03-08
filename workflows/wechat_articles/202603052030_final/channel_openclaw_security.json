@@ -1,0 +1,296 @@
+{
+  "query": "OpenClaw 安全 风控",
+  "total": 29,
+  "articles": [
+    {
+      "title": "OpenClaw 极简安全实践指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716487&ver=6580&signature=LZqROcnWfRLi4pGnNulf64qUBjoV0DBJA1FLTYnBEmNmqiW*WO6vhGaTXM1G**M3Y8ziuzLvvnitC6z5a9DDsa1IP1msBFGtERunui1fktGqImAArpGQAoceCxVEEzTu&new=1",
+      "summary": "openclaw/workspace/AGENTS.md添加内容: SlowMist 安全协议(红线命令、黄线命令、Skill 安装审计协议、业务风控)步骤 2️⃣...",
+      "datetime": "2026-03-03 16:29:21",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "物联网小黑",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 安全验证与攻防演练手册 (Validation Guide)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716487&ver=6580&signature=-YFCejr7K6SwEGrihGADCH6Rq4dUNkUvtFpO9VZ19T9xzdCkUaixzGWlxl-T0vdJXZumDvgzLUy3thZlS-1LYHoV0ly98zfPpravayWCRH6ePSCM*NBnwD56-fQmYqek&new=1",
+      "summary": "# OpenClaw 安全验证与攻防演练手册 (Validation Guide)本手册用于端到端验证《OpenClaw 极简安全实践指南》中定义的事前、事...",
+      "datetime": "2026-03-04 16:49:13",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "小白安全成长记",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw来了,安全边界变了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716487&ver=6580&signature=pnFIOrY3mVxxvgTtnAjczAbRbk1Y5yZz7-dK7LWsP-s8fZNZarFbCgG2LD7CTDqyfDv8DhkBT0epfbii*XPLvjfy5y63S7KAUqN4qI*cmes9HdEsO64nrT2KUPiqdkV7&new=1",
+      "summary": "上图清晰地展示了针对OpenClaw的最基本防御策略总体而言,智能代理时代的安全治理应以体系能力建设为核心,通过约束机制与可...",
+      "datetime": "2026-02-10 15:55:53",
+      "date_text": "2026年02月10日",
+      "date_description": "23天前",
+      "source": "上海数字安全科技有限公司",
+      "url_resolved": true
+    },
+    {
+      "title": "Agent金融时代:OpenClaw实验与A股三条主线",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716487&ver=6580&signature=D64cW9n-6rVDwHnUKL8UEfYrxwXO57AylsRvT*01STiRhNjtc52h8qLXT5UyJpxrjMxaHLM*q*pyJujSoGBcbobdxFtPvqrAXeIONpkqjebi6KmvTlFgpzmm08M5aiVR&new=1",
+      "summary": "级中安全与风控低OpenClaw实验显示AI自主经济体潜力巨大,但海外模式不可直接复制到A股.国内机会更确定、长期受益的方向是算...",
+      "datetime": "2026-03-04 08:00:26",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "丫丫个呸呸",
+      "url_resolved": true
+    },
+    {
+      "title": "慢雾出品 | OpenClaw 极简安全实践指南,极简部署",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716487&ver=6580&signature=YKCioI4eaSmoRr90jk1zTRdaW6o6J6*9xV35tcMwVlUh75g2I0G6VpJ6*TWmvJdYMv-2zo*aosiJ-kP2q2q6Y2SO9bml-GaOMUCFLpuaT3klUDhWEJJ05pmG9Yspsl*J&new=1",
+      "summary": "OpenClaw 极简安全实践指南.md[1]↓② 在聊天窗口中,将该 ... 高危业务风控 (Pre-flight Checks)高权限 Agent 不仅要保证主机...",
+      "datetime": "2026-03-05 11:13:52",
+      "date_text": "2026年03月05日",
+      "date_description": "10小时前",
+      "source": "慢雾科技",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw们狂奔,谁来焊死安全车门?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716487&ver=6580&signature=JIswKpPf9lFwY9qBpEPf5DPiIiGK41h1-TeTFxGoRMWtBRE5gVjWY72Eg*NkhlngtCs2cNHbuhHHDvPNoE6TjIoufU5c8oMKFqis07wsAYIcgMKRQN4J0B2XqfyGzsFW&new=1",
+      "summary": "凹非寺OpenClaw、Moltbook彻底火了.2026年一开年,AI突然变... 应用层安全:核心包括智能体安全运维与业务风控,为其在真实世...",
+      "datetime": "2026-02-02 18:04:23",
+      "date_text": "2026年02月02日",
+      "date_description": "31天前",
+      "source": "人工智能学家",
+      "url_resolved": true
+    },
+    {
+      "title": "阿里云1分钟部署OpenClaw:AI量化交易实战,50美元48小时变2980美元!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716487&ver=6580&signature=K7ZoUrh8WVyHNPhQ8Z1r896a*OhbXSGyGVECw0BokFaCzyslfdtAO9sQZTMB8d6OF5AkKVO7xRA08wO5vMrYo9NdFhyP2TOdsBXw7atwwVTjAXhVjDLGum2iOhH1ydhr&new=1",
+      "summary": "捕捉偏差捕捉8%以上的定价偏差机会严格风控通过凯利准则将单... 配置安全组规则购买完成后,需要配置安全组开放OpenClaw管理...",
+      "datetime": "2026-02-27 16:40:17",
+      "date_text": "2026年02月27日",
+      "date_description": "6天前",
+      "source": "威尚哥AI视界",
+      "url_resolved": true
+    },
+    {
+      "title": "[学习] OpenClaw 在个人投资应用初步思考",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716487&ver=6580&signature=QyIfmK-LfnZZPN2dEPEynrxT67WLarS1vpKFqaxYwhSBGLBE6fsLgBwvHRIERGFa8RZYOcHmaEEfPg*TyxTdNNqF9bGzlkK7LRR46iujhinRhhpa-pp3NRIRg7KE2Gxt&new=1",
+      "summary": "架构模块OpenClaw 采用分层协同的闭环模块化架构,以 Gateway 网关为风控安全中枢,Tools 模块拓展外部能力,Skills 模块固化可...",
+      "datetime": "2026-02-19 22:34:41",
+      "date_text": "2026年02月19日",
+      "date_description": "13天前",
+      "source": "宸熙投研",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 一人公司朋友圈营销框架",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716487&ver=6580&signature=Wn5HNhCwwLMejF85PJ8xiV8S2EfHXBvW3uyqPCPKRnifR3438PZagv1dUNdszZDH115RTqNJSPGyjJZKHaDDLGQXMHN*nT109I8bGMK86XZHboaFhSIFUXNPFiK6RTIw&new=1",
+      "summary": "OpenClaw 一人公司朋友圈营销框架基于你提供的链接内容,我为... 避免用户误以为能绕过微信风控(容易封号).3. 安全话术:必须...",
+      "datetime": "2026-02-28 14:45:27",
+      "date_text": "2026年02月28日",
+      "date_description": "5天前",
+      "source": "G先生聊认知",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw AI交易火遍WEB3,真能比真人交易员更靠谱?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716487&ver=6580&signature=plCbEKZRtoiI0iNwKg*XfXJRa8UPsSj6t7Q2E5-D6EM-t1Hvvh8W3Rr4BkFXssuHPn9030uU5vzOKyxh57S*BRnqS2um5VW2*nD4BGIif6nZwsn2LJNFUFoZMhhFOOgv&new=1",
+      "summary": "核心差异仅在于人类是否设置了“生存优先”的指令和合理的风控... 近期,OpenClaw的安全问题被频频曝光,成为其最大的“致命伤...",
+      "datetime": "2026-03-05 18:31:08",
+      "date_text": "2026年03月05日",
+      "date_description": "2小时前",
+      "source": "WEB3网络生态圈",
+      "url_resolved": true
+    },
+    {
+      "title": "为何Xagent比OpenClaw更符合企业级安全与合规需求",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716488&ver=6580&signature=nAkIqiOUa*XyKN*c*57DUWJPPvEEvwrsibcuSzbff1rDrgaWXzQzXsGYlldDN-5LvwdaQSUN8Cedbk4JQqMCG*dOldZHKevSLOTNZPlykM1PVUN4pqVlifv4o-TDKvMj&new=1",
+      "summary": "二、数据安全:明文裸奔 vs 隐私主权Openclaw:信任边界模糊的... 这不仅满足了企业的内部风控要求,也为应对外部监管提供了坚实...",
+      "datetime": "2026-03-04 12:43:22",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "未来速度产品生态运营平台",
+      "url_resolved": true
+    },
+    {
+      "title": "【OpenClaw 安装指南】零代码搭建",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716488&ver=6580&signature=Ilfu53EPZoE02MHz1bjtx4IE2gfC7ZqX6E42gope-rBCMCA19j5h0is5-acfV232bJCBuHndxT-r2yecdWybv9WQmIjh2Ky9h8TLaErqDv5K5tW1hjdo1PITgcla7Ej1&new=1",
+      "summary": "6)进入 OpenClaw 面板:做基础安全设置部署完成后,你通常会... 1、回复频率/限流(避免刷屏或触发平台风控)2、心跳/超时(异...",
+      "datetime": "2026-02-26 21:12:40",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "Amphi",
+      "url_resolved": true
+    },
+    {
+      "title": "现在Openclaw 火了,作为中小企业如何使用这个工具?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716488&ver=6580&signature=rqRQ6nMOFa*c5PNkSAyQi4L*9ycqN3Iw0svfNLUuMFPzz5R7b3*srKwrW8MAtcuuPrBIrybL-4A8Oc4Myshv6TfxaVxliZR4Vs9kUJPk7uRZtp5dqgWa8e9Xhw826Udq&new=1",
+      "summary": "自动化它.3. 合规性: 在外贸环境中,注意账号安全.Openclaw 操作频率不宜过快,以免触发平台风控(尤其是 LinkedIn).",
+      "datetime": "2026-02-28 07:13:08",
+      "date_text": "2026年02月28日",
+      "date_description": "5天前",
+      "source": "兰姐说AI",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw相关技术与智能体安全——人工智能测评的核心价值与体系构建方式的基础性思考(三)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716488&ver=6580&signature=-Vw5AZDzCTh7yj0uCjsTqqyLbGscqprCq5Bo393VGMmppouUISH0b-g1ogkZ4WSKw5GcfBMFtS4kab5NqMpJuJYgxeq6aMfFAlz*rHePvNViHQtHXGUM80s4qiXhxtZC&new=1",
+      "summary": "医疗等敏感领域的智能体(如基于OpenClaw的金融风控助手),... 安全维度评估是核心,覆盖智能体全生命周期安全,包括算法安全...",
+      "datetime": "2026-02-08 09:01:48",
+      "date_text": "2026年02月08日",
+      "date_description": "25天前",
+      "source": "以身观身",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw成供应链投毒新目标;Gartner预测2026年六大关键网络安全趋势 | FreeBuf周报",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716488&ver=6580&signature=sBRR7vFM1gC25YQXFwUyhmnJ-uiYj3PnAmgZBGE198EnD-Dsb8kKw5--s70g3rij4fPQdspmvNlHkUKMyC5Om9SWdJV0XrSxcfW0lHX8v*lQTb088TUGJIIC4yYcAeVo&new=1",
+      "summary": "��OpenClaw成供应链投毒新目标,341个恶意Skills窃取用户数... 监管机构担忧其风控体系,该交易所此前多次因安全漏洞和内部失...",
+      "datetime": "2026-02-14 18:07:28",
+      "date_text": "2026年02月14日",
+      "date_description": "19天前",
+      "source": "FreeBuf",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 爆火背后的“致命后窗”",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716488&ver=6580&signature=ybvE-6LsIJdz0-HgDN*7qtPCZVkyVFcnEmZSzQG*y*9XT6c67GBcKX1g9mCrId8Z2rLVXrBV23fQT6aUHEjCNFyrCK7aFzKtxrrsolEJbM8u1uqHPbsnfi7Th4fs9pUL&new=1",
+      "summary": "它比你想象的更“好骗”在风控领域,有个词叫“提示词注入”,... 如果OpenClaw的“安全底座”没打好,它可能真的会觉得这是...",
+      "datetime": "2026-03-03 11:53:03",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "Isaac Theo",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw极简安全实践指南参考(Security Practice Guide)ca",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716488&ver=6580&signature=OhLNMWQ8nBKArw0r75pgksHgEjPjztp5KXoQw6Kd-6IlxFOwPQnXuSWBnxnGG8eJZosMWh9TEADmUfjMVxo2cE1zSwqOOVjY2vNNd7theNrkVwvKBkkuiEEiy*1xdvGW&new=1",
+      "summary": "高危业务风控(Pre-flight Checks)│事后─── 每晚自动巡检(全量显性化推送)+ OpenClaw 大脑灾备事前:行为层黑名单+ 安全审...",
+      "datetime": "2026-03-05 09:54:20",
+      "date_text": "2026年03月05日",
+      "date_description": "11小时前",
+      "source": "苏哲管理咨询",
+      "url_resolved": true
+    },
+    {
+      "title": "慢雾团队给 OpenClaw 写了一份安全手册,我帮你划了重点",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716488&ver=6580&signature=uTHMLPPHRzvPWAakoA3CLa1efnwvL*6yWsHuvlznTRmdmohcP41VBsiygDv9latS9UcfcILAG5CDcYCb5zM3NGKOiKxkDPeW1Fpf0BdITkt3f7Adc0pRYZgAhsfK-QDr&new=1",
+      "summary": "OpenClaw 的极简安全实践指南 v2.7,由慢雾团队(@SlowMist_... 二是高危业务前置风控.如果 Agent 要做不可逆的高危操作,比如...",
+      "datetime": "2026-03-04 08:00:41",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "伊亦已以",
+      "url_resolved": true
+    },
+    {
+      "title": "拒绝风控!基于 OpenClaw + NapCat 打造无限制的专属 QQ AI 助理(附完整保姆级教程与避坑指南)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716488&ver=6580&signature=sFid0Iq2YHj-5sEKECu1ZN9TLi*jxVaBVSI2V-QE1LrK7eu2ioQBm8grPzQY9vz2*WNPxhoa06ej8KPUi16AeDTj73xulpLRnTGmFV9U6GsxLnKVy0b7o3TF36xsXfiC&new=1",
+      "summary": "发图被夹、发链接被风控、动不动就触发频率限制、申请流程极其繁琐……本文将为你揭秘基于 OpenClaw 与 NapCat 的终极解决方案...",
+      "datetime": "2026-02-25 19:29:53",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "我卖力地唱你才懂我伤",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 安全性探讨",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716488&ver=6580&signature=K87yD*aKZKY0E7GBGkyvF5aCM*U4RcLPwV7HCuoJUpX2WKwPNXO5ED8Nt94KCh9oLm*hrW-oF3Zn0ghan3qXMOKH6UlZCwk7yzKcHUp1Y2fC1ZS1u06tnF-G0p7yINxZ&new=1",
+      "summary": "-data-exfiltration-goldmine/OpenClaw:它是什么?使用安全吗?作者:Pieter Arntz 发布时间: 2026年2月23日一款名字有趣的人工智...",
+      "datetime": "2026-02-25 09:00:59",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "安全行者老霍",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw狂揽16万star,是时候聊聊Agent Tools的AB面了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716490&ver=6580&signature=3FEKvNbYA0GZhygAePhqwfW1QNzr0oYvZcz-3wf49fwER7r8-FjGAV4KmhMRhoAFj6-4kYFMoYvDJtzpN*-oalkgGpUgUn*OpKX7n-fB5h8*dh3mOLKhm7FVHt0YNZXY&new=1",
+      "summary": "将复杂的合规与风控策略封装为可执行的独立 Skill.合规专家无需... 调用构建了可靠的安全盾牌,让 OpenClaw 更适合在企业级环境部...",
+      "datetime": "2026-02-06 12:50:15",
+      "date_text": "2026年02月06日",
+      "date_description": "27天前",
+      "source": "机器之心",
+      "url_resolved": true
+    },
+    {
+      "title": "银行下一次架构革命:OpenClaw 与 Agent OS 正在重写金融系统",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716490&ver=6580&signature=FeZJdfDevCP8zD13PsQfmKixONfwxAb7zOQpAOvhgq06kV5lq8lNQxByfHTvWJOyNlcOBdKcRD*pxITc7RcNvUdcd-kWULEJKFz-afAhKDUjxFH1OIEsAAJVmtVITv8v&new=1",
+      "summary": "OpenClaw 等新一代 Agent 执行协议的出现,AI 正在完成一次关键... 例如核心系统、信贷系统、CRM系统、风控模型等,Agent OS需...",
+      "datetime": "2026-03-04 07:30:25",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "Space AIThinker",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw安全加固实战指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716490&ver=6580&signature=OrZ2GEHBR8LrwjqxddayRg-WlWL2CvKYoL2IpEHdVyfz425KCKKSOte-aCuN2zHwWARL-qBLJ-GISxozAz2IWwmVIHkeQo*UPzPyXGPVN*v9NQ9oe4aaHyHZ7cxsg9DS&new=1",
+      "summary": "01—网络安全加固一、限制OpenClaw默认端口(18789)外网访问(优先操作)部署在公有云ECS服务器上的OpenClaw,在默认状...",
+      "datetime": "2026-02-13 22:12:53",
+      "date_text": "2026年02月13日",
+      "date_description": "19天前",
+      "source": "安全笔记社",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw全球火爆,大厂老板却一脸疑惑:这玩意儿能管好我的亿级营收吗?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716490&ver=6580&signature=l6FC8MOP1TtLmCiGAbQmoJFpZhraUZi6pSrh8i-mVd56DR2DcNKwbbK2txq5DlKcpgZbX-SB9MMNcMJWZP2QUr9zJCFbUwmYoUwBTvqRljt9sQjHse7Kh9Z9kXOpf9fH&new=1",
+      "summary": "批量核对发票、风控异常.麦肯锡报告:类似Agent可降财务成本... OpenClaw让你零代码拥有这个能力.三、大企业安全上车指南:...",
+      "datetime": "2026-03-02 09:03:28",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "无话不说聊AI",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw智能体安全威胁深度解析",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716490&ver=6580&signature=pUnXZNedMQG59QdBrV*ttlrRhg225kgj9xLWUXyBtlDNoJYAx0BHm0Gq3TkKeyhxI3Iza-Qfr1P1Y*Bt45nlQiM2Xaey27I1PegnP1KwdyNcaCH8B055lvQnP*2ua2Vh&new=1",
+      "summary": "近日,美国MITRE公司ATLAS团队发布《OpenClaw调查》报告,目的是通过快速调查OpenClaw相关重大安全事件,将安全威胁映射...",
+      "datetime": "2026-02-12 00:02:45",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "占知智库",
+      "url_resolved": true
+    },
+    {
+      "title": "【网络安全】防范OpenClaw开源AI智能体安全风险",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716490&ver=6580&signature=A9o712UMHFjLjZK5OnVw-8gsQ67DT0i0qCUiLkqLwXSdH86rugzBxeZcyGsKw6-wvkDLyNHQADFa4ZbJqpF*Hy4GRw9z-VAjlY3kDVPFLwZfsbrJOvuvl88ROpngKUH0&new=1",
+      "summary": "近期,该项目集中爆发多起安全事件.最新数据显示,OpenClaw的部署规模已达相当程度,全球有超过1.5万台设备对外公开暴露了其...",
+      "datetime": "2026-02-08 01:03:29",
+      "date_text": "2026年02月08日",
+      "date_description": "25天前",
+      "source": "利刃信安攻防实验室",
+      "url_resolved": true
+    },
+    {
+      "title": "使用OpenClaw的安全最佳实践:别让AI成为＂特洛伊木马＂",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716490&ver=6580&signature=M0o19zUQbpCu854lvZLfMtxz*UnYkSAk*8h8qqlY5xlpOn6m*ua*bLuSuI1RfzGaOu97NBPuXde1rr2P1Y5P1oyEGZtdaX01wJSbLrbW5DrBmheOvXKW0YEei4G8Pkdl&new=1",
+      "summary": "【导读】Snyk安全团队披露了一起针对OpenClaw的供应链攻击.攻击者通过ClawHub分发恶意技能,已有用户中招.本文基于真实案...",
+      "datetime": "2026-02-12 23:40:21",
+      "date_text": "2026年02月12日",
+      "date_description": "20天前",
+      "source": "非空的小站",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw安全部署完全指南:身份隔离与运行时风险防护实战",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716490&ver=6580&signature=YjgNyEBE1DXrO0uGfblO1kd8Plp*BL68FKU6uVhax8ZznWbDhprSHRaV1T2FMinCTH8u2qtweUrOUqFOdoVWT5SjOEmsFjp3UAugQzdb7NQP9UeV-o4Fz0*5GBv5sLol&new=1",
+      "summary": "作者按:之前多篇文章曾提到OpenClaw的安全隐患与防护建议,本文基于Microsoft Defender安全研究团队2026年2月19日发布的安全...",
+      "datetime": "2026-02-22 08:30:57",
+      "date_text": "2026年02月22日",
+      "date_description": "11天前",
+      "source": "上海康馨绿色健康服务中心",
+      "url_resolved": true
+    },
+    {
+      "title": "疯狂的“OpenClaw”",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772716490&ver=6580&signature=JvhUxr2rMbcQndYdh0Amn4BRXqXZ8swBP58TvaDaT9te4orO9z7ITOqHdrLZ09MEZYoJ6pKPPXXpspmS1WjyMHUgC0yIfCaPY0WWb7jdzANKUz3TEANxamNVnhTxSrcg&new=1",
+      "summary": "比高门槛和高成本更让人担心的,是安全问题.OpenClaw的定位... 一个需要获取系统最高权限的AI助手,在大厂内部要走的风控流程...",
+      "datetime": "2026-03-02 09:59:42",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "中国信息化周报",
+      "url_resolved": true
+    }
+  ]
+}

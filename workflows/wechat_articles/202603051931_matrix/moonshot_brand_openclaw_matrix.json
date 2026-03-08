@@ -1,0 +1,156 @@
+{
+  "query": "Moonshot OpenClaw",
+  "total": 15,
+  "articles": [
+    {
+      "title": "OpenClaw 2026.2.23 更新全解析:Kilo Gateway、Moonshot 搜索、安全性大升级",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710620&ver=6580&signature=nhqVu91uDBDlmXEXPt*gyxQ8I3Sc-yxVSPl22ez62oUIefVL*NTpONMkCBwdnnE*igsnIIwztjYt5FJReBTWc37CRiDMUtKFHNB9ypTir1cpKqt-GoNGOzwvubBc4hR7&new=1",
+      "summary": "Moonshot 搜索步骤 1:配置密钥openclaw configure --set tools.web_search.provider=kimiopenclaw configure --set tools.web_search....",
+      "datetime": "2026-02-25 08:01:10",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "胡单纯",
+      "url_resolved": true
+    },
+    {
+      "title": "Moonshot AI 正式推出 Kimi Claw:原生 OpenClaw 上线 kimi.com,5000+ 社区技能与 40GB 云存储",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710620&ver=6580&signature=glKgBmSyTkypFcCXlriJP7nOCHi-coYwfPwV4FbnIhv2xg0FeiDsYl5ng1UpGnImocuWSyxA3aG51Znhu38mfIzkCzjR1RrxOjlukyNp*nVWup2MPdQIZXKaaDjPS73p&new=1",
+      "summary": "Banner写在前面Moonshot AI 把 OpenClaw 框架搬进了浏览器——这是一件挺重要的事.以前要跑一套完整的 AI Agent 环境,得在本...",
+      "datetime": "2026-02-21 07:05:43",
+      "date_text": "2026年02月21日",
+      "date_description": "12天前",
+      "source": "顶尖架构师栈",
+      "url_resolved": true
+    },
+    {
+      "title": "全网最全!Windows 部署 OpenClaw + 接入 Kimi 避坑指南,亲测 0 报错",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710620&ver=6580&signature=xcsQPP668rLBO*HYXHU8W*5iunL6UfF0gf-16KQVO4UMlXzwKp1siEY*gqNuga0C5R8avkr9WOPQBGSpzgj9HB2OwooqKLul5JgluJ2p1XU6EwfCRQgdbnMbyODoIkhO&new=1",
+      "summary": "(Moonshot AI) 完美接入 OpenClaw,简直是一场噩梦.“明明 Key 是对的,接口也是通的,终端里却永远报 401 错误?” “明明改了...",
+      "datetime": "2026-03-04 16:42:59",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "小草莓的家",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw配置Kimi模型踩坑记录",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710620&ver=6580&signature=j3LSFkQ4wSJ62Gy0WBF9u7owmg68WNfqa5BOg8Ky3r7DRh*0gXds6*zSkI9gQuXyQ5C*S9FCS96g652dB9VUIL8-uhYAJmeYyVLF9Wi0xnjsos9Ft25cecSc**uwQMuB&new=1",
+      "summary": "OpenClaw 默认用的 developer role(这是 OpenAI 新版的格式),Moonshot 直接报错了.其他坑模型 ID 写错我一开始写的 kimi-2.5-...",
+      "datetime": "2026-03-01 20:08:10",
+      "date_text": "2026年03月01日",
+      "date_description": "3天前",
+      "source": "数字小马",
+      "url_resolved": true
+    },
+    {
+      "title": "龙虾家族大比拼:OpenClaw、KimiClaw、MaxClaw和QwenClaw全方位对比",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710620&ver=6580&signature=j*-kX1eqgI*RJ-rkGLgD759TIlxC1jthNVHh2YDIJ9E1WorrNOANlNLEBYUmeZYUKArLyLGw7taJDiSme9p-ZVNYsyWpZJejhz4xkKRtPYz2clqzbWbRLefPiibmtzyc&new=1",
+      "summary": "隐私可控KimiClaw月之暗面(Moonshot AI)OpenClaw 云端托管版,内置 Kimi K2.5零部署、40GB云存储、5000+技能、K2.5 驱动...",
+      "datetime": "2026-03-02 07:08:48",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "硅基狠狠狼",
+      "url_resolved": true
+    },
+    {
+      "title": "opencode自动部署openclaw",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710620&ver=6580&signature=6gtlamDHn1OJXNgqXhUogy*aV4PohViaBgpwppPPB18Xjc9sttF5Vm6V2r6U49qCV1jGxlSKVYUvXw9C87lXZhQPgW0TiOFpiNtWxFIXCL31FDE4n*NPrqYOXGwVHvRW&new=1",
+      "summary": "Moonshot APIdocker exec openclaw-gateway node -e ＂const https = require('https');const fs = require('fs');const config = JSON.parse...",
+      "datetime": "2026-02-06 17:45:01",
+      "date_text": "2026年02月06日",
+      "date_description": "27天前",
+      "source": "面试驿站",
+      "url_resolved": true
+    },
+    {
+      "title": "打造你的私人 AI 助手:OpenClaw 安装与配置完全指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710620&ver=6580&signature=617JIagQUMLKTqT3emRHiGLZ9V2efmcGJMZexyz*BbI9I2qPkbUUPXupf0WZdlrpfzvCT6aR*xeWw8x8la6cb*r3P3uobPtrRm9OneLPQ8nFmqe7VzWRswUUCV6qaRvE&new=1",
+      "summary": "Moonshot V1 128K＂ }        ]      }    }  }} 常用命令一览命令说明openclaw --version查看版本openclaw gateway start启动网关openclaw ...",
+      "datetime": "2026-02-24 08:00:17",
+      "date_text": "2026年02月24日",
+      "date_description": "9天前",
+      "source": "AI游民",
+      "url_resolved": true
+    },
+    {
+      "title": "Mac 电脑安装 OpenClaw:装好之后让 AI 自己配置一切",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710620&ver=6580&signature=cI*B3nINauziMRxCcvRl6vRihMxlaZFs*jdWPhNlxlHtrV3pljOLHTLP-w80tY3d2LRLKIwR9O*6YaChXaW1eWXjYO9UoI-jGy2EeNmXK8MWReVCOkkEe*I4OI9DfEtr&new=1",
+      "summary": "moonshot openclaw config set model.apiKey 你的API_KEY openclaw config set model.model moonshot-v1-128kKimi 特点:超长上下...",
+      "datetime": "2026-03-01 16:24:52",
+      "date_text": "2026年03月01日",
+      "date_description": "4天前",
+      "source": "不贰错",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw + OpenCode:AI 时代性价比最高的个人助手组合",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710620&ver=6580&signature=F9SHm94MRfc78PBX2B9CtKtbxydqrZNlSKu0zx*OY-9NL9FcxUHNzCjd1Cm285hwWu5oPQpNhQQPtyD5SwFZt1qXP6abDI25-iX7yPqDmwxnk-eqyAwo8eoX4wcW9hT-&new=1",
+      "summary": "Moonshot (Kimi-2.5).它对 OpenClaw 的代码执行(Tool Use)支持非常稳.记得去 Moonshot 开发者平台充点小钱,否则免费额度的 ...",
+      "datetime": "2026-02-25 15:53:46",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "AI e洞察",
+      "url_resolved": true
+    },
+    {
+      "title": "这个项目让openclaw成本直降80%",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710620&ver=6580&signature=JPqhbluJRn-urlvrIV-oZPtl*Xp6qAQSmTbEe77lDoUgm2d51BYDvHpdJqdkhY3DE5IGTuA2QOoXDYCII72JC9tedQXnsb6Fs5qAaK2x60xvMGrfC0DF-PO3XLZlmHOb&new=1",
+      "summary": "OpenClaw 零改动.1 设置将 API 密钥设置为环境变量:MOONSHOT_API_KEY=＂你的-moonshot-api-key＂ANTHROPIC_API_KEY=...",
+      "datetime": "2026-02-25 17:13:17",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "GitHubStore",
+      "url_resolved": true
+    },
+    {
+      "title": "一文讲清楚OpenClaw接入飞书",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710622&ver=6580&signature=MRseg8C0imD1*Ul-4uHoYr6YfNL-OpND6c4-yn*mNDpm9eC34AoHw8QfhnILFI*Vhr47DBUsVyBit9eTyLOUdM3JrxvGZKHShT8h4uTj6YKqJ3JCDlnI-FFpjJqqWmQO&new=1",
+      "summary": "Moonshot (月之暗面)安装npm install -g openclaw初始化配置# 初始化OpenClaw配置openclaw init第一个选择quick startprovider选择...",
+      "datetime": "2026-03-04 08:09:25",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "猫猫程序员",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw最新版本发布,安全防护全面升级强化",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710622&ver=6580&signature=sBRR7vFM1gC25YQXFwUyhmnJ-uiYj3PnAmgZBGE198GsBpDzEG-fnqtgXWggDSTZNBB5c2DZcHWPe7ePF6EfoH-ej*eYN5fWJ6sHmxkNgsAGlwwPuJs1ULIk5O2pn7wh&new=1",
+      "summary": "修复内容包括:为Moonshot/Kimi扩展上下文修剪功能,解决默认... OpenClaw v2026.2.23版本汇集了数十位开发者的贡献,彰显其作...",
+      "datetime": "2026-02-25 18:05:51",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "FreeBuf",
+      "url_resolved": true
+    },
+    {
+      "title": "Kimi版OpenClaw:AI智能体的平民化革命",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710622&ver=6580&signature=b833vbvspZVQ41RlQ*9fJAzSSU0AIl0EmxZrpDDzF6EdA0Id3kqLN5ObR2dJhJL2Gj97NQBuHcH*PpJfoUoaS*5hB59jheEWEt2SUz*lv3l3vwEWmeq3v3bx*hABAU4Y&new=1",
+      "summary": "01.Kimi版OpenClaw基本介绍Kimi版OpenClaw是月之暗面(Moonshot AI)推出的一款基于OpenClaw框架的云端AI智能体服务.它将...",
+      "datetime": "2026-02-20 17:38:52",
+      "date_text": "2026年02月20日",
+      "date_description": "13天前",
+      "source": "Ai100S",
+      "url_resolved": true
+    },
+    {
+      "title": "�� OpenClaw 原生安装部署指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710622&ver=6580&signature=5ZhmSMa4Yxfzpbig98V4UXB6w9121G6utZWGonqQJhROB1V*aQnS95g434lL2LqWTgyPYise5yU-zaQYpnL3D8wcJh8ffFUoDa3GewpDk2G2skpU3FFXxsLaZ7puWvoa&new=1",
+      "summary": "行配置向导openclaw configureOpenClaw 配置向导按提示操作:选择模型提供商 Moonshot AI (Kimi):选择 Moonshot AI (Kimi K2.5) ...",
+      "datetime": "2026-02-28 23:55:42",
+      "date_text": "2026年02月28日",
+      "date_description": "4天前",
+      "source": "通用人工智能机器人",
+      "url_resolved": true
+    },
+    {
+      "title": "新手小白也能看懂的OpenClaw部署教程(体验尝鲜版)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710622&ver=6580&signature=tCYQjuIlff9WgKCkdH51F4rznEeM5sAqIFNHrx785uT17HJd6iGzQ7mvlhTNfdLXWS68NJV41EGFacWFiZBu*3Ht-oWJo764VY82bObMBaNUETOdQhAoIHIpUhp7N3jX&new=1",
+      "summary": "安装openclaw本次使用以Windows环境为例,前提条件是安装了... Moonshot AI (Kimi K2.5)第 2 步:Model AI auth method(Kimi K2.5)...",
+      "datetime": "2026-02-27 19:59:12",
+      "date_text": "2026年02月27日",
+      "date_description": "5天前",
+      "source": "白野AI",
+      "url_resolved": true
+    }
+  ]
+}

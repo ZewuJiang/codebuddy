@@ -1,0 +1,156 @@
+{
+  "query": "MiniMax OpenClaw",
+  "total": 15,
+  "articles": [
+    {
+      "title": "MiniMax 与 OpenClaw 更搭:为什么这对组合才是国内玩家的最优解",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710691&ver=6580&signature=RUmXAyGnvav*GW8jZgNuEJDPia8py22QPM5pBSxmWLorXb*Nws*5zrHi-GcscjosckM66SjOujOHLJVENQIL5gYgBgbktjhcjC*V5GyBKHbCslfTEXNWdmvM9KJHpZpm&new=1",
+      "summary": "前阵子折腾 OpenClaw 搞得自己焦头烂额,结果都忘记加仓港股刚上市的 MiniMax 了,结果这段时间它的股价一飞中天,实在可惜....",
+      "datetime": "2026-02-14 09:22:24",
+      "date_text": "2026年02月14日",
+      "date_description": "19天前",
+      "source": "i 小声读书",
+      "url_resolved": true
+    },
+    {
+      "title": "每日AI速递 | OpenClaw是一个信号,AI战场正从“模型智能”转向“AI控制电脑”,Minimax和Perplexity上线类似功能",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710691&ver=6580&signature=nMLevgM5YArC1CsdFTtUi1qPUjxN*c02kyOcSTIPLQv-PeVR86n*T0*yd*DriM7bu09AQJm0hBCinxNgG-rTzCPLfD*-5oWRpYsYFFKvr2szyFYQh0ZUh0aq8syCj3rk&new=1",
+      "summary": "【Minimax-类OpenClaw功能】MiniMax在Agent平台推出MaxClaw模式,对OpenClaw实现一键配置,预置爆款猎手、多Agent投研等...",
+      "datetime": "2026-02-27 19:14:51",
+      "date_text": "2026年02月27日",
+      "date_description": "6天前",
+      "source": "探微观智",
+      "url_resolved": true
+    },
+    {
+      "title": "用MiniMax Agent部署OpenClaw,简单到爆",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710691&ver=6580&signature=ybMGvYpxb-mNIyiaUHxUeC1mwwmMTs8lSWsge9*hEFGnCc5O9x7SOprgH2yMw-J9KFfDSQ1T7pFbR-dw7Tr1MIn6ZyBqhOTaHLG3g*x4jbJdwSOuKE2xUaQlxcfm2nOK&new=1",
+      "summary": "没想到MiniMax出了个一键部署OpenClaw,是真的本地部署,不是各种云厂商的“镜像”.太简单了,简单到爆.不需要配置什么API...",
+      "datetime": "2026-02-21 14:21:50",
+      "date_text": "2026年02月21日",
+      "date_description": "12天前",
+      "source": "豌豆的神奇故事",
+      "url_resolved": true
+    },
+    {
+      "title": "用腾讯云还是minimax 部署openclaw?哪个简单?哪个便宜?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710691&ver=6580&signature=1*wjD3h9UU7j1pG9Fa6JQ0AtMY2q1cZQNjZgVAWI2JBwqxpBr2Kv9pxCdOAsAgkhWE3FVctee5ELig37s2AO4bYv7emSuo6fahKRWhP72Seu8IWyb7xiWthRfoWRCAWN&new=1",
+      "summary": "我来为你详细对比 腾讯云部署 OpenClaw 和 Minimax 部署 OpenClaw 的简易度和成本:01 核心结论:腾讯云更简单,Minimax 更省钱...",
+      "datetime": "2026-02-27 10:57:41",
+      "date_text": "2026年02月27日",
+      "date_description": "6天前",
+      "source": "茁壮发展",
+      "url_resolved": true
+    },
+    {
+      "title": "徒手搭书籍管理小程序!OpenClaw+MiniMax+飞书,半天搞定",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710691&ver=6580&signature=MYcPcd9kHjlBPBZe*l6hRb3tWIzV673KjEBnjem*o05ufs1auPae9VK*bKulJULoytIKgKfLTtykfHvW1ymnBTx-8C0wZwRIDpvAlbs4kjwLlMVQBwMpzi*AuF0j-EQq&new=1",
+      "summary": "用OpenClaw+MiniMax+飞书做轻量个性化工具,真的太香了!不用深厚编程功底,只要说清需求,AI就能落地,完美解决自己的小痛...",
+      "datetime": "2026-02-16 20:16:59",
+      "date_text": "2026年02月16日",
+      "date_description": "16天前",
+      "source": "AI小助手日记",
+      "url_resolved": true
+    },
+    {
+      "title": "Minimax出了个OpenClaw变体,把6个超好用Agent都传云上用了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710691&ver=6580&signature=TlwErfN9xfMgX4xM5HbtqIFkzOKJ*aNFj95zxXvalDREwDkMAwl7Qshvy8nYU0ne5gpNst1FatrwGyMyL1bJXCg-DKvZPceMSoaXLK1rsGjfA23G2NQMhvaVW3fWNuwO&new=1",
+      "summary": "本来以为OpenClaw的教程要进高级版了,结果MiniMax走了一条新路子.在OpenClaw刚出来的时候,Coding Plan的MiniMax M2.5就...",
+      "datetime": "2026-02-27 12:15:43",
+      "date_text": "2026年02月27日",
+      "date_description": "6天前",
+      "source": "卡尔的AI沃茨",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw小虾+MiniMax+飞书",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710691&ver=6580&signature=lUePHH9*PG9jPplX9WON0n-oekcRm6l1On1ZgXzGbnwoUmepWFQRHjP-sYJAAvVFV6SBOdYK-97K-inWUm-UPQmxVtG2Xfy9LxRlvMGHFnc7YC5h2UPik52gP3KJPC3A&new=1",
+      "summary": "捣鼓下OpenClaw,minimax,配置上飞书,也养个虾��玩玩 #MiniMaxOAuth详解 #飞书集成攻略 #系统操作指南 #自动化任务管理 #...",
+      "datetime": "2026-03-02 23:44:39",
+      "date_text": "2026年03月02日",
+      "date_description": "2天前",
+      "source": "乐善万利&東來",
+      "url_resolved": true
+    },
+    {
+      "title": "openclaw+minimax之御姐风  详细配置指南,在qq和飞书之间我选择——御姐+企业微信",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710691&ver=6580&signature=vQro1vVRYLvM0JDR2vrSgbIrqmixATEklOXNEilvM4MlvrQpi0LZj4myiPGhVntdaJwKMnPDQN4PTMCGDOhK2YA4lbfMsWeXm1MSXXMcph7ya29lHPOFZwcFi6skptXf&new=1",
+      "summary": "MiniMax 大模型配置OpenClaw 支持多家大模型,这里我们用 MiniMax 作为主模型.为什么选择 MiniMax功能MiniMax其他家图片理解 ...",
+      "datetime": "2026-02-03 01:36:58",
+      "date_text": "2026年02月03日",
+      "date_description": "30天前",
+      "source": "星期8iology",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 带火 MiniMax:一个开源项目如何重塑 AI 模型格局",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710691&ver=6580&signature=wKulEQYWbG-1qB3zrRaoReJje2BpC2H5ReHjVHkLaYd4XvTRStd6W291vNtIfrbxH7-E2IOD6lgptRKBnNJ2XrLsh-hQwtayooY9NHIQF7fFC*YrIrG0AfVUjl8-xWsZ&new=1",
+      "summary": "《每日经济新闻》实测:OpenClaw+MiniMax,文件检索、写作邮件**完成Claude同样完成,账单高20倍.更扎心的是技术参数:...",
+      "datetime": "2026-02-26 22:58:57",
+      "date_text": "2026年02月26日",
+      "date_description": "6天前",
+      "source": "银河下的星火",
+      "url_resolved": true
+    },
+    {
+      "title": "深度解析:为什么说OpenClaw让Minimax算法快得飞起?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710691&ver=6580&signature=GckVUUjNgG80UjInGl6phv7-JnqQbcRaGSso-HRKyLOWo*QCmL24C0rJ1om3oqg6h1G7NWa*m3TLzG3A9JfK2Gy72g7dx-*K0XxmS*GgFvvyOY8OGf3dGC5-sFzWsAsB&new=1",
+      "summary": "本文基于Reddit社区讨论与开源项目实践,为你拆解Minimax算法在OpenClaw框架中的真实表现.无论你是算法工程师、游戏开发者,...",
+      "datetime": "2026-02-08 09:04:55",
+      "date_text": "2026年02月08日",
+      "date_description": "25天前",
+      "source": "AI浪潮之思",
+      "url_resolved": true
+    },
+    {
+      "title": "MiniMax 上线 MaxClaw:一键部署云端 OpenClaw “龙虾党”可快速体验",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710692&ver=6580&signature=dRirURS-2NiVpmYdC1nxJM39aqb-GVawJbhqGeoC6GT9fiO0xqAfol6Xl1LauhPtCcHESdrxZrLOPq1UVavFFKI7EsDuATRSvKcTquyVKHEyQmQ9Vpno8M7GoEieqyew&new=1",
+      "summary": "如今,MiniMax 上线了 MaxClaw,试图让这项技术变得更加触手可及.什么是 OpenClaw:AI 从“聊天框”走向“工具箱”的惊险一跃...",
+      "datetime": "2026-02-28 07:31:19",
+      "date_text": "2026年02月28日",
+      "date_description": "5天前",
+      "source": "启示AI科技",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw深度指南:将 MiniMax 2.5 塞进飞书,打造你的私人“最强大脑”",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710692&ver=6580&signature=EsxdbEa-WZcIHmKjfsS3IMv5vA922EtqS*i8Pg6qyHEQeqmTBH4Y7mpEKpEw3Jk2eTrK4pek5z7qw9qruufm4hcysEb3C1x9AIcHXw43sQcenKVHh5Y09dDEWykSwPC2&new=1",
+      "summary": "OpenClaw,先用 Python 验证你的 Key 是否生效:pip install anthropic  # MiniMax 兼容 Anthropic 协议export ANTHROPIC_BASE_URL...",
+      "datetime": "2026-02-18 13:00:15",
+      "date_text": "2026年02月18日",
+      "date_description": "15天前",
+      "source": "一帆智量",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw、minimax类型的机器人,比豆包、元宝更像ai,对行为习惯影响蛮大的",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710692&ver=6580&signature=mazKTm7KtG5M5SEPywyclafzIbpKp7isbOyuxBMYfXlKL*rKvm9gwp6W39pouaZjbwON3Vp3vVhEXE-R3M9cXSa5GdqAnAxpIxYU-qoH47xUt*MFbCloJjCMH4CWD4Ot&new=1",
+      "summary": "OpenClaw、minimax类型的机器人,可以全面接管各种应用,感觉比豆包、元宝、通义更像ai,不用人去手动操作很多软件了.或许以...",
+      "datetime": "2026-02-22 11:32:49",
+      "date_text": "2026年02月22日",
+      "date_description": "11天前",
+      "source": "望路",
+      "url_resolved": true
+    },
+    {
+      "title": "当 MiniMax 遇见 OpenClaw:「1 2 3 上链接」",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710692&ver=6580&signature=WIPXC7RMshkW0q83z-bbMHDsrcM3P-TbPfywykVTbVFThSY1Y*vo3Sd0oTHa5oOlKfPFXQkscT-w7-1SSmx95fO68Y0x4JQYvGhHumhRKS6y*dw1FWPyAxyeXjC41vNG&new=1",
+      "summary": "当我们把 OpenClaw 连进 MiniMax 专家 Agent.�� 作者: 镜山�� 编辑: Koji��‍ 排版: NCon春节前,各大 AI 厂商该发模型...",
+      "datetime": "2026-02-26 10:27:07",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "十字路口Crossing",
+      "url_resolved": true
+    },
+    {
+      "title": "minimax2.5+小龙虾openclaw,最佳搭档",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710692&ver=6580&signature=OZ09ZdODKC1Ewv10JXeEu*VWdGH435YjsdhgeJKg2zk0evG5-509j8oRPiMdghQAVtMZqFpyYCYyTtsan0i94lxKTuO8tA3GIV0*Ybka0j9N*yQtF5*uR22yARuKQfmn&new=1",
+      "summary": "本篇文章主要包含三个章节的内容第一章节,介绍小龙虾(openclaw)移动办公的主要场景第二章节,小龙虾加MiniMax的配置方法第...",
+      "datetime": "2026-02-14 15:48:23",
+      "date_text": "2026年02月14日",
+      "date_description": "19天前",
+      "source": "Keepsearching",
+      "url_resolved": true
+    }
+  ]
+}

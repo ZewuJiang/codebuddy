@@ -1,0 +1,286 @@
+{
+  "query": "智谱AI OpenClaw",
+  "total": 28,
+  "articles": [
+    {
+      "title": "从OpenClaw到智谱AI,智能体引爆2026!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712468&ver=6580&signature=1Z-AmiHVsBnNcxd*YWDIxRj9qpJxVJRwIPnU-1phVKF-yUS*YigaJ0U1IfrK9m4LbAIPoe1Ck59Ss-FP19Z-ExxcS0gQrxzZvnYtioiuWOdHT9ft8AkHPRDwAQ*JDvGv&new=1",
+      "summary": "一边是和智谱AI的5年20亿“长期饭票”,一边是对接OpenClaw的“爆款风口”,优刻得的双重布局,让它成为A股智能体算力赛道的...",
+      "datetime": "2026-02-21 22:22:56",
+      "date_text": "2026年02月21日",
+      "date_description": "11天前",
+      "source": "极客投资",
+      "url_resolved": true
+    },
+    {
+      "title": "伊朗vs美以,开局即“斩首”!智谱清言与OpenClaw的作战推演,看谁更狠?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712468&ver=6580&signature=*N4HOB2hnNM8y2mHyWqDo7J2U8jprZj70o3RT-5b0alq0t8fhHM6M-kiUwIAU89uFrJLkux*9vbiNQaTBn99cOlhv5Pfo8UIYFa2pz2WHWTdNw-Ob4avtVAAukJXFBE5&new=1",
+      "summary": "然后我们先让openclaw点评一下智谱AI的作战部署,他指出来需要做调整:怎么样,OpenClaw有点东西,那我们让他出一套作战部署...",
+      "datetime": "2026-03-03 07:11:53",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "贞顺堂AI易学空间",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw加入OpenAI,能Open出什么样的AI智能体!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712468&ver=6580&signature=Y3NlKIq0LU4mE-1FIsM*TKvG4ZUVi*3HmNefUPATHCH48pYjlewc50R-fRF8vvPvjwTIbYUCrFHdtYZNIZMiyAJlfkm9ge*xj9EIW-jEHN5-dO*1N8SN7J23Qww4g9Q9&new=1",
+      "summary": "AI Agent框架/工具:OpenClaw、LangChain、AutoGPT、Cognition(Devin)、国内Agent厂商.- 算力/云/基础设施:OpenAI算力伙伴、...",
+      "datetime": "2026-02-17 00:30:50",
+      "date_text": "2026年02月17日",
+      "date_description": "16天前",
+      "source": "盘前消息路演",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenAI狂砸百亿抢人,智谱深夜涨价:AI烧钱战",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712468&ver=6580&signature=5vq9thvNR-rUOq4SDAeWf*1uMgI*Ujtu7Q9yIPPDE3eNvpA5JcGKqjdFiBrbxVpzOdXOhVkukxOP5QSZV92bgkfNtfNlzj4bmebOXbQbomghaRTkrWQlB9EF*ndaETqX&new=1",
+      "summary": "智谱AI的＂矛盾之夜＂就在OpenAI收购OpenClaw的一周前,中国AI圈也上演了一出大戏.2月11日深夜,智谱AI开源了GLM-5,对标...",
+      "datetime": "2026-02-24 01:22:53",
+      "date_text": "2026年02月24日",
+      "date_description": "9天前",
+      "source": "斜修鑫大墙",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw官方微博账号开通,智谱、百度等排队欢迎",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712468&ver=6580&signature=X2bbUR-uqNokS*qLg*BUM5fNO34-Gfy2pmja9-yW*nPDDSr*w6qpInNZj*ew66pqeF30-WdYaJeyFd9hfODFBnG1iEwhdu5NuXuEfJ8w6IvtmMM-QSbYNOZA00fbQCwb&new=1",
+      "summary": "今日美国知名AI Agent工具OpenClaw开通微博账号,吸引了智谱、百度、千问、Kimi等国内一众AI公司在留言区列队欢迎.OpenClaw...",
+      "datetime": "2026-03-04 10:30:05",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "TechWeb",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱没额度了?教你给 OpenClaw 无痛添加备用模型,附获取轨迹流动K2.5免费额度的方法",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712468&ver=6580&signature=BieGN18R68SicSCGpYOWDwbAo8wVyILcdFUZJwOLZSCLIIFeuMA7XnGKIdVsqywQ9piCyzQsmPZOnqZs8FKzZPDBVGGEsXKJfIsjAkMrFpYCu1a7PlOz1s7pmzIAMsln&new=1",
+      "summary": "昨天我的智谱额度用完了,OpenClaw 突然失联.刚好最近各大厂都在送TOKEN福利,我决定给它配置一个备用模型——硅基流动的 ...",
+      "datetime": "2026-02-13 17:21:24",
+      "date_text": "2026年02月13日",
+      "date_description": "20天前",
+      "source": "彬哥AI",
+      "url_resolved": true
+    },
+    {
+      "title": "30分钟搭建你的AI助手:OpenClaw + 智谱GLM4.7 + 飞书完全指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712468&ver=6580&signature=*AJmha9gVeQE5vT5jLJECR144sRlqdY0gZTdH7wWbAGcUOwncU*quK21lIg4Pz5X0W7tYQ9EUbv2CZmqoHvLJ0OEgmfM93SHgVGJx2ix8p8YBFDmFnO1Wm7mGSyqPmuA&new=1",
+      "summary": "用手机号注册智谱AI(5分钟)安装OpenClaw(10分钟)发送第一条消息给AI助手(1分钟)30分钟后,你将拥有一个改变工作方式的AI助手....",
+      "datetime": "2026-03-04 17:06:49",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "西行数字",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw爆火全案例拆解:2个月23万星标,一人项目撬动千亿市场的AI Agent革命",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712468&ver=6580&signature=uR-p2Nv-Z1CuthrEN3F2mT4ikpjyhzrj0eM*LmCLq3eDtku5-CTlVMnToJdo0bwPYLZRPfFqk-ie9qPY2QGgNlSO0MDOII5S4feXS10guuuCVpSQ89XliP*jetTaPysO&new=1",
+      "summary": "智谱AI凭借与OpenClaw的深度绑定,轮流霸榜OpenRouter调用量榜单,其中MiniMax M2.5模型连续三周位列第一.- 资本市场层面:...",
+      "datetime": "2026-03-04 06:32:32",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "世界华商大会",
+      "url_resolved": true
+    },
+    {
+      "title": "如何在 OpenClaw 中使用智谱 Coding Plan",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712468&ver=6580&signature=NVP3fdCPo66BQZUN8cyMMrqOEZWeZRS1bh294V8x3hY70BcoCyAVJe1Z2jpCeMPgfHf4jLd6S4O4DzpmAV9-sXmACowBdXg6FMCHcQg*K4b9YyqZAt1W-AEiPLhUNxnp&new=1",
+      "summary": "A:这可能是当前版本的特性,留空即可,OpenClaw 会自动发现可用模型.Q:哪里查看智谱 Coding Plan 的用量?A:登录 智谱 AI ...",
+      "datetime": "2026-02-10 12:00:32",
+      "date_text": "2026年02月10日",
+      "date_description": "23天前",
+      "source": "洞穴破晓",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱 GLM-5 发布,支持OpenClaw,从Vibe coding到智能体工程的跨越",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712468&ver=6580&signature=Woq57mWI3Ox-q7I27FOfdtRm*RVzg4XOkNXbvLeziB2Xq2GJ26nHCPMDcylyTqK5l*d2YqrVlHv*EO3mrBqgfHq2mdPgLKfEFfyZR3mvpHcmaTf01G9pHXVVGx3-*w2k&new=1",
+      "summary": "OpenClaw.还可以在Z.ai上免费试用.模拟经营一年的自动售货机生意?它做到了这里有个特别有意思的测试,叫 Vending Bench 2....",
+      "datetime": "2026-02-23 07:01:54",
+      "date_text": "2026年02月23日",
+      "date_description": "10天前",
+      "source": "洛城飘零",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw打造数字分身与AI助手概述",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712469&ver=6580&signature=02jsLflDkSHMS-wXjRfrSJ5LbolIGfPCO8QA-6CNh24B2iy7ho-LPGsACw5Fg-*E3L*7TGb42AWNtihldQmbrmLoeMPXQjN35TXAeonTUtE5ytDGGWMGr2FZXY*RAdxJ&new=1",
+      "summary": "特色:更偏“实战步骤 + 踩坑”适合补充课程参考资料智谱 AI(Z.ai)OpenClaw 工具/适配文档网址:https://docs.z.ai/devpack/tool/...",
+      "datetime": "2026-02-25 15:53:43",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "云博士的AI课堂",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw快速上手:如何启动你的第一个AI智能体",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712469&ver=6580&signature=7zSZHB6yLaUs4sqwu9mTVlTdSYU66nYfrhbCyz3Jemoz0GmYWFXuIS--xmrBDTIbImH-Y7Tb6ytJsJHLw56r-A0QN8k1NdS3MZ0APZ4QL5-SraiUwxrARN5oyLHfQeSj&new=1",
+      "summary": "或国内的阿里云百炼、智谱AI等平台.完成配置:服务器启动后,在浏览器输入其公网IP地址,即可打开OpenClaw的Web操作界面....",
+      "datetime": "2026-02-11 11:53:30",
+      "date_text": "2026年02月11日",
+      "date_description": "22天前",
+      "source": "IT老五",
+      "url_resolved": true
+    },
+    {
+      "title": "这个世界专属于你的AI智能体,OpenClaw(小龙虾)保姆级部署教程,10分钟包部署完成.",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712469&ver=6580&signature=iu*9hYxPpWukrMMI74*Ah7jo1lS*ToUCBLMmhkGbrz-bCoGnVScFj3LQNQk-1ulL4VAmBhzqD-HzMasor8vKO-*fEUCKc3sppKkr*0Dsei*7*baY-3O7saOZ3MMyiqU9&new=1",
+      "summary": "openclaw onboard --install-daemon然后跟着下面的截图走Minimax就选Minimax,智谱就选Z.AI.Minimax(配置步骤)Z.AI(配置步骤)...",
+      "datetime": "2026-03-05 16:12:45",
+      "date_text": "2026年03月05日",
+      "date_description": "3小时前",
+      "source": "lookai.space",
+      "url_resolved": true
+    },
+    {
+      "title": "Linux Mint 上装 OpenClaw + 飞书 + 智谱 GLM:我从卡权限到飞书里指挥 AI 写日报的血泪教程",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712469&ver=6580&signature=D*VR21KicCyJtpi3XwUmNnUjXAw6JzTt8tU6E8Vn0LH0VN-OO0PW3nZ7hiDlUX7GB1*LdDwf4GwPglkTduBznDA9oqB9tpf1FKa2B1HwQFqquFcHNZjdOX3CvE1Yde2n&new=1",
+      "summary": "AI Agent,结果 Mint 系统 curl 脚本卡在 pnpm 路径上,差点砸键盘……后来换成智谱 GLM + OpenClaw + 飞书后,妈呀手机发条消息...",
+      "datetime": "2026-02-18 09:15:11",
+      "date_text": "2026年02月18日",
+      "date_description": "15天前",
+      "source": "屏幕内外的生活",
+      "url_resolved": true
+    },
+    {
+      "title": "【AI快讯】智谱GLM-5,国产AI新标杆",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712469&ver=6580&signature=eycfEpZcn1swvWEslrrGIBX2Q4LWPrMeZc2SD3RErJdROjTK*Sq3v15EsxqUVtBXrcT9DQFyQGfapxSP*DNFh9ceO4s8ebi4nBvdlE1Ku8coO6oEkEvR8YpcmL878Pb5&new=1",
+      "summary": "GLM-5发布与开源智谱AI于2026年2月22日正式公开了GLM-5的技... 直指OpenClaw【AI快讯】月之暗面发布 Kimi Claw 平台,打通 ...",
+      "datetime": "2026-02-24 20:37:04",
+      "date_text": "2026年02月24日",
+      "date_description": "8天前",
+      "source": "FinTech炼金术",
+      "url_resolved": true
+    },
+    {
+      "title": "openclaw配置智谱余额被烧光!这个隐藏坑让我损失惨重",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712469&ver=6580&signature=2UWCwRozjvUyhHgv*QXCOcGWesvL6jyqQWF0ywzC-VD0XYb5T6NdMixqR5LuR98sNwIKooi2uKbuDMMTG14uJzsbtLAcA8AohRCvusvAbsrV-GejeIWYymN2aDds*TML&new=1",
+      "summary": "正常工作OpenClaw/api/paas/v4 余额不足原来智谱AI对不同接口使用不同的资源包/计费系统!/api/anthropic (Anthropic兼容接口) → 有...",
+      "datetime": "2026-03-03 18:07:50",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "杨遥",
+      "url_resolved": true
+    },
+    {
+      "title": "国产AI王炸!智谱GLM-5打响新年第一枪",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712469&ver=6580&signature=a6SRipRnptpqKIxIvuwbla7oHSKyWDuC--vOpUY6tjTyxaiRjhsbO1h1VQZ*3CkVfHfhr1yrT0hPinaCWSLhjWEfjeSLTqAQFAYcDMWYH0KOil3fXpl0X5ibzchbMr5T&new=1",
+      "summary": "内容摘要:智谱AI刚刚甩出新年王炸——新一代旗舰模型GLM-5正... OpenClaw社区与本地化AI助理体验(长度:OpenClaw不仅是一个...",
+      "datetime": "2026-02-12 13:02:52",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "AI消息不错过",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw官方微博账号开通 智谱、百度等排队欢迎",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712469&ver=6580&signature=Asho6F5fZ6w8ZG2TOA0xWzt6zXtLB6DW0JVfEKUPdh-jUSmzYhTDXUVtucdsAb9t2etJ4duX1WwMgdXUSiPdM4f*CIAVXX5Q3ZW2y2Eu9nAgUVy42wmTH-h22Ok7Oo7Q&new=1",
+      "summary": "今日美国知名AI Agent工具OpenClaw开通微博账号,吸引了智谱、百度、千问、Kimi等国内一众AI公司在留言区列队欢迎.OpenClaw...",
+      "datetime": "2026-03-03 23:04:40",
+      "date_text": "2026年03月03日",
+      "date_description": "1天前",
+      "source": "i智说",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 安装教程:打造你的专属 AI 助手",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712469&ver=6580&signature=aWVIltstDav9XiCEvddgnUweu3u4YwM7mjCkl4kxsJDFhtSzXlm6ZjGQW*znGcboxCD8kcLH6h6MnBRBjXLX02EdOepzFTMig6I2ELPS1Wr5k5jsft*KTbK*YzW*7s5V&new=1",
+      "summary": "前言最近在折腾 AI 工具的时候,发现了一个很有意思的开源项目 —— OpenClaw.这是一个可以本地部署的 AI 助手框架,支持多种模...",
+      "datetime": "2026-03-01 10:28:22",
+      "date_text": "2026年03月01日",
+      "date_description": "4天前",
+      "source": "小平杂记",
+      "url_resolved": true
+    },
+    {
+      "title": "30分钟完成OpenClaw+飞书搭建AI私人助理,附保姆级教程",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712469&ver=6580&signature=7dyYXsYfKWL0axPNHxZ22GoDTuSuDgtLF8OSelsU4R75Ebs0u7I6y8CfxquTR5LuUaD8FVGLdaVd*ROKZtAvXMBSh-VxvSV9rj4SZUBI9xGRGaQxxap0*cSWTn*AWt1p&new=1",
+      "summary": "LLM API(智谱、OpenAI 等)Step 1:安装 Node.js 环境OpenClaw 依赖 Node.js 运行,且必须是 arm64 架构的 v24 版本.这一点至关...",
+      "datetime": "2026-02-13 20:25:36",
+      "date_text": "2026年02月13日",
+      "date_description": "19天前",
+      "source": "利叔聊技术",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 完整安装使用教程:从零开始打造你的 AI 智能体",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712470&ver=6580&signature=5JkNOcrVBlfN9-ESRikvla35rlxMT*ZwDnOoRc1phepO1db*mfcUDyl8Upo3gl*DGOl3SC8-DYQMm6H3fO5Yfjr3kJfLfhb1jFApG5jnmuiCTZUnsEoGJbQ*7-lzthmm&new=1",
+      "summary": "OpenClaw,让你的 AI 助手真正为你工作.前言说实话,接触了这... AI(国产稳定)访问 智谱AI开放平台[3]获取 API KeyOpenAI 官方...",
+      "datetime": "2026-03-03 10:21:43",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "智领未来站",
+      "url_resolved": true
+    },
+    {
+      "title": "【AI相关文章】Openclaw对接飞书的保姆级教程",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712470&ver=6580&signature=9A5EpyfL8QPS67*7RAJUh3lTrU2Xvvo4UYsB0qyi2w4i8DgcUqUI4LZlEc1JKn426E6SSBXbKB*NWh75wOUKf6tzx2spGIMNZXv9JwOvE7eERJuOqDNChJG6AhWfx7JA&new=1",
+      "summary": "Openclaw——就是那个曾叫Clawbot的万能AI网关,就能把这件事变成现实.但我第一次折腾时,差点栽在各种“隐形坑”里:API key...",
+      "datetime": "2026-02-13 06:27:02",
+      "date_text": "2026年02月13日",
+      "date_description": "20天前",
+      "source": "阿郎的银河",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱 GLM-5 / Minimax 2.5 / Kimi-K2.5 国产大模型＂三驾马车＂就位!OpenClaw 多 Agent 编排撬动真正的效率杠杆",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712470&ver=6580&signature=XQa6iXLIVDSZAR*4jqw4pCpVt0n*1P6d1TA6UX20Gta*BFQlyzDfTBO13yjnTVxQ69MNKfWevc8E*pjfpteO6rwEE4e0xfefKO0vJQf45ddXeUWUMM1hsZYihsdX5vdQ&new=1",
+      "summary": "＂z-ai/glm-5＂ },     ＂workspace＂: ＂/home/openclaw/workspace＂   },   ＂subagents＂: {     ＂reviewer＂: {       ＂name＂: ＂Reviewer...",
+      "datetime": "2026-02-13 19:04:57",
+      "date_text": "2026年02月13日",
+      "date_description": "20天前",
+      "source": "七牛云技术团队",
+      "url_resolved": true
+    },
+    {
+      "title": "打开想象!��OpenClaw全球商业图谱",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712470&ver=6580&signature=zhRsk6fznMrM6Pj*wx55PUCQIE-709hd-qt6jS7AFc-UByqv79vLHR8E-5QQet0sjnmxGJig0BmFjU8OZV76tHe7OLXMX8cxSNPFDGoqWIpAu4QbFfLgWIv2q8FdOflJ&new=1",
+      "summary": "阶跃AI / Skywork全部入场.· · ·Part 02九大产品赛道OpenClaw催生的完整商业生态,按类型拆解️Type 01云托管平台解决什么问...",
+      "datetime": "2026-03-03 19:12:03",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "大梦科技与美",
+      "url_resolved": true
+    },
+    {
+      "title": "让AI自己拍视频!我让OpenClaw自己制作了一个自我介绍视频",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712470&ver=6580&signature=jnS7spbKnRq2MXovHpm7zzN-nEARLSA44nfsBgk40fDk33INnlvG1EcX644-6N-vesrTlCAH9s5fVl2z3uXFrFZwTrJJfXotRZxgxuIrIjcWZCMP5xwThY2WdTXzODJa&new=1",
+      "summary": "OpenClaw.如果你经常混迹AI社区,对它应该不陌生.它不仅仅... 智谱AI (glm-4-air):注册送100万tokens.前往 bigmodel.cn 注册后...",
+      "datetime": "2026-02-04 08:44:22",
+      "date_text": "2026年02月04日",
+      "date_description": "29天前",
+      "source": "陈说pro",
+      "url_resolved": true
+    },
+    {
+      "title": "Mac 电脑安装 OpenClaw:装好之后让 AI 自己配置一切",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712470&ver=6580&signature=cI*B3nINauziMRxCcvRl6vRihMxlaZFs*jdWPhNlxlHtrV3pljOLHTLP-w80tY3dYdXCraf958lF8nBfc7gZOKW1JM4x*d55dymfbZsTwu4BE7SQFwGTQ9**zHIBmt28&new=1",
+      "summary": "Mac 电脑安装 OpenClaw:装好之后让 AI 自己配置一切OpenClaw 是一个开源的 AI 助理框架,装到你的电脑上之后,它可以接入飞书...",
+      "datetime": "2026-03-01 16:24:52",
+      "date_text": "2026年03月01日",
+      "date_description": "4天前",
+      "source": "不贰错",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw �� 使用一周有感:当AI能替你上班,你还有什么价值?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712471&ver=6580&signature=71s6quV5Ggc4Y3Czt7EDWfAERsqRNYkacuICuIRgMhcAJ2X5XCIZc9G3U7ntnTv-IHAUXn4RC4b1XyFUQKYM0fNegsX0B38i5oppX7pVYuM2KCGNo64ZYot3axkL6UYi&new=1",
+      "summary": "成本关键提醒:OpenClaw 为高频调用的 AI Agent,Token 消耗远高于常规对话工具,长期使用务必订阅智谱、Kimi 的编程包月套餐,...",
+      "datetime": "2026-02-08 15:17:54",
+      "date_text": "2026年02月08日",
+      "date_description": "25天前",
+      "source": "智汇资管科技导航",
+      "url_resolved": true
+    },
+    {
+      "title": "W9科技周报|智谱发GLM-5;DeepSeek发新论文;Nano Banana2上线;宇树天坛表演中国武术;OpenAI宣布1100亿美元融资;阶跃星辰被曝赴港IPO!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772712471&ver=6580&signature=Gz6XLLtdHyG1MKcdpmVziOJx46mhxjI3ULqyGw6-nBnFJKBsYWBvUchL7Fp5SzsmJQj9UTyNcBBtQXExC6hi9y*ndTmoc0cB1XZjmjRj7de5SA2Ler*CfKmi*W2Wl-2B&new=1",
+      "summary": "基于OpenClaw构建的云端AI助手,直接集成在MiniMax Agent网页端,为用户在云端部署并运行OpenClaw,无需自备服务器或API Key...",
+      "datetime": "2026-03-02 08:31:24",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "冰哥和他的朋友们",
+      "url_resolved": true
+    }
+  ]
+}

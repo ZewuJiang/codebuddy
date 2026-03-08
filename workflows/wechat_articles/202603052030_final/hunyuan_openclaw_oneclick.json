@@ -1,0 +1,306 @@
+{
+  "query": "腾讯混元大模型 OpenClaw 一键部署",
+  "total": 30,
+  "articles": [
+    {
+      "title": "宝塔面板一键部署OpenClaw,支持QQ、飞书机器人",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714468&ver=6580&signature=Fyfbk9myJtoducGLCNHYyYhuthkexudMAZ2XqxDp9Sn1zsoOg0z7BWRsMz8XZwVejc2sPmD7HaW09-kz15EHVz7x*e7fpZibfowD65EZhSo1X8EGLkjoeA1nI8anj0LF&new=1",
+      "summary": "宝塔面板一键部署OpenClaw,支持QQ、飞书机器人对于很多IT从... 如果需要关联国内大模型(如腾讯混元、通义千问、Deepseek、...",
+      "datetime": "2026-02-09 23:41:42",
+      "date_text": "2026年02月09日",
+      "date_description": "23天前",
+      "source": "星哥说事",
+      "url_resolved": true
+    },
+    {
+      "title": "Openclaw+kimi2.5 保姆级部署指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714468&ver=6580&signature=Me*o-CMMY0oZS169MiIXUVvxwLiE8lxUHvXgVBXVNgFKgoyKb*o4szCLy144vfc9RLvybhBMlZna7h-pzaBG2TPLyFcSkf3ya80Q5ZK3K3pwX5nkB0J0Pknjxx4ryvRI&new=1",
+      "summary": "大模型API Key(推荐腾讯混元、DeepSeek、通义千问等国内模型,延迟更低)3. 飞书账号��️ 第一步:一键部署OpenClaw(5分钟...",
+      "datetime": "2026-02-08 19:24:23",
+      "date_text": "2026年02月08日",
+      "date_description": "25天前",
+      "source": "朱界AI",
+      "url_resolved": true
+    },
+    {
+      "title": "一键部署OpenClaw之后,有限量的token才是面前那座大山",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714468&ver=6580&signature=AiRbZdHeYxCqmVMyY4R883NoZZDIpMeGDCeDd3k5QnmnNQwILtK*5IH730EOQ8hFTyfpcd5RhPMuQwMuYfcUkkooKT6Ihy14uK20PaqUkcXPx02CocLWimQCR3qVh05k&new=1",
+      "summary": "很干脆的卸载了OpenClaw.通过轻量云服务器部署的Clawdbot版本号是2026.1.24-3,使用腾讯混元大模型,通道配置中绑定了QQ机...",
+      "datetime": "2026-02-05 00:00:41",
+      "date_text": "2026年02月05日",
+      "date_description": "28天前",
+      "source": "雷十八1982",
+      "url_resolved": true
+    },
+    {
+      "title": "云服务器一键部署OpenClaw接入钉钉,人人可用的24h AI助手",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714468&ver=6580&signature=yxsqu6QQSPidwgBhA6g9p50cIjYZ4ApRlOgyplQE5Yu1p779FsyKxNHlm*5R0tDa7tZi-fKP9E51lYtT6EDW-h4WkSOwOq9pjqW8m0*wWs2F-Bmu0KoFCjJK0Ysh-BPN&new=1",
+      "summary": "找到我们的部署了OpenClaw的服务器,点击右上角三个点,选择... 我这里添加的是腾讯混元大模型,送100万token额度,设置完成后...",
+      "datetime": "2026-02-08 22:34:05",
+      "date_text": "2026年02月08日",
+      "date_description": "24天前",
+      "source": "科技小亮AGI",
+      "url_resolved": true
+    },
+    {
+      "title": "openclaw花费Token?13个免费大模型API!零成本畅玩AI!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714468&ver=6580&signature=hgw5nIJ1Pj-qIt52um98xrY-CbJ45P4KS1ZTFzPIUgIMAqJsJLEZ0FtVnBhfIcaljPjTaQ8acqtnG0KAj1ETuz77gQWyiG-ax3E2TwFHyOTng1E1ZAVLjsUO-SYAtrQ7&new=1",
+      "summary": "腾讯混元大模型:轻量出击,性能在线腾讯混元大模型提供... 类似Vercel/Netlify,一键部署AI应用.永久免费福利:绑定180 天...",
+      "datetime": "2026-02-06 11:41:07",
+      "date_text": "2026年02月06日",
+      "date_description": "27天前",
+      "source": "AI前沿小站",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯云上新大模型API服务,助力OpenClaw高效运行",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714468&ver=6580&signature=2vXDs103hnvTSgbm-EqQD3X0Xu2SK-YjsbYT**c9ZGFZseiav060SOfMU-XpJZcScTw72yuLA5dpJqdi2QwRw6RQHqPHc7PipEPX7hrEd*hAepHjlNXEDbPva58pwW1R&new=1",
+      "summary": "腾讯云为OpenClaw提供了便捷高效的大模型 API 服务接入,开发... 即可实现一键部署、秒级启动.同时,还实现了与企业微信、QQ ...",
+      "datetime": "2026-02-04 16:28:38",
+      "date_text": "2026年02月04日",
+      "date_description": "29天前",
+      "source": "腾讯云智能",
+      "url_resolved": true
+    },
+    {
+      "title": "W6科技周报|智谱、阶跃星辰、可灵模型上新;阿里大模型品牌统一为千问;智元将举办机器人晚会;全球最快人形机器人发布;SpaceX合并xAI!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714468&ver=6580&signature=Gz6XLLtdHyG1MKcdpmVziOJx46mhxjI3ULqyGw6-nBkXF2NvthR1VdhU1wyw*5A7XH3HIZl9-szLCcZXuSn*eJwJ8Z6-GmpkZsc97k1EJqJAnrNzX1o787oQ5q2NH3oA&new=1",
+      "summary": "融合硅基流动推理加速引擎,并集成GLM-4.7顶尖代码模型.百度智能云推出OpenClaw限时免费一键部署服务百度智能云宣布上线...",
+      "datetime": "2026-02-09 08:31:04",
+      "date_text": "2026年02月09日",
+      "date_description": "24天前",
+      "source": "冰哥和他的朋友们",
+      "url_resolved": true
+    },
+    {
+      "title": "离线大模型+小龙虾OpenClaw笔记本安装",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714468&ver=6580&signature=KtwxMH7jC-a1POEYytPd4*XxTYaiDbOsTZLr*ffaRyCBo48wfEmy03f5uJaM89VgzPNIlVnQM0OqXLTu7PJzJGVGGVneY8Z75KE9zsSG7Crb47oni9DRYJRHMYgtiq2f&new=1",
+      "summary": "腾讯混元、MiniMax五大国产离线模型 + Llama 3.1、Mistral、... 五、一键启动 & 使用 CMD运行: openclaw start  浏览器打开:...",
+      "datetime": "2026-03-02 09:16:48",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "AI家用",
+      "url_resolved": true
+    },
+    {
+      "title": "手把手教程:搭建OpenClaw并接入飞书,打造你的专属私人AI助手",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714468&ver=6580&signature=JJyflavSF0D98dpoWZ1NmLFmy0LR36wMI3qUc*Ik4zfvFglsF9RTEz8RlkTdjkbXeUCymD33tawVyIQKXcnbXUZ0zh3hABRINtdwDa*eddHHV2*rg1oEMVySaapfWig1&new=1",
+      "summary": "它需要调用大模型(如OpenAI、通义千问、混元、deepseek、... OpenClaw(一键脚本)为了避开繁琐的依赖配置,我们使用官方...",
+      "datetime": "2026-02-24 08:00:45",
+      "date_text": "2026年02月24日",
+      "date_description": "9天前",
+      "source": "Hank是AI实战派",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw核心技术、应用场景与最新生态全景深度解析",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714468&ver=6580&signature=-9RmfLAxlvSsAFOEWYofFIY*5IJ7yOGMIygfiw9ai9ZCI5e7WqSLu*PBRo*516k0ZYnTTfCSWapeZiwLEax7AD5qpQNQXy9ughfrzcR8TKkVZ6A5ZC4Jg64a6KKJZ*8M&new=1",
+      "summary": "OpenClaw核心技术原理OpenClaw(原名Clawdbot/Moltbot)的技... 用户可一键调用腾讯混元大模型与本地化部署生态融合(强化隐私...",
+      "datetime": "2026-02-01 15:02:56",
+      "date_text": "2026年02月01日",
+      "date_description": "32天前",
+      "source": "AI帮你赢",
+      "url_resolved": true
+    },
+    {
+      "title": "玩转 OpenClaw | 从云上部署到钉钉接入,一文搞定",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714470&ver=6580&signature=GKnh5Zn-4cZVjta-ZciIudpldSGo*tNezXW4Dm0b4u4rV9kS8dCwQjGAsVx05zGEbIVnBUAgfHfD83X09oWKlHWAjJC5v7wEOT00xT*xTPuVPNJGjqxK0dzL6h199VrG&new=1",
+      "summary": "目前腾讯云Lighthouse产品提供了OpenClaw一键部署应用模板,预置了OpenClawUI应用以及所需的基础依赖环境,无需用户手动安装...",
+      "datetime": "2026-03-02 11:21:21",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "AIGC for Java",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 人人可拥有,速速上车",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714470&ver=6580&signature=zeXwVtr3gL*V6FXfzObUTXNBJTfbESlzoZRZfVMtRyXVrQEVS3IuJBLQ5OpXxMjnp7CWZhGvXCV22SlNuBzozTVHGZhmB8HRAkiiEEasD9undHBCQp213OajCdZCRkdF&new=1",
+      "summary": "腾讯云轻量应用服务器项目详情价格国内 6.58元/月起优势一键部署,自带 OpenClaw 镜像,7*24 高可用适用国内 IM 接入(企微、QQ...",
+      "datetime": "2026-02-25 09:32:07",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "擎工智链",
+      "url_resolved": true
+    },
+    {
+      "title": "90元成本、5分钟部署、7x24在线:别再盯着Mac Mini了,OpenClaw最香的一套组合!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714470&ver=6580&signature=viH4f6ZJ4NuS4sBNi0TBWwE42-c1FrjxnE-2InTa1Ew6owjnefPl793Mj0HowSZ1EwUVLhy5Coi-**sp7EMJqRtb4R3IiBTVmpv-1cioSGvNnPPsEdZbZc4AgvYrfNbC&new=1",
+      "summary": "服务器:腾讯云轻量应用服务器(79元/年,4核4G配置)模型服务... 最关键的是,Lighthouse已经上线了OpenClaw一键部署应用模板...",
+      "datetime": "2026-02-28 11:24:58",
+      "date_text": "2026年02月28日",
+      "date_description": "5天前",
+      "source": "创见AI实验室",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw是什么?部署它,需要哪些硬件和软件环境?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714470&ver=6580&signature=RFpUlDqBKdYGSkVLhJanrzL5jDqh2PckpMuQgb818YUiK9Wm0zT8vEOuiFeFMBaGsel7CvEqlSpFzp3sKzAOtCB0NSeCXRi7XxItZNCkD9fW2N1Drvh36EWY*sIge1*A&new=1",
+      "summary": "(国内用户可选择阿里云百炼、通义千问、腾讯混元等,海外用户... 后续会再更新「OpenClaw一键部署详细步骤」,小白跟着操作就...",
+      "datetime": "2026-02-26 07:21:04",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "pcyear",
+      "url_resolved": true
+    },
+    {
+      "title": "情人节单身自救,使用爆火的OpenClaw搭建AI女友",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714470&ver=6580&signature=xayaLm0mBd7Y7ElVcgOL9imOphMGBzUSkFINDz5GHRe70ThPSrVVgEQ6uFAiKtCpJ2IU4Aq-3hVIEuyJGJZZl1jeB0yH-EYpH3dCiMRu2hR0CRRxBzPe76tK36II3DD*&new=1",
+      "summary": "部署完成后,进入OpenClaw配置面板,找到“模型配置”选项;2. 选择常用的AI模型(推荐腾讯混元、DeepSeek等国内模型,配置...",
+      "datetime": "2026-02-14 18:00:42",
+      "date_text": "2026年02月14日",
+      "date_description": "19天前",
+      "source": "严小六",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw本地部署:2026年最火的开源AI助手,从入门到精通",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714470&ver=6580&signature=sekluE-VdZel3dQ3OB7atEe5rxoRCxTQYmyQFOR9n4yDWcq-QPpnnZNM43IOi5OUnTCuJq9jtyBF9q7UDZWnNJrnWaM5o2-OtzmqqHg98rBrnocJCNII*rBrKXlDPVDX&new=1",
+      "summary": "支持百炼模型腾讯云轻量应用服务器官方OpenClaw镜像,一键部署七牛云OpenClaw系统镜像预装运行环境,分钟级启动部署步骤(...",
+      "datetime": "2026-03-03 00:05:10",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "跨境生态圈",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw深度解读 | 2026年最火AI Agent正在改变一切",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714470&ver=6580&signature=5OnYYk2T4axd1kR3otZE8FoVNBZI0FkkMmBhTeyw91TIDSi*GGC1jfRS-xcNIEmcerIIJ8jpN3rS*euFMpTvJPHD527izVccAJgtUqDCiHw62DIkqj*ER-pgxBk9f8Ad&new=1",
+      "summary": "Docker部署更简单. 使用场景根据Hostinger的整理,OpenClaw... LLM接口调用大模型支持Anthropic、OpenAI、腾讯混元、本地模...",
+      "datetime": "2026-02-15 15:05:08",
+      "date_text": "2026年02月15日",
+      "date_description": "18天前",
+      "source": "是小憨憨呀",
+      "url_resolved": true
+    },
+    {
+      "title": "火了这么久的 OpenClaw,你用上了没?新手入门完全指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714470&ver=6580&signature=rozoXoSKyfOe-A-dCMAJg*6Hltq3DngWz6H*9ROGxQRY0*6-rGSZfOSWLz2Mr299gJVxCePLHLl7nloELxD-smrHLlfkp2vjQHEhTL6ACZVzDsAF2-CBWTI00aJQk59x&new=1",
+      "summary": "秒,服务器创建完成配置模型:支持腾讯混元、DeepSeek、Kimi... 最后再说一句:不要被＂部署＂两个字吓到!OpenClaw的一键安...",
+      "datetime": "2026-03-02 13:27:38",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "辅导员丁丁",
+      "url_resolved": true
+    },
+    {
+      "title": "手把手教你本地部署OpenClaw:从“毛坯房”到“数字员工”的完整养成指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714470&ver=6580&signature=6Rc6zawIUTAbvChhSHb7eg5RkpMbTFY7Q-rfOSo8xQ5lWn0euypoi1tS3ryhBb18gPF9W6PLxiYN-WmQnSkiZnowwdC1f7OGiIvVHbeCXYrSwQapIGj1G22Qq94S1xJc&new=1",
+      "summary": "用于部分插件API Key:阿里云百炼/腾讯混元/OpenAI等(任选其... 选购轻量应用服务器访问阿里云OpenClaw一键部署专题页,点击...",
+      "datetime": "2026-03-05 18:41:06",
+      "date_text": "2026年03月05日",
+      "date_description": "2小时前",
+      "source": "预退役程序猿",
+      "url_resolved": true
+    },
+    {
+      "title": "免费3个月的OpenClaw安装部署宝典",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714470&ver=6580&signature=BlsC-skUMqWIxReDjaiumkqGwe0FVu-XLKjfVG9lcJrVsXuGq7VRHGiGeS*75EyDKOnjLSn0-TTJPDiiRc7YQqTEwfHyEuSk4J9CsXsaEP*2VIzKjqHdSKJz6WOTsj1w&new=1",
+      "summary": "本文主要内容:如何免费领取腾讯云服务器的使用权、部署openclaw、调用大模型(API)、对接飞书、添加机器人到群聊等.一步一...",
+      "datetime": "2026-03-03 16:18:16",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "共赴AI星",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯云3分钟部署OpenClaw,小白也能玩转AI助手",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714472&ver=6580&signature=bH0sZiITx7tHi5a8Z2FMUM4-WCXrfCVbblSNAG27YNvEdkIlpuT2scgJsHwTBsqXABAId1EeP2h1ieQYWjVCYGNr*8EgIzmEPQOYT-Ts4FMEObck2ocODUVY30GfMRbb&new=1",
+      "summary": "一键部署:哪怕不懂代码,点几下鼠标就可轻松搞定.成本超低:... 而openclaw支持的模型非常多,包括腾讯混元、字节豆包、智谱AI...",
+      "datetime": "2026-03-02 22:31:50",
+      "date_text": "2026年03月02日",
+      "date_description": "2天前",
+      "source": "卧龙说",
+      "url_resolved": true
+    },
+    {
+      "title": "小白傻瓜式|4大云平台OpenClaw部署实操步骤(照搬即完成)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714472&ver=6580&signature=qTB4EHxx6bB3YfOcThgqcduToyTDhgwtxxu0NEyT5HCt5B8ur0EM39*CvxhXGcvpp5qojfCYj8B6O5dU7sn7CKG2*2B-wEbHtHGup6Jkj54lwC87o54yPEP7WT6Vgj8y&new=1",
+      "summary": "服务器隔离性强,适合想远程控制的小白,同样一键部署.步骤1:进入腾讯云OpenClaw部署入口1. 浏览器输入链接:https://cloud....",
+      "datetime": "2026-02-24 21:48:21",
+      "date_text": "2026年02月24日",
+      "date_description": "8天前",
+      "source": "海拉Hela",
+      "url_resolved": true
+    },
+    {
+      "title": "��OpenClaw小龙虾:你的个人全能助理",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714472&ver=6580&signature=ofc31UoRVgs43PX9ScMUbe2hPFazzNYRYuIl67zHRxLmXV56ewpzJC4Jw9qQqifrdMyqOAwNyn3AeIZHxCSiSnr-oDXbakvVzsgXq8PEftKqgwwUpWH*6yU3BG7*NS-A&new=1",
+      "summary": "阿里云等云服务器,目前都针对OpenClaw的部署进行了专项优化和一键部署操作,非常便捷.具体操作可以根据本文同时参考腾讯云...",
+      "datetime": "2026-02-12 03:38:33",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "wander云上",
+      "url_resolved": true
+    },
+    {
+      "title": "在腾讯云上部署你的24小时AI数字员工:Clawbot * 飞书实战指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714472&ver=6580&signature=NI5TPCB6olACAzk28eWWt128UyL1WPtg0tNiGjX3xGeTO8Wv7VO*nB812ju03gcZZVmEUmmjf9EeQ9iJgg4YMEg*8HGhn3G7kto*4mbYvmj6rd*xL6ogFG0WH36v2ZCv&new=1",
+      "summary": "大模型API Key:优先选国内适配性强的(腾讯混元、通义千问、... OpenClaw配置腾讯云Lighthouse在产品控制台提供了可视化界面...",
+      "datetime": "2026-02-04 19:35:58",
+      "date_text": "2026年02月04日",
+      "date_description": "29天前",
+      "source": "数圈营销",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw零基础教程 | 月费8块的AI私人助手,不会写代码也能搭",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714472&ver=6580&signature=AysYkQf5PBq7YHyqiPoY6DoRPfUja5zcaPgZkYe0EetMdoUUxVy7iVnsNhsfxciPmL7VmXVKF6p5oH8aiNTsXF1tvtZMwvssS-kTvVFwElt*wDTaXCfMmxfxzGMJgVSu&new=1",
+      "summary": "OpenClaw每一次改名都有故事,每一次改名都引发社区热议.... 也可以一键部署,低成本试用.接下来以腾讯云为例.网址:...",
+      "datetime": "2026-02-05 23:52:48",
+      "date_text": "2026年02月05日",
+      "date_description": "27天前",
+      "source": "跟阿星一起学AI",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 的云端部署实践:高权限 AI Agent 的隔离运行方案",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714472&ver=6580&signature=eTzKPCMjS-veZGpj59KWfIMIfrCV4Iw-BaIFXnrjCidndpJvG0aQ1zH2NvomNZZu8Ud8ARTWQh9VFHXznN7nemfm1Npqh6te5-uJ8Cj8dhgFjZSsVtONovvmEDKjUfl-&new=1",
+      "summary": "OpenClaw 的风险不在模型,而在权限与边界.如果它运行在个人... 4. 基于应用模板的一键部署路径4.1 新实例部署部署时真正需要关...",
+      "datetime": "2026-02-10 08:00:36",
+      "date_text": "2026年02月10日",
+      "date_description": "23天前",
+      "source": "霍格沃兹测试学院",
+      "url_resolved": true
+    },
+    {
+      "title": "适合普通人的 OpenClaw 安装教程:10 分钟就在飞书上跟 AI 对话",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714472&ver=6580&signature=Kgbhcwi9Fn9xRoblzsdhUDuX0SEapSSXcHC*fC5kDllJSmJOyBagZOKKqisHeHxWbYCHQeQ65fxmIAcRGVvLWZXGe*tZ2ASHZMRC2Sonk7xV5R17lWGkXBgexPpcQ6Fd&new=1",
+      "summary": "OpenClaw 部署在你自己的服务器上,数据完全归你.它还能主动... 一个飞书账号(没有的话免费注册一个)一个大模型的 API Key(...",
+      "datetime": "2026-02-26 08:10:09",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "林小卫很行",
+      "url_resolved": true
+    },
+    {
+      "title": "AI Agent大混战:从OpenClaw到Manus,谁才是你的数字员工最优解?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714472&ver=6580&signature=uziDcnrlX-R7pkCOOsgk5gdEmsc-ZhsqekbiG1AtT0RI6J1v8tnAdHrnfN8HbSUweGKzlomWuNaeuA8PlkhzvpRuFHZ0038dcxLw7I4lFkZqMpX7IeFNtzHoqRU4uRJz&new=1",
+      "summary": "OpenClaw就是你的终极玩具.这个由PSPDFKit创始人Peter ... 核心卖点:完全本地自托管、多模型兼容(从Claude到Ollama本地...",
+      "datetime": "2026-02-28 08:00:27",
+      "date_text": "2026年02月28日",
+      "date_description": "5天前",
+      "source": "IT全维故障通",
+      "url_resolved": true
+    },
+    {
+      "title": "全网爆火的＂OpenClaw小龙虾＂AI助手,我花0.01元+10分钟部署好了(附极简教程)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714472&ver=6580&signature=1eAn6azLUXPR7TzxQlqZPuhfe7JskaGQIf-kcdpEPbjQo60Vhuri*0MZNt4ttor4gkIXUZePyzjAG1AJKlF2zw0*GuQ5J0OP468pVVrG5sVl0VRpBGAVqWXa*nSQOzlo&new=1",
+      "summary": "点击“一键开通”,阅读服务协议并同意开通.再次申明:千帆大模型有20元优惠券,让你体验几天openclaw没问题,只要你不是用...",
+      "datetime": "2026-02-24 18:06:39",
+      "date_text": "2026年02月24日",
+      "date_description": "9天前",
+      "source": "崧雷AI工具箱",
+      "url_resolved": true
+    },
+    {
+      "title": "WorkBuddy vs OpenClaw:两大AI助手深度对比,谁更适合你?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714472&ver=6580&signature=ivh1icmNFLxCchQfUdTZ7DNWWphC1aCLyRQBFK9Ql9ABCESdmT51vXlmPWd2AAol-VipmVk7AkVs-YFsVEvV6RTN5-MiQ7OJBqUYH0LIvg1TvNL530SUYFq7DUNFuaz-&new=1",
+      "summary": "支持Raspberry Pi/VPS模型支持内置腾讯混元等,可切换本地/云... 例如,WorkBuddy能一键生成渐变风格PPT,而OpenClaw能让AI...",
+      "datetime": "2026-02-06 09:29:07",
+      "date_text": "2026年02月06日",
+      "date_description": "27天前",
+      "source": "AI云谈",
+      "url_resolved": true
+    }
+  ]
+}

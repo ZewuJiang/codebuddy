@@ -1,0 +1,156 @@
+{
+  "query": "OpenClaw QQ",
+  "total": 15,
+  "articles": [
+    {
+      "title": "我教会了 openclaw 使用 qq 音乐",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703091&ver=6580&signature=GUa01O7EODAfVO83LzIrv-fqNqWVlKNISVmzyPCENfyCDkqK6EUlhhQfwEQqMuuevT7BN6s7-FADiDiAdqTi5WZIgHyQf1BVXFUQOiDibp2dy9V2L7uiFZ1TeSSnUZMB&new=1",
+      "summary": "落地现实世界的最大障碍.#OpenClaw控制QQ音乐 #AI助手新技能 #科技生活小技巧 #openclaw #OpenClaw",
+      "datetime": "2026-02-18 00:37:09",
+      "date_text": "2026年02月18日",
+      "date_description": "15天前",
+      "source": "我系斯高特",
+      "url_resolved": true
+    },
+    {
+      "title": "超简单!OpenClaw接入QQ机器人完整教程",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703091&ver=6580&signature=gR8F90YPEQv8uW-isjuQ0uNPBn6RWq4YxzO*9*K4dcC4xNFXXkuLOn6xKLE5HqBvf2hG1woktOSR7lSc6NZNbCmTrvkXc-y3rJzAMlEiIIkQNtA8PDi3RvTYKi0IOJt*&new=1",
+      "summary": "今天就来手把手教你如何将OpenClaw接入QQ,实现与AI的便捷对话.第一步:申请QQ机器人首先访问腾讯QQ开放平台:https://q.qq....",
+      "datetime": "2026-02-18 09:03:00",
+      "date_text": "2026年02月18日",
+      "date_description": "15天前",
+      "source": "星空财研",
+      "url_resolved": true
+    },
+    {
+      "title": "手把手教你 OpenClaw 接入 QQ 机器人,让本地 AI 在 QQ 里听你指挥",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703091&ver=6580&signature=EWANDGzvovKIkCySLqwRDtjTWDGwWYhzYoXnkq2hFZP97BA5AK8cQPXphxgJhWT*aPDGYbt3hFfTdTMdEAbS42O9hzzVrEWKhRRqPZfNt1zuyihAWtLMH8Bv8Q8VmmH9&new=1",
+      "summary": "❝ 本文带你:OpenClaw对接QQ一、为什么选择 QQ 机器人?很多同学第一反应是:为什么不接钉钉 / 飞书 / 企业微信?说白了:免费...",
+      "datetime": "2026-03-02 08:15:35",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "星浩AI",
+      "url_resolved": true
+    },
+    {
+      "title": "全网最通俗OpenClaw完整版:AI自动干活神器,一篇彻底讲透",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703091&ver=6580&signature=rhezw9sXeWfB2eUwnZfOkJTmdsPQW**ZbZJxy0HPTWgaJASFHSs0CR2pXwNJbmaPcMjomUCt7-5RX8L8cAsn65JKq08-CoXSpK3TcHoNupOy3H*F7MWqPPAd7zPSViJT&new=1",
+      "summary": "七、OpenClaw和QQ远程控制有什么区别?完全不是一个东西.- QQ远程:必须你手动操作,相当于你伸手去碰别人电脑.- ...",
+      "datetime": "2026-03-02 15:56:32",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "播客集",
+      "url_resolved": true
+    },
+    {
+      "title": "将OpenClaw装进QQ,通过QQ聊天随时进行vibe coding",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703091&ver=6580&signature=QZ*YeM*VHQIOM6AbmjburdTsPQLZg5szP5EhaTs1cWKTEdPnXlq*zvXTHoaD-h90EFZul562K5MuXoVIsqOwCkknK1mb6u4JctNbiCoRt42LOkktumyybAAkPClw2RpN&new=1",
+      "summary": "先添加QQ机器人凭证:再添加OpenClaw的Token:配置执行动作,填入服务器地址:公网IP:xx.xxx.xxx.xx公网服务器地址一般在服务器...",
+      "datetime": "2026-02-13 08:18:55",
+      "date_text": "2026年02月13日",
+      "date_description": "20天前",
+      "source": "LSP做AI",
+      "url_resolved": true
+    },
+    {
+      "title": "免费教学:OpenClaw接入QQ保姆级教程,1分钟打造专属AI助手",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703091&ver=6580&signature=FFgj1ele0AboUxemzguFuLwKkp3CWG95vHSCZzn8-onwj*id-AC20BBdx-0842WMxEczgoUjZEjXBpZg0Odjbv0i0rENS8AFg0NY9OqQKLjpzTLoR-xcoNAcEsCwM1p7&new=1",
+      "summary": "OpenClaw以下教程里选用是腾讯云DeepSeek V3大模型/Kimi2.5+QQ.首先,需要准备一台 Lighthouse ,在产品购买页,直接选择 ...",
+      "datetime": "2026-03-05 15:06:46",
+      "date_text": "2026年03月05日",
+      "date_description": "2小时前",
+      "source": "鹅厂技术派",
+      "url_resolved": true
+    },
+    {
+      "title": "四部详解完成部署OpenClaw+QQ(写给文科生+AI小白)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703091&ver=6580&signature=aq6yYkdoF4n*muc74756inefp6fZnWBvFvE24IEZgQZ7soSFiGx-AFBDnZeb6uTt-TLjXcOZsmIJJ3qvf60tBLTdP8pFak1fqvc*WcmYir89wc4zIXsAmi3b8tWz4e33&new=1",
+      "summary": "我是纯文科生,不懂AI专业概念,也没能力搞太懂,但我想用超级助理OpenClaw协同办公.我用文科生视角总结了部署OpenClaw+QQ...",
+      "datetime": "2026-02-28 18:00:41",
+      "date_text": "2026年02月28日",
+      "date_description": "4天前",
+      "source": "李洁律师团队",
+      "url_resolved": true
+    },
+    {
+      "title": "太酷了!把 OpenClaw 塞进 QQ:打造你的 24 小时在线 AI 助理",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703091&ver=6580&signature=Ck8hqGla4q6GyhnApHVJQDtWI4TWllIQWMeTtUZiAlAFzhVXGXV*1aqJyhR*GmYTV5*5sEk5WsxDLoa-a3aZJr-QgxnOsFaQRdS0bbJp0C21Q636cAHhf1pnEaXH9MZ1&new=1",
+      "summary": "大家新年好,我是予贝想让你的 QQ 机器人不仅会聊天,还能帮你写代码、查资料、甚至控制本地电脑?OpenClaw 接入 QQ 教程来啦...",
+      "datetime": "2026-02-22 08:02:57",
+      "date_text": "2026年02月22日",
+      "date_description": "11天前",
+      "source": "予贝AI",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 做 QQ 机器人:OneBot 方案从零到可用(含链接、可直接改造)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703091&ver=6580&signature=vy-p2OKpx1u9*Wj2NFKXqsJrGL4Bdoxm24RNVUAHeihzOaGcdAIYeNPDN8-oTfPlvG1qufjytBfgqsVHqKvlZT5Zicv7pn4G4VRVI-j1L3oh72TLiWBX4fM9f4498Gn1&new=1",
+      "summary": "cd openclaw-qq-botnpm init -ynpm i ws axios2)创建 index.jsJavaScriptimport WebSocket from ＂ws＂;import axios from ＂axios＂;...",
+      "datetime": "2026-02-13 19:51:02",
+      "date_text": "2026年02月13日",
+      "date_description": "19天前",
+      "source": "生活平台",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 接入QQ机器人教程",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703091&ver=6580&signature=Y7e2bgOXe2wXKXiyON85M2cgxCkW0YewshpgrzhAHr-nYHXwelt0pCNeW5N5gZw-gZpYKe5pLUTK8CHzrTDWq*XL1JIwIHWJUIbgjvdC8OE4LK52AigFF-stHvsSj1DB&new=1",
+      "summary": "1、使用OpenClaw docker 镜像 justlikemaki/openclaw-docker-cn-im:latest 并接入大模型.    2、申请好QQ 机器人凭证justlikemaki/...",
+      "datetime": "2026-02-23 00:02:23",
+      "date_text": "2026年02月23日",
+      "date_description": "10天前",
+      "source": "IT运维服务商",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw上手体验,对接QQ,飞书,企微跨平台AI助手",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703092&ver=6580&signature=Mfky7GWAIIbF1oTjglmKYlS59O-cHcgcCcZ5Zd30dwShoIc3mXIupo8bqIcwRUO066iDotmMyzVHa7UgruMTcZh95pf3olXChxDFPdyQn24NzqvXb5yCyAYzZvUUum7i&new=1",
+      "summary": "直到我发现了一个开源神器——OpenClaw.它能让你一次性对接QQ、飞书、企业微信,一个AI助手覆盖所有平台.这篇文章,我会带...",
+      "datetime": "2026-02-11 09:04:19",
+      "date_text": "2026年02月11日",
+      "date_description": "22天前",
+      "source": "述游网络",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw+QQ机器人实战A股量化分析,从零搭建AI涨停捕捉器",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703092&ver=6580&signature=2pJuhpJaqbI208vRmi8t5Q2IoHuJaiWvDerUp2cdbdvuSj1LD0eqvC7mnvqQSG5KQSKSDTIgOfHvnoBkxmKDixq2*Xph6ITud3BhfgX9LqLfZz8asaDzxnKSAnp5JUDX&new=1",
+      "summary": "OpenClaw+QQ机器人实战A股量化分析,从零搭建AI涨停捕捉器.点个关注轻松掌握OpenClaw.引言在2026年的今天,AI代理(...",
+      "datetime": "2026-02-28 08:03:37",
+      "date_text": "2026年02月28日",
+      "date_description": "5天前",
+      "source": "韭菜收割机007",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw QQ机器人插件完全指南:2026最新版安装配置全解析",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703092&ver=6580&signature=JiRBSbWM2DJ*eAYCNmbAayQrp4TV4f36PQ3vs0TiUH9RNDzs2hIYWojbb5VTJWytJKuRn-I5Y3*5ksV*vAvant1yfu-SXtS5nYwEocNzphr8SOqFMWiD2xtKOm9D2CE1&new=1",
+      "summary": "引言:为什么选择OpenClaw+QQ机器人?在AI助手日益普及的今天,OpenClaw作为一款开源的自托管AI智能体框架,凭借其强大的自...",
+      "datetime": "2026-02-19 09:01:31",
+      "date_text": "2026年02月19日",
+      "date_description": "14天前",
+      "source": "想乐购",
+      "url_resolved": true
+    },
+    {
+      "title": "18 岁 OpenClaw 版 AI 女友一夜爆红,全网 60 万围观!00 后开发者一人造出",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703092&ver=6580&signature=qwHN9LVv4lYOkcqC9vgACBigNuhbNKJ8AYufgEFNLq0D7ihqiVpgCMZRgB1fAytOABwtdLXh-QdXuDgP4Ac1KkFQYsJsN9X-zQx1E-kJ9FaYW6A9w4xN6iCDGUT1zu*p&new=1",
+      "summary": "一款基于OpenClaw打造的韩国AI女友——Clawra正式上线,瞬间引爆了全网.18岁Clawra可不是一个简简单单的AI聊天助手.她拥有...",
+      "datetime": "2026-02-10 23:51:10",
+      "date_text": "2026年02月10日",
+      "date_description": "22天前",
+      "source": "互联网思维",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw上云接入QQ,“甲维斯”24小时在线!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772703092&ver=6580&signature=KLWXkRtLP-SIQSrv7Z1-lD2dfKWkxUjTDy3u7nFuV96yxKnvcn0BzWuEAS3f5nMa-OXMqyCqcKyKBCr6m1-4mOQw1AmSZoQ-MwdhUx8oeG7gcjLT38-dQ650UCrAu6xQ&new=1",
+      "summary": "OpenClaw,并且可以接入国内的聊天软件:这是直接制作了高定版啊,默认首推自家的 QQ!QQ 又变得有用起来了.我也实测了一把...",
+      "datetime": "2026-01-31 22:00:46",
+      "date_text": "2026年01月31日",
+      "date_description": "32天前",
+      "source": "截影",
+      "url_resolved": true
+    }
+  ]
+}

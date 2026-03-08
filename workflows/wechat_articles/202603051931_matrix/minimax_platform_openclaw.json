@@ -1,0 +1,156 @@
+{
+  "query": "MiniMax 开放平台 OpenClaw",
+  "total": 15,
+  "articles": [
+    {
+      "title": "【一键部署Openclaw】免api,无需服务器,Minimax官方下场,打造「全自动内容工厂」,这才是极致性价比!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710727&ver=6580&signature=DL3Q8KtaxOKM1L-gBkjy4ZmrJbFusoeCGK9Yvasex-Rvd6qL5FRjM4qYrLbXVscwAwocaiRkbTw-41bMageYgjYQ5fTHYw6QozLXOMinMmpeJnz5udtshh*q73FTgLsE&new=1",
+      "summary": "Minimax(海螺)官方直接放大招,上线了 MaxClaw.简单来说,... 飞书开放平台(open.feishu.cn).点击「创建应用」 -> 「企业自...",
+      "datetime": "2026-03-05 18:39:59",
+      "date_text": "2026年03月05日",
+      "date_description": "58分钟前",
+      "source": "学长Ethan",
+      "url_resolved": true
+    },
+    {
+      "title": "MiniMax 与 OpenClaw 更搭:为什么这对组合才是国内玩家的最优解",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710727&ver=6580&signature=RUmXAyGnvav*GW8jZgNuEJDPia8py22QPM5pBSxmWLorXb*Nws*5zrHi-GcscjosVimYgSv2Qr8qD9eNQ7*kK1Kv8oE-FHRD79WfjMOfrndYSwujGVfSczAD22cXcmtR&new=1",
+      "summary": "MiniMax 甚至在自家开放平台写了专门的 OpenClaw 接入教程,诚意拉满.其次是模型能力.OpenClaw 是一个重度依赖 Agent 能力的...",
+      "datetime": "2026-02-14 09:22:24",
+      "date_text": "2026年02月14日",
+      "date_description": "19天前",
+      "source": "i 小声读书",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw国内大模型配置指南:MiniMax、GLM、Kimi、Doubao、Qwen及通用接入方案",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710727&ver=6580&signature=sCvKxhDdzC3ca38G4etWxAA3hFXMXBtUn45-VQd5xHDW7ZgUUcgaLfVb1D89lPY48D7*aaXwbBrR0MFYWh89bol7sDJe9S2sdj3Z1bIhG9xDczdf5-YAYv6Fjtg2BsJC&new=1",
+      "summary": "API密钥获取访问MiniMax开放平台注册账号并创建API Key.1.2 配置命令# 配置MiniMax国内版openclaw config set 'models.providers....",
+      "datetime": "2026-03-04 16:29:53",
+      "date_text": "2026年03月04日",
+      "date_description": "1天前",
+      "source": "资源云梯",
+      "url_resolved": true
+    },
+    {
+      "title": "MiniMax Agent + OpenClaw = ?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710727&ver=6580&signature=HHnqYdHeNyLYtWwlKMeWDTfZrHOZOtF7X5hudY2bFCrOHoYSa8eL*-BqaxchzOLKtLiUU3AVGHd--3bj3m3vcNLXWnUBizy*LuZ*XPwj6t08hkwHIs5vwhTBrwxhi7uE&new=1",
+      "summary": "在平台上被用户创建和使用,覆盖技术开发、创意写作、办公效率... OpenClaw,无需自备服务器或 API Key.MiniMax Agent 基础版订...",
+      "datetime": "2026-02-26 19:20:27",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "上海市互联网业联合会",
+      "url_resolved": true
+    },
+    {
+      "title": "不用折腾部署 OpenClaw,我用 MiniMax Agent 一键养「龙虾」,还拍了个短剧",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710727&ver=6580&signature=0lUCG1WvqAg9apXZSmy6qmTlQk7z66GGkHmBp49sslrSDfHczeCPecu8r5MhHp5Uw7*7uZHbzddseDVSsojk91DD8Nt*KeFpStOfUh-GNtuIzpJSwz6c62W5FlOPEwLb&new=1",
+      "summary": "OpenClaw 对比,MiniMax Agent 的 MaxClaw 又有了预置的专家智... 回复的消息,我们点击飞书开放平台的链接,登录之后,按照流程...",
+      "datetime": "2026-02-26 17:08:00",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "APPSO",
+      "url_resolved": true
+    },
+    {
+      "title": "从报错到自治:OpenClaw系统构建实录",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710727&ver=6580&signature=Q-ZyKhSnK5G1F1o6tJBPpAwQ4XEfVKkWC7-vwYRKXNLABV9vfAr5vh7YF-MjRK5Mb6zBQawjDvfFvLzSr9h0SlfCU1HJvnljN6F6C0b7xHkOdM0CkZ*l17DfEwuMIS7M&new=1",
+      "summary": "MiniMax 开放平台申请即可.四、对接飞书机器人OpenClaw 内置飞书 channel 支持.采用 WebSocket 长连接——无需公网回调地址...",
+      "datetime": "2026-03-01 20:03:16",
+      "date_text": "2026年03月01日",
+      "date_description": "3天前",
+      "source": "星星上的蔡小皮",
+      "url_resolved": true
+    },
+    {
+      "title": "万字长文,开工就养虾!一人MCN(OpenClaw+Minimax)喂饭级部署指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710727&ver=6580&signature=TEMl*AOGYyMjTtY5*QOZZyADhvqY69jkCosyQxLHDZVQ94iHwo8*T3i3KI*tP5ocH0LAVmm908O0UKjpEZPNZg6wrYJ4qpdzKL-Y4vYb*qocIqNvamD-nbiCZ-79BSgr&new=1",
+      "summary": "快速打开Minimax、OpenClaw客户端,节省操作时间.-点金手推... Safari与Kimi开放平台的适配度最好,绑定API时不易出现卡顿、失...",
+      "datetime": "2026-02-20 09:59:10",
+      "date_text": "2026年02月20日",
+      "date_description": "13天前",
+      "source": "双修星座",
+      "url_resolved": true
+    },
+    {
+      "title": "基于 Windows WSL2 + MiniMax 的 OpenClaw 安装使用(保姆级教程)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710727&ver=6580&signature=3ha7vhDRO4fWr*GypI16gClg0fHuAnXHzkOzheUG7f2bCPBA-IcF4sTtJH6cd0QNdTNjWHklpx*qW53J0C0bboWeWbSlPEUg4EzF8sPtjfGaTgKuQ4uzY47cjywacNlH&new=1",
+      "summary": "OpenClaw,再由 MiniMax 处理并回复.8.1 在飞书开放平台创建企业自建应用用浏览器打开 https://open.feishu.cn/app,使用你的飞书...",
+      "datetime": "2026-03-04 22:52:35",
+      "date_text": "2026年03月04日",
+      "date_description": "20小时前",
+      "source": "数智脉动",
+      "url_resolved": true
+    },
+    {
+      "title": "零成本无限使用GLM 5与MiniMax M2.5,提供API接口,可接Openclaw",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710727&ver=6580&signature=6UHes8RntsSIV2nMSZAQY2dry8lFZZoKF5j6zy2cXSwQVwp8nzpD2b7PBTWReW*YwEar3PsKAgr*dq7mchXt3clVxws9PY3oIpW7*nUX8Ws5PkvOw6*Eil2Z8uM10Wrq&new=1",
+      "summary": "5系列以及MiniMax的M2.5模型,同时还提供标准化的API接口,可无缝集成到OpenClaw等第三方工具里面.访问入口与账号创建打...",
+      "datetime": "2026-02-23 00:01:41",
+      "date_text": "2026年02月23日",
+      "date_description": "10天前",
+      "source": "科技前沿AI",
+      "url_resolved": true
+    },
+    {
+      "title": "蓝耘元生代MaaS平台*OpenClaw部署接入完整版指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710727&ver=6580&signature=leTTbcq5syF1ZiKoK7O1yLv5ZnPigZWkL3OReFxdLBI37Aa7qzxG6r8c27rxg436yeOPG8*0bupIG-6eM89VeJAi1d765FNN0Iai-XGYTUAmVWSh5ajMiP*kK*-t8pKQ&new=1",
+      "summary": "OpenClaw作为一款本地化运行的个人AI助手,支持多消息平台接... 其MiniMax-M2.5、GLM-5、DeepSeek-V3.2等主流模型性能在诸...",
+      "datetime": "2026-03-05 10:21:24",
+      "date_text": "2026年03月05日",
+      "date_description": "9小时前",
+      "source": "蓝耘",
+      "url_resolved": true
+    },
+    {
+      "title": "CentOS 系统安装 OpenClaw 完整教程:从零开始部署你的 AI 助手",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710728&ver=6580&signature=JiRBSbWM2DJ*eAYCNmbAayQrp4TV4f36PQ3vs0TiUH*EaWdkEulZVgrhW7eHjEAf0vfSkUiUiLhcxowAVrF8D4sVwYOs6qfswHi4LRTRtKwzYNGFOKnOLGhozdQjkgcX&new=1",
+      "summary": "模型openclaw config set 'models.providers.minimax' --json '{ ＂... 飞书开放平台登录您的账号(企业账号或个人账号均可)点击＂创...",
+      "datetime": "2026-02-10 09:01:04",
+      "date_text": "2026年02月10日",
+      "date_description": "23天前",
+      "source": "想乐购",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 越红火,MiniMax 们越开心",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710728&ver=6580&signature=HX4nW0mCsOFVikomaiUBfqv7uVLaCsPqNJTnu1WweaaA1oc6JWqtneic7Vbx7gtOuOgJob0tKf1IssRDB2hxtVSK8XXxt1i-aHjR8FmsjEVN4ipJ3kmY8zfEB0TZ*1Ca&new=1",
+      "summary": "项目的走红,称早在 OpenClaw 项目火爆之前,它的创始人 Peter ... 时代的平台公司MiniMax 及智谱是当前唯二两家登陆资本市场的大...",
+      "datetime": "2026-03-03 15:21:38",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "山上",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 在 Ubuntu 系统上的完全配置指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710728&ver=6580&signature=c7P88cSZWcbwjSGEFpTUA6T15KCa4i9*ywhRgSMvfHRj9hntxOymrZi*Id7SueRqLjTohUsGATozIqoB3VWVaoqiO3akARcN3VnW344oSPBwtMhuNZ*8p8qtU7cgfXzk&new=1",
+      "summary": "openclaw/openclaw.json基础配置文件示例{ ＂gateway＂: {   ＂... 飞书开放平台[1]创建企业自建应用获取 App ID 和 App SecretStep ...",
+      "datetime": "2026-02-26 11:07:55",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "程序九源",
+      "url_resolved": true
+    },
+    {
+      "title": "MiniMax Agent:云端OpenClaw + 全能智能体",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710728&ver=6580&signature=itKJeQzWGdGfGBiYmmBX65NIwltf1cuuxs8voMCcCG-rz2Vwtwf3I8SjpWLT5wXIkWEFtkFY*Lz3oUtMnpn7nK*gWZwXBrp89PI2FRbHEnSZ59nUT-*9BE*9aYatfq*h&new=1",
+      "summary": "MiniMax 官方最新推出的云端托管版本 OpenClaw.你不需要自己... 登录飞书开放平台,进入开发者后台,创建一个企业自建应用(...",
+      "datetime": "2026-02-27 20:08:53",
+      "date_text": "2026年02月27日",
+      "date_description": "5天前",
+      "source": "杰森的效率工坊",
+      "url_resolved": true
+    },
+    {
+      "title": "在扣子平台部署 OpenCLAW:保姆级实战指南",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772710728&ver=6580&signature=zCygRijM9DB*kaXA6KO0EGHo8rzXpUHZB*E*5Zo6aa2-4Ws8ALQ8bYngTfs2OIHUmvkC9RrJG8MbDMQ2LQ14F97mAwLWYD6QX6y7oO0lbaX0h2DgsKrHObNK3OPyBTl6&new=1",
+      "summary": "MiniMax M2.1(包月付费)3. 渠道配置(可选)选择要接入的聊天... OpenCLAW接入你常用的聊天平台安装几个常用技能开始你的自...",
+      "datetime": "2026-02-17 00:01:09",
+      "date_text": "2026年02月17日",
+      "date_description": "16天前",
+      "source": "灵动无限2026",
+      "url_resolved": true
+    }
+  ]
+}

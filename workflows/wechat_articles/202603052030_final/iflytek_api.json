@@ -1,0 +1,296 @@
+{
+  "query": "讯飞开放平台 大模型 API",
+  "total": 29,
+  "articles": [
+    {
+      "title": "大模型API调用笔记:讯飞星火、通义千问、GPT3.5、GPT4",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715833&ver=6580&signature=rkgpyOWco-OBvevuq7pXlxmxzDudoefuvgTmKlYsRDZgglZTqofATEetaKXQduvfjc7cJUe9-efNzjoMQ7UYck0i0PpuKrK6IxCcdoFygr7vTMYuyxhNvEiDFGsJpjZn&new=1",
+      "summary": "讯飞星火大模型api调用星火比较麻烦的点是内容通过websoket生成,导致只能print,没法把回答保存下来.有考虑过用Logging把print...",
+      "datetime": "2023-07-20 21:29:09",
+      "date_text": "2023年07月20日",
+      "date_description": "958天前",
+      "source": "小陆的空间",
+      "url_resolved": true
+    },
+    {
+      "title": "开发者如何使用讯飞星火认知大模型API?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715833&ver=6580&signature=8sw8IXLFXyCGa-Jq0fpPI79PallSbOagFpTHMwhldT8WfxuwLZlMRf3fkiCjW8qCBRTW-Z0v1IpKqWXx0-RlqYZieX4NZZ*1bfAJRmlfcPbXEQaC7LnYP3ZCsqrjCpe6&new=1",
+      "summary": "本篇博文将从开发者角度来看看如何使用讯飞星火认知大模型API.体验网址:https://xinghuo.xfyun.cn/?ch=spark_bl_26(扫描下面二...",
+      "datetime": "2023-08-15 12:00:22",
+      "date_text": "2023年08月15日",
+      "date_description": "933天前",
+      "source": "美男子玩编程",
+      "url_resolved": true
+    },
+    {
+      "title": "讯飞星火X2大模型正式发布,API同步上线",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715833&ver=6580&signature=5FPCoJRG**XnIsY5uXgNyJfTmSnTyLD6h-l1kGkMcIGJD*yHuSvChpjHx9sgC6M3r9b2N5MggCdKk-7oSW3LVN6Sgn89QDfOIMEm*XA*1kjUI6KeBgt*WIC3w5brNr0z&new=1",
+      "summary": "讯飞星火X2大模型正式发布,API同步上线科大讯飞发布基于全国... 讯飞开放平台国产AI互动应用Loopit获马斯克公开点赞国产AI应用...",
+      "datetime": "2026-02-11 19:12:32",
+      "date_text": "2026年02月11日",
+      "date_description": "22天前",
+      "source": "Bowie玩转AI",
+      "url_resolved": true
+    },
+    {
+      "title": "技术布道 | 使用科大讯飞API调用大模型服务",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715833&ver=6580&signature=cWOlZhB7P4KH32ETRpOmXWk2*K*57bBkB-DIcKs3ua3bZH33eq4Ya3lEFWVHgVVCj25U83Pdij7Y4aNLeSMAG6ZhtiEhaUk5M03Xr2hWPKuaF3pwKA9fjybb6sGoVzoA&new=1",
+      "summary": "可以在API响应中可以看到label为“17”,也就是没有场景,符合... 开放传神OpenCSG大模型全景图技术布道 | ModelScope魔搭社区...",
+      "datetime": "2024-01-09 22:52:52",
+      "date_text": "2024年01月09日",
+      "date_description": "785天前",
+      "source": "沐然云计算",
+      "url_resolved": true
+    },
+    {
+      "title": "人工智能---科大讯飞星火大模型api接入,提供源代码",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715833&ver=6580&signature=fR*2c6E4W3B*QmnMFAfK4S8nypaiLH-s1nyBW37kLGucmmHfIfciIo5AuZJKlfDNlW-ZfPLxCGnCxCcFovPJLgP0JhHQu097Eiz1wV*zFDCZ1xH6F1oycjX4uO3nvv2X&new=1",
+      "summary": "星火提供了api可用直接接入,支持国产的科大讯飞大模型,,我对接到了自己的网页比如程序提供只用在学习研究,具体内容看官网...",
+      "datetime": "2023-12-16 13:34:32",
+      "date_text": "2023年12月16日",
+      "date_description": "810天前",
+      "source": "数据分析与运用",
+      "url_resolved": true
+    },
+    {
+      "title": "讯飞星火认知大模型 API 接入",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715833&ver=6580&signature=JZImv1gTPDEhnjITfbYBbDvy2IrfxO0unrMaBwQ*PRnhvfJaooeT661Nmk9UPXHX2pB8Hh63JT4Z*ivr*t2qN-dDo-1D*ePD5PSs9g8*taPzDhZtdI5qI*8u2H1cEGMy&new=1",
+      "summary": "require('cors');// 访问讯飞星火 API 的方法function main(message) { return new Promise((resolve, reject) => { // 初始化问题值为空字符...",
+      "datetime": "2024-03-14 15:59:29",
+      "date_text": "2024年03月14日",
+      "date_description": "721天前",
+      "source": "茕茕白兔o",
+      "url_resolved": true
+    },
+    {
+      "title": "关于举办 2023 年“星火杯”认知大模型场景创新赛的通知",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715833&ver=6580&signature=-NWWMtW3YDpa-3n0UF9JAeDFlt1yxMMO8y1m1ZybOD0AWNQBGydhEXM3rarWLlm41liMQWXIGg1WluKOGwA8PjMuaid-SRUP-H0hg4SmNb7m5J0rtsjvxGeyvFvlwUUM&new=1",
+      "summary": "组委会为其提供“讯飞星火认知大模型”API 使用权限.选手可通... 各高校团委要充分利用团组织微博、微信、掌上校园等平台,多渠...",
+      "datetime": "2023-07-27 22:13:13",
+      "date_text": "2023年07月27日",
+      "date_description": "951天前",
+      "source": "安徽大学团委",
+      "url_resolved": true
+    },
+    {
+      "title": "聚焦全国助残日 | 大模型助残:让聋人“听见”与被“听见”",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715833&ver=6580&signature=-hFH9GUjq*zFRaoJX7qcZ5TNXOGs3diJaCjtWgrZmWt5jasKfuzXyRMmrKASSy77A3A*ZufF1iwQtVomwdQaTiPTZeJpmjhmlXIpCZ0lUaMvhay6oqfHtFhJ-w8BtPcK&new=1",
+      "summary": "讯飞开放平台在2023年为公益开发者开启了讯飞星火认知大模型的API绿色申请通道,一系列接入讯飞星火认知大模型的无障碍应用加...",
+      "datetime": "2024-05-10 20:35:51",
+      "date_text": "2024年05月10日",
+      "date_description": "664天前",
+      "source": "安徽残联",
+      "url_resolved": true
+    },
+    {
+      "title": "Python调用讯飞星火大模型接口,轻松实现文本生成",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715833&ver=6580&signature=5koSR3K5drtKWyfI5-30Uc270gFpWei8eljSPw66IQMQxZfE3jX7E6DOENbUGjOyCXq5fU1dWrYnsV7R97QpYDHvyfaf63ygB-0BAiTyYS6PV0RTv*4t7VasEqXDUKO3&new=1",
+      "summary": "获取讯飞星火大模型API密钥在使用讯飞星火大模型API之前,需要先获取一个API密钥.请访问讯飞开放平台官网(https://www.xfyun....",
+      "datetime": "2023-08-10 08:02:33",
+      "date_text": "2023年08月10日",
+      "date_description": "938天前",
+      "source": "木头左",
+      "url_resolved": true
+    },
+    {
+      "title": "科大讯飞“缠斗”大模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715833&ver=6580&signature=E0*iGBrAtV7LDbnIKMGfeGvkCSlNs3Y0*I9bc-rT9q9zBWGZwkCDSMkH3Ori0LU1xh6JtC6A5kDgZEgxES68zRXALl7YcnMlN07SRwdEhUaaOwaxRAWKQiK9i5gOYuid&new=1",
+      "summary": "也就是B端的服务赋能和大模型定制等;最后就是讯飞开放平台,卖API.很容易能看出,AI技术的进步会直接有利于API收入的增长,...",
+      "datetime": "2024-05-10 18:48:31",
+      "date_text": "2024年05月10日",
+      "date_description": "664天前",
+      "source": "青澄财经",
+      "url_resolved": true
+    },
+    {
+      "title": "​【干货】国内大模型API服务谁最价廉物美?我们给国内大厂来了个横评",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715834&ver=6580&signature=8PhUxR7VDshc2QzL-Qn28Qq7ymisDq*0cjJilSMqBP7HeczlkgoZQqCxCdSqZdbGuFuXXcXABsnwre4bR5l3UDvt0rdBQINyw*EzoZ3zvuIqU*A2ymG-p*7udlbRMDC3&new=1",
+      "summary": "前文请见:你的AI大模型自由已来!中国大模型全面开放,谁能超越GPT4?近日,各大云服务商的API开始进入公众试用期,这意味着...",
+      "datetime": "2023-09-14 20:44:51",
+      "date_text": "2023年09月14日",
+      "date_description": "903天前",
+      "source": "AI赋能实验室",
+      "url_resolved": true
+    },
+    {
+      "title": "有智商还有情商,国产大模型诞生一位“芳心纵火犯”",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715834&ver=6580&signature=G3HVlsXOFH5EiVUvEaPXhbhDQuZLkFEBc*y9jNIwomcnVOhVT0bowY62UBgtp-HCV1yzwftqDqae-lXeupriCcMTR049W03Rt9Hxs9cr53YEk3STtpvwGF0hdz9*3b7U&new=1",
+      "summary": "目前已知的是,星火认识大模型将会开放给讯飞开放平台、羚羊工... 讯飞的相关技术将以 API 和生态赋能的方式,提供给行业开发伙伴...",
+      "datetime": "2023-05-06 22:37:24",
+      "date_text": "2023年05月06日",
+      "date_description": "1033天前",
+      "source": "互联网那些事",
+      "url_resolved": true
+    },
+    {
+      "title": "神器!科大讯飞星火大模型,强悍的AI能力,值得一试!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715834&ver=6580&signature=5qsHfIuWPc3Fp7bWe0cJ6CvEOqNWPSuU5FOdrx2rGf57IVOcicngYij*1kuOvSZDN9VrYuTVzYgK5xtdBfyFW*lX6NAWLZ7Nuw1HeRktY9pxGDgSLk5Ksuf4HN7FKcFF&new=1",
+      "summary": "Tokens,累计 400 万讯飞星火大模型 API 使用权益.电脑端可直接访问:https://xinghuo.xfyun.cn/?ch=EaCu2xg      星火认知大模型这...",
+      "datetime": "2023-09-28 15:56:49",
+      "date_text": "2023年09月28日",
+      "date_description": "889天前",
+      "source": "IT大镖客",
+      "url_resolved": true
+    },
+    {
+      "title": "开发喵API全球大模型接入服务",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715834&ver=6580&signature=MuaMt4pYxSmIer8uMPDfiHlYIf2OhxjSUYhspKNHmcuX9yPdD*HwHfdOdKZGk4sarnY83WrferkSNKYzO9WZ-xHhIMMV9zoL*pqjmxUbuxyXn5TVDEug36GRyadLNCce&new=1",
+      "summary": "文心一言、讯飞星火等,让你轻松解锁AI的无限可能. 为什么选择开发喵API?一键解锁,全球大模型平台聚合超过100个国内外主流...",
+      "datetime": "2026-01-24 21:02:20",
+      "date_text": "2026年01月24日",
+      "date_description": "40天前",
+      "source": "云创IT特种兵",
+      "url_resolved": true
+    },
+    {
+      "title": "如何看待中国大模型天天对标美国GPT-4,但千亿龙头Q1亏3亿?|钛媒体AGI",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715834&ver=6580&signature=vXecNvq9otSG7CmeH9NAVRkIXw5mnVBASeTSlU0TgMbGQGTCWuo6nvu37g5IY1TOx3CR1kcv6LmXyv5Sx9cUOEBD5U2cHjyxCARaFygyIELE5NV*k4jrA0o8a0mtgEqM&new=1",
+      "summary": "讯飞开放平台已经为开发者提供647项 AI 能力及一站式 AI 解决方... 其大模型的变现方式主要是赋能现有业务、API授权付费、企业定...",
+      "datetime": "2024-05-01 22:39:11",
+      "date_text": "2024年05月01日",
+      "date_description": "672天前",
+      "source": "钛妹科幻",
+      "url_resolved": true
+    },
+    {
+      "title": "2026 大模型 API 免费额度汇总(收藏)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715834&ver=6580&signature=Fwoj0izFX30NPLFvfWUTH2Bwaso5TWoaycGeuSLJtjwm8cBJZ*Wo9zdJD-5u0FxPWlCd76GmMVNN5t-c6lnjs0SViqAD8SVYjwmn6ZVy-bC9I55sPee2cXkw2B1bottG&new=1",
+      "summary": "kimi-k2等开源模型永久代金券,API 响应快kimi开放平台科大讯飞每个模型 20 万 Tokens星火 Ultra, Max, Pro涵盖长文本 128K 版本讯...",
+      "datetime": "2026-03-02 11:21:52",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "修心养身笔记",
+      "url_resolved": true
+    },
+    {
+      "title": "国内知名AI大模型汇总2026年3月",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715834&ver=6580&signature=tzX3dmsSirLF09Tstp8mUXsgbnViC6jjoJI4QGwNATloi1RBqfuMEdpJtclpKUPhceG*Mux*Zm0va4GB9MlMRrKH1J19g8LSlQG*TuoXIrPPJOshkWeX2MvuMGuHUIzf&new=1",
+      "summary": "垂直领域大模型国内在“行业大模型”上成熟度也提升很快,典型... API / 企业服务文心千帆、Qwen 企业版、MiniMax 开放平台、讯飞...",
+      "datetime": "2026-03-05 00:16:00",
+      "date_text": "2026年03月05日",
+      "date_description": "20小时前",
+      "source": "简单快乐手工",
+      "url_resolved": true
+    },
+    {
+      "title": "大模型API免费化浪潮:开发者如何在这场生态战争中获益",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715834&ver=6580&signature=5OnYYk2T4axd1kR3otZE8FoVNBZI0FkkMmBhTeyw91S3HVh7o5V3eb5Ll6MENgxbGCJo8RQ9MWRX81DDptGJ5GFBJ9un6xIkv29acNJkxDn2d2UF72uVoaIcmSTZ3vgR&new=1",
+      "summary": "大模型API免费化浪潮:开发者如何在这场生态战争中获益当阿里云百炼的Coding Plan服务刚刚上线,当Nvidia Build平台悄然开放免...",
+      "datetime": "2026-02-26 15:13:52",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "是小憨憨呀",
+      "url_resolved": true
+    },
+    {
+      "title": "2023年“星火杯”认知大模型场景创新赛开始啦!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715834&ver=6580&signature=NB0MG92j04KGsoDl1hleot7EKr*x82ueMjJo3PRRbnQbNHc*n9iE5gWjRgKqwyLjfS81HvA1s4Ri-3wuQIHwovjR1o8E*gh882FgZTXX7X0rYMxNhzn6vGozpbwGruRW&new=1",
+      "summary": "组委会为其提供“讯飞星火认知大模型”API使用权限.选手可通... 各高校团委要充分利用团组织微博、微信、掌上校园等平台,多渠...",
+      "datetime": "2023-07-17 19:24:09",
+      "date_text": "2023年07月17日",
+      "date_description": "962天前",
+      "source": "安徽学联",
+      "url_resolved": true
+    },
+    {
+      "title": "2023年“星火杯”认知大模型场景创新赛开始啦!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715834&ver=6580&signature=InJxXg8ZAuf2hAtCTOEz1yg-8**HniQYDTl5Jq8dp4BS3puKQlT--qQKferpXo290D4cAKu49xeU4BhxkfsPonuAnuls2rYX4J1-L15PA7gamNpJYCosewQmKmmLalB7&new=1",
+      "summary": "组委会为其提供“讯飞星火认知大模型”API使用权限.选手可通... 各高校团委要充分利用团组织微博、微信、掌上校园等平台,多渠...",
+      "datetime": "2023-07-23 14:01:10",
+      "date_text": "2023年07月23日",
+      "date_description": "956天前",
+      "source": "安财学生会",
+      "url_resolved": true
+    },
+    {
+      "title": "讯飞开放平台怎么选:API直连还是私有化?用5问决策表三分钟出结论",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715836&ver=6580&signature=s00sfyLg4IOgXxye8oM3tPNDtT7mAWEbQs-YYaZg96E6EPDSk*xeqjCZi1KaSmoGYk5uHM2bwvPDK79k5QNj6blz8a*GtZyCy08v9tDQV7lgvbbAjAyUqHdIVLPJA2v3&new=1",
+      "summary": "企业上AI,最常见的纠结不是选哪个模型,而是选哪种部署方式:API直连快,但担心数据与合规.私有化更稳,但成本与交付压力更...",
+      "datetime": "2026-02-22 17:50:59",
+      "date_text": "2026年02月22日",
+      "date_description": "11天前",
+      "source": "人防车位",
+      "url_resolved": true
+    },
+    {
+      "title": "合肥走出的语音智能王者,又把大模型推到国内顶流",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715836&ver=6580&signature=QvOp7klC8vfSYVZ2Au7QGfiYq4PzZXEWg-AWklduptS*j1*xmCSZv29osNnpxjJB0Ywb6Dag9WX9OcU7p4w0AcQMS-6nAwel92lUiHZ1P-6TpiNvKPZxr5tfpWYHmo5N&new=1",
+      "summary": "正式在讯飞星火网页版和App上线,全新API也已同步上线讯飞开放平台,持续为开发者和企业解放生产力,推动大模型技术的规模化...",
+      "datetime": "2026-02-12 15:43:38",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "深水财经社",
+      "url_resolved": true
+    },
+    {
+      "title": "讯飞星火大模型Q&A汇总",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715836&ver=6580&signature=djCnWAaGOUNc71LSeLbT75LRrGt6SAxD2JobUsRXlb21pS5Q1xE9rylsb*Ez4C6qkPtqmUJwJfPtEfzpqj4SZ7cPuDrlSpUin8EvMsujktrCHQlIy4dgrx5RAwp8Xwk9&new=1",
+      "summary": "通过讯飞开放平台,未来讯飞星火认知大模型也会与行业龙头合作... 申请方法:API文档将在官网(https://www.xfyun.cn/doc/)发布,...",
+      "datetime": "2023-05-06 21:48:41",
+      "date_text": "2023年05月06日",
+      "date_description": "1033天前",
+      "source": "风口调研社",
+      "url_resolved": true
+    },
+    {
+      "title": "国产大模型顶流「讯飞星火」:图片生成、代码生成,支持插件等重磅上线",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715836&ver=6580&signature=D8vAHdkGF5nxlk5O13PhiI7wo9r*gGIzyYS7U81rEUjPVxOgfHm0qoW4cEcFJCAEiW2jsGiBN6YcNko9Cttz9XmWSPhaFtK2J8vJmcUv5i5oNG9fiOHUtek8biU6ShGK&new=1",
+      "summary": "API:每个助手自动生成独立 API,帮助开发者快速将助手集成到... 阅读原文可体验最新版讯飞星火大模型.科大讯飞将在今天14:00...",
+      "datetime": "2023-08-15 13:29:52",
+      "date_text": "2023年08月15日",
+      "date_description": "933天前",
+      "source": "AIGC开放社区",
+      "url_resolved": true
+    },
+    {
+      "title": "讯飞研究院的WAIC 2023时刻:大模型时代的新身份、新责任、新观点",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715836&ver=6580&signature=0IA8P*Jp3xX8wCUYbqhaW1tPntj6t-CJzEL0mpi9*NEAlH3p2qHQmrnMP18VW-zluM7ZS8y2JZVk4FaUydW25OVy8xC40vmmAcpCZbx-*Lu2qYNmaAV2t48qu7StR3VZ&new=1",
+      "summary": "契合论坛主题,高建清介绍了基于讯飞开放平台的三种大模型开发... 可调用讯飞星火API接口体验,获得更强大的功能;插件开发者:...",
+      "datetime": "2023-07-10 17:40:10",
+      "date_text": "2023年07月10日",
+      "date_description": "969天前",
+      "source": "科大讯飞研究院",
+      "url_resolved": true
+    },
+    {
+      "title": "讯飞星火大模型:商品评论语义分析,解密消费者内心世界!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715836&ver=6580&signature=DJ1*aRzln4nScLRo8dQw9f*QgTxGoH8nmBjcCtaMSGy*5RISGSbbvGRqYqk*dDh6T8yIUKlG5Ybsjj*FeUY0iHa*mkPk6WPLR-msJcdlk65rCtVZOJOtodhFPcdqi1pb&new=1",
+      "summary": "讯飞星火大模型是如何实现这一神奇的功能的呢?其实,这要归功... 登录讯飞开放平台后,进入情感分析页面,点击“服务管理”,...",
+      "datetime": "2023-07-23 09:42:45",
+      "date_text": "2023年07月23日",
+      "date_description": "956天前",
+      "source": "匠工精神",
+      "url_resolved": true
+    },
+    {
+      "title": "中国AI大模型平台排行榜 | 2月份",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715836&ver=6580&signature=bdouq7VcEZxkEabKTNOYJ*beivQ1JBqp25Z2TkElqGK9zgeS1j0l10eJ2Sb3egyKHMw5QtQHbHCiM8r6u22qcbMVJ1v6vH6XCXM0eQGbLKHVY18GDCYrL1fMRtrEPm5x&new=1",
+      "summary": "Assistants API 完成开发的数据分析工具“办公小浣熊”.随着大模型开发需求的增长,高效易用的AI开发平台成为关键要素.商汤也...",
+      "datetime": "2024-03-13 15:10:19",
+      "date_text": "2024年03月13日",
+      "date_description": "722天前",
+      "source": "NFT营销工场",
+      "url_resolved": true
+    },
+    {
+      "title": "生成式AI产业的投资思考;大模型的应用热;百度版大模型应用商店来了丨AI新零售早报",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715836&ver=6580&signature=GH0h*NQuDCA0erj7HGOgpwoXPOCPPCdp*KANz0T0HnXFMVBfIYHxgP2AfOJzkyfgAkOSmhaikhO7-e50JsdBWNSo4BLMbhvxk*Iu8eQyNSgq4T3xDY0jnb-uxtBQSgtp&new=1",
+      "summary": "直接面向C端用户,提供大模型的API或应用,如ChatGPT;结合... 国内大模型玩家的路径:如百度的飞桨、科大讯飞的讯飞开放平台...",
+      "datetime": "2023-09-12 09:00:14",
+      "date_text": "2023年09月12日",
+      "date_description": "905天前",
+      "source": "猎豹AI新零售",
+      "url_resolved": true
+    },
+    {
+      "title": "科大讯飞正式发布讯飞星火X2大模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715836&ver=6580&signature=-1OWdnN*fg7y8NEV064qeY*leR4fhO2uENnk4EXtOdjtooSJYXIZyRmuzwxezj9gr2OCm*bPHqwxsXHRvPe*ES3rzDOY3B-4Bd9PbZ8RjxmfnwPFsSdUaXPvG2dCLCtd&new=1",
+      "summary": "在大模型,尤其是MoE架构中,往往存在训推分布不一致的问题,... 目前讯飞开放平台已正式上线星火X2 API,平台新注册开发者可直...",
+      "datetime": "2026-02-12 18:00:30",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "每日智汇",
+      "url_resolved": true
+    }
+  ]
+}

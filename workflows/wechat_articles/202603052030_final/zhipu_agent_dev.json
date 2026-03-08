@@ -1,0 +1,306 @@
+{
+  "query": "智谱AI Agent 开发",
+  "total": 30,
+  "articles": [
+    {
+      "title": "Zcode:智谱AI的Agentic开发环境",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715356&ver=6580&signature=tOX*YgJwOR-XRuhFpK1IPx0sAgaN4FMrUtjI7Ju3B8CDU1ay6-JrnyelD5d-wVnjs8E9kkoOi*oBRUtr0Une6jxxXJPZb8ir05HPdaKyNUNZx4kvPNGQ-Qo1*2qUuctt&new=1",
+      "summary": "当编程遇上Agent,CLI工具被自然语言化,开发不再是敲代码,而... 一、Zcode是什么?Zcode 是智谱AI推出的 Agentic Development ...",
+      "datetime": "2026-02-26 19:03:25",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "猿三七One",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱 AI CEO 张鹏:AI Agent 是重要新风向,大模型竞争已步入混战后期",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715356&ver=6580&signature=VObH45TaQIJvidgxJmBa7UsytsK5VuSxSk1AT099Hs26PGucQMAhy2-RDrefcqw5vlesjFCKZfIaCtb2BYT*tWMVB8Z69PXBU8M2oNz3fIR8SdXTc4Qds1rrYJ*vBJ83&new=1",
+      "summary": "AI Agent(智能体)的这种新风向,后续还会产生一些什么新的行... 你认为哪些方面的差异会让智谱AI能在行业内站稳脚跟?张鹏:这...",
+      "datetime": "2023-11-09 19:01:39",
+      "date_text": "2023年11月09日",
+      "date_description": "847天前",
+      "source": "首席数字官",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱GLM-5登顶开源模型榜:AI Agent能力再破局",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715356&ver=6580&signature=X*e8RtuNqAkiD1D6vXxSW4FO1TOlygp7p4DTn1284tHLBGGvXYS-hyhFr2CdqxlmkDxMSfzHoOoVbOhtJMsuJMQ47ljl9ruqG7yUPVvBjm9xQ*RidLFJK76HseTHn**c&new=1",
+      "summary": "智谱AI(股票代码:HK2513)旗下的开源大模型GLM-5表现亮眼,在开源权重模型中排名第一,同时在专注于经济价值工作任务的智...",
+      "datetime": "2026-02-13 18:49:47",
+      "date_text": "2026年02月13日",
+      "date_description": "20天前",
+      "source": "达子的一切",
+      "url_resolved": true
+    },
+    {
+      "title": "AI早知道|智谱推出AI编程工具Zcode;2030年全球生成式AI消费支出将达近7000亿美元",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715356&ver=6580&signature=BtV2AQnuiWpSmxKGo7q2Mte4CpQF*NYmxvcIGpSNhCy7CR8tmtfm2dab7LgcSKahkHMZPgw3Sv0fgSF7b-1zqxnW3JLeKo*4mlJykaVP3-Tpzk-VRzXamvKt9JaoFW3N&new=1",
+      "summary": "1. 智谱推出AI编程工具Zcode智谱推出AI编程工具Zcode,深度融合AI Agent与开发工具链.工具支持跨仓库全代码库理解、多仓库上下...",
+      "datetime": "2025-12-27 08:07:14",
+      "date_text": "2025年12月27日",
+      "date_description": "68天前",
+      "source": "互联网er的早读课",
+      "url_resolved": true
+    },
+    {
+      "title": "AI Agent 开发教程 - 3. 环境搭建",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715356&ver=6580&signature=0syp0H9928NvR9vvUFCeaDUITuhdFyTmHopPf8EPdgYroaPlv5DSU9NT24no96thXPyXoJX5jdQgkf5Yqbu0Kt*O0Qyn2yix6*nCrIZS1rCJrm1bYUrNAxP5NuSqlepm&new=1",
+      "summary": "编程能力强智谱清言 GLM(智谱AI):去 https://bigmodel.cn/ 注册... 等熟悉了Agent开发的套路之后,再按需接入云端API.国内用户:...",
+      "datetime": "2026-02-20 09:34:49",
+      "date_text": "2026年02月20日",
+      "date_description": "13天前",
+      "source": "AIML实验室",
+      "url_resolved": true
+    },
+    {
+      "title": "玄武*智谱AI联合打造:江苏首个Agent City创新社区重磅上线,AI重塑政企服务新生态",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715356&ver=6580&signature=QIRAqbAiVxnT6svond4ES*uhNnsrPhKyT152KT9BPtjPU6S5x-2cewVOe9oFzpt77i82uXFjZiaowZcB7bB5FFuylWsdAf6ENlCZU6noDMJPmqMmlxA*A*xSzwUpFBqr&new=1",
+      "summary": "近日,玄武区在人工智能产业生态建设上迈出历史性一步——由徐庄高新区与“大模型第一股”智谱AI携手共建的“玄武Agent City创...",
+      "datetime": "2026-01-23 20:31:57",
+      "date_text": "2026年01月23日",
+      "date_description": "41天前",
+      "source": "徐庄高新",
+      "url_resolved": true
+    },
+    {
+      "title": "D1net阅闻 | 清华大学与智谱AI联合推出CogAgent:基于多模态大模型的GUI Agent",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715356&ver=6580&signature=A94K0JagQqA4kDzGoyviFhb9xSYHTsrv7Nta-fMoKxVNzt25tnPO7dvBSjTVEXF4v-SW5D*ecNFTU1-W0v6V0*LeO7r0EBflblqRBqKN2Dn4bcO6ur5F7TmTQ3CDCDgU&new=1",
+      "summary": "清华大学与智谱AI联合推出CogAgent:基于多模态大模型的GUI Agent,具备视觉问答、视觉定位等能力近日,清华KEG实验室与智谱...",
+      "datetime": "2024-01-03 11:58:52",
+      "date_text": "2024年01月03日",
+      "date_description": "792天前",
+      "source": "企业网D1net",
+      "url_resolved": true
+    },
+    {
+      "title": "对话智谱 AI CEO 张鹏:AI Agent 是重要新风向,大模型竞争已步入混战后期",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715356&ver=6580&signature=ObUf3zqdY7BjNwY59kMzeY08dpeWNkaMQBdmnZlUOKPV6ZjOXKGgZ54dcel4ZtnFSsTuQVvdD5YhF*6qtVCrCI9azKhCF5yqqTgzgRb5W-HOshOmjptlOWlcLeLNMeV7&new=1",
+      "summary": "你认为哪些方面的差异会让智谱AI能在行业内站稳脚跟?张鹏:这... 开发者大会上,Sam Altman 正式发布了全新升级的模型 GPT-4 ...",
+      "datetime": "2023-11-08 12:09:10",
+      "date_text": "2023年11月08日",
+      "date_description": "848天前",
+      "source": "极客公园",
+      "url_resolved": true
+    },
+    {
+      "title": "AI商业洞察丨智谱与滴滴达成战略合作;中国首个金融气象AI模型“熵机”在穗发布;四川具身智能产业新平台投运",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715356&ver=6580&signature=nMYY17*eZILxWt407c16YYUrf1oD4xSZqbLGuR*Zf1PNdeGBjdk8Yf9omj1nHXVxDUtnlweR23-EytUHWO64UdgWKhVajqg0SNd*FOs*NFapoKzORfxBSrfZFd1ISD1X&new=1",
+      "summary": "推动Agent在更复杂业务场景中的验证与落地.(人民财讯)【中... 主要负责AI多模态产品的开发,其中包括JoyAI App等产品.2026...",
+      "datetime": "2026-01-12 13:22:57",
+      "date_text": "2026年01月12日",
+      "date_description": "52天前",
+      "source": "商学院",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱AI上市,中国人工智能的未来是星辰大海",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715356&ver=6580&signature=Up4uCc9gCK9y6-8ZihP0JnOuhbYEFt4q3lnr4jCorxWMTGY*PqSmYnILaKfIjeUs1GTBzshZ-jeRJLDAiNXa9gwSBeV7F8RiFVd-rwuSQIsvhfLIhTvNZ0n0pyXTRe0w&new=1",
+      "summary": "2025年,智谱开始布局Agent,推出了手机Agent,这是一个能操... 他把大模型的能力封装好,通过网络提供给开发者或者企业使用....",
+      "datetime": "2026-01-09 07:56:40",
+      "date_text": "2026年01月09日",
+      "date_description": "55天前",
+      "source": "爱玩AI的二师父",
+      "url_resolved": true
+    },
+    {
+      "title": "车内动动嘴,支付全搞定:极豆科技联手智谱AI、中国银联发布座舱原生支付Agent",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715357&ver=6580&signature=3iMKo-omvMIB8*Wua7g6TGrlN07vLeeuDWT3yqZgXWPBpkevJ2FwD4SgtWUVlLV6jhIkOcUecUXv0oxCoAaAfwDfuBzxOZ*gjiP3Y*7OVp0dHfS6dcQqh0cSZ-*IkmGS&new=1",
+      "summary": "极豆科技与智谱作为同社区企业,同时也是AI产业上下游,自去年... 从产业视角看,座舱原生支付Agent的成功开发表明,垂直领域的...",
+      "datetime": "2026-02-03 00:51:11",
+      "date_text": "2026年02月03日",
+      "date_description": "30天前",
+      "source": "互联网时代社联星球",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱 AI 正式发布新一代大模型GLM-5,可自主完成需求拆解、架构设计、全栈开发、调试部署、运维监控的全流程工程构建",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715357&ver=6580&signature=dB3*JaLpnFS-VaH*WBINnxMboLWoYS6Lg8WihxWs9Vc8rjM3377M81Ur0OMvxkSBOAsVnBk*ux6ezmKnfaIRTLC46ePwCUK5VjqBxU8eIRyhmfw*b8qnGdlKgOHCKgc0&new=1",
+      "summary": "智谱 AI 正式发布新一代大模型GLM-5,这是首个宣称进入 “... 可完成从需求拆解到代码提交的全流程开发.Agent能力领先开源...",
+      "datetime": "2026-02-12 23:46:33",
+      "date_text": "2026年02月12日",
+      "date_description": "20天前",
+      "source": "数字炼丹师",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱AI 公司简析报告",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715357&ver=6580&signature=IIJLyJX*4kfvMdi5aoC*abBo2uKvfRCwH5nIOmE5hltI-HQtu7XLzC8cdx-Aper2kjQKI352RaOrMlMDMVO0-OcPzguHsnaT2Fw7XPlFUrZ*n6QCMBMfDeR3v*H1h6*O&new=1",
+      "summary": "公司概述Zhipu AI(智谱AI,北京智谱华章科技有限公司)是一家专注于大型语言模型(LLM)和通用人工智能(AGI)开发的领先中国...",
+      "datetime": "2026-01-15 22:46:10",
+      "date_text": "2026年01月15日",
+      "date_description": "48天前",
+      "source": "不务正业的后进生",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱AI敲钟上市:中国大模型「国家队」的硬核突围与技术复盘",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715357&ver=6580&signature=LzeoTBl23DpGzQhFYSKlPnIUc-e3GnoERmsabVjQWBM88fKRmqeZGIzslEMwibweH5kTR72yEBKrVvXgsot2g7xoN0eA3iKaNh0DD7F*ABdF10NHwq2dSvo9wJwErvSi&new=1",
+      "summary": "智谱AI敲钟上市:中国大模型「国家队」的硬核突围与技术复盘导... AutoGLM 的 SDK 和相关论文.Agent 也就是智能体开发,将是未...",
+      "datetime": "2026-01-09 07:00:41",
+      "date_text": "2026年01月09日",
+      "date_description": "55天前",
+      "source": "CarryWang",
+      "url_resolved": true
+    },
+    {
+      "title": "科技日报|智谱AI开源GLM-4.7-Flash、字节发布全新扣子 2.0、奇瑞“AI之夜”亮出第三增长曲线、大脑也能 OTA",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715357&ver=6580&signature=Cxt4LA2PtVmH48E1kpmdd2trZU4-tZdW0Q-oz-J*zH6MFnozjplCaa0J5xTBEtUXqoXyp7h4Y36Xf9JSrWoy0*KajZJ7xNrEosumup4PI1*P-MAxYWYUHBBqM6-m7ntO&new=1",
+      "summary": "智谱AI开源GLM-4.7-Flash,多项测试力压阿里OpenAI摘要 : 智谱... Agent Office (增强多轮对话理解和文件处理能力).此外,开发...",
+      "datetime": "2026-01-20 10:01:07",
+      "date_text": "2026年01月20日",
+      "date_description": "44天前",
+      "source": "一如既往的奋斗",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱AI上市,属于“AI产品经理”的黄金十年,正式开启!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715357&ver=6580&signature=x7QCi9Glfj5yGHeEO5jN1s*A7nFQLj7Vjhl9DTJsKgDfE3lWbygu5FhM6RSBiOFAHMhFyydhu2iqIXGf3U33247uxLQsuJiabRYVUZj78U1*MX121sLN7ZWmM41EAoxe&new=1",
+      "summary": "近日,港股市场迎来历史性一刻——智谱AI以“全球大模型第一股... 进行模型定制AI Agent智能体搭建:学习如何设计和开发AI Agent...",
+      "datetime": "2026-01-13 11:24:42",
+      "date_text": "2026年01月13日",
+      "date_description": "51天前",
+      "source": "明天上线",
+      "url_resolved": true
+    },
+    {
+      "title": "用智谱AI的类「GPTs」,我做一个Agent只花了30秒",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715357&ver=6580&signature=XC4T9vp7AtAxY0hzuPIihq3u6E4MTggo-oelRmytnYGNNPcgwAeFIS1r*pMCLwdNV2SFpnnI8yzElnzzp5soyXlDsFTLo8pYUyHNLlFSSa3fskTRPeSXEfUtCcB-USli&new=1",
+      "summary": "对不少开发者而言,这些更新听上去并不陌生.2023年11月16日... 智谱AI在Dev Day上发布了GLMs.在这款国产的定制版Agent生成...",
+      "datetime": "2024-01-17 18:04:24",
+      "date_text": "2024年01月17日",
+      "date_description": "778天前",
+      "source": "智能涌现",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱 AI 发布 GLM-4.7-Flash:基于 MoE 架构的端侧代码 Agent 方案",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715357&ver=6580&signature=DmWRGObczyzekNSlyEsa5ta5Jyq2lKKiZwylWz6QukUBHFOdGY2frFAtASJ0rXZ6iJTk4BMK-D8YNQKLgEB7unmjVTy8XfwILW6U0JEPWzwqgX7c2b2AtJggmPaEjYx6&new=1",
+      "summary": "智谱 AI(Z.ai)最新发布的 GLM-4.7-Flash 试图打破这一僵局.作为 ... Agent 开发中的实际应用价值.1. 核心架构:MoE 带来的效率革...",
+      "datetime": "2026-02-08 11:37:28",
+      "date_text": "2026年02月08日",
+      "date_description": "25天前",
+      "source": "Halo 咯咯",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱 GLM 4.7 模型 AI 自主开发 HeartPetBond 心宠纽带 App,从想法到提交 App Store 仅用 12 天",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715357&ver=6580&signature=ffyoAn-Qh0LWHckFGnBAgKvOxJzVkJS5oGdajO9gjSlk6*HLlqhMQX0Ut8ri9Xf6J-Cerrk1OJr9lf-qqgB6BuxAguOtzC2qBFZse766s3YFNe73LpcQ07DnGjeRIuxR&new=1",
+      "summary": "Claude Code:AI Agent 运行环境2. GLM 4.7:通过智谱 API 接入3. BMAD V6:敏捷开发流程框架4. Flutter MCP:Flutter 开发工具链第二...",
+      "datetime": "2026-02-06 21:08:46",
+      "date_text": "2026年02月06日",
+      "date_description": "26天前",
+      "source": "CloudoLife 面向云生活",
+      "url_resolved": true
+    },
+    {
+      "title": "北京社招|智谱-AI 研发工程师",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715357&ver=6580&signature=aDMAOasQASj-1MQg2-vKnZm4dpvpvo2s2XbsC0sGrMOZf8XqBNG352Cqme1wkUkoqGK-W-0daINr6UvGq9Q6JZnzpv7PI-vtTu4Xnpw0ryDazNZkBqDZfa86KzVvEM5Q&new=1",
+      "summary": "1企业简介智谱AI致力于打造新一代认知智能大模型,专注于做大... / 高级资金规划经理税务经理Agent 开发工程师",
+      "datetime": "2026-03-03 18:00:28",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "AI新出路",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱上市背后:拿下马来西亚国家级AI项目",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715358&ver=6580&signature=wGcqKMiS*N5IZjvvn5Vz57r4oxznSNEfBREWKW-6VofqXD43u5lyqJJgH3VtV4NIWqNdKuiKGu68qfAfmh2S0ZjHZFav1OXOPQeyPlSiolJmAN-TfJGNiD0q3XhZB8pu&new=1",
+      "summary": "智谱AI宣布其开源基础模型Z.ai已正式部署于马来西亚国家级MaaS... 第四是开发者生态建设.通过开源策略聚合全球开发者,在Agent...",
+      "datetime": "2026-01-21 16:46:52",
+      "date_text": "2026年01月21日",
+      "date_description": "43天前",
+      "source": "赛乐出海",
+      "url_resolved": true
+    },
+    {
+      "title": "AI日报:阿里云推多模态交互开发套件;智谱AI港股首日上市;混元发布 HY-Motion1.0开源3D 角色动画生成模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715358&ver=6580&signature=W0mfySQhYfwqCRXlRX1CF7GxjXkT3354z35V7*gc769Rm-z1jSFC8UJ5F2ET4mjTOz97kcJrcaXyOU6dGwF6k5IfzHoUZxfHzQLbaX18*cNe9av4E3b7U7w32Zb90eF-&new=1",
+      "summary": "的架构,为游戏开发者、动画师以及科研人员提供了高质量、标准... 智谱AI港股首日上市!开盘涨3%募资43亿港元,高增长伴随高研...",
+      "datetime": "2026-01-08 17:23:23",
+      "date_text": "2026年01月08日",
+      "date_description": "56天前",
+      "source": "站长视界",
+      "url_resolved": true
+    },
+    {
+      "title": "全面对标OpenAI生态!智谱AI推出GLM-4大模型全家桶,GLMs上线,不会编程也能创建Agent",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715358&ver=6580&signature=qZcZhl8VSToefT-J4gQYKCFlHTYIDWCZQpOFmbYwvu0Al2jSxjtiIuyULyc6kTtZYTqWoFJFSgUZweNxh6IlWwrw4*Ai93aGWYPa5BIbXtJAUdll0ujy4LxiIzvxTHak&new=1",
+      "summary": "不会编程也能定制专属Agent针对令许多开发者及普通用户犯难的“AI咒语”提示词问题,智谱AI推出GLM-4 All Tools全家桶.GLM-4 ...",
+      "datetime": "2024-01-16 18:06:17",
+      "date_text": "2024年01月16日",
+      "date_description": "779天前",
+      "source": "智东西",
+      "url_resolved": true
+    },
+    {
+      "title": "清华大学与智谱 AI 联合推出 CogAgent:基于多模态大模型的 GUI Agent,具备视觉问答、视觉定位等能力",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715358&ver=6580&signature=tRJAwQiXI6txzye-zf3b0MGe9pr29VU1w73*Gvjx9t5uqJT-*Y7rbHLfIW3NrRT20kCAsqR3JfCoXhq0M1DS0pBtjKl*oDkkz--u3A5RDBzUn1cjlXxYyUt2NmvlrQvl&new=1",
+      "summary": "近日,清华 KEG 实验室与智谱 AI 联合推出了视觉 GUI Agent——... 每一个都需开发者警惕阿里被判向京东赔偿10亿;要求销毁 ...",
+      "datetime": "2024-01-04 13:30:36",
+      "date_text": "2024年01月04日",
+      "date_description": "791天前",
+      "source": "InfoQ",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenAI与软银向SB Energy助力“星际之门”建设;智谱联手滴滴探索出行Agent场景落地建设;谷歌联合沃尔玛等零售商扩展AI模型购物功能",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715358&ver=6580&signature=WuKd2-O8aa6cYN8opDCcgPbVjIOrsu8wbIPtVnTPB38RE8nZq6dVBJ6AcABWEWvd-6QREm6T-mxw*xQ7hUdr*PXmmv9BebJ1tBzw61hkRVLGelAtw4cLjVacpbq-CNdw&new=1",
+      "summary": "AI 助手工具 Claude Cowork国内动态智谱联手滴滴 探索出行Agent... 新闻稿称,SB Energy目前正在开发多个总规模达数吉瓦级别的数...",
+      "datetime": "2026-01-16 12:34:45",
+      "date_text": "2026年01月16日",
+      "date_description": "48天前",
+      "source": "棋盘资本",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱AI:从清华火种到全球大模型第一股的崛起之路",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715358&ver=6580&signature=pK38rR7BWVIv9Jo5Tmp-z9qlq6Iajy4JE44nJKGOUDGDx*f3MsfnFK7DRZt3HG9tjqG0yHpCV7fl43Gw4CnG05tyrZY80ez-5FXzUvdUoBCLjTxCUDsKJPXBkhE8I5Mc&new=1",
+      "summary": "无数开发者和爱好者,第一次有了“玩转”大模型的入场券.随后... 完整的Agent家族……这一年,智谱完成了从“卖模型”到“卖全...",
+      "datetime": "2026-01-08 16:02:42",
+      "date_text": "2026年01月08日",
+      "date_description": "56天前",
+      "source": "新机器视觉",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱&MiniMax:看好中国 AI 商业化拐点,期待 Agent 场景价值重估",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715358&ver=6580&signature=SpnmBqorlnux0qWcnZQ66taWmpFcEMo-HLoQM*T*2sopZhvYpONLPiTdzCG-88TxApWcfd0SK3jEkDjQCPfHsbUXRliY83NNcsxXbKsx8pYGrfkuhc9vE5poB03U6FEL&new=1",
+      "summary": "智谱&MiniMax:看好中国 AI 商业化拐点,期待 Agent 场景价值重... 万个专家生态.两家公司都选择了 MIT 协议开源,本质是培养开发...",
+      "datetime": "2026-02-21 00:12:28",
+      "date_text": "2026年02月21日",
+      "date_description": "12天前",
+      "source": "大国看世界",
+      "url_resolved": true
+    },
+    {
+      "title": "一文了解智谱AI及A股同类产品相关公司",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715358&ver=6580&signature=5dIdLmiZEvGJzqAzNG878tUa2PtaHtzq3OqdwaSAnmYilJEBADml2erC-DWkAAkKDeXokrtdfc7CZjTJcZvl*MLbKl0T6T5nT3l-FMgd75hZaxIxLu7xG79Z*HH0z1wl&new=1",
+      "summary": "成为全球开发者“AI启蒙工具”,同年智谱清言(AI对话助手)上... 智能体(Agent):AutoGLM:全球首个具备设备操控能力的智能体...",
+      "datetime": "2026-02-21 00:02:12",
+      "date_text": "2026年02月21日",
+      "date_description": "12天前",
+      "source": "混沌小生",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱GLM-5开源:中国AI代码能力达到国际领先水平",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715358&ver=6580&signature=RkT5v4gA02USToBzZ7CBtYmKgJVa8zACYXbiA41rLmif03ARZMrioOOhDdcLr*QpFulfHXNEZG9-D*W90l1sk0Aess9iIOcQpmxBw8AuuhOVBqkK5kiSWYiF*E6d0eJM&new=1",
+      "summary": "Agent能力的增强除了代码生成,GLM-5还具备强大的Agent能力... 智谱AI官方公告, CNBC, GitHub数据, 开发者社区反馈 | 发布时...",
+      "datetime": "2026-02-16 12:46:57",
+      "date_text": "2026年02月16日",
+      "date_description": "17天前",
+      "source": "硅基工具人",
+      "url_resolved": true
+    },
+    {
+      "title": "智谱AI概念龙头公司-研发实力大比拼:每日互动、常山北明、中科曙光、奥飞数据、金山办公、神州数码",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715358&ver=6580&signature=8ZLrcxV5f1UL9Gqj4eSuor3hYxB18XyK*y*5wWWw6NDkZ4e3yy7yeyJgqjejo5tXIWnxEbEZlWm78XVgSaontKfb2Jxk84JAhuDOzRyuaMtQDuI95ZOCR4j8etoeKxp9&new=1",
+      "summary": "智谱AI概念包含以下公司:世纪天鸿(300654)、北特科技... 已落地10余家金融机构彩讯股份战略合作伙伴RichAI Agent智能体...",
+      "datetime": "2026-02-11 18:04:59",
+      "date_text": "2026年02月11日",
+      "date_description": "22天前",
+      "source": "碧湾App软件行业研究",
+      "url_resolved": true
+    }
+  ]
+}

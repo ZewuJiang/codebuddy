@@ -1,0 +1,87 @@
+# ============================================================
+# 第5轮最终检索 queries — 全面补齐 + 扩展厂商
+# 格式：查询词|输出文件名(不含.json)
+# ============================================================
+
+# ---- 腾讯混元 定向补齐（当前仅10条/官方0，需大量扩充）----
+腾讯混元大模型 OpenClaw|hunyuan_openclaw_official
+腾讯混元 OpenClaw 部署|hunyuan_openclaw_deploy
+腾讯混元大模型 OpenClaw 一键部署|hunyuan_openclaw_oneclick
+腾讯混元 OpenClaw 接入|hunyuan_openclaw_access
+腾讯混元大模型 开源|hunyuan_official_opensource
+腾讯混元大模型 Agent|hunyuan_official_agent
+腾讯混元大模型 API|hunyuan_official_api
+腾讯混元大模型 MaaS|hunyuan_official_maas
+腾讯混元 元器|hunyuan_yuanqi
+腾讯混元 大模型 应用|hunyuan_app
+混元大模型 Cloud|hunyuan_cloud
+腾讯混元 模型部署 云服务|hunyuan_cloud_deploy
+腾讯混元 HunyuanLLM|hunyuan_llm
+腾讯云 混元大模型|hunyuan_tencentcloud_combo
+混元大模型 ChatBot 微信|hunyuan_chatbot_wechat
+
+# ---- 天翼云 官方定向（当前官方仅4条）----
+天翼云 OpenClaw 部署|ctyun_openclaw_deploy
+天翼云 OpenClaw|ctyun_openclaw_main
+天翼云 大模型 部署|ctyun_llm_deploy
+天翼云 AI 一键部署|ctyun_ai_oneclick
+天翼云 CTyunOS 开源|ctyun_ctyunos_opensource
+天翼云 息壤 大模型|ctyun_xirang_llm
+天翼云 云电脑 AI|ctyun_cloud_pc_ai
+中国电信 天翼云 AI|ctyun_chinatelecom_ai
+
+# ---- 智谱 官方定向（当前官方仅2条，需补齐GLM/清言等）----
+智谱AI OpenClaw|zhipu_openclaw_official
+智谱AI OpenClaw 部署|zhipu_openclaw_deploy
+智谱 GLM 大模型 部署|zhipu_glm_deploy
+智谱AI ChatGLM 开源|zhipu_chatglm_opensource
+GLM大模型 API 接入|zhipu_glm_api
+智谱清言 应用|zhipu_qingyan_app
+智谱AI Agent 开发|zhipu_agent_dev
+智谱 BigModel 平台|zhipu_bigmodel_platform
+
+# ---- 百川智能（新增厂商）----
+百川智能 OpenClaw|baichuan_openclaw
+百川智能 大模型 部署|baichuan_llm_deploy
+百川大模型 API|baichuan_api
+百川智能 Baichuan 开源|baichuan_opensource
+百川智能 Agent|baichuan_agent
+
+# ---- DeepSeek（新增厂商）----
+DeepSeek OpenClaw|deepseek_openclaw
+DeepSeek 大模型 部署|deepseek_llm_deploy
+DeepSeek API 接入|deepseek_api
+DeepSeek 开源模型|deepseek_opensource
+DeepSeek-V3 部署|deepseek_v3_deploy
+
+# ---- 科大讯飞/星火（新增厂商）----
+讯飞星火 OpenClaw|iflytek_openclaw
+科大讯飞 星火大模型 部署|iflytek_spark_deploy
+讯飞开放平台 大模型 API|iflytek_api
+讯飞星火 Agent 开发|iflytek_agent
+科大讯飞 AI 开源|iflytek_opensource
+
+# ---- 商汤/日日新（新增厂商）----
+商汤科技 OpenClaw|sensetime_openclaw
+商汤 日日新 大模型 部署|sensetime_nova_deploy
+SenseNova 大模型 API|sensetime_sensenova_api
+商汤科技 AI 开源|sensetime_opensource
+商汤 大装置 AI|sensetime_aidc
+
+# ---- 01.AI / Yi（新增厂商）----
+01万物 OpenClaw|01ai_openclaw
+Yi大模型 部署|01ai_yi_deploy
+01.AI Yi-Large API|01ai_api
+零一万物 大模型 开源|01ai_opensource
+
+# ---- 渠道/通用 补充（横向对比 + 生态）----
+OpenClaw 大模型 部署 对比|channel_openclaw_compare
+OpenClaw 支持哪些模型|channel_openclaw_models
+OpenClaw 企业微信 集成|channel_openclaw_wecom
+OpenClaw 钉钉 集成|channel_openclaw_dingtalk
+OpenClaw 飞书 集成|channel_openclaw_feishu
+OpenClaw 微信公众号 接入|channel_openclaw_wechat_mp
+OpenClaw 私有化 部署 方案|channel_openclaw_private
+OpenClaw 安全 风控|channel_openclaw_security
+OpenClaw 2025 最新|channel_openclaw_2025
+OpenClaw 教程 入门|channel_openclaw_tutorial

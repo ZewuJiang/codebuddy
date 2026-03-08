@@ -1,0 +1,286 @@
+{
+  "query": "腾讯混元大模型 API",
+  "total": 28,
+  "articles": [
+    {
+      "title": "让AI为你打工,腾讯混元大模型实战篇",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714606&ver=6580&signature=-yiPS05Zy0ITTZbJQFo2uRHmYRR5CPsROcWRhAAfOljG8870ogu2laPbLHjG5ty3EKuWoHfSPd2cMxf8UH8HB2Rs0Cpo0yGPbB-i7GztyNGjpG7ghWSNR-RL7WG4szsp&new=1",
+      "summary": "导读腾讯混元大模型 API 产品,可以实现对话沟通、内容生成、分析理解,可以广泛应用在智能客服、智能营销、角色扮演、广告文案...",
+      "datetime": "2023-11-30 10:25:10",
+      "date_text": "2023年11月30日",
+      "date_description": "826天前",
+      "source": "腾讯云开发者",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯发布混元大模型!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714606&ver=6580&signature=ZJTk5PdUAICBjfsdH4Clk6EUUnGnnmLPAQJ2ruMt9PkneT8-EJxaWCbKirhWN0oVXqLjO7Dh-a9tgWM5D1BhvdeAo02QWqL-w2F5ur4FJlupbkCyuUV9RStrgugJZEux&new=1",
+      "summary": "汤道生表示,千行百业也可以通过API调用混元,或者将混元作为基底模型,为不同产业场景构建大模型应用.为此,腾讯已经和1万1...",
+      "datetime": "2023-09-07 13:16:29",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "见实",
+      "url_resolved": true
+    },
+    {
+      "title": "首批通过备案!腾讯混元大模型将陆续对公众开放",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714606&ver=6580&signature=kfeaAPInKfxlC-M4dDvat-nQ1e4ZgAsD6cnRvK76QwfLIBWakCLYvySEJO0rOt4UZMM12ONpDmDFGdIDGsBjZfGBByazQ*AocBY0gH*pliDF3FbPhsl5vRnr78xbfAKy&new=1",
+      "summary": "上周,腾讯混元大模型正式亮相,并通过腾讯云对外开放,客户可以直接通过API调用,也可以将腾讯混元大模型作为基底模型,为不...",
+      "datetime": "2023-09-15 18:26:43",
+      "date_text": "2023年09月15日",
+      "date_description": "902天前",
+      "source": "腾讯云",
+      "url_resolved": true
+    },
+    {
+      "title": "如何申请开通腾讯混元大模型?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714606&ver=6580&signature=hU0y7SVHb7fcJJqPvBAPrJkTu2vH4Wqj4o0YqBCTXh6KwvpjO84Vc909SgEvXLbqNOMNi1e2b1Ommxt73W4*FDWoyi93KOl4fXcPw50i2WT3S0uw7kHE2w8nABJ982hK&new=1",
+      "summary": "什么是腾讯混元大模型?简单说就是:和文心一言、ChatGPT是一... 对于想要申请API进行开发体验的,可以点击【申请API】,页面会...",
+      "datetime": "2023-09-22 07:30:14",
+      "date_text": "2023年09月22日",
+      "date_description": "895天前",
+      "source": "南巷烟雨",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型正式亮相,个人和企业可以申请使用了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714606&ver=6580&signature=aL546nK31HDsJTmts3fm*UBgkwbkuchp3WOevsc3*9ny70Kf-9TAaVOrRupC6rNa*kNTGRavQFMkpepuQ9FUQ2Br3uIKO8Xjq1wZGB*DyMmWMckJAqU2BUdtLO50i5kr&new=1",
+      "summary": "开放给外部客户,客户可以直接通过API调用,或将其作为基底模型,为不同产业场景构建专属应用.腾讯混元大模型具备什么核心能...",
+      "datetime": "2023-09-07 18:35:22",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "AIHubs",
+      "url_resolved": true
+    },
+    {
+      "title": "阿里云通义千问开源;腾讯混元大模型开始应用内测;马斯克或从OpenAI买入域名Ai.com丨AIGC大事日报",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714606&ver=6580&signature=qZcZhl8VSToefT-J4gQYKCFlHTYIDWCZQpOFmbYwvu0w9DR1FYGrFD9aXMLQlMlksX29GoFxHHUiHoCRFaGauOQ-LlgT-J3nZPbUp3RPFL9ZH70g*v745g6JtTO7vWdi&new=1",
+      "summary": "腾讯混元大模型设置了一个名为“灵感发现”的栏目,主打内容创... 然后提示ChatGPT生成涉及这些API的多样化人类指令,涵盖单工...",
+      "datetime": "2023-08-08 20:57:49",
+      "date_text": "2023年08月08日",
+      "date_description": "939天前",
+      "source": "智东西",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型,来了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714606&ver=6580&signature=4MS8ZgJxCD*-ZPAijmTRJp0TogaTrAp4aWaTkozPfQ1mBwjygDjXEDgEt2DtZAC5rOf3QyvqnGXNH6brOZfJDzSx4MgqH5iGo6FB0eVQmfkj6yFByR6wye1JK4TUM37A&new=1",
+      "summary": "据了解,腾讯混元大模型将作为腾讯云MaaS服务的底座,客户不仅可以直接通过API调用腾讯混元,也可以将腾讯混元大模型作为基底...",
+      "datetime": "2023-09-07 14:20:43",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "腾讯研究院",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型正式亮相",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714606&ver=6580&signature=U5IhHYadZfLO*yXysSKS5cjIJRUX8Mb7Loa**688eVaMFo7G4K5GrmF*W5xWdPnpU733C7YdUJHu3N2Ymwuf7p5Xsll1ClUcX1J82AN2ZaxdxHFrekL7Hiw1IU8HT-Eh&new=1",
+      "summary": "客户不仅可以直接通过API调用混元,也可以将混元作为基底模型,为不同产业场景构建专属应用. 另外,在腾讯云行业大模型精选商...",
+      "datetime": "2023-09-07 20:08:28",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "搜狐科技",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型来了!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714606&ver=6580&signature=M0JAQLLLDEWGB-83YnV53sdW-KvRqu6krATcX2X88mTSu9rPaSwnz8X-nnUUtUxD9T3j9rbIVeUPsL-pyEu9rd9F2cij4kVRZ*kfOQR9sWC3RJhJU*4iX10TphCAyZ6W&new=1",
+      "summary": "未来,混元大模型将作为腾讯云MaaS服务的底座,客户不仅可以直接通过API调用混元,也可以将混元作为基底模型,开发不同产业场...",
+      "datetime": "2023-09-14 18:48:32",
+      "date_text": "2023年09月14日",
+      "date_description": "903天前",
+      "source": "ToB最前沿",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型应用内测;星巴克中国回应被瑞幸反超;妙鸭相机回应9.9元干掉海马体;苹果版余额宝已吸纳百亿美元存款|Tech日报",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714606&ver=6580&signature=ZCidwgzmGHdnCLVvwUeqvScb*UBGVDlMWuqcMTqhf2S-aboIM8elYHwZ*wQIG6m9B51I0WA8ZeSLNuAnwpJl0BBFXw2ZofxFf5plwvGEIE2Ba5ztymjNx2Bc8PCtrmli&new=1",
+      "summary": "腾讯混元大模型开始应用内测,多个业务接入测试 腾讯自研的 “腾讯混元大模型”已经进入应用内测阶段,多位腾讯员工表示,近期...",
+      "datetime": "2023-08-03 20:55:30",
+      "date_text": "2023年08月03日",
+      "date_description": "944天前",
+      "source": "Tech星球",
+      "url_resolved": true
+    },
+    {
+      "title": "手机也能跑SOTA?腾讯混元翻译模型1.5硬核发布:1.8B小钢炮吊打商用API,全面开源!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714608&ver=6580&signature=LzeoTBl23DpGzQhFYSKlPnIUc-e3GnoERmsabVjQWBOEMhidfkQgYwb78R22BTHnQ0jFr1pmJtYuCl3gqUOGGU*33xFw1HXRDNmo8Ru2xXq3ZxnIkFQ2d3vap-VUurx-&new=1",
+      "summary": "腾讯混元翻译模型1.5硬核发布:1.8B小钢炮吊打商用API,全面开源!前言:端侧翻译的“奇点”时刻大家好,今天是2026年的第一天...",
+      "datetime": "2026-01-01 16:25:34",
+      "date_text": "2026年01月01日",
+      "date_description": "63天前",
+      "source": "CarryWang",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型开始应用内测,多个业务线接入测试丨智涌独家",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714608&ver=6580&signature=XC4T9vp7AtAxY0hzuPIihq3u6E4MTggo-oelRmytnYF52KDZVmuXb8FoxIIbZfrMqeNcqIbjZ4S3B6loI8-2*bnReIoahIJ3tGAbMsno1bIw5YjFScx7k65AXhg*5l5M&new=1",
+      "summary": "腾讯混元大模型也囊括了多样化的场景,比如:在“工作”场景下,员工可以写邮件、面试大纲、PPT大纲、调研问卷等;在“编程”...",
+      "datetime": "2023-08-03 14:55:05",
+      "date_text": "2023年08月03日",
+      "date_description": "945天前",
+      "source": "智能涌现",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯官宣混元大模型!大厂混战AI应用(附测试链接)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714608&ver=6580&signature=U8ZJlMPBPh2Y*qvk27Rj12FpOBSzYF5STYGOGApx6nZmext9-NpzoSO51OUx3c9Uqqh26eEQwNAm-mhCiXpUNIE2qpj82OAiAaqjFNWGj1XHTzv5ILSMav7UMl9IzZLw&new=1",
+      "summary": "浏览器等超过50个腾讯业务和产品,已经接入腾讯混元大模型测试.其中包括打工人最关注的如何将AI加入自己的工作流程中,提高效...",
+      "datetime": "2023-09-07 18:11:34",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "头号AI玩家",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型批量上新:10秒生成AI图像,超过180个腾讯业务接入",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714608&ver=6580&signature=XC4T9vp7AtAxY0hzuPIihq3u6E4MTggo-oelRmytnYF*Cb-U4LtEy4lZKPjcU4iBrImsn*1KL3hJY4ex9SWk9BokQHtMCoIF6aFIlXCFbo4fHxJyvwUgPSuVOcCJ3W3m&new=1",
+      "summary": "通过腾讯云调用腾讯混元大模型API,应用领域涉及智能问答、内容创作、数据分析、代码助手等多个场景.这些业务里,既有使用千...",
+      "datetime": "2023-10-29 13:18:28",
+      "date_text": "2023年10月29日",
+      "date_description": "858天前",
+      "source": "智能涌现",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型新升级:超180个自有业务接入,开放“文生图”能力|甲子发现",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714608&ver=6580&signature=92TtnBDGbj2ppURx8CFTEfUMxrz5zvKMKkbmleKWNQEEzwFrCbFMgTACk7V2rYH1V7VLnv*-pAhlqYWWuVY5kvL*Ba*0ighve5SjFV*saIXisv0f7juOCwqzGpXzXdnI&new=1",
+      "summary": "政务等多个行业客户通过腾讯云调用腾讯混元大模型API,应用涉及智能问答、内容创作、数据分析、代码助手等多个场景.C端,用...",
+      "datetime": "2023-10-26 18:51:16",
+      "date_text": "2023年10月26日",
+      "date_description": "861天前",
+      "source": "甲子发现",
+      "url_resolved": true
+    },
+    {
+      "title": "宝爷投资周记231029(腾讯混元大模型发展快,洋河古井分众牧原三季报业绩都较好)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714608&ver=6580&signature=8gs*flYcyYSFrQCz4dWxhWvzfvuK3h6Zu-biBWomdepLoCrGmnhu21W*eeQqbfEyyz36M0U4lm*MoJUgoh-UV5d6hqQTH889DZHvtSNs2WohXmHHs1bhx3iV0SyO7f7p&new=1",
+      "summary": "政务等多个行业的客户通过腾讯云调用腾讯混元大模型API,相信混元大模型大有前途,越来越好.2)腾讯大步迈向数智医疗,普惠人...",
+      "datetime": "2023-10-29 12:46:20",
+      "date_text": "2023年10月29日",
+      "date_description": "858天前",
+      "source": "宝爷价投成长记",
+      "url_resolved": true
+    },
+    {
+      "title": "私域动态:视频号上线达人广场;腾讯混元大模型开始应用内测;京东推出＂晚发赔＂服务…",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714608&ver=6580&signature=ZJTk5PdUAICBjfsdH4Clk6EUUnGnnmLPAQJ2ruMt9PlBEZBhqXtyc8Vxp88b1xHBxdM*m5cdfiUaCpBY8dZpISyBDbPUx8DgNQPMZ*7ujWcEEBUMvjj50Jqo5W2UjalR&new=1",
+      "summary": "腾讯混元大模型开始应用内测,多个业务接入测试;小米电视上半年出货量中国第一 即将发布“巨屏”新品;滴滴在上海推出轻快司机...",
+      "datetime": "2023-08-04 11:49:33",
+      "date_text": "2023年08月04日",
+      "date_description": "944天前",
+      "source": "见实",
+      "url_resolved": true
+    },
+    {
+      "title": "星巴克中国回应被瑞幸反超!腾讯混元大模型进入应用内测阶段!因车灯故障 ,保时捷在美召回2934辆汽车→",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714608&ver=6580&signature=rNzqilHL4FBUDs5t5ijLJ8LH*F7Bp8Aar5o1hmHsYVR0N4r9plx6q4f6rTV-eAKjJLN2jK3pz2pIkANl89AbqcMRP-Upli2zRW8F4*NCw9jLog4ZSHCNqIG3NCSvpdwj&new=1",
+      "summary": "腾讯混元大模型进入应用内测阶段,多个腾讯内部产品已接入8月3日,记者获悉,腾讯从零开始、完全自研的腾讯混元大模型目前已经...",
+      "datetime": "2023-08-03 18:36:56",
+      "date_text": "2023年08月03日",
+      "date_description": "945天前",
+      "source": "新华网财经",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元开源翻译模型1.5,端侧可部署,效果超越商用API",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714608&ver=6580&signature=uYpqzDl-zcrAR9r5wM1SFmwAEEQueY2EKhpvekQ0ZH9CSvbpzCULhO2TCucnYkF3ZX9h6cIztyhULdxQr6q6uj3RRNVOD7jmjLdwyDOgdJV*ZG7X*jQ7eODc*H5zHVKt&new=1",
+      "summary": "Tencent-HY-MT1.5-1.8B全面超越中等尺寸开源模型和主流商用翻译API,达到Gemini-3.0-Pro这种超大尺寸闭源模型的90分位水平....",
+      "datetime": "2026-01-01 09:08:20",
+      "date_text": "2026年01月01日",
+      "date_description": "63天前",
+      "source": "腾讯开源",
+      "url_resolved": true
+    },
+    {
+      "title": "扒一扒腾讯混元大模型“老底”",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714608&ver=6580&signature=QttzYnBjWXrX3s9QptlbxeQQKqM0cOziDgioMPRkBW0dnVjW1KG8yIXZNBsJKBXGMoDSNEpC5T8-H06W4eZDJLPc6UFCvMPv3NArH9ccxFNMUSxTJnrBNkB*qQc*yDLs&new=1",
+      "summary": "同时,腾讯还宣布,腾讯混元大模型将通过腾讯云正式对外开放,既可以调用混元大模型的API,也可以基于它做模型精调.这些将大...",
+      "datetime": "2023-09-12 17:05:14",
+      "date_text": "2023年09月12日",
+      "date_description": "905天前",
+      "source": "量子位",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯「混元大模型」进入内测阶段:应用场景广泛",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714609&ver=6580&signature=D8vAHdkGF5nxlk5O13PhiI7wo9r*gGIzyYS7U81rEUiU3a6o0MjgbjyWxUY4EQUkn1qjWpQF38bH9LYgmvs0DJuC2AsAmdp8uarXcSUPdTwrl*6WZL*WpZmyb-gWaUGJ&new=1",
+      "summary": "已经接入腾讯混元大模型测试并取得初步效果,更多业务和应用正在逐步接入中.腾讯将不断升级迭代,持续优化大模型能力,在条件...",
+      "datetime": "2023-08-06 08:15:35",
+      "date_text": "2023年08月06日",
+      "date_description": "942天前",
+      "source": "AIGC开放社区",
+      "url_resolved": true
+    },
+    {
+      "title": "从腾讯混元升级,看国产大模型的226天",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714609&ver=6580&signature=u6PX89*GoTeBhixZmOfvlwtZkiqR*7-PTxpxJvAMh3C5czLNMfl-rCyeJ1JTBTX2gE2qi-t0JwKXoCS6C2gwjScivZOxX3yT5W-cVfYli1KfrJtlwHJ3GZTD6g5IKhFr&new=1",
+      "summary": "近日,腾讯混元大模型升级,称中文能力整体超过GPT3.5;百度... QQ浏览器、微信搜一搜等180个业务已经通过API接入,其中超过...",
+      "datetime": "2023-10-29 08:30:16",
+      "date_text": "2023年10月29日",
+      "date_description": "858天前",
+      "source": "光锥智能",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型内测开启",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714609&ver=6580&signature=XnEyCrhP-Y-5HJJgurQGe8Rw25vBGxg8RO61p5UfA0IIf8cGhb-C1sC2eifD63vBM0T6UUtF4nkaOtiC8HG4OWP*9iNZB47XkSNz*ZA9M55VOkgTXH*Y403ktoHG78Nn&new=1",
+      "summary": "腾讯混元大模型终于来啦~~~鹅场虽然在整个大模型的开放地址稍... 不单开放了体验地址还开放了API申请,双管齐下,通通nice多轮...",
+      "datetime": "2023-09-07 15:33:10",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "赵KK日常技术记录",
+      "url_resolved": true
+    },
+    {
+      "title": "接入混元大模型,腾讯这个亿级规模应用宣布全面AI化",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714609&ver=6580&signature=W222Pe-wnJOo9d36PUtl49btSPeB0wgBgOyoE8hZSJkWAWhpPESo1nvyIiyU2P4xsoDBLIf9XaMoa-dkk-1hFn1ljMdugWqAIAp4bjXmP7LYjNpQC37RwR3rscyJAXZD&new=1",
+      "summary": "正加速拓展AI在输入场景的应用边界,成为AI时代的重要入口之一.腾讯混元大模型是腾讯自研的通用大模型,构建了以语言模型为基...",
+      "datetime": "2026-01-27 10:34:16",
+      "date_text": "2026年01月27日",
+      "date_description": "37天前",
+      "source": "腾讯混元",
+      "url_resolved": true
+    },
+    {
+      "title": "AngelSlim:腾讯混元开源的大模型压缩神器,让大模型飞速跑在你的手机",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714609&ver=6580&signature=ATExSP99E0cxnAfZbG3E43h42Inu9lEX*pk5mPOPUkAFdSHLtsApwOlg0LSPHpJcKZ2CvRV5qnKwqxtjoE*naEV0Zd9XZZar85ygjKFni70Zu8DKuKzKSKPz9**BJaJN&new=1",
+      "summary": "大模型推理太慢、显存不够用?腾讯混元团队开源的 AngelSlim,... Python API 三行搞定:from angelslim.engine import Engineslim_...",
+      "datetime": "2026-02-27 17:33:08",
+      "date_text": "2026年02月27日",
+      "date_description": "6天前",
+      "source": "魔搭ModelScope社区",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯自研混元大模型正式亮相,通过腾讯云对外开放",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714609&ver=6580&signature=9rN69FZ9jEScSL7zdwj7OkHqbvfUOigFtztuF6o0vl6*tskJdho6urI02kuGfXlRQKly2W*tm3zus*OulrsBEAg8G5pfPCBvFJkwqHfal7jQM4fIe1ZG1crMFoKzfZIS&new=1",
+      "summary": "据了解,混元大模型将作为腾讯云MaaS服务的底座,客户不仅可以直接通过API调用混元,也可以将混元作为基底模型,为不同产业场...",
+      "datetime": "2023-09-07 11:19:46",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "腾云",
+      "url_resolved": true
+    },
+    {
+      "title": "混元大模型姗姗来迟,腾讯为什么不着急?|甲子光年",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714609&ver=6580&signature=AbBxGaWtiEnqaV65tlCSpkkHv*vl6vS3BzgseoH3e5Vd-41268DmPxKJzLwy42jw63O9QbM7ENB3kHPfFX0dW65mkkdCjnzxLMGmBqcvViykrmshkZQi7ootbcj92sqL&new=1",
+      "summary": "会上,腾讯也宣布腾讯混元大模型正式通过腾讯云对外开放,企业可以通过API调用混元,或者将混元作为基底模型构建上层应用.腾...",
+      "datetime": "2023-09-07 19:41:49",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "甲子光年",
+      "url_resolved": true
+    },
+    {
+      "title": "生产效率的革新:腾讯混元大模型实测!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714609&ver=6580&signature=ZlELNoeSvut0eRKcvpZQUmf4ddqGXlY1n4Q90lXqPR8PPg9Wx03VlQ0hyovh-TKNu76o65oE*3M9s3M8Vqm9ssRBUmq2gMe6uG7QuCABXdDNi-Tc*yd0BJsykcZCnRT5&new=1",
+      "summary": "先说结论:腾讯混元大模型在代码生成和图文理解及图片生成方面... ('/api/users', methods=['GET'])def get_users(): users = [ {'id': 1, '...",
+      "datetime": "2023-11-27 12:35:56",
+      "date_text": "2023年11月27日",
+      "date_description": "829天前",
+      "source": "老张的求知思考世界",
+      "url_resolved": true
+    }
+  ]
+}

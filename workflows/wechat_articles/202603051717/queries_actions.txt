@@ -1,0 +1,14 @@
+腾讯云 云市场 OpenClaw|tencentcloud_market_openclaw
+千帆云市场 OpenClaw|tencentcloud_market_qianfan
+腾讯云 即时通信 OpenClaw|tencentcloud_im_openclaw
+腾讯云 IM OpenClaw 企业微信|tencentcloud_im_wecom
+阿里云 轻量应用服务器 OpenClaw|aliyun_sas_openclaw2
+阿里云 安全组 OpenClaw|aliyun_sg_openclaw
+无影云电脑 OpenClaw 钉钉|aliyun_wuying_dingtalk
+百度智能云 0.01 OpenClaw|baidu_001_openclaw
+华为云 Flexus OpenClaw 飞书|huaweicloud_flexus_feishu
+天翼云 OpenClaw 飞书|ctyun_feishu_openclaw
+天翼云 OpenClaw 钉钉|ctyun_dingtalk_openclaw
+火山引擎 OpenClaw 镜像市场|volcengine_market_openclaw
+火山引擎 AgentKit OpenClaw|volcengine_agentkit_openclaw
+火山方舟 Coding Plan OpenClaw|volcengine_ark_codingplan_openclaw

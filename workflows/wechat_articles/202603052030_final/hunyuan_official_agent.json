@@ -1,0 +1,306 @@
+{
+  "query": "腾讯混元大模型 Agent",
+  "total": 30,
+  "articles": [
+    {
+      "title": "腾讯混元大模型青云计划实习生,全年招募!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714573&ver=6580&signature=0tjnm19NoQH8pp0BG59tjbA84z6SstL41PMZmxUcmlqXSU3BAebSzh4rGarrpZu4vxo89sZdnBTgE-L8n*DIvJmVg*Gsr6N6lJ5D5SNb2X4vvFMfiV7R9Pg8*BlbPYJ0&new=1",
+      "summary": "腾讯混元大模型是腾讯 AI 研究院推出的通用大模型,构建了以语... Agent• Reward Model 多模态模型类别内容多模态生成基础模型...",
+      "datetime": "2025-12-27 07:01:02",
+      "date_text": "2025年12月27日",
+      "date_description": "68天前",
+      "source": "磁县媒婆信息交流平台",
+      "url_resolved": true
+    },
+    {
+      "title": "科技日报|腾讯混元发布1.5版开源翻译模型、哈工大联合博实股份发布双形态人形机器人、大模型Data Agent第一股上市",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714573&ver=6580&signature=Cxt4LA2PtVmH48E1kpmdd2trZU4-tZdW0Q-oz-J*zH5*GW05aTiC-Pyck9b4oxMp-YUDCNkzPBtRxTQBY2ZEsbw14WR7xAZ8WkfElqqq-idtqvsmeaz*6NMn9iFscpIx&new=1",
+      "summary": "腾讯持股,“大模型Data Agent第一股”上市了,市值140亿摘要 : 被誉为“大模型Data Agent第一股”的迅策科技于12月30日在港...",
+      "datetime": "2025-12-31 09:52:52",
+      "date_text": "2025年12月31日",
+      "date_description": "64天前",
+      "source": "一如既往的奋斗",
+      "url_resolved": true
+    },
+    {
+      "title": "探营腾讯混元大模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714573&ver=6580&signature=bNpIzRHclsPSl-4mg88bepfCqRy46MNdZhXlVQHWcBaXZGmPg2p7P3IzlQyvW8sV3jI78D9tD2YUxvY1*1kStHMP*IVpQsUkmRtmebbgRZRQMVznVDePfmV-Wfsps*lM&new=1",
+      "summary": "导语:混元大语言模型,从理论上可以打破腾讯的原有的产品版图边界,让AI连接起各个产品与用户之间的需求.目前,中国大模型领...",
+      "datetime": "2023-04-19 07:10:31",
+      "date_text": "2023年04月19日",
+      "date_description": "1051天前",
+      "source": "阿尔法工场研究院",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型,来了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714573&ver=6580&signature=4MS8ZgJxCD*-ZPAijmTRJp0TogaTrAp4aWaTkozPfQ1mBwjygDjXEDgEt2DtZAC5SZ7*vrY8DuABoqVmtPScXm-GMYVd7sqa1EV63ywkcQLuJYZ2ImjH9zU0PI7PAAY7&new=1",
+      "summary": "国产大模型进入长跑期,从参数至上转向实用优先.9月7日,在2023腾讯全球数字生态大会上,腾讯混元大模型正式亮相,并宣布通...",
+      "datetime": "2023-09-07 14:20:43",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "腾讯研究院",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯发布混元大模型!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714573&ver=6580&signature=ZJTk5PdUAICBjfsdH4Clk6EUUnGnnmLPAQJ2ruMt9PkneT8-EJxaWCbKirhWN0oV5CQQmlMYjvC5YqNbrlQDhoAhnTPSKgp5c3qz67TcEUydurGaCtSUe1XAS4WRsx6y&new=1",
+      "summary": "腾讯混元大模型拥有超千亿参数规模,预训练语料超2万亿tokens,具有强大的中文理解与创作能力、逻辑推理能力,以及可靠的任务...",
+      "datetime": "2023-09-07 13:16:29",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "见实",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型正式亮相",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714573&ver=6580&signature=U5IhHYadZfLO*yXysSKS5cjIJRUX8Mb7Loa**688eVaMFo7G4K5GrmF*W5xWdPnp51N3dTt05agT6SK1PlnoNw7ltUg7VVQhmQV2x1V1B8xeX85hmcMmjgBnyJqw1Y21&new=1",
+      "summary": "腾讯混元大模型是一款由腾讯全链路自主研发的通用大语言模型,拥有超千亿参数规模,训练语料达到两万亿Token. 2021年,腾讯...",
+      "datetime": "2023-09-07 20:08:28",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "搜狐科技",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型初体验",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714573&ver=6580&signature=I6YRBTyrX03RXxebSCHL4cijXsK2YDHoPOVgO5vItVw9Wc6ZwDdL1zO9JuT0YQdYkJhlaBs4oDGuVuoAGvfucnawujzFQM2v4xxrfl5dKPA8OQQ9OqBO-rwQPjVbogES&new=1",
+      "summary": "腾讯混元大模型也已经面向C端用户陆续开放体验,用户通过小程序或网页端,就能与腾讯混元对话.网页端地址:https://hunyuan....",
+      "datetime": "2023-12-06 10:13:18",
+      "date_text": "2023年12月06日",
+      "date_description": "820天前",
+      "source": "小博测试成长之路",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型来了!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714573&ver=6580&signature=M0JAQLLLDEWGB-83YnV53sdW-KvRqu6krATcX2X88mTSu9rPaSwnz8X-nnUUtUxDPktiZ2gC5bIvGV5qq0fL0RPVfMdegO63jcy-eh4PRtUr9vVju2liOyjlORwZF6Hq&new=1",
+      "summary": "在2023腾讯全球生态大会上,腾讯混元大模型正式登场并通过腾讯云对外开放,混元大模型是由腾讯全链路自研的通用大语言模型,...",
+      "datetime": "2023-09-14 18:48:32",
+      "date_text": "2023年09月14日",
+      "date_description": "903天前",
+      "source": "ToB最前沿",
+      "url_resolved": true
+    },
+    {
+      "title": "初见腾讯混元大模型,请多指教",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714573&ver=6580&signature=lmuTca5Jf4uda8aIyQd4tRHh1oh4oXKAnPJ5yKuuSVDqH2eh*5dMk7ehOtm1D3sw*FJ5fUFSCXRudm5KRPQmMRetoDuRc2ooj45GWKcbHsmwdFkqBJaN9dHAEcp4vL-O&new=1",
+      "summary": "腾讯混元大模型的介绍腾讯混元大模型是腾讯公司推出的一款基于Transformer架构的预训练语言模型,拥有超千亿参数规模,预训练...",
+      "datetime": "2024-01-08 22:49:49",
+      "date_text": "2024年01月08日",
+      "date_description": "786天前",
+      "source": "前端猎手",
+      "url_resolved": true
+    },
+    {
+      "title": "从腾讯混元升级,看国产大模型的226天",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714573&ver=6580&signature=u6PX89*GoTeBhixZmOfvlwtZkiqR*7-PTxpxJvAMh3C5czLNMfl-rCyeJ1JTBTX2FXsrvqic30iPxI2cbvy15tF6*Nh4bpH6L*2KKIE76k7gxQ60IZusPIzDM1E9*7mw&new=1",
+      "summary": "近日,腾讯混元大模型升级,称中文能力整体超过GPT3.5;百度发布文心大模型4.0,表示综合水平与GPT4相比已经毫不逊色;商汤...",
+      "datetime": "2023-10-29 08:30:16",
+      "date_text": "2023年10月29日",
+      "date_description": "858天前",
+      "source": "光锥智能",
+      "url_resolved": true
+    },
+    {
+      "title": "国产大模型专题:腾讯混元大模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714574&ver=6580&signature=Yv3f198soULMsWo99*AuvzyCmPl0m8Ey6Q*xbYeTEAN4sH1KMjncKyHQQW01EyAnBy09yUd3HTRuPMJ1S37sH8uglQ4GGwJI3xwQQXOkI1q*kq4zPYsYqpBcJjVe8ZbM&new=1",
+      "summary": "“混元” 就可以获取《国产大模型专题:腾讯混元大模型》专知下载链接",
+      "datetime": "2024-04-26 14:00:57",
+      "date_text": "2024年04月26日",
+      "date_description": "678天前",
+      "source": "专知",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714574&ver=6580&signature=W1Ys82GSkG*dBFRelm8ROD3PvXmYmhjINDLSLMXKtywTSPpLf0Xk3oOYF4M*oY*aYaA9Fy196x2UQFjB4qFWVHQqNem2GLiGT0duA5HLGcCd4WsJks1Wkf13aL86sjCS&new=1",
+      "summary": "4:事件驱动腾讯混元大模型据腾讯云官微9月6日消息,腾讯全球数字生态大会将于9月7-8日举办.腾讯集团副总裁蒋杰将发布关于腾...",
+      "datetime": "2023-09-07 07:48:40",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "一雷财经",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元,在线「抬杠」",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714574&ver=6580&signature=kfeaAPInKfxlC-M4dDvat-nQ1e4ZgAsD6cnRvK76QwesjPij93LZjG6KBnQWC0MKg1CD8ceuRH0vO2F4Hz3-zT7d7wqAB7Xw0YC4w7--gYY0A1kBQ-UzK8vc4VeU0Xi2&new=1",
+      "summary": "就在最近,ETC助手基于腾讯混元大模型,打造了行业首款 AI 智能体——「助手 Agent」.目前,这位畅行搭子已经在「ETC 助手」...",
+      "datetime": "2025-12-25 11:49:30",
+      "date_text": "2025年12月25日",
+      "date_description": "70天前",
+      "source": "腾讯云",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元,「出招」SaaS",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714574&ver=6580&signature=F9DUnp04tTlu-hIiNcpAjhLLcZaJREKi0dSTYY7cbPUZHjvnmsVSgRY*8yF7RF0rEBJebRjpgnK5ZTDYFBhPKxgzDlAyPZOoQYGdbg-Q5tJCI7Dhl5ZqMKQt3Y0NXo**&new=1",
+      "summary": "而具体来看,腾讯乐享基于腾讯混元大模型和知识引擎,专项上线... 还是AI应用平台的Agent搭建流程,再或者是在“AI原生”理念下...",
+      "datetime": "2024-04-26 11:23:06",
+      "date_text": "2024年04月26日",
+      "date_description": "678天前",
+      "source": "产业家",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型“干”广告创意:那我走,都让AI来?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714574&ver=6580&signature=OSu83igsfCz*W0m1mR3Ahcnn2FQHRzc8K*Cxws7Lupyfhig7WT0gtG8zZUooHpQ1UE-hqUN-*R5ih3oHS0kfRAQ-Vvq006Td-cjLy9cjuZciDp2rnHLCJPej1jK4rKna&new=1",
+      "summary": "腾讯混元大模型在技术上做对三道题:一,让咒语理解到位这个能... 12.对话百度孙珂:想玩好AI Agent,大模型的“外挂”生意怎么做...",
+      "datetime": "2024-01-22 11:40:58",
+      "date_text": "2024年01月22日",
+      "date_description": "773天前",
+      "source": "亲爱的数据",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型落地QQ浏览器;DeepMind去年利润大跌40%;OPPO新小布AI助手公测丨AIGC大事日报",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714574&ver=6580&signature=qZcZhl8VSToefT-J4gQYKCFlHTYIDWCZQpOFmbYwvu1KAV-Cyv65soI6ZNyH9QiLpE4pIecLow3QgLjfSVBwykS-1syIpwjVu-lv-NqhKumF5dDSl7NLdW1zRyRKUIgw&new=1",
+      "summary": "今天,由腾讯混元大模型提供支持的QQ浏览器·PDF阅读助手开启体验申请.据介绍,用户使用QQ浏览器打开PDF文件,点击右上角...",
+      "datetime": "2023-10-12 21:13:47",
+      "date_text": "2023年10月12日",
+      "date_description": "874天前",
+      "source": "智东西",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯旗下协作SaaS产品,全部接入混元大模型,重构协作应用生态",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714574&ver=6580&signature=q*96FGS*TWyQnZ1eIr4b4TZSkhLLSYliKCR7lB26YHHX1uluiO7aVu6ArLV4uKdKVVVOBjVyOC0*v7bcP6F8TGkM5jwfmLD8H0IO0X8XxR6ptBBOuK5N6F01a5Sqz1iU&new=1",
+      "summary": "腾讯混元大模型不仅在内部得到了广泛接纳,已有超过400个业务... 万亿参数MoE大模型发布AI程序员:SWE-agent智能体上线,堪称...",
+      "datetime": "2024-04-25 07:12:07",
+      "date_text": "2024年04月25日",
+      "date_description": "679天前",
+      "source": "北京小微",
+      "url_resolved": true
+    },
+    {
+      "title": "国内大模型PK第二弹:腾讯混元 vs 字节豆包,社交帝国与流量新贵的AI对决",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714574&ver=6580&signature=spPgSdxrONamk1uG0Q9xv4PabCkEsnOq1hHnCDYRFVI8ben-eIWu2jddoZFNMHd2jGT6TldEQ5FidQNWNRqSX*IsNovaKA9hoacFHqvsrlpzoqqR8Be5UwNDEYPxeCXh&new=1",
+      "summary": "腾讯混元大模型正式亮相.与阿里、百度不同,腾讯的大模型战略... 游戏AI视频生成、语音交互Agent企业智能体解决方案C端智能体...",
+      "datetime": "2026-02-25 19:51:06",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "打印机旁的订书机",
+      "url_resolved": true
+    },
+    {
+      "title": "推理性能飙升30%!腾讯混元开源大模型“性能榨汁机”",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714574&ver=6580&signature=w9ijUT9zMvwum6-OpquRNVF3VGrG6Ru8Tr70ZAYOsyF-CTtP*kg6Xip1q6sgDsgflGIltqcF3y5kKrtFnfFPP*4uw*T8xA7TRkiGs-PFEQ3cycdNV2yQVD9dyMX*V3zV&new=1",
+      "summary": "还在为大模型推理烧钱又低效发愁?腾讯混元放出了一剂“猛药”... 3携百万上下文与全链路Agent能力,重新定义AI竞赛规则当画图神...",
+      "datetime": "2026-01-23 10:02:03",
+      "date_text": "2026年01月23日",
+      "date_description": "41天前",
+      "source": "AI.MUX",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元 CL-bench:一次针对大模型上下文学习能力的工程级评测",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714574&ver=6580&signature=eTzKPCMjS-veZGpj59KWfIMIfrCV4Iw-BaIFXnrjCidL95OKASInnuy3pnB-DnP3qE9n5iUpkbOaZ8xeXOuUPrEWJtIXya9d9IhXhsBZihfTIPMIgIkr6yF3Rd06A6Fv&new=1",
+      "summary": "也是腾讯混元技术博客首次公开.在评估大模型能力时,一个常见... 上下文不是外挂知识库Prompt 不是学习机制Agent 并不会自动“...",
+      "datetime": "2026-02-08 11:55:33",
+      "date_text": "2026年02月08日",
+      "date_description": "25天前",
+      "source": "霍格沃兹测试学院",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型:不着急,但不缺席",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714576&ver=6580&signature=AwaLfYEDdkA9Q7yg2YjJebNVcffledb4hdPwRS9JQYhkxRJq9b0Rph7WMDRjWeZKN9rBb0iuKxEt6AGRq9r-yZZmzzjIQlHMli0*z9RBxKBVhYk1kOVNAYDLHS5UNJFE&new=1",
+      "summary": "「腾讯混元大模型拥有超千亿参数规模,预训练语料超2万亿tokens,具有强大的中文理解与创作能力、逻辑推理能力,以及可靠的任...",
+      "datetime": "2023-09-08 17:58:06",
+      "date_text": "2023年09月08日",
+      "date_description": "909天前",
+      "source": "蓝洞商业",
+      "url_resolved": true
+    },
+    {
+      "title": "让AI为你打工,腾讯混元大模型实战篇",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714576&ver=6580&signature=-yiPS05Zy0ITTZbJQFo2uRHmYRR5CPsROcWRhAAfOljG8870ogu2laPbLHjG5ty3H-IAz*VgRvAtPDY*FAQSI98PSzgYtuEoxG1EADJFWGvIMVZfqD2vXpRsajH8CqdS&new=1",
+      "summary": "导读腾讯混元大模型 API 产品,可以实现对话沟通、内容生成、分析理解,可以广泛应用在智能客服、智能营销、角色扮演、广告文案...",
+      "datetime": "2023-11-30 10:25:10",
+      "date_text": "2023年11月30日",
+      "date_description": "826天前",
+      "source": "腾讯云开发者",
+      "url_resolved": true
+    },
+    {
+      "title": "扒一扒腾讯混元大模型“老底”",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714576&ver=6580&signature=QttzYnBjWXrX3s9QptlbxeQQKqM0cOziDgioMPRkBW0dnVjW1KG8yIXZNBsJKBXGnMn-B8R6g1s47KdpMlksJhK23zQYtfFyv2KO3FlBdjkq5G7vJfoUg2-rWndSdPuU&new=1",
+      "summary": "像腾讯混元大模型,光是预训练用到的数据就达到2万亿tokens,从整理到清洗每一步都需要大量的时间和技术成本,维护起来更是十...",
+      "datetime": "2023-09-12 17:05:14",
+      "date_text": "2023年09月12日",
+      "date_description": "905天前",
+      "source": "量子位",
+      "url_resolved": true
+    },
+    {
+      "title": "终于!腾讯混元大模型正式亮相,已接入搜一搜、腾讯会议",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714576&ver=6580&signature=dTLkCwHW*ejMl2nckYqgSwZ-6ULjidik-BEpkAmmM100QL3kpJUr0qGhbu5TbPc0n1hkeLFTGIsBJEBTHK*Jq198tTS4BqoXQp6*Lt3kv3QyAIFcF33zMda4bln2le0u&new=1",
+      "summary": "腾讯混元大模型终于“现身”了!在 9 月 7 号举行的 2023 年腾讯全球数字生态大会上,腾讯集团高级执行副总裁、云与智慧产业事业...",
+      "datetime": "2023-09-08 18:48:56",
+      "date_text": "2023年09月08日",
+      "date_description": "909天前",
+      "source": "扩展迷EXTFANS",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型文生图操作指南.doc",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714576&ver=6580&signature=FFgj1ele0AboUxemzguFuLwKkp3CWG95vHSCZzn8-olihfF8XQ4o30HlBUmbX5WybVHC9CR6AwSTdHN2d3Qzzb4BdzhEQQQSArp2y2VFVuyDaYJpUet8xdue4mFufO7o&new=1",
+      "summary": "腾讯混元大模型迎来全新升级,并正式对外开放“文生图”功能.升级后的腾讯混元中文效果整体超过GPT3.5,代码能力大幅提升20...",
+      "datetime": "2023-10-26 13:40:08",
+      "date_text": "2023年10月26日",
+      "date_description": "861天前",
+      "source": "鹅厂技术派",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯开源混元AI绘画大模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714576&ver=6580&signature=gR8F90YPEQv8uW-isjuQ0uNPBn6RWq4YxzO*9*K4dcDAa9CqoQot8EAe7wxqTOkOA4rPmBOwXdYof0DKdS-gsgHzudlhL86o8hMrIqImY91JyFWEbysQQGTznPPULZja&new=1",
+      "summary": "最近大厂的大模型竞争激烈,百度的文心一言主打闭源和付费路线,阿里的通义千问主打开源免费路线,而腾讯的混元大模型,则不温...",
+      "datetime": "2024-05-15 10:00:22",
+      "date_text": "2024年05月15日",
+      "date_description": "659天前",
+      "source": "星空财研",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型,向你问好!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714576&ver=6580&signature=kfeaAPInKfxlC-M4dDvat-nQ1e4ZgAsD6cnRvK76QwcXwT54VKcSLLKiiiWs3-m7a8UjOPrYwZOZGMEFkR2nfi91qQzQ*t2mDFWUGT6JGyWOWK7CoNMBHraTN-aMG5p5&new=1",
+      "summary": "腾讯混元大模型,由腾讯从第一个token开始从零训练.算法、框架、平台全链路自研.实用腾讯混元的这些能力,已经在鹅厂50多个...",
+      "datetime": "2023-09-07 14:43:38",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "腾讯云",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型亮相:全链路自研,聚焦应用死磕“幻觉”",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714576&ver=6580&signature=empkvXfwLxlERWJzTHdfAfCLgVe7RDhhhBQBn0Mh88J3qoB*pgEg*GHKpXfe3amtoaX7KQX*PedR*KIboYAI0Ano95FFj-0UpoMR5o4g4nJB-SmMSCf69hNc5UyjABnC&new=1",
+      "summary": "腾讯为什么此前不着急发通用大模型?在蛰伏的日子里,腾讯做了什么?腾讯混元大模型值得期待吗?“不急于把半成品拿出来展示”...",
+      "datetime": "2023-09-07 22:34:59",
+      "date_text": "2023年09月07日",
+      "date_description": "909天前",
+      "source": "每日经济新闻",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型正式亮相,我们抢先试了试它的生产力",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714576&ver=6580&signature=3FEKvNbYA0GZhygAePhqwfW1QNzr0oYvZcz-3wf49fzTmURg3-07RAQFGcgq1vq80zNK5Vr0VvkxwC7Ozasgd8iC3-JA8tYcULN9y6pROktkPuAEL3Xf5mGInw9EXepB&new=1",
+      "summary": "「腾讯混元大模型是从第一个 token 开始从零训练的,我们掌握了从模型算法到机器学习框架,再到 AI 基础设施的全链路自研技术....",
+      "datetime": "2023-09-08 12:58:30",
+      "date_text": "2023年09月08日",
+      "date_description": "909天前",
+      "source": "机器之心",
+      "url_resolved": true
+    },
+    {
+      "title": "超越想象:腾讯混元大模型揭秘与体验",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714576&ver=6580&signature=FSjBgEjLQF1e56IhkccHyphcSnG20qbS1ucTQPLpCoik2ND0xRwM8wnSLzfjXbK2NXXuWad44xRHD4NObWOmBCpFJRc-XpOEYuWhubdzjkpej7wkmlUtxmWwpuL2wL3Q&new=1",
+      "summary": "阅读穿越时空思考增厚人生【今天收到鹅厂通知,排队的腾讯混元大模型内测申请通过了,第一时间体验了一下,咱们一起看看效果】...",
+      "datetime": "2023-10-18 17:16:51",
+      "date_text": "2023年10月18日",
+      "date_description": "869天前",
+      "source": "谷雨轩言",
+      "url_resolved": true
+    }
+  ]
+}

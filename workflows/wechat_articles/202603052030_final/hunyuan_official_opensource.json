@@ -1,0 +1,286 @@
+{
+  "query": "腾讯混元大模型 开源",
+  "total": 28,
+  "articles": [
+    {
+      "title": "腾讯混元大模型,来了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714542&ver=6580&signature=4MS8ZgJxCD*-ZPAijmTRJp0TogaTrAp4aWaTkozPfQ1mBwjygDjXEDgEt2DtZAC5NvtF8TL9LmFYJswFRSHtOWaGf7bKcI9I0oGLNJSoCIYO7CrngUn5GQmr0*H2sk19&new=1",
+      "summary": "让腾讯混元大模型的幻觉相比主流开源大模型降低了30%至50%;通过强化学习的方法,让模型学会识别陷阱问题;通过位置编码优化...",
+      "datetime": "2023-09-07 14:20:43",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "腾讯研究院",
+      "url_resolved": true
+    },
+    {
+      "title": "数字文创 | 首个中文原生DiT架构!腾讯混元文生图大模型全面开源,免费商用!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714542&ver=6580&signature=8jJsIXR931qr2GhmYCKk*BX5iM4ATA2JDln3Gd4DqpPgbcsBSIAVf74d*XGlkZ6-hh3t99ziQNekc2TZJ9sy7JyusQgbfQ9O7i1JmsLhqfLr1SiTMvwl72YfHNYh2qV5&new=1",
+      "summary": "中文 AI 社区迎来了一个好消息:与 Sora 同架构的开源文生图大模型来了!5 月 14 日,腾讯宣布旗下混元文生图大模型全面升级并全...",
+      "datetime": "2024-05-18 21:01:42",
+      "date_text": "2024年05月18日",
+      "date_description": "655天前",
+      "source": "浙江省创意设计协会",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元文生图大模型全面开源!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714542&ver=6580&signature=kfeaAPInKfxlC-M4dDvat-nQ1e4ZgAsD6cnRvK76QweteloK-hN7V7rw00ciaotYiQSLz8UrgtwJ-FvXYeHPjJpVBV6RE28MMW9x5n7VvaB8ed4X2Xuo31JNVZZbqrQl&new=1",
+      "summary": "和大家汇报:刚刚,腾讯混元文生图大模型,全面升级并对外开源!作为业内首个中文原生的DiT架构开源模型,腾讯混元文生图支持...",
+      "datetime": "2024-05-14 16:47:36",
+      "date_text": "2024年05月14日",
+      "date_description": "660天前",
+      "source": "腾讯云",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元文生图大模型全面开源!Sora同架构,更懂中文,免费商用",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714542&ver=6580&signature=qZcZhl8VSToefT-J4gQYKCFlHTYIDWCZQpOFmbYwvu2T7clL9-XFG*giasmsyB0rKjWWt6mDVZN4bR7vd6MSShtc7erngGqjJMlHJlsXoMXLQCGAZz7Wj1j0gCsbtV1e&new=1",
+      "summary": "腾讯文生图负责人芦清林周二宣布腾讯混元文生图大模型全面开源.该模型已在Hugging Face平台及Github上发布,包含模型权重、推...",
+      "datetime": "2024-05-15 22:14:20",
+      "date_text": "2024年05月15日",
+      "date_description": "658天前",
+      "source": "智东西",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元文生图大模型开源:Sora 同架构,更懂中文,已支持 16s 视频生成",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714542&ver=6580&signature=ObUf3zqdY7BjNwY59kMzeY08dpeWNkaMQBdmnZlUOKPd3SnBwlAw5SFCJRmcig77CBa9t2qOb8CJ4EcnFAnMZB*UzkoLiyt9BbaGAn9yMexQz2bO4o5P528Bkc9asAZy&new=1",
+      "summary": "首个中文原生 DiT 架构,可免费商用.作者 | 连冉编辑 | 郑玄又一家大模型开源了,这次是腾讯.5 月 14 日,腾讯旗下的混元文生图大...",
+      "datetime": "2024-05-17 14:58:27",
+      "date_text": "2024年05月17日",
+      "date_description": "657天前",
+      "source": "极客公园",
+      "url_resolved": true
+    },
+    {
+      "title": "阿里云通义千问开源;腾讯混元大模型开始应用内测;马斯克或从OpenAI买入域名Ai.com丨AIGC大事日报",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714542&ver=6580&signature=qZcZhl8VSToefT-J4gQYKCFlHTYIDWCZQpOFmbYwvu0w9DR1FYGrFD9aXMLQlMlknzUqjvTSLlIIGZW57cfHIBCC2NaWhw8OejZ1K69ksIEpoAIvS74JiWvPvyD6wcRj&new=1",
+      "summary": "03全球AIGC产业要闻1、阿里云通义千问开源 免费可商用2、腾讯混元大模型开始应用内测3、首个中文版大语言模型综述发布4、Meta...",
+      "datetime": "2023-08-08 20:57:49",
+      "date_text": "2023年08月08日",
+      "date_description": "939天前",
+      "source": "智东西",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯开源混元AI绘画大模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714542&ver=6580&signature=gR8F90YPEQv8uW-isjuQ0uNPBn6RWq4YxzO*9*K4dcDAa9CqoQot8EAe7wxqTOkOumSi4QeU5h9dlxved87EOf11XRlUyXv6Z8sO9eWlyXrqNBCDqvyW6WeLfCb9QOgR&new=1",
+      "summary": "最近大厂的大模型竞争激烈,百度的文心一言主打闭源和付费路线,阿里的通义千问主打开源免费路线,而腾讯的混元大模型,则不温...",
+      "datetime": "2024-05-15 10:00:22",
+      "date_text": "2024年05月15日",
+      "date_description": "659天前",
+      "source": "星空财研",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元重磅开源HPC-Ops算子库:补齐AI推理核心短板,全栈赋能大模型产业落地",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714542&ver=6580&signature=cLEpPPOflW5n4TQWbD5guqwSeA4PvRj7Jo7gcjRG97mTR4F6kpS6pweuCrodDlikKIH1CQfbXryWGpHmrgjRSjdk4mKvBudAIXnZLDoJzkOlUc1VRx6YeICN1Z0myQdl&new=1",
+      "summary": "核心速览:2026年2月,腾讯混元大模型团队正式开源全栈自研的AI推理核心 HPC-Ops算子库,这是国内首个聚焦大模型推理端优化的...",
+      "datetime": "2026-02-06 08:28:41",
+      "date_text": "2026年02月06日",
+      "date_description": "27天前",
+      "source": "全球视频官",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元文生图大模型开源! Sora 同架构,可免费商用",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714542&ver=6580&signature=FFgj1ele0AboUxemzguFuLwKkp3CWG95vHSCZzn8-onzo0pEdGwXjecGrQE3CRu-meaLoO*oMFctFRQmuhRynPjfpDWEPQA*Oioct5oXBAUTY9BTFlGOLz77jXK5lC1G&new=1",
+      "summary": "刚刚,腾讯混元文生图大模型全面升级并对外开源.目前,企业与个人开发者可以在 Hugging Face 平台及 Github 上,免费获取包含模...",
+      "datetime": "2024-05-14 17:07:05",
+      "date_text": "2024年05月14日",
+      "date_description": "660天前",
+      "source": "鹅厂技术派",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型部分中文能力已追平GPT-4,还要坚定拥抱开源……|关注",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714542&ver=6580&signature=iRkqtl533Ib8INqv-6lOcGA2555AWA8o9lSEiDh3G4D2PQZZ6YzlRqvkgBm65thRoAT1ZQ0fkyutR17GjepqdfA-dR8JgvTpiJP4fKY6UhNUBfmBCCJrXIf5T2hoEmY0&new=1",
+      "summary": "混元大模型将坚定拥抱开源自2023 年 9 月首次亮相以来,腾讯混元大模型不断探索最新技术,已拓展至万亿规模,并在国内率先采用...",
+      "datetime": "2024-05-17 21:07:52",
+      "date_text": "2024年05月17日",
+      "date_description": "656天前",
+      "source": "元创数智在线",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元开源翻译模型1.5,端侧可部署,效果超越商用API",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714543&ver=6580&signature=uYpqzDl-zcrAR9r5wM1SFmwAEEQueY2EKhpvekQ0ZH9CSvbpzCULhO2TCucnYkF39CKuP3GnnLXPL*3j4*Rs1EE7xTNez4oEqJ*eY4ZD8SA4N19NszHJaTFjPTaxQvnK&new=1",
+      "summary": "现在,腾讯混元正式开源翻译模型1.5版本,共包含两个模型:Tencent-HY-MT1.5-1.8B和Tencent-HY-MT1.5-7B,支持33个语种互译以...",
+      "datetime": "2026-01-01 09:08:20",
+      "date_text": "2026年01月01日",
+      "date_description": "63天前",
+      "source": "腾讯开源",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元开源翻译模型1.5,端侧可部署",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714543&ver=6580&signature=b7yDK6EKxcqmoidlNHbZk002hKtL5DQGGP9ZjS*e9C2b5BApmZgQbOcYtl*UAqH6aJy9NX8ee-OGLiaL-3XkyTBsmPmsWUYMwLTL7U1CzrSfI8Xjt6IwTawiVTHBKdg0&new=1",
+      "summary": "#腾讯混元翻译模型12月30日,腾讯混元宣布推出并开源翻译模型1.5,共包含两个模型:Tencent-HY-MT1.5-1.8B 和 Tencent-HY-MT1....",
+      "datetime": "2025-12-30 17:00:57",
+      "date_text": "2025年12月30日",
+      "date_description": "65天前",
+      "source": "老冀说科技",
+      "url_resolved": true
+    },
+    {
+      "title": "推理性能飙升30%!腾讯混元开源大模型“性能榨汁机”",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714543&ver=6580&signature=w9ijUT9zMvwum6-OpquRNVF3VGrG6Ru8Tr70ZAYOsyF-CTtP*kg6Xip1q6sgDsgfIKnW7i8pEodv4*mtM9OXFsjoR0y0smtzvlXan8PVUbkJ3dqeFA*q7cA--yC42uUZ&new=1",
+      "summary": "还在为大模型推理烧钱又低效发愁?腾讯混元放出了一剂“猛药”.今天,腾讯混元AI Infra团队正式开源了其生产级高性能LLM推理核...",
+      "datetime": "2026-01-23 10:02:03",
+      "date_text": "2026年01月23日",
+      "date_description": "41天前",
+      "source": "AI.MUX",
+      "url_resolved": true
+    },
+    {
+      "title": "AngelSlim:腾讯混元开源的大模型压缩神器,让大模型飞速跑在你的手机",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714543&ver=6580&signature=ATExSP99E0cxnAfZbG3E43h42Inu9lEX*pk5mPOPUkAFdSHLtsApwOlg0LSPHpJckqkfiDGvacjYYh0u8IG-uUMXMH3BLBjHci*xmGCiNyT6ZTUug8--2LzYEZlYYTF8&new=1",
+      "summary": "大模型推理太慢、显存不够用?腾讯混元团队开源的 AngelSlim,一套工具解决量化、加速、剪枝三大难题.01为什么需要模型压缩?...",
+      "datetime": "2026-02-27 17:33:08",
+      "date_text": "2026年02月27日",
+      "date_description": "6天前",
+      "source": "魔搭ModelScope社区",
+      "url_resolved": true
+    },
+    {
+      "title": "手机也能跑SOTA?腾讯混元翻译模型1.5硬核发布:1.8B小钢炮吊打商用API,全面开源!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714543&ver=6580&signature=LzeoTBl23DpGzQhFYSKlPnIUc-e3GnoERmsabVjQWBOEMhidfkQgYwb78R22BTHnS0QmRNahqRb54YyyONiW3RzyDKU1XLgQJt6AMreUN*YmGHJq7V4UvSpU9oN8-ndv&new=1",
+      "summary": "腾讯混元宣布正式开源其翻译模型1.5版本(Hunyuan Translation Model 1.5, HY-MT1.5).为什么说它“极具破坏力”?因为这一次,腾...",
+      "datetime": "2026-01-01 16:25:34",
+      "date_text": "2026年01月01日",
+      "date_description": "63天前",
+      "source": "CarryWang",
+      "url_resolved": true
+    },
+    {
+      "title": "科技日报|腾讯混元发布1.5版开源翻译模型、哈工大联合博实股份发布双形态人形机器人、大模型Data Agent第一股上市",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714543&ver=6580&signature=Cxt4LA2PtVmH48E1kpmdd2trZU4-tZdW0Q-oz-J*zH5*GW05aTiC-Pyck9b4oxMp6L5gYM*dXH3yMtGdwmP5CFaxrElpWs0uriS7Qn8S7Tim4GF2TqXgM3a2lZGnlw3D&new=1",
+      "summary": "腾讯混元正式开源其翻译模型1.5版本,包含Tencent-HY-MT1.5-1.8B和7B两个尺寸.其中1.8B轻量化模型经量化后仅需1GB内存即可...",
+      "datetime": "2025-12-31 09:52:52",
+      "date_text": "2025年12月31日",
+      "date_description": "64天前",
+      "source": "一如既往的奋斗",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元文生图大模型开源,生成的图还能免费商用!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714543&ver=6580&signature=le6f4EQWqqaJ5ior3julLmcAdB3quolfq3E06IfbsQd1EDDsEZbVOCR76PilcQo*4Q9q5digHs5aAH-KPQ-17sr9ddz8XsFBd9jc*rQXsaWsmjXriP8rIYKfpEGQsNbY&new=1",
+      "summary": "腾讯混元大模型宣布文生图能力上线,面对模型挑战如语义理解、图片结构、细节质感等.腾讯凭借广告AI图像生成经验,新模型旨在...",
+      "datetime": "2024-05-19 08:30:52",
+      "date_text": "2024年05月19日",
+      "date_description": "655天前",
+      "source": "一搜君",
+      "url_resolved": true
+    },
+    {
+      "title": "大模型也疯狂:字节卷价格、腾讯终开源,OpenAI与谷歌互搏",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714543&ver=6580&signature=AwaLfYEDdkA9Q7yg2YjJebNVcffledb4hdPwRS9JQYhHJff-pOp28U5JBH07fdexVH8IxZ01XJg-lSkeYItxz1dpqyRGgJoxW5qodGxtYjmld6bdzLTQzaTiG04gzIDJ&new=1",
+      "summary": "腾讯混元大模型选择了将 AI 文生图功能版本开源,并公布了混元大模型在 AI 产业上一系列落地应用.而抢在 5 月 17 日的腾讯云生成...",
+      "datetime": "2024-05-17 19:12:11",
+      "date_text": "2024年05月17日",
+      "date_description": "657天前",
+      "source": "蓝洞商业",
+      "url_resolved": true
+    },
+    {
+      "title": "私域动态:视频号上线达人广场;腾讯混元大模型开始应用内测;京东推出＂晚发赔＂服务…",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714543&ver=6580&signature=ZJTk5PdUAICBjfsdH4Clk6EUUnGnnmLPAQJ2ruMt9PlBEZBhqXtyc8Vxp88b1xHBomxD2XQ5k32IuyYC5teQ5RBDaFzUKOjgdrSabsm*wi0o2PMgMl9VwnhJkmLiu4mf&new=1",
+      "summary": "阿里云通义千问70亿参数模型开源;腾讯混元大模型开始应用内测,多个业务接入测试;小米电视上半年出货量中国第一 即将发布“...",
+      "datetime": "2023-08-04 11:49:33",
+      "date_text": "2023年08月04日",
+      "date_description": "944天前",
+      "source": "见实",
+      "url_resolved": true
+    },
+    {
+      "title": "混元文生图大模型全面升级并开源!可免费商用!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714543&ver=6580&signature=Evep9uRZz1wqaJastmADneslY85p2XxzCy0MKGs0MwuypQ99FEDRXcfkYpK6fZG3bTL7v6rC1R9tRbCG2Y5Fwi9Kn0nry-P9Y9EQ8w71qNoDDLuA4afD4ybsXGId2wzV&new=1",
+      "summary": "中文 AI 社区迎来了一个好消息:与 Sora 同架构的开源文生图大模型来了!5 月 14 日,腾讯宣布旗下混元文生图大模型全面升级并全...",
+      "datetime": "2024-05-15 23:00:21",
+      "date_text": "2024年05月15日",
+      "date_description": "658天前",
+      "source": "水木人工智能学堂",
+      "url_resolved": true
+    },
+    {
+      "title": "最新消息:腾讯混元大模型部分能力已追平GPT-4,将推出助手类APP“元宝”",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714544&ver=6580&signature=MnBm*hr4jROC73MYhAVSVtcsK3bMd-c24ZPdNQJct23eRDJSkIzFTQ94ujlve6hJXyS47A10mRmagfm0Srg7n9PjWfBf5E9wEswSFDircLJ1-Q9k-ZvR01YE9YeTXzUb&new=1",
+      "summary": "会上,蒋杰宣布腾讯混元大模型将坚定拥抱开源,为技术社区生态繁荣贡献力量.目前,腾讯混元文生图大模型已全面开源,开源 3天...",
+      "datetime": "2024-05-17 17:12:14",
+      "date_text": "2024年05月17日",
+      "date_description": "657天前",
+      "source": "移动互联网",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯发布混元大模型!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714544&ver=6580&signature=ZJTk5PdUAICBjfsdH4Clk6EUUnGnnmLPAQJ2ruMt9PkneT8-EJxaWCbKirhWN0oVjTN9aRyAN6L3zglY34jF7DHZXj41TFhmw3yRl2W-BJUa-Q1bmpZKk4vQdUjSCPFB&new=1",
+      "summary": "在腾讯云行业大模型精选商店中,我们不仅提供混元大模型,还上架了20多种行业最新、最流行的开源通用大模型,以及覆盖金融、文...",
+      "datetime": "2023-09-07 13:16:29",
+      "date_text": "2023年09月07日",
+      "date_description": "910天前",
+      "source": "见实",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元翻译模型 1.5 开源!双模型覆盖端云全场景",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714544&ver=6580&signature=24*V3BKQXIio8Dfz5thez-67PnrmAR2ZZFT1ob1AQahXhUy3Q*6poZJGhd3NN5fW-Sj4yBGK8uXuWElgYASc64XVS-Fl2CbZVEMS43oqMc2kJSfWr948Juc1eU1XEkvT&new=1",
+      "summary": "年末,国产大模型领域再添重磅利好 —— 腾讯混元正式开源翻译模型 1.5 版本,一次性推出 Tencent-HY-MT1.5-1.8B 与 Tencent-HY-...",
+      "datetime": "2026-01-05 08:00:50",
+      "date_text": "2026年01月05日",
+      "date_description": "59天前",
+      "source": "GetKnowledge+",
+      "url_resolved": true
+    },
+    {
+      "title": "腾讯混元大模型一发,有人睡不着觉啦!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714544&ver=6580&signature=uPaweWUm-8vn-D0q8WS0pFLUScCZnz93cwXK*WoDG1971c8op20mJ6yC5Bq6RcrRRDbniCpcm5QoIrK3EZUf55Y6c4TsdLBB0KtekbcCnU6burB1t*ZK83mUmaHdsyzB&new=1",
+      "summary": "出大篓子腾讯混元大模型则给出了自己的技术探索和解法改善诸多行业共性难题❶有效降低大语言模型“幻觉”比例幻觉相比主流开源...",
+      "datetime": "2023-09-07 20:49:38",
+      "date_text": "2023年09月07日",
+      "date_description": "909天前",
+      "source": "特大号",
+      "url_resolved": true
+    },
+    {
+      "title": "大模型Infra新突破!腾讯混元开源LLM推理算子库,推理吞吐提升30%",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714544&ver=6580&signature=QttzYnBjWXrX3s9QptlbxeQQKqM0cOziDgioMPRkBW3sYAKVQqGOLcngL*AaMNvwDFrSkup7OaMw2UT1GTtZBsf6NroXr58dRy77qh*mqAMJNtd6JQHD98bCkzMsSYVP&new=1",
+      "summary": "腾讯混元AI Infra团队正式开源生产级高性能LLM推理核心算子库HPC-Ops.该算子库采用CUDA和CuTe从零构建,通过抽象化工程架...",
+      "datetime": "2026-01-22 19:13:21",
+      "date_text": "2026年01月22日",
+      "date_description": "42天前",
+      "source": "量子位",
+      "url_resolved": true
+    },
+    {
+      "title": "AI早知道| 腾讯混元开源全球顶尖图生图模型3.0;阿里通义开源图像模型Z-Image",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714544&ver=6580&signature=BtV2AQnuiWpSmxKGo7q2Mte4CpQF*NYmxvcIGpSNhCz7e0d3XTwp8rQQxFShCsENRpf50WzJVgzp7N1rJ4l-kqd2tHeWQsHCsoXExZNCPvQwXl69o46lgwveHgw9CDdH&new=1",
+      "summary": "1. 腾讯混元开源全球顶尖图生图模型3.0腾讯混元团队正式开源了其最新混元图像3.0图生图模型,该模型凭借强大的混合专家架构和多...",
+      "datetime": "2026-01-29 08:07:23",
+      "date_text": "2026年01月29日",
+      "date_description": "35天前",
+      "source": "互联网er的早读课",
+      "url_resolved": true
+    },
+    {
+      "title": "扒一扒腾讯混元大模型“老底”",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714544&ver=6580&signature=QttzYnBjWXrX3s9QptlbxeQQKqM0cOziDgioMPRkBW0dnVjW1KG8yIXZNBsJKBXGfBIe8GcXTMu0X6v0eY4kL6I7pM19rSp6V5pJ8Z9qLveE75sXKD*hDrcm5vjlscYl&new=1",
+      "summary": "来源于网上各种公开网站和开源数据集.但不仅整理数据、确保多... 像腾讯混元大模型,光是预训练用到的数据就达到2万亿tokens,...",
+      "datetime": "2023-09-12 17:05:14",
+      "date_text": "2023年09月12日",
+      "date_description": "905天前",
+      "source": "量子位",
+      "url_resolved": true
+    },
+    {
+      "title": "【重磅开源】腾讯混元HPC-Ops:推理性能飙升30%,大模型落地迎来新拐点!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772714544&ver=6580&signature=GlATrvfFhnRhFqAwGWzfG3ZRoPIg8Rl3OYKIlBQ8KWiDuiwHCs8fYIX3rgwiBlMJdMZUClv1Sx48l0Q02l2IdzOFYQlaSvwvhUTJBRiyOgFPp0NZJk4aLs2z7F5pyL3c&new=1",
+      "summary": "腾讯混元AI Infra团队正式开源其生产级高性能LLM推理核心算子库——HPC-Ops.这套凝聚了工程智慧的底层技术,不仅让混元模型推...",
+      "datetime": "2026-02-05 11:05:47",
+      "date_text": "2026年02月05日",
+      "date_description": "28天前",
+      "source": "科盛资讯圈",
+      "url_resolved": true
+    }
+  ]
+}

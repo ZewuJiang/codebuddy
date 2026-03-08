@@ -1,0 +1,306 @@
+{
+  "query": "DeepSeek-V3 部署",
+  "total": 30,
+  "articles": [
+    {
+      "title": "102k星!DeepSeek-V3 震撼发布:671B MoE 巨兽,性能全面对标 GPT-4,训练成本直降90%!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715730&ver=6580&signature=d24DCn57RX*zjcry02fpbOQKhsw45BrUYPTFaiaYx1J-7DVjKNfLOqr6dxgOEtFqxtVNII0u1qjPF0OzC-V6PLvWf0eJaHIN9oJ*XsdFwFwgS9g9kW1ql7QktQbs1BxO&new=1",
+      "summary": "本地部署与推理DeepSeek-V3 支持多种推理框架,开发者可根据硬件条件选择最合适的方式.以下以 SGLang 和 LMDeploy 为例介绍...",
+      "datetime": "2026-02-18 22:00:40",
+      "date_text": "2026年02月18日",
+      "date_description": "14天前",
+      "source": "小妖同学学AI",
+      "url_resolved": true
+    },
+    {
+      "title": "好虫子周刊:DeepSeek-V3、OpenAI o3、MoE架构",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715730&ver=6580&signature=z3kdbXyUejDi3YPpOsp0shJu1EKTCk0HvjcX5ZmHTDpveErKvY7AgaOHtzdJ0KstURLXqoXW7FG1ZhW8RnaNnFvAEjj3XhJjC*hPvMg3bkcHQTh13PRrw2Whm*Ej67of&new=1",
+      "summary": "DeepSeek-V3 和 OpenAI o3,支持插件系统、多模态视觉和本地知识库,是私有化部署 LLM 的首选前端.项目地址:[lobehub/lobe-...",
+      "datetime": "2025-12-26 09:00:46",
+      "date_text": "2025年12月26日",
+      "date_description": "69天前",
+      "source": "李梨同学丶",
+      "url_resolved": true
+    },
+    {
+      "title": "今日AI热点速递:DeepSeek-V3重磅更新、Manus Agent引爆全球、AI军备竞赛白热化",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715730&ver=6580&signature=ArifqgA8345WenKWf*SLgd1AXIUK*A4HyXFNktgJoFTgoYJyR06U0UBo0ejCM3VW7I-vo8onyn5sGO68ELIIfcYjJzA*xtG7qgomQVdfaNpfOiQVfuZ0m48Ko0JZyUL2&new=1",
+      "summary": "DeepSeek-V3重磅更新、Manus Agent引爆全球、AI军备竞赛白热... 将其Grok AI模型部署到机密军事系统中.这是AI进入国防核心领域...",
+      "datetime": "2026-03-05 08:45:40",
+      "date_text": "2026年03月05日",
+      "date_description": "12小时前",
+      "source": "缘三",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek宣布涨价!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715730&ver=6580&signature=0XMAUs0XE35JQFwkyvPTAHogAbCM4h9vVM6*553Y9Hk1SZd8H4M0Z9PPmMxI8qGtnKEkJ01GxhqILDud5T3uFCqSojdDrUtc59fTc1AtZd7ubE2HSIFT*Q6TU7PYmsQq&new=1",
+      "summary": "阿里云PAI已支持云上一键部署DeepSeek-V3、DeepSeek-R1及其蒸馏版模型,可为企业和开发者提供更定制化的开发服务....",
+      "datetime": "2026-01-23 13:26:42",
+      "date_text": "2026年01月23日",
+      "date_description": "41天前",
+      "source": "新闻110",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek,概念股!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715730&ver=6580&signature=003e0x3eimQVpnj9mV-VqzPjVm4MrjlRoECmjVdGhPDGdHF9xE-L5ZlSOEM4sdfH1m*AD7W3pIOs4sl5BjEDjShP6Q7K8LoX8O*TQjXWhX*I8hXfUETPcobTDTAo-0g4&new=1",
+      "summary": "此外,京东云也已正式上线DeepSeek-R1和DeepSeek-V3模型,支持公有云在线部署、专混私有化实例部署两种模式.今日,...",
+      "datetime": "2026-03-03 09:49:23",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "海峡导报",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek深度求索:开源大模型,颠覆AI格局",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715730&ver=6580&signature=20L55kHToXHxA8sFphAXNzrUNj5QDVBoVUSL*rX7FiIuCMRTIevNBVp54IhNytv72zUWJXem0npxS8MqQDS0ofSZREwws9ra7F95CfVl2oOp*sMucw4SoHOqxSrbcpra&new=1",
+      "summary": "政务服务与公共管理广州市政务服务和数据管理局已在政务外网部署DeepSeek-V3 671B大模型,通过融合海量政务数据,优化智能问...",
+      "datetime": "2026-01-22 21:29:13",
+      "date_text": "2026年01月22日",
+      "date_description": "41天前",
+      "source": "AI工具小百科",
+      "url_resolved": true
+    },
+    {
+      "title": "vLLM大规模部署实践:基于Wide-EP技术,DeepSeek在H200上实现每秒2.2k令牌吞吐",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715730&ver=6580&signature=HUtOwRp75d9*3OGuZ2CHn0lW5t5weq4fjp3dbZhVtqpisF8nGMzdFMlt14Sz*TXpn6k-mm3dj4XaBj5YKQAdDENh*L8XzDTPyeeYdAZ3sdY8ibNlXVNg9Y5bH5UhLez9&new=1",
+      "summary": "(专家并行与数据并行结合)大规模部署 DeepSeek-V3 模型系列等前沿模型需要考虑两个主要因素:稀疏专家激活:在 DeepSeek-R...",
+      "datetime": "2026-02-27 13:00:53",
+      "date_text": "2026年02月27日",
+      "date_description": "6天前",
+      "source": "vLLM 社区",
+      "url_resolved": true
+    },
+    {
+      "title": "Milvus*最新版DeepSeek v3:对标Claude,本地数据五分钟写网站",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715730&ver=6580&signature=O9bcb2w6C*0bzmF9pqsPnVZSoczseL-c6KZVnFIgCgMP*SXnrIgItSBnjZs*VKEoAUXyOMYdDh-zuWyUonLYmZLrhxlfbG55cvI7X1q6nbwcT0oQ0GEZfmdO-cTG-0Ym&new=1",
+      "summary": "那么DeepSeek v3-0324该如何用?企业场景应该如何部署?如何... 原装版DeepSeek-V3-0324  VS RAG版在搭建好一个最基本的...",
+      "datetime": "2026-01-21 12:08:47",
+      "date_text": "2026年01月21日",
+      "date_description": "43天前",
+      "source": "Zilliz",
+      "url_resolved": true
+    },
+    {
+      "title": "AI小白进阶神书!DeepSeek从入门到精通",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715730&ver=6580&signature=5gp3IOKAamXYuXVtGWWHCOxQ3dFTED2BgbAnMZmfqyK9Bx3y0CTIo224*RXO2VVnXP0iAbUO0J9Xwx0DfGhT0801mCfCFtnV2*GN7*cdSMHfb5HAr1qvnq2Bk3XP2sJA&new=1",
+      "summary": "全版本适配:支持 DeepSeek-V3 指令模型、R1 推理模型,连本地部署、API 调用都有详细教程 工具集成超全面:教你把 DeepSeek ...",
+      "datetime": "2025-12-07 12:53:33",
+      "date_text": "2025年12月07日",
+      "date_description": "88天前",
+      "source": "清华大学出版社",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepRare:AI多智能体大模型驱动的罕见病诊断系统——为300万患者带来希望",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715730&ver=6580&signature=Eu2HU3gnznjg631GnsQX0gJdaoaVfwwmRsooDEVSBYDSEkUHTLHb3IinSdqp3IvH58n2E8PWnnWeRP2b7XKjQd5MRccfj9nCcRjjgerpnwKeY--U-DD1hDOOJ23Rym4r&new=1",
+      "summary": "由大语言模型(默认使用本地部署的DeepSeek-V3)驱动,配备记忆库,负责协调整个诊断工作流程并综合收集的证据 .第二层包括多...",
+      "datetime": "2026-02-19 14:05:29",
+      "date_text": "2026年02月19日",
+      "date_description": "14天前",
+      "source": "MedicalAI",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek突然更新R1论文:暴增64页,能公开的全公开了",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715731&ver=6580&signature=6RkwZCUB24u*qv7zHDT-G8lZOmSKuI7mQvZQ6Ug9QFv-iPwFWhxtyOZU9BlpXQ5D0f7kI28yBlLDXXSQ6FJJzum8vv1T0jClGirDSas7e64PjbJq6g01D1jLLqRt0J60&new=1",
+      "summary": "DeepSeek-V3 进行判断.审核提示覆盖 11 类安全标准,包括违法活动建议、隐私捏造、高风险投资指导等.论文建议部署 R1 的开发...",
+      "datetime": "2026-01-08 15:57:27",
+      "date_text": "2026年01月08日",
+      "date_description": "56天前",
+      "source": "DeepTech深科技",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek不发V4,六小龙不敢过年",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715731&ver=6580&signature=eCfAQXahfxjIi9XT6OAcakj3nkaUTaPdOIY-0KMipn2RzInkkY8rtQLtExTYeNgHB90uHt1FKWhzpdLDmnJ2ezEj5tDewX31Asru8lqWCSb*adNVw0AcliRqfy2FLM7e&new=1",
+      "summary": "直接吸引大量渴望自主可控、私有化部署、魔改模型的开发者.其开源模型DeepSeek-V3、R1在HuggingFace累计下载量超千万次,...",
+      "datetime": "2026-02-11 22:15:46",
+      "date_text": "2026年02月11日",
+      "date_description": "21天前",
+      "source": "猎财Alpha",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek V4 来了:声称编码能力超越 Claude 和 GPT,程序员需要知道的一切",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715731&ver=6580&signature=Lpgx-YC*2-ztYmhIrW46DjdvC5FQ7gF0siSBrhSq5o6ZphRStQHp8VoleL*KoNSNf3vXQgxe1gD6XPBaJjugAYjrsCt9*cWn*bn0kxr3ORpLoz-k8eZIAVesfa7IXsuq&new=1",
+      "summary": "DeepSeek API 才是更现实的选择.本地部署需要高昂的硬件投入和专业的技术团队,只适合少数大型企业和特殊场景. 本章小结...",
+      "datetime": "2026-01-12 11:31:08",
+      "date_text": "2026年01月12日",
+      "date_description": "52天前",
+      "source": "程序员的进击",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek R1训练细节解读",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715731&ver=6580&signature=xtSgCQzt06rbagoPgVU1M5Y4*gDLppt0co087Xuqsb5szwAIWDL8r-zA8OslQkl88mCiRMDe*2HmSNZsuOPKNKLWMH4yIXusG*rbmCmbSpWrDG*x7QkqpGIguqosmBL-&new=1",
+      "summary": "表现差异DeepSeek-R1 的核心创新在于使用了 GRPO (Group Relative Policy Optimization) 算法.用一个通俗的比喻来解释这个公式:...",
+      "datetime": "2026-01-11 23:06:45",
+      "date_text": "2026年01月11日",
+      "date_description": "52天前",
+      "source": "JackChe",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek技术全景解析-重塑全球AI 生态的中国力量",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715731&ver=6580&signature=92lXcY02ls1jIx8h3Xf46v-ZdGc9Ak-9WcFLh7NGhtPiQPLupBeCuuIVhNpdJVoHmvhFuOFEQqHY1Ss4tBLED7nOjVXPUiP3VbdsSLWlJUVYaWxma0ohhfOpBWB3LcyQ&new=1",
+      "summary": "2、DeepSeek-V3:总参数量671B、激活参数量37B,开源模型中... DeepSeek R1部署成本30-40万元,硬件要求高、运维复杂,但具...",
+      "datetime": "2026-02-10 23:51:37",
+      "date_text": "2026年02月10日",
+      "date_description": "22天前",
+      "source": "大数据真有意思",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek Model 1悄然现身:下一代V4旗舰的神秘面纱",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715731&ver=6580&signature=MFtpw2DiynNR0-OAj7ckwUCVq*pJxTqzl1SfQ2uV4i24ideyXVVHOsVmMK5v*EPyMStd5tZg5Ql5nPKk2*2MpBeAUp4YRWqdlExIILCZ0dYchv4WQ-8a0Q0bScMrtBTH&new=1",
+      "summary": "(DeepSeek-V3.2):继续沿用d_qk = 576的配置,这是DeepSeek-... 避免＂补零＂操作,充分利用GPU张量核心跨硬件部署更简单:...",
+      "datetime": "2026-01-22 14:38:13",
+      "date_text": "2026年01月22日",
+      "date_description": "42天前",
+      "source": "智汇科创坊",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek vs. ChatGPT:谁更懂 3GPP? —— 基于 GSMA 基准与工程实战的深度评测",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715731&ver=6580&signature=XnFpais3KDl6WlGdrBb65c615AHgwcph-IC-8s6RmvCoN7Ky9lmMhPkwognSea9tELb4SKoc1BRQiIOUAR-JasmbZbyGsjlFv6Yd67IQsxqWpMd8ruNS5P4tX7mwIQHl&new=1",
+      "summary": "GPT-4o(或通过 API 调用),生产网用 DeepSeek 本地部署.两者优势互补,风险隔离.私有化微调:基于 DeepSeek-V3 的开源底...",
+      "datetime": "2025-12-30 10:22:34",
+      "date_text": "2025年12月30日",
+      "date_description": "65天前",
+      "source": "比特宇宙",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek-R1:8B大模型参数介绍",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715731&ver=6580&signature=DpmM2V6YThci3q*n9qdZBvODMrztdjEGMqNJt17liBOJWNNr4aADrCk7ZBWgILLJSyIBfsGBiv32Tu*LXAeO0EVO008AxVStlzOLyVhENLpNUoXInEMtRUJpaRS4aMuP&new=1",
+      "summary": "先后发布了DeepSeek-V3和DeepSeek-R1两款大模型,成本价格... 当大多数企业还在为70B参数大模型的部署成本发愁时,...",
+      "datetime": "2026-01-22 06:09:09",
+      "date_text": "2026年01月22日",
+      "date_description": "42天前",
+      "source": "有病千千结",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek 的技术演进:从成本优化到系统能力——大模型竞争的下半场,正从＂拼算力＂走向＂拼可持续性＂",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715731&ver=6580&signature=h9hTFvqzuui5CqlPw0znyWDkBdN20ZiT4Ha2m*wXwgv1XR5i3x-kVhn2UDqS6h1lqA8oiV6y8VmsgWpwF2Kx2584JYoWp81jHZO1P1lCIBUIAWDYSev9scmRiPIhsYCt&new=1",
+      "summary": "指数级上升的训练成本、推理成本和部署成本.DeepSeek 作为一... DeepSeek-V3(2024年12月)是这条路线的规模化验证.在更大的...",
+      "datetime": "2026-01-20 07:40:07",
+      "date_text": "2026年01月20日",
+      "date_description": "44天前",
+      "source": "思岭",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek + Dify:零成本打造私有 AI 知识库(上)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715731&ver=6580&signature=JiANsIzpVB1zqZEYDbxUW73FjdS0VqORSt1lgFwtq-xKUdyhCzmi7r1AlyM2o8Sw2G8Th5HLN8Z-dGuR9jR7QDJ8pJ08IWfFEaifeeons9syCU1-4GhbPGgIUB6NxlS5&new=1",
+      "summary": "DeepSeek-V3:性能对标 GPT-5.1,中文能力拉满• DeepSeek-R1:推理能力堪比 GPT-5.2,思维链清晰• 完全开源,本地部署无授...",
+      "datetime": "2026-01-05 12:07:41",
+      "date_text": "2026年01月05日",
+      "date_description": "59天前",
+      "source": "程序员义拉冠",
+      "url_resolved": true
+    },
+    {
+      "title": "2026年AI大模型最新报告:DeepSeek V4、GLM-5与Minimax 2.5深度解析",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715733&ver=6580&signature=*9UzdqSGuikPXh89WJPK*bVc8iA2*vXKqf*ivVzJp8n72z1dDH3qEk4yOKC83zlux7UnXcagm7xDf4RIeUMBec1BiBYmJyDJSrIxTsehR2Tg6OotazaZGaQS4ovBpED5&new=1",
+      "summary": "有效降低部署成本并提升Token利用效率.该技术路线与DeepSeek-V3/V3.2保持一致,标志着稀疏架构正成为行业标配.Slime训练框...",
+      "datetime": "2026-02-12 18:20:57",
+      "date_text": "2026年02月12日",
+      "date_description": "21天前",
+      "source": "丰农信息网",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek全球爆火,想成为AI人才,高中生可以选择哪些专业?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715733&ver=6580&signature=-NJdThsGjwWKfCKAquJG1zVt52O9uhu3PKD1*5jlpbZuCh*YDJRZb9RxC9ooh-IeI7wTZydy6slpjLFkwQ2Rt3VLvtJq11Zc*OEWOHCrFmxxEg5zbzOcv5jComMUJGkf&new=1",
+      "summary": "特别是在教育领域,DeepSeek-V3模型以其低成本、高效率的特... 2.模型优化与部署:企业更青睐能降低推理成本、提升效率的工程...",
+      "datetime": "2026-01-29 17:02:02",
+      "date_text": "2026年01月29日",
+      "date_description": "35天前",
+      "source": "安徽新东方高中升学",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek V4即将发布!全产业链深度解读!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715733&ver=6580&signature=pK2EETC4cYSA*QUmDpVbx9RNoP7nUeI9jT9t7pWUeXFMX2*qwyokf*1hIlTKPcXlwhkyIFhD20MmYGsB5smx9khLl1zvaB-iu7QIMvFX0JRtoXiIIBMY9MTQVISjnemh&new=1",
+      "summary": "全面支持DeepSeek-V3、R1模型及新一代蒸馏模型的分布式部署天数智芯 :国产GPU企业,已适配DeepSeek模型服务值得注意的是...",
+      "datetime": "2026-03-01 15:12:52",
+      "date_text": "2026年03月01日",
+      "date_description": "4天前",
+      "source": "万能数字哥",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek概念股",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715733&ver=6580&signature=1Z8A393hM2N8XM68S6USurUnEw1E1c8oaf15vm0IhLeVHhRnR98ybva8TCbkswPAx5iVo7Hb6VyB*Jv9w4Vmbvpvbt-v9SJ68hO-tVhuF71W-JexXbRR7oMkzmFtCIta&new=1",
+      "summary": "DeepSeek-V3/R1,覆盖金融投研、合规等场景300468四方精创2025-02-14完成 DeepSeek-R1 本地化部署,融合产品与业务场景...",
+      "datetime": "2026-03-03 14:38:29",
+      "date_text": "2026年03月03日",
+      "date_description": "2天前",
+      "source": "波段投机之王",
+      "url_resolved": true
+    },
+    {
+      "title": "借助 Ollama 部署 DeepSeek",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715733&ver=6580&signature=HICn2qh4mLHHhyp6Jn2WwrvOtOxpQLWUFgraGCQshRBeFzqZon1r*cP4Nidot-YtYhoKhM*Hbiqs6E8pEzVAqIhA64Dobo7S*6JcKlENuU3yoJCu6j-anBpVt1INIdfr&new=1",
+      "summary": "借助 Ollama 部署 DeepSeek 可适配 Windows、macOS、Linux 多系统,部署后还能搭配可视化界面提升使用体验,以下是详细步骤及...",
+      "datetime": "2026-02-27 09:40:53",
+      "date_text": "2026年02月27日",
+      "date_description": "6天前",
+      "source": "百科全苏",
+      "url_resolved": true
+    },
+    {
+      "title": "别再掏钱买GPT了!DeepSeek保姆级教程,看完效率翻倍(建议收藏)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715733&ver=6580&signature=dCUzulZEp6-i0IHyXIjpdyS0L9PoarsfJ5sBVxrIVmdyJ6jbzu0Hh3*O-lt-jMhcs3rGhQkMbT17Cyz*gPYfDx7GXxlI3B-pjp4ndTM70idrexbLOYrU2atyR-8uDj32&new=1",
+      "summary": "在昇腾云上部署了 DeepSeek-V3 和 DeepSeek-R1 模型,提供全国产解决方案.该平台稳定、功能完整,支持 API 开发.2.纳米 AI 搜...",
+      "datetime": "2026-02-23 09:55:04",
+      "date_text": "2026年02月23日",
+      "date_description": "10天前",
+      "source": "秋秋Ai笔记",
+      "url_resolved": true
+    },
+    {
+      "title": "用自己的GPU跑DeepSeek 一行命令部署大模型",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715733&ver=6580&signature=MKaBB5N--xFY1CMKEQfa6I-px8XspRLwuHUSv4OfBPNiFOjYmXgjSG-tF-UHvTRiWlygHzQarD-GX0SPz6z5vw-DrcpUVia4S223LnRM*rdBAC*4yfUVeeG5S7kpeFWm&new=1",
+      "summary": "你只需要选模型、点部署,剩下的它来干.它支持的模型真的很硬核.DeepSeek-R1、DeepSeek-V3、Qwen3、GLM-4 都在列表里....",
+      "datetime": "2026-03-05 18:35:13",
+      "date_text": "2026年03月05日",
+      "date_description": "2小时前",
+      "source": "架构师修行之路",
+      "url_resolved": true
+    },
+    {
+      "title": "AI生态!A股这些公司深度绑定DeepSeek,抢占应用落地黄金赛道",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715733&ver=6580&signature=r0NAIUth4zsiyX2JQduMNc4bEIRcyltvoM3eCveieqyUd5J5GjbiUCNn4bsM9VaqSK0BG0GgJ6WTY6Wyhsb4HW31o7cTkoZJR0mQ13ExIAVbX9z5U4IjZeEheCAe3U*m&new=1",
+      "summary": "已在全国3000+法院、检察院部署,让案件处理效率提升60%.其... 用友网络更是将DeepSeek-V3和R1模型作为基座,在BIP3 R6智能...",
+      "datetime": "2026-01-30 06:00:18",
+      "date_text": "2026年01月30日",
+      "date_description": "34天前",
+      "source": "一线名品中小样专卖龙岩店",
+      "url_resolved": true
+    },
+    {
+      "title": "DeepSeek生成式人工智能教与学(大纲+教案+AI智能体+课件+视频,刘扬)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715733&ver=6580&signature=dpLhbJeZBD5DWsLUFu4*DVMhzEKLcrsTnZYNFqSwodu4IfcclV69yGVGipaJvseRLSXnVLmc7S75pUT8vtHFZrLMUZhICq3sgbOLQmj5eFN1UslTYyOGN4RGCh7po738&new=1",
+      "summary": "DeepSeek-V3(多模态处理)与 R1(强化推理)的技术特性,以及全场景部署(App、Web、本地)与特色能力.重难点重点:...",
+      "datetime": "2026-02-06 08:27:07",
+      "date_text": "2026年02月06日",
+      "date_description": "27天前",
+      "source": "书圈",
+      "url_resolved": true
+    },
+    {
+      "title": "【报告】大模型专题四:DeepSeek行业大模型算力网加速应用生态白皮书(附PDF下载)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772715733&ver=6580&signature=3UYztvhrtdbxt3iXazK0HMxEhWn98*jLZDxpzVv2CAHZg3r7aTL43u4rLOfFB9N1tO9gIfbYEavNW7SqZ4RUE6WNOUoBjI3KDr92KujZJarxUXkyCRAwOLXjMgYPJ9Y8&new=1",
+      "summary": "模型的理性部署,智能体逐步融入企业办公与管理流程,但 DeepSeek-V3/R1 暂缺多模态能力的短板,使其在部分生产场景难以充分...",
+      "datetime": "2026-01-18 20:22:30",
+      "date_text": "2026年01月18日",
+      "date_description": "46天前",
+      "source": "人工智能产业链union",
+      "url_resolved": true
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "query": "OpenClaw 千帆",
+  "total": 15,
+  "articles": [
+    {
+      "title": "极速启动、极低成本、极简部署!千帆OpenClaw一键体验正式上线!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702880&ver=6580&signature=mxcREi2KPe877jkdzpot-xXOP0P-VrIyJA1eeMUDbjPQqJfaOcU1PkiFOK1c9uNfo3wQhxKaEQ4N3NA2lZOxitZg8JgbGzE4i5fAjEyAcRI5Wdy1xECGe9fihgZui2TM&new=1",
+      "summary": "千帆OpenClaw:极速启动、极低成本、极简部署OpenClaw 是一个面向智能体构建与运行的开源框架,它不仅能无缝接入大语言模型...",
+      "datetime": "2026-02-13 19:17:10",
+      "date_text": "2026年02月13日",
+      "date_description": "19天前",
+      "source": "百度开发者中心",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw从入门到放弃——起手式:0元薅百度千帆1日试用羊毛!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702880&ver=6580&signature=O1C0FqfxZnlPcG2kV*khvU0YUxzI7YlRXSqueWsAJ*rU8UlB-rBCvwQ67E*Gxpq1XWgtxxrM8gznCc7sAINMFpaudLUNa3CYvbClnN6U0YmyzYGWU0kKa8BceTCAQ3Ef&new=1",
+      "summary": "登录百度千帆云https://console.bce.baidu.com/qianfan/studio/openclaw点击快速部署.2.配置模型与鉴权凭证进入配置页面后,系统默...",
+      "datetime": "2026-03-02 18:51:40",
+      "date_text": "2026年03月02日",
+      "date_description": "2天前",
+      "source": "清水草堂",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 安装指南:新手也能 10 分钟搞定的 AI 助手部署攻略",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702880&ver=6580&signature=T7m9pYElDoOtjwtC0LR1KNgUdamBsBXhDfPdKd7ceVd8nyuXegtfbt7oKzRiRasqBlQnkA-W3D*vxbmmj7qhygCVyHYV7IVNG3OrAsYhrDB4drT23LTFA2FQiTvFQrH4&new=1",
+      "summary": "会自动跳转到 OpenClaw Web 界面第四步:配置飞书机器人(可选但推荐)百度千帆官方提供了飞书接入教程:在 OpenClaw 控制台...",
+      "datetime": "2026-03-01 19:58:48",
+      "date_text": "2026年03月01日",
+      "date_description": "3天前",
+      "source": "AGI审判官",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw+百度智能云赋能电商运营,5分钟给公司招了个AI员工,无痛接入飞书钉钉",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702880&ver=6580&signature=gbUVdSH6c1DfBl7fTIrB556xofdUDJQyQgIsph5pZgHkFaiZ7YtjLL*M-kWfkuUrmcaDkcmEuF6mpCvdoACY4IXoVThZyqJP67bFrYWY6GPDs4NAAckK9jDWr7iEjmn-&new=1",
+      "summary": "千帆 OpenClaw 控制台,点击快速部署.进入快速部署页面,选择模型和 API Key,以及需要安装的 Skills.若尚未创建 API Key,可在...",
+      "datetime": "2026-02-19 18:39:25",
+      "date_text": "2026年02月19日",
+      "date_description": "13天前",
+      "source": "文化讲座",
+      "url_resolved": true
+    },
+    {
+      "title": "从OpenClaw的“爆火与隐忧”,看企业级Agent落地的真门槛",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702880&ver=6580&signature=bg1ncEn3egRTRKQoAne9iSouyI4alcp1CSH8OfDHt0BsElrVBwyjKYIOi4TbaHiqKehT*gGmrToDjAS9W-zo3HoJIW1bmksSh2oJj14j8deDB9PTr5TBY50sUKNRxURx&new=1",
+      "summary": "OpenClaw证明了Agent的“动手能力”可以很迷人;而千帆Agent Infra做的,是把这种能力放进更严苛、更真实的生产线规则里:让它...",
+      "datetime": "2026-02-07 00:20:56",
+      "date_text": "2026年02月07日",
+      "date_description": "26天前",
+      "source": "百度智能云",
+      "url_resolved": true
+    },
+    {
+      "title": "手机也能用OpenClaw了!百度智能云发布移动端接入方案",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702880&ver=6580&signature=bg1ncEn3egRTRKQoAne9iSouyI4alcp1CSH8OfDHt0C4wpXpL*l*QFTcX*LZwxQMSEoR*CJvlgkbSby4AEleAep*rXNo3HYs63kEUQGn2s-tHtU8wdVNBwx8HKvtwUCX&new=1",
+      "summary": "并借助千帆平台一键接入文心、DeepSeek等主流大模型.1月31日开始,用户在百度智能云官网购买“OpenClaw镜像”的推荐机型...",
+      "datetime": "2026-02-03 11:35:43",
+      "date_text": "2026年02月03日",
+      "date_description": "30天前",
+      "source": "百度智能云",
+      "url_resolved": true
+    },
+    {
+      "title": "百度官方能力登陆 OpenClaw:七款 Skills 全面开放,加速智能体开发落地",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702880&ver=6580&signature=mxcREi2KPe877jkdzpot-xXOP0P-VrIyJA1eeMUDbjNEoSAB3g6zk7woYxlIHiHSjM-uvD-VQoIo8*EsziPAJ4ue*IKgK1qXp2Xm8spJ0thFU0XE0z2cscU6Q32wSLId&new=1",
+      "summary": "即日起,开发者可一键使用百度搜索、百度百科及千帆官方Agent等能力,在 OpenClaw 中快速构建具备真实世界能力的 AI 智能体随着...",
+      "datetime": "2026-02-09 21:34:27",
+      "date_text": "2026年02月09日",
+      "date_description": "23天前",
+      "source": "百度开发者中心",
+      "url_resolved": true
+    },
+    {
+      "title": "硅谷最火OpenClaw人手一个,1分钱傻瓜式部署!小白也能上手",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702880&ver=6580&signature=1dLLB2VSprU6H1Zj5qe1KkFKTOnOJ2fi*tq*wx-AttcBXimjnp2ZyHXISy6rT6HBQP-C8QqttHDeWk-IzxPdR-eCe9l75JGHej-YRHDDX9DwGa0T931uNLs-d3yd5PCC&new=1",
+      "summary": "这一次,百度千帆的官方七大核心Skills,在OpenClaw正式上线.在ClawHub中,以npx clawhub@latest install [skill名称]的极简方式,...",
+      "datetime": "2026-02-11 11:57:56",
+      "date_text": "2026年02月11日",
+      "date_description": "22天前",
+      "source": "新智元",
+      "url_resolved": true
+    },
+    {
+      "title": "全网爆火的＂OpenClaw小龙虾＂AI助手,我花0.01元+10分钟部署好了(附极简教程)",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702880&ver=6580&signature=1eAn6azLUXPR7TzxQlqZPuhfe7JskaGQIf-kcdpEPbhvynAmQdj1bGiTCmdWAcTfc5o-ObZhFEU6xP-I2ohZN4N9ba3WyuSU*lzV7P-JYtmnHq0nynuGtw62Ev4ZgIOI&new=1",
+      "summary": "千帆OpenClaw一键体验正式上线!OpenClaw一战封神,给大家分享6种官方不会告诉你的神级技巧.Kimi 版 OpenClaw 来了,5000+...",
+      "datetime": "2026-02-24 18:06:39",
+      "date_text": "2026年02月24日",
+      "date_description": "8天前",
+      "source": "崧雷AI工具箱",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 火了,女朋友非要我给她装一个,我满脸不屑:鼠标点几下不就搞定了?你不会自己来?",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702880&ver=6580&signature=h0E2xV88F4b3unFICQOVjU8wT-jPBaCDEtwY3qeXPw554YBZK8XfuSUjWf4e2yqqHiYKrzqzKMJaPjFY3UFHTRfir2F41jsqDgL4ihPRwG55Ykdc5BLUcCMf6qO4tulK&new=1",
+      "summary": "百度千帆最近把自家的 AI 能力打包成了 Skill,并且上架到了 OpenClaw 的技能商店 ClawHub,目前一共有 6 款官方 Skill.包括百度搜...",
+      "datetime": "2026-02-09 21:07:23",
+      "date_text": "2026年02月09日",
+      "date_description": "23天前",
+      "source": "程序员鱼皮",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 新玩法!手把手教你施展“组合技”,国产 Skills 搞定几大场景..",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702881&ver=6580&signature=VbQ4P40qnLgIbaIWO04kP-wZcozEFlcA254fQd3iCgiH8IFgk93LCn6uSkgGjXHubdjH-RT4tZiC*I1tkwU-OBi1VlL34D0g1FkYjzbB9O9pR3OIdGsH4edhTsel8zR0&new=1",
+      "summary": "OpenClaw * 百度智能云 * 千帆 Skill ⽣态,一套组合拳下来,贼牛批..好,先别急,我慢慢说.今天这篇主要聊几件事:百度千帆上线...",
+      "datetime": "2026-02-09 12:08:42",
+      "date_text": "2026年02月09日",
+      "date_description": "24天前",
+      "source": "甲木未来派",
+      "url_resolved": true
+    },
+    {
+      "title": "【JayHai】AI简报|OpenClaw应一键体验、千问功能扩展、Seedance2.0助力春晚,Pipegent、Klipz(AI剪辑平台)等工具",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702881&ver=6580&signature=59DRWtT-EmWC88p0IjAjfic3mmDyL4FeRm2npsN9MUph5iKc4fXBGR21LW*iY-cvg1zxfEH0nLCJClv*NTWLbcSXhHr97tLjg4g-M2rvzjLL2o-H4Z2Am1ge8agpjW6T&new=1",
+      "summary": "百度千帆推出OpenClaw一键体验,3-5分钟内完成从配置到对话  •概况:百度千帆上线OpenClaw简化配置流程,用户可快速部署对话...",
+      "datetime": "2026-02-16 07:21:52",
+      "date_text": "2026年02月16日",
+      "date_description": "17天前",
+      "source": "大模型早参",
+      "url_resolved": true
+    },
+    {
+      "title": "快速部署OpenClaw",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702881&ver=6580&signature=QEwPtBU1p035J2XArXWuzlXfDGWJiCM-sRKV51FChtxgL02fFCLhCO-7vH1x-c6cDZXK03pE2em6KcbRIGNn4vSalxGrfBknklcQNbM*8v64KBACg0rDTYArsMOsVm57&new=1",
+      "summary": "后,系统会自动创建千帆APIKey进行实例内配置.(可选)步骤五: 消息平台配置,若您需要将OpenClaw接入飞书/钉钉/企业微信/...",
+      "datetime": "2026-02-26 08:57:21",
+      "date_text": "2026年02月26日",
+      "date_description": "7天前",
+      "source": "汽车风向标88",
+      "url_resolved": true
+    },
+    {
+      "title": "百度正式接入OpenClaw!14天免费无套路!",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702881&ver=6580&signature=hvcjqFUVVN58WRsmeHUw6-VndAMU87a5Oa8YQA6opIeXVr5QW6S-F0jzigVMnMdbGSoPP7MVOYcRxxM5oeIW2HRUYWNH21hU1DpJSpnXI0Gkq3VSvPDzqiXWXvhktj2q&new=1",
+      "summary": "百度智能云千帆平台将OpenClaw的底层技术全部封装优化,把复杂的部署流程简化为“登录-激活-使用”三步,所有环境配置、算力...",
+      "datetime": "2026-02-16 15:19:54",
+      "date_text": "2026年02月16日",
+      "date_description": "17天前",
+      "source": "翻身AI挖掘机",
+      "url_resolved": true
+    },
+    {
+      "title": "2026实测|国内5大云厂商 OpenClaw 部署全对比:成本、教程、性能一篇搞定",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772702881&ver=6580&signature=mEuInOYIvTV-FkRuFWtL7EsyW-UBaSF*DLtAfY0aZE5jPBS2CPkpSqJQ9-yjxLEjelZjZ6G1gh88REmWJUbfcfS04LrvgSX8qJuh*zY9McGIq9XKFYg7i*dW9fxH*Mmp&new=1",
+      "summary": "OpenClaw(原 Clawdbot / Moltbot)是目前最火的本地执行型 AI Agent,区别于普通聊天机器人,它能真正“动手干活”,核心优势的...",
+      "datetime": "2026-03-02 08:00:49",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "天宇的FIRE笔记",
+      "url_resolved": true
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "query": "OpenClaw 企业微信 机器人",
+  "total": 15,
+  "articles": [
+    {
+      "title": "OpenClaw集成企业微信:构建自动化财经信息汇总系统",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709905&ver=6580&signature=2pJuhpJaqbI208vRmi8t5Q2IoHuJaiWvDerUp2cdbdvag*715y5k1B65-V8-bOKzTE0sYuP7AsCrj2F*SXCXk7IODRPWDQCsPc3njaKNLohX5jRDSSmFfzaEPtKNkKK2&new=1",
+      "summary": "前置准备企业微信管理员权限:用于创建和配置应用/机器人.OpenClaw环境:已完成部署并可正常访问的OpenClaw实例(支持本地...",
+      "datetime": "2026-03-01 07:35:57",
+      "date_text": "2026年03月01日",
+      "date_description": "4天前",
+      "source": "韭菜收割机007",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw接入企业微信,最容易卡住的5个地方",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709905&ver=6580&signature=Wa3280N*kwgZxxboX314O-xLHx12v1pR9P-CL6EQvRah7MifWeOqFpd1Zrcll786sMuUhyESc1WmVuq25G*R4BD0yQeddX1lm3cYyIxvW8ZUt3*wuzoTlPc4WZSzkqsM&new=1",
+      "summary": "openclaw statusopenclaw gateway statusopenclaw logs --... 企业微信机器人:配置轻,适合快速验证,只能被动回复企业微信...",
+      "datetime": "2026-03-03 22:20:00",
+      "date_text": "2026年03月03日",
+      "date_description": "1天前",
+      "source": "社群那些事",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw接入企业微信",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709905&ver=6580&signature=N6zZdXYkqq1LRg9lYfY2P*xbXSeaW9VmtoHbVdacbb479WlSQ2g1IyCR-9OwTWoo1MaLWLEht8F8Kym75GoFL6CXXiKW0zaUEkLBvJcpYFWbk6xyoNo95BL6D32F8lvw&new=1",
+      "summary": "OpenClaw 中成功配置的全过程,让您的 AI 助手在企业微信中“活”起来.两种接入方式:机器人与自建应用OpenClaw 提供了两种接...",
+      "datetime": "2026-02-16 10:06:20",
+      "date_text": "2026年02月16日",
+      "date_description": "17天前",
+      "source": "aC大",
+      "url_resolved": true
+    },
+    {
+      "title": "openclaw接入企业微信/企微机器人/微信全打通",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709905&ver=6580&signature=gINRuMwFxSx6EfQHJ5abEGi3siR5MxTeOsD*mqdL27vyTpft9gedB1q3WC1WVlv5OuDeODTS*KXxJuTGiq8ppVFH3QNK9ZR7e*G*0somCiMBurIF3WQ881JlNq*666OV&new=1",
+      "summary": "修改后重启网关openclaw gateway restart接入企业微信机器人安装插件# 安装openclaw plugins install @yanhaidao/wecom# 启用...",
+      "datetime": "2026-02-18 14:59:26",
+      "date_text": "2026年02月18日",
+      "date_description": "15天前",
+      "source": "花花数字世界",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw服务与企业微信集成教程",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709905&ver=6580&signature=5vDfNcAXDUGPrxtOU6oau-8*6-*oDlMcMbi0f5n1LeLA2ruypiYxxxUgYunFko-nKqTmnk3pNPR4lWErPQvYyHrx2XcsH5LlHPRRvg48tL2wy2cwIUI3pZm4PAZT4pxE&new=1",
+      "summary": "OpenClaw 控制台的管理员权限.5. 开启ResponseAPI访问,后续... 创建企业微信智能机器人1. 访问企业微信管理后台,在左侧导航栏...",
+      "datetime": "2026-02-01 12:40:24",
+      "date_text": "2026年02月01日",
+      "date_description": "32天前",
+      "source": "AI开源应用",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 接入企业微信",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709905&ver=6580&signature=Q033bAIpQImev*BvF7ST9iZi2*KoK3ncPgvFHDgxhlQX-Lg9FpmGFB1IDrwXC0Nioe-uGag6qJHwAZsFvQyn0b5VbbYUk5jGRN7sy*owsz9NvXvTHF6rnSd1Y4TTSfH8&new=1",
+      "summary": "OpenClaw 的 AI 能力覆盖到企业微信,目前有两条路:用群机器人 Webhook 做单向推送(10 分钟搞定),或者开发一个自定义 ...",
+      "datetime": "2026-02-20 22:40:46",
+      "date_text": "2026年02月20日",
+      "date_description": "12天前",
+      "source": "CostaLong",
+      "url_resolved": true
+    },
+    {
+      "title": "国人专属扩展,OpenClaw对接钉钉、飞书、QQ机器人、企业微信",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709905&ver=6580&signature=1lBEBDbxbUQOpLJDt9NCf2yvaA4r4PL9Z2Z4B6wiqykFdYKQRleZDkTE5Y*OgpYTV-gi3Yj2QakU8A-P5yWuz5pOMed0zx3bgt42YmP9SfsOSqalmWvIhzrk5Qj1i7go&new=1",
+      "summary": "选择了BytePioneer-AI/openclaw-china、sliverp/qqbot这两个项目.前者集成了钉钉、QQ 机器人、企业微信(智能机器人)、企业微信...",
+      "datetime": "2026-03-02 09:01:22",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "羊刀仙",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw实操:对接飞书/企业微信,打造专属AI机器人",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709905&ver=6580&signature=E5QwhQrn7yjrPmx*itdaxT*-JOw6bZKssnEhTXLLIQATN03Fu8dtxtXKXbHbhKukpqKS*NpmQ3CLmW6eSYzlD7xDb-CLYg71RfGniZVQv97MVTxbI83V9mbHYJXCQMQe&new=1",
+      "summary": "接入飞书机器人我们需要先到飞书平台创建自己的机器人来接入... ＂auto＂   }}OpenClaw 已支持企业微信、飞书、钉钉等主流办公平...",
+      "datetime": "2026-02-25 11:53:43",
+      "date_text": "2026年02月25日",
+      "date_description": "8天前",
+      "source": "德龙软件技术研究院",
+      "url_resolved": true
+    },
+    {
+      "title": "手把手教你部署Openclaw,打通企业微信与您的智能助手聊天",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709905&ver=6580&signature=OJMuoxiLcQZp*sabFsUn-UNkO7jIqm9mPXNs1W6H0dEMTo0GkzQLF*bfe-L-4*oQfb2kRX0zDtYVBFsyUpjrQ6Bw4uYGCurSBx*O2CZ-HSJ*8aBKLKvU4Wfkcna8-Esy&new=1",
+      "summary": "还在愁企业微信没有专属智能聊天小助手?教你快速部署小龙虾 Openclaw,轻松实现企业微信与智能助手的无缝对接,日常办公咨询...",
+      "datetime": "2026-02-24 17:34:12",
+      "date_text": "2026年02月24日",
+      "date_description": "9天前",
+      "source": "评小估",
+      "url_resolved": true
+    },
+    {
+      "title": "云服务器一键部署OpenClaw并接入企业微信",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709905&ver=6580&signature=JcEffi-tOz9BlbynuKTHd9c00*MNsyIuBLb1*6iDv7STxHXd*nVdNeP5nKg10jJLTnpJsss8VPzygyRKN7Qm4J65w1cRIV6HC5ltvd5Xz5rh--6k1zdU-VhmSTzhEKCd&new=1",
+      "summary": "如果企业微信机器人能够以AI的方式对话,则说明您已经成功完成OpenClaw应用接入企业微信机器人.扫码关注标星往期文章本地...",
+      "datetime": "2026-03-02 15:59:49",
+      "date_text": "2026年03月02日",
+      "date_description": "3天前",
+      "source": "波哥技术栈",
+      "url_resolved": true
+    },
+    {
+      "title": "手把手教你免费部署AI助手OpenClaw并3分钟上线一个网站",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709906&ver=6580&signature=LlwPfT5IgnjBcUsmHSFzjvj8FfnubDmyBZaB5yyVeYFIewPJAIgqeDFYii8MVorc2GyBN7TlNmiHntj-iaLA0vfab*3eIo0iEWFDfxeN*UcJF2Mm77MUgrPhaBGVafWG&new=1",
+      "summary": "URL:http://实例公网IP地址:18789/wecom/bot创建后效果企业微信OpenClaw机器人对话OpenClaw创建服务器监控脚本OpenClaw开...",
+      "datetime": "2026-02-11 16:52:18",
+      "date_text": "2026年02月11日",
+      "date_description": "22天前",
+      "source": "输出小能手",
+      "url_resolved": true
+    },
+    {
+      "title": "去死吧英文!NAS 搭建中文 openclaw 联动 QQ、钉钉、微信",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709906&ver=6580&signature=PTd8cb0dd9llUiJ53vy0OOQhGJvkJkkhWa*AyBOUkRcBs-5UEVbzKKtmLlbHqh3wkDlfI8uB1kPs3EgSquMI1*qz-jhzmpuyRgC7Jl20WzT7d1tpeCYbV6NrUD4pxmFE&new=1",
+      "summary": "1000002企业微信(机器人)openclaw-cn config set channels.wecom.enabled trueopenclaw-cn config set channels.wecom....",
+      "datetime": "2026-02-06 10:08:53",
+      "date_text": "2026年02月06日",
+      "date_description": "27天前",
+      "source": "艾泽拉斯育儿园",
+      "url_resolved": true
+    },
+    {
+      "title": "别再手动处理工单了!我用OpenClaw+企业微信打造24小时数字员工,效率提升300%",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709906&ver=6580&signature=mnBv4y7ZDOm69U7pjeXvb3y4Zmu-gNxqEcRxG29GAppyE5P1SxLG8xsdbMFyhIb8OBFvEM2P3Mh6z6CDPSQkN1rAbJFnjnJLTAvJKDEYZdySnmt4SLV*1xkn2dOIBeJY&new=1",
+      "summary": "一、什么是OpenClaw+企业微信数字员工?简单说,就是让OpenClaw这个AI智能体,通过企业微信机器人,自动帮你处理各种工作....",
+      "datetime": "2026-03-05 12:36:36",
+      "date_text": "2026年03月05日",
+      "date_description": "6小时前",
+      "source": "小智AI智能",
+      "url_resolved": true
+    },
+    {
+      "title": "OpenClaw 与企业微信联动实操指南:5 步打通自动化协作,附避坑技巧",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709906&ver=6580&signature=PwiJeU56iV2RVFmF50PCI2i33qM9oZQZY8*vq5ZrUDYXZSUtAV5cMLOxcPzq-n99paBOx42Tckrtu9AlCNGsP6LwmlmmIksmgCpTMQwJ1x19A5QWtzWI9vmxuhD51A-P&new=1",
+      "summary": "“OpenClaw 自动化助手”,方便团队快速识别;可见范围:按需选择使用该机器人的部门或全员;URL(回调地址):按企业微信认...",
+      "datetime": "2026-03-05 09:26:04",
+      "date_text": "2026年03月05日",
+      "date_description": "9小时前",
+      "source": "beauterli",
+      "url_resolved": true
+    },
+    {
+      "title": "太骚了!5分钟教你利用OpenClaw+企微搭建爆款热点追踪系统,有手就行",
+      "url": "https://mp.weixin.qq.com/s?src=11&timestamp=1772709906&ver=6580&signature=TsTUHkzKRkMyPZUxiEXsCA8eY7A91K3XP9ViaMhmcLKb21pFs2R5afEmwjbLYdOBh2Vn7peXTiqWpYFx4dPkdCY-GzEiPicxlMY7Qp63Z0bocBWLAd5TbjCTWm71VM4i&new=1",
+      "summary": "帮我部署openclaw+企业微信机器人实现每日AI消息推送openclaw会自动给我们设计方案,如果方案有问题就会自动修复最后会给我们...",
+      "datetime": "2026-02-24 14:37:29",
+      "date_text": "2026年02月24日",
+      "date_description": "9天前",
+      "source": "风之馨",
+      "url_resolved": true
+    }
+  ]
+}
