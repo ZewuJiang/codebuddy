@@ -1,8 +1,8 @@
 ---
-description: 
+description: 投资Agent报告MD→PDF转换铁律。始终生效，确保使用md_to_pdf.py生成单页长图PDF，禁止pandoc/weasyprint等。
 alwaysApply: true
 enabled: true
-updatedAt: 2026-02-24T05:22:35.385Z
+updatedAt: 2026-03-16T15:00:00.000Z
 provider: 
 ---
 
@@ -13,7 +13,7 @@ provider:
 
 ## 正确的转换命令
 ```bash
-cd /Users/zewujiang/Desktop/AICo/codebuddy/workflows
+cd /Users/zewujiang/Desktop/AICo/codebuddy-invest/workflows
 python3 md_to_pdf.py "/Users/zewujiang/Desktop/OrbitOS/20_日常监控/每日策略简报/投资Agent-每日策略简报-{YYYYMMDD}.md" "/Users/zewujiang/Desktop/OrbitOS/20_日常监控/每日策略简报/投资Agent-每日策略简报-{YYYYMMDD}.pdf"
 ```
 

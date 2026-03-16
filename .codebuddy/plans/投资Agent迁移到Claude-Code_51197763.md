@@ -102,7 +102,7 @@ pip install -r workflows/requirements.txt
 
 ## 实现注意事项
 
-1. **路径硬编码**：`investment-report-pdf.mdc` 中硬编码了 `/Users/zewujiang/Desktop/AICo/codebuddy/workflows`，CLAUDE.md 中需改为相对路径
+1. **路径硬编码**：`investment-report-pdf.mdc` 中硬编码了 `/Users/zewujiang/Desktop/AICo/codebuddy-invest/workflows`，CLAUDE.md 中需改为相对路径
 2. **字体依赖**：macOS 环境 STHeiti/Hiragino Sans GB 系统自带，无需额外安装
 3. **API Key**：`FRED_API_KEY` 和 `ALPHA_VANTAGE_KEY` 需在新环境设置
 4. **模块引用链**：`valueinvest/generate_charts.py` 通过 `sys.path.insert` 引用 `workflows/chart_generator.py`，目录结构必须保持一致

@@ -139,7 +139,7 @@ REPORT_START_TIME=$(date "+%H%M")
 ### 第三阶段：MD转PDF
 
 ```bash
-cd /Users/zewujiang/Desktop/AICo/codebuddy/workflows
+cd /Users/zewujiang/Desktop/AICo/codebuddy-invest/workflows
 python3 md_to_pdf.py "{MD文件路径}" "{PDF输出路径}"
 ```
 

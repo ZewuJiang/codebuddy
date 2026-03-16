@@ -49,7 +49,7 @@ todos:
 
 ## 技术栈
 
-- 目标文件: `/Users/zewujiang/Desktop/AICo/codebuddy/.codebuddy/rules/investment-agent-daily.mdc`（Markdown规则文件，当前1541行）
+- 目标文件: `/Users/zewujiang/Desktop/AICo/codebuddy-invest/.codebuddy/rules/investment-agent-daily.mdc`（Markdown规则文件，当前1541行）
 - 修改性质: 纯文本规则文件的结构化内容升级，无代码逻辑变更
 
 ## 实现方案

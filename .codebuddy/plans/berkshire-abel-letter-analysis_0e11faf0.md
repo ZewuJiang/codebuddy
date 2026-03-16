@@ -69,7 +69,7 @@ todos:
 ### PDF转换命令
 
 ```
-cd /Users/zewujiang/Desktop/AICo/codebuddy/workflows
+cd /Users/zewujiang/Desktop/AICo/codebuddy-invest/workflows
 python3 md_to_pdf.py "伯克希尔-阿贝尔股东信解读-20260301-1903-v1.md" "伯克希尔-阿贝尔股东信解读-20260301-1903-v1.pdf"
 ```
 
